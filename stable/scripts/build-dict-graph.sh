@@ -1,4 +1,6 @@
 #!/bin/bash
+# no arguments, produces a dictionary/language graph for ACoLi dictionaries
+# requires ImageMagick (convert) and dot/neato (GraphViz)
 
 # color codes for dictionaries
 FREEDICT=blue;
@@ -200,3 +202,8 @@ echo '}' >> ../dicts.dot;
 
 # render graph
 cat ../dicts.dot | neato -Tgif > ../dicts.gif
+
+# resize and merge with legend
+HEIGHT=`convert ../dicts.gif info: | sed s/'^[^ ]* GIF [0-9]*x\([0-9]*\) .*'/'\1'/`;
+convert -resize x$HEIGHT ../legend.gif ../legend-shrunk.gif
+convert ../dicts.gif ../legend-shrunk.gif +append ../dicts-w-legend.gif
