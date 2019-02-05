@@ -1,0 +1,101 @@
+2018-10-04 Denis Arnaud
+  * 82% of entries have gramatical info, there are more than 8360 examples.
+
+2017-11-21 Sebastian Humenda
+  * Update license reference
+
+2017-07-11 Denis Arnaud
+  * 81% of entries have gramatical info, there are more than 8320 examples.
+
+2016-10-08 Denis Arnaud
+  * 80% of entries have gramatical info, there are more than 8240 examples.
+
+2016-09-13 Denis Arnaud
+  * Correction of an error with "c'hwen" entry.
+  * 79% of entries have gramatical info, there are more than 8170 examples.
+
+2016-08-28 Denis Arnaud
+  * 78% of entries have gramatical info, there are more than 8170 examples.
+
+2016-03-23 Denis Arnaud
+  * 75% of entries have gramatical info, there are more than 8080 examples.
+
+2016-03-05 Denis Arnaud
+  * 72% of entries have gramatical info, there are more than 7910 examples.
+
+2016-01-15 Denis Arnaud
+  * 71% of entries have gramatical info, there are more than 7860 examples.
+  
+2015-11-08 Denis Arnaud
+  * 70% of entries have gramatical info, there are more than 7750 examples.
+
+2015-07-07 Denis Arnaud
+  * 68% of entries have gramatical info, there are more than 7560 examples.
+  
+2015-07-11 Denis Arnaud
+  *	67% of entries have gramatical info, there are more than 7490 examples.
+  *	mark up improvments : cit type="translation" becomes cit type="trans", 
+  	gramGrp nodes have been added, inflected forms are described in orth's attribute 
+  	instead of form's one.	
+  * langUsage node have been added in header.
+  
+2015-02-26 Denis Arnaud
+  * 64% of entries have gramatical info, there are more than 7200 examples.
+
+2014-05-30 Denis Arnaud
+  * 60% of entries have gramatical info, there are more than 6990 examples.
+
+2014-02-22 Denis Arnaud
+  * 50% of entries have gramatical info, there are more than 6490 examples.
+  
+2014-01-29 Denis Arnaud
+  * 40% of entries have gramatical info, there are more than 6200 examples.
+
+2014-01-14 Denis Arnaud
+  * 30% of entries have gramatical info, there are more than 6000 examples.
+
+2013-11-05 Denis Arnaud
+  * 25% of entries have gramatical info, there are more than 5780 examples.
+  
+2013-11-04 Piotr Bański
+  * minor fixes in Makefile and the source, to make it
+    work with the Freedict pipeline; added ChangeLog
+  * maintenance release: 0.2.9 (I believe that a more correct 
+    version number should be something like 0.8.1)  
+
+2013-06-04 Denis Arnaud
+	Some words and examples added, corrections. Gen and pos added.
+
+2011-09-05 Denis Arnaud
+    Some words and examples added, corrections. Gen and pos added.
+
+2011-09-05 Denis Arnaud
+    Some words or examples added, corrections. Gen and pos added.
+
+2011-08-05 Denis Arnaud
+	Some words added, corrections. Gen and pos added.
+	
+2011-07-06 Denis Arnaud
+	Some words added, corrections and mark up improvments (TEI P5 compliance), gender
+	and parts of speech added.
+	
+2010-11-10 Denis Arnaud
+	Some words added, corrections and mark up improvments: sense/cit(without attribute)
+	and cit@subtype for literal translation. All the regular plurals have been marked
+	up, some irregular plurals may still be in lbl tag. Next steps will be to merge
+	entries with the same headword (number of character is one of the freelang file
+	limits) and to remove redundant infos (ie there are two entries for a-dreuz: a-dreuz
+	and dreuz (a-)).
+	
+2010-07-18 Denis Arnaud
+	Some words added, corrections. Still not yet comply with real TEI P5.
+	
+2010-06-18 Denis Arnaud
+	Some words added (mostly computer sciences words). Mark up improvments. Additions
+	could be entry, sense or cit. All of those additions have been marked with attribute
+	who and sometimes src. Some entries, sense or cit have been marked with rev
+	attribute, meaning to be reviewed.
+                
+2009-11-25 Denis Arnaud
+	Conversion of wb file to TEI file with Linguae software
+	(http://linguae.stalikez.info/).
