@@ -1,0 +1,47 @@
+This database is not related to the existing (and presently
+small) (FreeDict) tur-eng FreeDict database.
+
+The data was taken from the GPL program gtksozluk2:
+ 
+http://www.linuxprogramlama.com/index.php?sayfa=gtksozluk2.htm
+ftp://ftp.deu.edu.tr/pub/infosystem/gtksozluk/gtksozluk-2.2.tgz
+
+Original Turkish files were encoded in ISO 8859-9.
+
+Original Author: Mehmet Ali Vardar <ali@linuxprogramlama.com>
+
+The converter splits Turkish entries at ";" characters to separate
+senses. It also separates translation equivalents at ","
+characters. But this should not be done, since it may split too
+aggressively (at wrong places).
+
+After the eng-tur.tei file was made, `make validation` complains:
+
+> nsgmls:eng-tur.tei:136233:13:E: non SGML character number 149
+
+The offending character was subsituted by a "'".
+
+
+================================================
+
+The TEI P4 version of this database was created by 
+FreeDict tools on the basis of the accompanying 
+non-XML source file(s). Next, that TEI P4 version 
+was converted to TEI P5 using revision 978 of the 
+tools/xsl/freedict_P4toP5.xsl script.
+
+In some cases I checked whether a newer version 
+of the database existed but I wasn't lucky. 
+Still, any maintenance of this dictionary should 
+begin by checking on the existence of an updated version.
+
+Piotr Bański, 3 November 2010
+
+PS. Something is wrong with the splitting indeed, so 
+I leave the P4 version for comparison and commit the 
+freedict_P4toP5.xsl script [revision 1005] so that it 
+is easy to dig out of the SVN in case another P4-to-P5 
+transformation is necessary (possibly, it may be 
+easier to fix at the Perl level). In case that happens,
+please bear in mind that the P5 header has been modified 
+and needs to be copied over to the new P5 version.
