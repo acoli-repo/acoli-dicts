@@ -1,0 +1,10 @@
+2015-02-27 Sebastian Humenda
+  * remove Esperanto words in parenthesis from translations
+
+2010-10-25 Piotr Bański
+  * conversion to TEI P5 
+
+2005-02-12 Michael Bunk <kleinerwurm@gmx.net>
+
+	* switched to Makefile.common style 
+	* moved from TEI P3 (SGML) to TEI P4 (XML)
