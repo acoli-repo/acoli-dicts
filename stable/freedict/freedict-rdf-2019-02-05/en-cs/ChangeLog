@@ -1,0 +1,12 @@
+2010-11-03 Piotr Bański
+  * converted to TEI P5
+
+2010-11-02 Piotr Bański
+  * from eng-cze to eng-ces (by ISO 639-3)
+
+2004-11-05 Michael Bunk
+
+	* added xdf2tei.pl in tools/ directory
+	* changed stylesheets to support additional
+		TEI elements used, but tei2txt.xsl
+		still needs more changes

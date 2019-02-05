@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2
+  PUBLIC "-//TEI P4//DTD Main Document Type//EN"
+  "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [ 
+<!ENTITY % TEI.XML          "INCLUDE" >
+<!ENTITY % TEI.dictionaries "INCLUDE" > 
+<!ENTITY % TEI.linking	    "INCLUDE" >
+<!ATTLIST xptr url CDATA #IMPLIED >
+<!ATTLIST xref url CDATA #IMPLIED >
+]>
+
+<TEI.2>
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt> 
+	<title>English-Czech dicts.info/FreeDict Dictionary</title>
+	<respStmt> 
+	  <resp>converted into TEI</resp>
+	  <name>Michael Bunk &lt;michael.bunk@gmail.com></name> 
+	</respStmt> 
+      </titleStmt>
+	      
+      <editionStmt>
+	<edition>0.1</edition>
+      </editionStmt>
+
+      <extent>about 150 000 headwords</extent>
+
+      <publicationStmt>
+	<publisher>FreeDict</publisher>
+	<availability> 
+	  <p>Available under the terms of the GNU General Public
+	    Licence.</p> 
+	</availability> 
+	<date>2004</date>
+	<pubPlace>http://freedict.org/</pubPlace>
+      </publicationStmt>
+      <seriesStmt>
+        <title>free dictionaries</title>
+      </seriesStmt>
+
+      <notesStmt>
+	<note type="status">stable</note>
+      </notesStmt>  
+
+      <sourceDesc>
+	<p>Home: <xptr url="http://slovniky.webz.cz/dl/"/></p>
+	<p>This file was converted from another electronic document.</p>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>     
+      <projectDesc>
+	<p>This dictionary comes to you through nice people making it
+	  available for free and for good. It is part of the FreeDict project,
+	  http://www.freedict.org / http://freedict.de. This
+	  project aims to make available many translating dictionaries
+	  for free. Your contributions are welcome!</p>
+      </projectDesc>
+    </encodingDesc>
+    
+    <revisionDesc>
+      <change>
+        <date>2010-11-02</date>
+        <respStmt><name>Piotr Bański</name></respStmt>
+        <item>Changed the database name to conform with ISO 639-3: from eng-cze to eng-ces.</item>
+      </change>
+      <change>
+	<date>2007-02-11</date>
+	<respStmt><name>Michael Bunk</name></respStmt>
+	<item>Enabled phonetics import</item>
+      </change>
+      <change>
+	<date>2005-06-12</date>
+	<respStmt><name>Michael Bunk</name></respStmt>
+	<item>Removed div0 TEI element that was a child of body
+	  and contained all the entries. Now the entries are direct
+	  children of body. Maybe the XSLT stylesheets that deal with
+	  entries should not use absolute XPath expressions.</item>
+      </change>
+    </revisionDesc>
+
+  </teiHeader>
+
+<text>
+  <body>
