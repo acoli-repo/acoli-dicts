@@ -1,0 +1,11 @@
+2010-10-24 Piotr Bański
+  * conversion to TEI P5, change to eng-gle. 
+
+2007-09-21 Jimmy O'Regan <joregan@gmail.com>
+
+	* Fixed some spelling mistakes: � instead of �, bh instead of v 
+
+2005-02-11 Michael Bunk <kleinerwurm@gmx.net>
+
+	* switched to Makefile.common style 
+	* moved from TEI P3 (SGML) to TEI P4 (XML)
