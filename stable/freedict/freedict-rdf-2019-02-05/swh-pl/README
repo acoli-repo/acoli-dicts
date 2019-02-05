@@ -1,0 +1,53 @@
+Swahili-Polish SSSP/FreeDict Dictionary
+
+Version 0.2.2 (9 Sep 2011) is a maintenance release in the source, but the DICT 
+export now contains the grammatical description in the front matter, available
+in 00-database-info.
+
+Please note the TSV file with Bible names from Jim O'Regan. It has not been
+added to the dictionary as of 9 Sep 2011, though it is now part of the archive.
+
+--------------------------------------------------------------
+
+Version 0.2.1 by Piotr Bański (31-dec-2009) contains only changes outside 
+the body of the dictionary (encoded the front matter, added to the header) 
+and is accompanied by the standard Freedict release files. It is the first 
+source version released (version 0.2 is to be found in the CVS only)
+
+--------------------------------------------------------------
+
+Version 0.2 by Beata Wójtowicz (13-dec-2009) introduced some corrections into 
+the entries.
+
+--------------------------------------------------------------
+
+Version 0.1 by Piotr Bański (dec-2009) was converted 
+from the postscript original by Open Office Writer (ps->pdf, 
+copy&paste into Writer, regex + editing), and post-edited in oXygen.
+
+
+--------------------------------------------------------------
+
+The original version of this dictionary was published electronically under GFDL by 
+Beata Wójtowicz in 2003. Beata solicited private student dictionaries, chose 
+the best one, by Anna Pytluk, edited it and set it in LaTeX2e for PS/PDF publication.
+
+Availability:
+
+  This XML application is free software/library.
+
+  Original dictionary contents were available under the GNU Free Documentation 
+  License, ver. 1.1 and later. The XML application together with the content 
+  is available under the terms of the GNU General Public License, version 
+  3.0 or any later version.
+
+
+Missing words:
+
+  Feel welcome to use the "Feature Requests" tracker of the FreeDict project
+  (https://github.com/freedict/fd-dictionaries/issues) to request new
+  words to be added (suggestions for translations/POS are welcome) or the "Patches" 
+  tracker  (https://github.com/freedict/fd-dictionaries/issues), 
+  if you have a patch to submit. Consider creating an GitHub user account if you 
+  want to know how/when your request is handled.
+
