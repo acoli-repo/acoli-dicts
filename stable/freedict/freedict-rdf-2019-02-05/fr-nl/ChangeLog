@@ -1,0 +1,10 @@
+2012-04-27 Piotr Bański
+  * minor fixes per https://sourceforge.net/tracker/?func=detail&aid=1223079&group_id=1419&atid=101419
+  
+2010-10-25 Piotr Bański
+  * conversion to TEI P5 
+
+2005-02-11 Michael Bunk <kleinerwurm@gmx.net>
+
+	* switched to Makefile.common style 
+	* moved from TEI P3 (SGML) to TEI P4 (XML)
