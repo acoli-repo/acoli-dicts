@@ -1,0 +1,33 @@
+
+original XDXF header
+  <xdxf lang_from="POL" lang_to="BEL" format="visual">
+    <full_name>slovnyk_pl-be</full_name>
+    <description>This file was converted from the original database on:
+            Sat Sep 18 20:08:23 2004
+  
+  The original data is available from:
+       http://www.slovnyk.org/prg/gszotar/index.html
+  
+  This dictionary is licenced
+  under GNU GPL version 2 (http://www.gnu.org/copyleft/gpl.txt)
+  
+  The converting script is in {00-database-script}.    Below are scripts for building .index/.dict files.
+      Extract them using the following command:
+      mimencode -ub | gunzip | tar x
+  
+  H4sIAJh5TEEAA+2UW3PTOBTH82p9irPGkLYbW7KTNN1w2R2GUh4YlmHaJ0KDYyuxpracseQm
+  veS7c6S0EGBmZ1+AYUa/GVuW/D8XHx05orNWlHnnR8JixkbDYYcxFo8OD83I4sHAjkiSJINO
+  zOJ41B/1WdxHfXzYH3WA/dCs7miVThuATlbwVtWX/6HjjfoZCf1cHvxBZ0JSVRDyAACv4EWq
+  +RgSxgaU/UXZCOLhOOmP2RACKyFYr+ksVfxwAHv7NwSQLNXw5Mnxvy/J1EAIY2Ge6tTIQpU1
+  Yqmt7jkv6xWkDYftooJ53YDtQCEXEAmZ8zWNcpFpmIuSq8iaHa91k+KSLngFrTJSfETbEt2Z
+  WVZXVSrzsVVXouIyq3MOYTuDW1i08los8cFs9JoQk6YVmnlWgB/84xvZVrRjPSMbQkyCAoSE
+  g6jV86MoU5fR7Dp5DHlNPJOjTCv+9CPPihoCgQ4Uz6Gr6MTIwyOjpbT7kXjmo6a74nvjLzbT
+  9+fhhwNKF49B0ZBOjR3xrNp/29QZV/bbv1gGn536ED97lKD6hnh3FhNyWggFRiJqmTZXgLNS
+  ZPh5PCctlrqBkzdncPL2NVxic6MIEtgrtF6OKV2tVtFCtlHdLGhWL69KPtd0sSwjvdb7BF1z
+  rLpEO21S2m6nCYCVuvl+9zcR8TE5b3ZtWsUPBFYcp+nqAro4mqQ9ka/hKVSpzoq9gPWAnvvv
+  z/0Pfo/u29dz2EPJvtV6xQpQrNqZ0o1VJz149/r4zcnpKwihby28nM+/Ft0r/oTYKja8VHzr
+  8Pvo0cFd5G9Cm9hfeY13Q28d/4/Yu8E9vhYaku2yTcwUy1s2Quo5+PZQTeREPlQTCWDufg+K
+  VQ8wCgo3Xbi9Besj+NtY7hxRP2A+8Tam3KYT5pWGMCzrLC05NO303Vl0dvoyPIIwG+KLldBF
+  3eqw4Klpjwn6Clvo7vSEKutLeXVh+2KJ10Jd1xiO2qMbFboqu1szhaFvPvfnxv9mav83AE2F
+  6/f97JO8lpz86n+iw+FwOBwOh8PhcDgcDofD4XA4HA6Hw+FwOBwOx+/EJywBdIcAKAAA
+  Source url: http://www.slovnyk.org/prg/gszotar/index.html</description>
