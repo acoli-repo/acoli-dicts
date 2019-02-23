@@ -1,0 +1,10 @@
+2019-02-20
+XDXF file retrieved from http://sourceforge.net/projects/xdxf/files/dicts-XDXF/sdict05/comn_sdict05_italian-english.tar.bz2/download
+
+license: GNU General Public License version 2.0 (GPLv2)
+(as stated under https://sourceforge.net/projects/xdxf/)
+
+original XDXF header
+  <xdxf lang_from="ITA" lang_to="ENG" format="visual">
+    <full_name>Italian-English dictionary</full_name>
+    <description>Copyright: Converted by swaj under GNU Public License; Version: 1.1</description>
