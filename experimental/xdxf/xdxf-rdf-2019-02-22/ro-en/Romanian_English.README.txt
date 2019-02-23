@@ -1,0 +1,5 @@
+
+original XDXF header
+  <xdxf lang_from="RUM" lang_to="ENG" format="visual">
+    <full_name>Romanian-English dictionary</full_name>
+    <description>Copyright: http://www.freelang.net/dictionary/; Version: 1.0</description>
