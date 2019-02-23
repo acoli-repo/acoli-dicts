@@ -1,0 +1,37 @@
+2019-02-20
+XDXF file retrieved from http://sourceforge.net/projects/xdxf/files/dicts-XDXF/dictd04/comn_dictd04_aviation.tar.bz2/download
+
+license: GNU General Public License version 2.0 (GPLv2)
+(as stated under https://sourceforge.net/projects/xdxf/)
+
+original XDXF header
+  <xdxf lang_from="ENG" lang_to="RUS" format="visual">
+    <full_name>Russian abbreviations for aviation</full_name>
+    <description>This file was converted from the original database on:
+            Sat Sep 18 20:15:01 2004
+  The original data is available from:
+  http://www.aviation.ru/FAQ/IK/faq_2.html
+  http://www.aviation.ru/FAQ/IK/faq_3.html
+  The converting script is in {00-database-script}.
+           Это список наиболее ходовых pусских сокpащений и теpминов.    Below are scripts for building .index/.dict files.
+      Extract them using the following command:
+      mimencode -ub | gunzip | tar x
+  H4sIACV7TEEAA+2V327bNhTGcxs+xalqwE5aiVQcx61Xo8uyBhgarFvQXMWxQUuURUR/PIqK
+  3doetjfY9S6G7Q12vYs9w/ZGIymnlZpi2Aa0u+EPhkR95yNFHR7SHp6WPAl3PiTEJ6Tf6+0Q
+  Qvz+0ZG+E//w0NwVXaI0n/h+v9vvEr+r/P6RCgP5oLPaUhaSCoCdIGZlkd/8jY+J4mNM6ONy
+  /x6e8gwXMUL3Qf1an1PJBnBAyCEmjzHpg98bHHQHpActHUfo7GRyfHY2PEFsOc+FhOoZIZXG
+  yZQW7OgQOnsrFFAJT548e3GKJhqECHFDKqm2uEUg+FwiUHzGknwBVDCoxAKiXIApSp7NwONZ
+  yJbYC3kgIeIJKzzT7dlSCqokGbMUykJbVVP1TdRw+inI05Rm4cC4U56yLMhDBm45hTXMyuw1
+  n6uGXvslQnqaxqifgxic1qeOtlWmWu8p2iC0QrssiHNwRuilemeQZzdMSP3S6hOAF8AzWN39
+  4o2HnOpFyatsCW4QzYY4ZDc4K5ME3LBM5xDRbyYHXizTBNbGKph593XOH7nC80oZuY+2Ibq4
+  hrZp4XMWMaGmyQoMeoJLXuV3Y64EhkP48lRHMrasR/Dp8dcQiTw13aKEzoY+2p0xmfCM1Xw6
+  oh08gg4eK+FyDFdYLfSujs6KctrBOX4Izh+/O3t18YURf2qK1Ii/NsVjI/7QFOda/PO7pviV
+  cf7cFK+N+FtTfG7EH5tiYMb8vimeGOcvSqyrnTHsO0/31h3nKey39rSn2e3Sgav9h+aqg5+o
+  wJsh5oJnEhyzAUbZKHOgRdDuhiUFW9UdRq1y3a7Kw9RXu62K751CKaTaFrVK6f7rSmn58C3g
+  sT/y8HbBYQj+e2plvYZ7Jqwa206XxH189UD11BqeNMDvqa1aUd6tyXoxveWdkhrDA53W2+ht
+  7k3emqn87+vVHPXuejVWpnbMOS3ioI1K8MpELs7PhupIiKWcDzBeLBYeveFU8jzzRKm3Gf7i
+  OX67u/+BsVpcx4yuD8AoleAW0D4vi4LTDOh0Kti2a3Vu3g7UBtddcBnnpXRjRkMmYITcoKfk
+  JA9owkCUk/ML7+LlqSoRt1TfoqbvqLB2L3IRugWbU0GlGrStk9R+M7Y6Av/vfy2LxWKxWCwW
+  i8VisVgsFovFYrFYLBaLxWKxWCx1/gKLrJWKACgAAA==
+  Source url: http://www.aviation.ru/FAQ/IK/faq_2.html
+  http://www.aviation.ru/FAQ/IK/faq_3.html</description>

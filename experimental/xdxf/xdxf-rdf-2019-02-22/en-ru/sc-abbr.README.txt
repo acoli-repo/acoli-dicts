@@ -1,0 +1,9 @@
+2019-02-20
+XDXF file retrieved from http://sourceforge.net/projects/xdxf/files/dicts-XDXF/dictd04/comn_dictd04_sc-abbr.tar.bz2/download
+
+license: GNU General Public License version 2.0 (GPLv2)
+(as stated under https://sourceforge.net/projects/xdxf/)
+
+  uj4lCg+PhEvcynKjYvqU1B08KQFtbvZffzEdDofD4XA4HA6Hw+FwOBwOh8PhcDgcDofD4XA4
+  /l/8DUKVAzkAKAAA
+  Source url: http://wwwwin.mark-itt.ru/Collection/dict_abbr/dict_abbr.html</description>

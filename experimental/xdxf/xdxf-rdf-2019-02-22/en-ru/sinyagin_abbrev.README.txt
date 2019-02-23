@@ -1,0 +1,27 @@
+
+original XDXF header
+  <xdxf lang_from="ENG" lang_to="RUS" format="visual">
+    <full_name>sinyagin_abbrev</full_name>
+    <description>This file was converted from the original database on:
+            Sat Sep 18 20:04:24 2004
+  
+  The original data is available from:
+       http://sinyagin.pp.ru/engrus-mirrors.html
+  
+  The converting script is in {00-database-script}.    Below are scripts for building .index/.dict files.
+      Extract them using the following command:
+      mimencode -ub | gunzip | tar x
+  
+  H4sIAKh4TEEAA+2TXWvbMBSGcxv9ijMvkHZMttx8dVkH27r2qjAY7dWyBtmWY1FbNpKcpk3z
+  3ye5LQQGg120uzkPGEs675FenWOHUdLKMuu9JCxmbDaZ9Bhj8Ww69W8Wj8fduxvGk17M4ng2
+  mo1YPHL6eDpmPWAv6uqJ1liuAXppIVpTr/+iE9q8hqHX5e2bKJEqMgUhbwHcM/jGrZjDEWPj
+  iH2I2AziyfxoNGcTGHQSIjZNrS1cnC6/XFx8OiXEFXCZcCOmYzg43BJwpNzCycnZ93Oy9BDC
+  GM245V5GTaplYzvdV1HWt8C1gMdFA3mtofskpVpBKFUmNlGYydRCLkthwi7tbGM1d0u2EBW0
+  xkvd0OWWbjs/S+uq4iqbd+pKVkKldSaAtgk8wKpV97JxA9/5DSHeZif087SAYPA58LJH0V52
+  QnaEeIO5AqmAJ4kWa+Cl2Ii7iq+1W0u8G2GMd9C0VmhYCSU0L5d7Qy0+kqwm/S3p90Va1BAs
+  yKXzn9ZqLbT1F3gsB0jjD9r+Wb1dSALi0u99pVtlXEdEFg22udqFq3t4cCF+ewNDf0S/b9rk
+  ILoGeBe9hwCeCA5dbOee6PrnNfyK4FHbuGvYHIKucQu1UMGTbC/sV4bdIdJ7BprDTS2PqQbq
+  3NicHntve99FMGBum51P8b3MK+t6AcPC2mYeRa5kd3wlVdg0oW4joVa6NbSSWtfahIWtyiEs
+  3IaUlnXqyg26Xf64Cq8uz+kx0HTigs+XovRW2qJuLS0Ez1zN90IGng9aDlwH9yeuHUqQ//0z
+  IgiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIMg/8hvHh1BqACgAAA==
+  Source url: http://sinyagin.pp.ru/engrus-mirrors.html</description>

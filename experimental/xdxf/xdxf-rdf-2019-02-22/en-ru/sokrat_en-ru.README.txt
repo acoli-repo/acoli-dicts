@@ -1,0 +1,29 @@
+
+original XDXF header
+  <xdxf lang_from="ENG" lang_to="RUS" format="visual"><full_name>sokrat_enru</full_name><description>This file was converted from the original database on:
+            Sat Sep 18 20:19:33 2004
+  
+  The original data is available from:
+       
+  ftp://ftp.ifmo.ru/unix/unix-soft/utils/dictionaries/slowo/dicts/sokrat_enru.tgz
+  
+  The scripts for conversion are in {00-database-script}.    Below are scripts for building .index/.dict files.
+      Extract them using the following command:
+      mimencode -ub | gunzip | tar x
+  
+  H4sIADx8TEEAA+2VbW/bNhDH/db8FFfZS+LYlCg/17HbbV0LFA1QoGiHAbZjyBJlEdGDIVK1
+  0TTffSQlJ04KtK+SvRh/gCTq+L/TUZTubGddsDioPSXEJWQ0GNQIIe5oOFRX4vb7+qqGXTKq
+  ucR1R71Rj7g9qXeHvVENyJNmVVFw4eUANT+iBc++/kRHc/4cCT0vjRfOmqUOjxBqAMij+Zcn
+  6AS6hPQd8tIhI3AHk25vQgbQ1BIk39dq7XE67MNZ6waBxPcETKdvP75DKwVChODAE56SYe7n
+  bCu07k8aZzvwcgqlkUOY5aC/QJZuwGZpQPeOHTBfQMhiym3t9nYvck+aREQTKLiSyqH0jWU4
+  dednSeKlwUSrE5bQ1M8CCrhYw3fYFOk3tpUDtdF7hFSaWqju/Qis5u+WkpWiI+81ukXoBtWp
+  H2VgLdDn6GHefpZ+lR8Fy1K9JJbCzY/rvrWRhVD98s3qj8vLWV6sPn2xP3x8P8afwC7/vVWw
+  87p6yVOeXeeeWNE0L2xphe+oztRTAIdwnbExzgELKESIxzLm0UZYTWLBw2gI3crlqFGYCMA4
+  znwvplBm8OXzOzwG7A/kxI6JKCsEjqgX0BwWCBdwGortxHHk2WZhktl54RQp2+sT5lkonEKw
+  mDsqvFy/lzPKHS53I9MmOT5aidh8OwXM4fTIeAp3Nzgv0H/9G/xvefjNPM0zflX/3R55VP97
+  3cHQ1P/nQNb/gue6B2y83bUsNLIR/LQHoIZsA2906ROgq5SshYlsACLTBaW6y8JD7ZEOqopG
+  O5hBk6A6L9ZnzhnM3//9z7Ldeg3nM/u86XTAsjoQ7VqoUSqk+qG98ryaX82W5zM90UL1TSkG
+  aFcWVG+AbBcsVo2Bbz2f8oPqCs4fuVUPKL36R+HmBL9ctuetpZpfpAAnlsqsmp4v9mOCF/sw
+  XB4P79UlJ1Xg4D7wfD6RVZLmk+Uj+UE74V6yjenBYaIkJ3chK9EiXaT3a5Cz8jhayMX8apEu
+  D4ILUFMX92lVqmn5cl5Nt0Xqi1d38doXWn/0ltodZelov23OUhGCpRu9yuM3riKrs96njtrj
+  W1PQDQaDwWAwGAwGg8FgMBgMBoPBYDAYDAaD4Zn5FxW98hoAKAAA

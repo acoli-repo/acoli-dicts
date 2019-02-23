@@ -1,0 +1,5 @@
+
+original XDXF header
+  <xdxf lang_from="ENG" lang_to="RUS" format="visual">
+    <full_name>eng-rus_math-alexandrov</full_name>
+    <description>GPL. This dictionary is an amendment to English-Russian dictionary of mathematical terms by Alexandrov (formated to Atlantida format and submitted by sandima).</description>
