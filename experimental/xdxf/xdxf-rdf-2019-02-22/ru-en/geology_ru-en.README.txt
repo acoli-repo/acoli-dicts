@@ -1,0 +1,9 @@
+2019-02-20
+XDXF file retrieved from http://sourceforge.net/projects/xdxf/files/dicts-XDXF/dictd04/comn_dictd04_geology_ru-en.tar.bz2/download
+
+license: GNU General Public License version 2.0 (GPLv2)
+(as stated under https://sourceforge.net/projects/xdxf/)
+
+  l1RZ4kfwoKIPWf/LCNSLjIDSrKlsLTWwvx7HE4N/Ow5lKZfkX/+wEARBEARBEARBEARBEARB
+  EARBEARBEARBkJ/4DrqO9aEAKAAA
+  Source url: ftp://Somewhere/geologe.zip</description>

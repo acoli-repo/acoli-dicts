@@ -1,0 +1,9 @@
+2019-02-20
+XDXF file retrieved from http://sourceforge.net/projects/xdxf/files/dicts-XDXF/dictd04/comn_dictd04_biology.tar.bz2/download
+
+license: GNU General Public License version 2.0 (GPLv2)
+(as stated under https://sourceforge.net/projects/xdxf/)
+
+  f3Ev7u4x8tb09s9eGShl93jqEu+Prhmu27qt27qt27qt27qt27qt27qt27qt27qt27qt27qt
+  27qt27qt27qt239n+ycimbC9AFAAAA==
+  Source url: http://www.lingvo.ru/upload//contents/336/biology.zip</description>

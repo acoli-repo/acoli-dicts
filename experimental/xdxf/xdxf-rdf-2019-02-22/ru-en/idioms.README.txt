@@ -1,0 +1,9 @@
+2019-02-20
+XDXF file retrieved from http://sourceforge.net/projects/xdxf/files/dicts-XDXF/dictd04/comn_dictd04_idioms.tar.bz2/download
+
+license: GNU General Public License version 2.0 (GPLv2)
+(as stated under https://sourceforge.net/projects/xdxf/)
+
+  T0YK6T2uusT9uWuGy7Zsy7Zsy7Zsy7Zsy7Zsy7Zsy7Zsy7Zsy7Zsy7Zsy7Zsy7Zsy7Zsy/a/
+  s/03Fb2wvQBQAAA=
+  Source url: http://www.lingvo.ru/upload//contents/336/idioms.zip</description>
