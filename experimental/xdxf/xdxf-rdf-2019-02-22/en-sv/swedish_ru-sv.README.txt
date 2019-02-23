@@ -1,0 +1,41 @@
+2019-02-20
+XDXF file retrieved from http://sourceforge.net/projects/xdxf/files/dicts-XDXF/dictd04/comn_dictd04_swedish_ru-sv.tar.bz2/download
+
+license: GNU General Public License version 2.0 (GPLv2)
+(as stated under https://sourceforge.net/projects/xdxf/)
+
+original XDXF header
+  <xdxf lang_from="ENG" lang_to="SWE" format="visual">
+    <full_name>Russian-Swedish dictionary</full_name>
+    <description>This file was converted from the original database on:
+            Sat Sep 18 20:19:58 2004
+  The original data is available from:
+  ftp://ftp.ifmo.ru/unix/unix-soft/utils/dictionaries/slowo/dicts/deutsch.tgz
+  The scripts for conversion are in {00-database-script}.    Below are scripts for building .index/.dict files.
+      Extract them using the following command:
+      mimencode -ub | gunzip | tar x
+  H4sIAFB8TEEAA+1WbW/bNhDOV/NX3BwvtmNTL7bzUsdOt3UtMKDAgK4dBtiJK0tUJFSWDJGy
+  laTZb9+Rkm0l6zJsQFIM4wNYEu8e0nfkQ/IMc56Fkbf3lLBsyzo5OtqzLMs+OT6Wb8seDNQb
+  0e9bx3u2Zdsn/ZM+OpBvHw96e2A9aVQlMi6cFGDPDVjGk9UjPJby5wjoebH/jTkPY3Pu8ICQ
+  fQD8NX50BBtCz7IGpvXCtE7APhr2+kPrCBqKQtIFUB/SbMZXhsgF9M5Nj63MOIsiQt6+mn3/
+  9u34FWH5MkkFFG1CcJpn+DfseACt9i0BhOsIGI1e//yGzCQIsSzqOcKRNMrdNFwKxfuBRcka
+  nJRBYeTgJyko4YbxFRhh7LHcNLzQFeCHEeOG6vY6F6mDJhGwBWRcUvET+0Y4nGy5yWLhxN5Q
+  sRfhgsVu4jGg2Rw+w1UW34RL/JD6yAmRYSqibLsB1Bvf1SWtIFV6z8kdIcs0jMUsYI7H0m2+
+  zA0SqE/J++B+Jm4Sr1BdYRKrJMMYbv88E3cGqe9G3nRvteF2E9Vmej/6OCFg4BqpTIGK6yWm
+  DXTJcOVwJ36U4xTdqnEW6bGcudAfwahFas76EzRvyX5NOq54Nm+Z09TsQr3eJsqmTDAG47BR
+  NatRSe2uiWkGa+ax2PDWDk4TqYUyWSmfkCez09OjF9TGACETPj1tVyIY3Ivg8QAujUOMoWou
+  qb0TS1qnvUH/n4T2KQlPafowrHWA0oIUpwrQGaxhdNCHg4OtxWM+mgZn4CWkVix1A1ljaKCn
+  vjVJGtqCdR3Oz3ebSP2Fl8QMQzGKQ3mGgfWkqEllqcqFJ+QOidLpLwRQGiWuI6PLZu8+GB/e
+  v6GnQN0jdKxDESSZoKUUp2oomkHTF8uhaeLT8FaJkWbmMpubckBu8tQ1t7Mjrm6am24cmr+g
+  NeQBfZdxHjqxCgGF66TXOKOFDzOiafbXCnuYXuUkwd3GGETJlQ2fFVeuP13hDsliMaa2vC+g
+  qTwNG8ZjqKuTo46boKY4OLWWct+pJ5o7HeWoGEviGPrSH/rQaljwO5iXk2l+atFp7vsXnVYX
+  qs12p2HKraY0lESeXEKrqrWu0l+e59fX1zc3N/Uu+quS29KLFg6BImQRZ7f3dFmVKCG1mOXi
+  fjqFU5maX9LF3W4OcQr/jUDum9ZJiureflLOlk7qCDy1trnKPvcEFfoLpagsDnP1oDzxhZmJ
+  MOLmVjAhQ6Xh+ZSUqvNYJlB1heCk1EqJ0VJyX5RamlG+Il/7Fv3v4uFefIr/+Jv6z7b7VqX+
+  6yO/P8CXrv+eAVj/ZTxVNeCVOmt9LAMfrQDJPhaBr1TFIkDdnVjCLLCSE4k6UcpW4m9uJ+yA
+  V0GtuArxEFTHZQsmP/36G56rL+FwvKkeunirtrHaeFhVFPay5+XkcnxxON7c9sXpi8dgp7SQ
+  2j5g3RdGssLjS8dlfMO6hMMH3bZli+w1qAw3seiLi86kfaHqhxjgoC4jK92Vm6H6uWMXOCgH
+  9nYDTyZDPPJYOrx4QN9wh9xZLCO26TCUlIPtkCVpGk/jXQ7oxV8lkbPJ5TS+2BDO1M10tgur
+  ZI2KyTkfLbPYFefb8Tpnil+ZpU5XWrqqn7pt/PLelXF8y+XI8qnWSd57WF5+bV1raGhoaGho
+  aGhoaGhoaGhoaGhoaGhoaGj8X/EH8IZxhQAoAAA=
+  Source url: ftp://ftp.ifmo.ru/unix/unix-soft/utils/dictionaries/slowo/dicts/deutsch.tgz</description>
