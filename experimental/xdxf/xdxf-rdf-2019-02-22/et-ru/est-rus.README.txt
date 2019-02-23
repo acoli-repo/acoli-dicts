@@ -1,0 +1,5 @@
+
+original XDXF header
+  <xdxf lang_from="EST" lang_to="RUS" format="visual">
+    <full_name>Estonian-Russian dictionary</full_name>
+    <description>Copyright: Converted by swaj from ER-DICT: http://sourceforge.net/projects/er-dict; Version: 1.0</description>
