@@ -1,0 +1,5 @@
+
+original XDXF header
+  <xdxf lang_from="GER" lang_to="HUN" format="visual">
+    <full_name>German-Hungarian dictionary</full_name>
+    <description>Copyright: jDictionary project, http://jdictionary.info; Version: 1.0</description>
