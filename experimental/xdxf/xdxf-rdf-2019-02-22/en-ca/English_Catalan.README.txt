@@ -1,0 +1,5 @@
+
+original XDXF header
+  <xdxf lang_from="ENG" lang_to="CAT" format="visual">
+    <full_name>English-Catalan dictionary</full_name>
+    <description>Copyright: http://www.freelang.net/dictionary/; Version: 1.0</description>
