@@ -1,0 +1,10 @@
+2019-02-20
+XDXF file retrieved from http://sourceforge.net/projects/xdxf/files/dicts-XDXF/sdict05/comn_sdict05_ru_synonym_sh.tar.bz2/download
+
+license: GNU General Public License version 2.0 (GPLv2)
+(as stated under https://sourceforge.net/projects/xdxf/)
+
+original XDXF header
+  <xdxf lang_from="RUS" lang_to="RUS" format="visual">
+    <full_name>Словарь синонимов русского языка</full_name>
+    <description>Copyright: Converted from ftp://files.zipsites.ru/slovari/ by swaj; Version: 1.0</description>
