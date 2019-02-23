@@ -1,0 +1,5 @@
+
+original XDXF header
+  <xdxf lang_from="LAT" lang_to="ENG" format="visual">
+    <full_name>Latin-English dictionary</full_name>
+    <description>Copyright: Converted by swaj under GNU Public License; Version: 1.1</description>

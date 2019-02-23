@@ -1,0 +1,20 @@
+
+original XDXF header
+  <xdxf lang_from="LAT" lang_to="ENG" format="visual">
+    <full_name>Латинско-русский словарь</full_name>
+    <description>00-database-info
+  This file was converted from the original database on:
+            Sun Sep 14 18:43:24 2003
+  
+  
+  The original data is available from:
+       http://ornemus.da.ru/
+  
+  The original data was distributed with the notice shown below.  No
+  additional restrictions are claimed.  Please redistribute this
+  changed version under the same conditions and restriction that
+  apply to the original version.
+  
+     (ad) in irritum cadere
+       рушиться
+  Source url: http://ornemus.da.ru/</description>
