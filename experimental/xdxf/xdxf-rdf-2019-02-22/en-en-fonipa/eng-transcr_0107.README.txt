@@ -1,0 +1,10 @@
+2019-02-20
+XDXF file retrieved from http://sourceforge.net/projects/xdxf/files/dicts-XDXF/atla02/atla02_eng-transcr_0107.tar.bz2/download
+
+license: GNU General Public License version 2.0 (GPLv2)
+(as stated under https://sourceforge.net/projects/xdxf/)
+
+original XDXF header
+  <xdxf lang_from="ENG" lang_to="ENG" format="visual">
+    <full_name>eng-transcr_0107</full_name>
+    <description>V.K.Muller English-Russian Dictionary, 7 Edition; "State Publishing House of Foreign and National Dictionaries" Moscow 1961; Free Electronic Version by S.Starostin 1996 starling.rinet.ru/download/dict.exe; Electronic Version by E.S.Cymbalyuk 1999 under GNU GPL, ver. 0.8, for the latest version see www.chat.ru/~muller_dic or www.geocities.com/SiliconValley/Circuit/2634/</description>
