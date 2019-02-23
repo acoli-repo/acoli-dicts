@@ -1,0 +1,5 @@
+
+original XDXF header
+  <xdxf lang_from="ENG" lang_to="UKR" format="visual">
+    <full_name>English-Ukrainian dictionary</full_name>
+    <description>Copyright: AXMA Soft Ltd; Version: 1.0</description>
