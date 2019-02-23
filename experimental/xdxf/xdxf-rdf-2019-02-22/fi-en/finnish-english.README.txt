@@ -1,0 +1,5 @@
+
+original XDXF header
+  <xdxf lang_from="FIN" lang_to="ENG" format="visual">
+    <full_name>Finnish-English dictionary</full_name>
+    <description>Copyright: Converted by swaj under GNU Public License; Version: 1.1</description>
