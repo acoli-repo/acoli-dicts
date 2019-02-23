@@ -1,0 +1,10 @@
+2019-02-20
+XDXF file retrieved from http://sourceforge.net/projects/xdxf/files/dicts-XDXF/sdict05/comn_sdict_axm05_bulg_syn.tar.bz2/download
+
+license: GNU General Public License version 2.0 (GPLv2)
+(as stated under https://sourceforge.net/projects/xdxf/)
+
+original XDXF header
+  <xdxf lang_from="BUL" lang_to="BUL" format="visual">
+    <full_name>Bulgarian Synonyms dictionary</full_name>
+    <description>Copyright: SA Dictionary 2005 T1, http://sa.dir.bg/sa.htm; Version: 1.0</description>
