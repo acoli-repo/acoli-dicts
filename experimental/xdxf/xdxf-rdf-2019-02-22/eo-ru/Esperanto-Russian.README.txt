@@ -1,0 +1,5 @@
+
+original XDXF header
+  <xdxf lang_from="EPO" lang_to="RUS" format="visual">
+    <full_name>Esperanto-Russian dictionary</full_name>
+    <description>Copyright: Converted by AXMA Soft Ltd; Version: 1.0</description>
