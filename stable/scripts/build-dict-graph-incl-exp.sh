@@ -1,11 +1,13 @@
 #!/bin/bash
 # no arguments, produces a dictionary/language graph for ACoLi dictionaries
+# includes experimental content
 # requires ImageMagick (convert) and dot/neato (GraphViz)
 
 # color codes for dictionaries
 FREEDICT=blue;
 APERTIUM=black;
 DBNARY=gray;
+XDXF=red;
 
 # build graph of connected dictionaries
 (for dir in ../freedict/*rdf*/*-*; do 
@@ -20,19 +22,30 @@ for file in ../dbnary/dbnary-tiad*/*tsv.gz; do
 	echo $file | sed -e s/'.*\/'//g -e s/'_dbnary.*'// | \
 	sed -e s/'^\([a-z]*\)_\([a-z]*\)$'/'\1\t\2\tcolor='$DBNARY/g;
 done;
+
+# experimental stuff
+for file in ../../experimental/xdxf/*rdf*/*-*; do
+	if [ -d $file ]; then
+		echo $file | \
+		egrep '.*\/[a-z][a-z][a-z]*-[a-z][a-z][a-z]*$' | \
+		sed -e s/'.*\/'//g \
+			-e s/'^\([a-z]*\)-\([a-z]*\)$'/'\1\t\2\tcolor='$XDXF', style=dotted'/g;
+	fi;
+done;
+
 ) | \
-bash langs2dot.sh | egrep '[a-zA-Z]' > ../dicts.dot;
+bash langs2dot.sh | egrep '[a-zA-Z]' > ../../dicts.dot;
 
 # add language coloring (for known languages)
 GERMANIC=gray56;
 CELTIC=gray65;
 ROMANCE=gray79;
 ITALIC=gray79;
-SLAVIC=gray88;
+SLAVIC=gray87;
 BALTIC=gray88;
-IRANIAN=gray90;
-INDIAN=gray91;
-OTHER_IE=gray92;
+IRANIAN=gray89;
+INDIAN=gray90;
+OTHER_IE=gray91;
 SEMITIC=lightcoral;
 ALTAIC=lightblue;
 URALIC=khaki;
@@ -88,18 +101,22 @@ echo 'X [style=invis];'
 echo 'X -- Apertium [color='$APERTIUM'];'
 echo 'X -- FreeDict [color='$FREEDICT'];'
 echo 'X -- DBnary [color='$DBNARY'];'
+echo 'X -- XDXF [color='$XDXF', style=dotted];'
 echo 'Apertium [color=white];'
 echo 'FreeDict [color=white];'
 echo 'DBnary [color=white];'
+echo 'XDXF [color=white];'
 echo 'OTHER -- Apertium [style=invis];'
 echo 'Apertium -- FreeDict [style=invis];'
 echo 'FreeDict -- DBnary [style=invis];'
+echo 'DBnary -- XDXF [style=invis];'
+
 
 echo '}'
-) | dot -Tgif > ../legend.gif
+) | dot -Tgif > ../../legend.gif
 
 
-cat ../dicts.dot | grep ' -' | sed s/'\[.*'// | sed s/'\s'/'\n'/g | egrep '[a-z]' | sort -u | \
+cat ../../dicts.dot | grep ' -' | sed s/'\[.*'// | sed s/'\s'/'\n'/g | egrep '[a-z]' | sort -u | \
 perl -pe '
 
 	############################# 
@@ -281,14 +298,14 @@ perl -pe '
 	s/^zdj$/zdj [style=filled,fillcolor='$SUBSAHARIC'];/g;
 	s/^sgc$/sgc [style=filled,fillcolor='$SUBSAHARIC'];/g;
 	
-' | grep color >> ../dicts.dot;
+' | grep color >> ../../dicts.dot;
 
 # cluster for language groups (well, colors ;)
-COLORS=`cat ../dicts.dot | egrep 'fillcolor=' | sed -e s/'.*fillcolor='// -e s/'[^a-z0-9A-Z].*'// | sort -u`;
+COLORS=`cat ../../dicts.dot | egrep 'fillcolor=' | sed -e s/'.*fillcolor='// -e s/'[^a-z0-9A-Z].*'// | sort -u`;
 
 for i in {1..4}; do
 	for color in $COLORS; do
-		LANGS=`cat ../dicts.dot | egrep 'fillcolor='$color | sed -e s/'^[^a-z]*'//g -e s/'[^a-z].*'//g`;
+		LANGS=`cat ../../dicts.dot | egrep 'fillcolor='$color | sed -e s/'^[^a-z]*'//g -e s/'[^a-z].*'//g`;
 		for lang in $LANGS; do
 			for lang2 in $LANGS; do
 				if [ $lang != $lang2 ]; then
@@ -296,15 +313,15 @@ for i in {1..4}; do
 				fi;
 			done;
 		done;
-	done >> ../dicts.dot
+	done >> ../../dicts.dot
 done;
 	
-echo '}' >> ../dicts.dot;
+echo '}' >> ../../dicts.dot;
 
 # render graph
-cat ../dicts.dot | neato -Tgif > ../dicts.gif
+cat ../../dicts.dot | neato -Tgif > ../../dicts.gif
 
 # resize and merge with legend
-HEIGHT=`convert ../dicts.gif info: | sed s/'^[^ ]* GIF [0-9]*x\([0-9]*\) .*'/'\1'/`;
-convert -resize x$HEIGHT ../legend.gif ../legend-shrunk.gif
-convert ../dicts.gif ../legend-shrunk.gif +append ../dicts-w-legend.gif
+HEIGHT=`convert ../../dicts.gif info: | sed s/'^[^ ]* GIF [0-9]*x\([0-9]*\) .*'/'\1'/`;
+convert -resize x$HEIGHT ../../legend.gif ../../legend-shrunk.gif
+convert ../../dicts.gif ../../legend-shrunk.gif +append ../../dicts-w-legend.gif
