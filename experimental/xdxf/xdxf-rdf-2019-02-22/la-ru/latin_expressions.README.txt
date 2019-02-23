@@ -1,0 +1,5 @@
+
+original XDXF header
+  <xdxf lang_from="LAT" lang_to="RUS" format="visual">
+    <full_name>Латинские выражения</full_name>
+    <description>Copyright: AXMA Soft Ltd; Version: 1.1</description>
