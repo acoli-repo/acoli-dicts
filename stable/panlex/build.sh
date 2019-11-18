@@ -98,7 +98,7 @@ else
 fi;
 
 ##########################################################
-# (2) RDF/XML conversion and language code normalization #
+# (3) RDF/XML conversion and language code normalization #
 ##########################################################
 
 echo 1>&2;
@@ -134,28 +134,28 @@ for file in src/*rdf.zip; do
 	if [ -e $file ] ; then mv $file .; fi;
 done;
 
+######################
+# (4) TSV extraction #
+######################
 
-
-		# # TSV generation
-		# for file in *ttl; do
-			# tgt=`echo $file | sed s/'\.ttl$'/'.tsv'/;`
-			# echo $file': TSV export' 1>&2; 
-			# if [ -e $tgt ] ; then 
-				# echo 'skipping: found '$tgt 1>&2;
-			# else if [ -e $tgt.gz ] ; then
-				# echo 'skipping: found '$tgt.gz 1>&2;
-			# else
-				# $ARQ --data=$file \
-					# --query=../../ontolex2tsv.sparql --results=TSV | grep -v '^?' | sort -u > $tgt;
-			# fi;fi;
-		# done;
-		
-		# cd ..;
-
-	# done;
-
-	# gzip -f */*.ttl;
-	# gzip -f */*.tsv;
-
-	# cd ..;
-
+mkdir tsv;
+cd tsv;
+for file in ../*rdf.zip; do
+	for rdf in `unzip -l $file |sed s/'.*\s'//g | grep 'rdf$'`; do		
+		tsv=`echo $rdf | sed s/'.rdf$'// `.tsv;
+		echo TSV generation: $file:$rdf '>' $tsv 1>&2;
+		unzip -u $file $rdf;
+		$ARQ --data=$rdf --results=TSV --query=../ontolex2tsv.sparql | \
+		grep -v '^?' | sort -u | tee $tsv;
+		rm $rdf
+		if [ -s $tsv ]; then
+			zip -rm `echo $file | sed s/'rdf.zip'/'tsv.zip'/` $tsv
+		else 
+			rm -f $tsv;
+		fi;
+		echo 1>&2;
+	done;
+done;
+cd ..
+mv tsv/rdf/* tsv/;
+rmdir tsv/rdf;
