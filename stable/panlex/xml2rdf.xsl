@@ -17,6 +17,9 @@
 
     <xsl:output method="xml" indent="yes"/>
     
+    <!-- panlex vocabulary URI for @reference attribute TODO: synchronize with panlex namespace above -->
+    <xsl:variable name="panlex">https://panlex.org/</xsl:variable>
+    
     <xsl:param name="base">http://REPLACE-ME-WITH-DOCUMENT-URI</xsl:param>
 
     <!-- parameter for format disambiguation -->
@@ -32,19 +35,19 @@
 
     <xsl:template match="source">
         <rdf:RDF>
-            <xsl:text disable-output-escaping="yes">&lt;owl:Ontology xml:base="</xsl:text>
-            <xsl:value-of select="$base"/>
-            <xsl:text disable-output-escaping="yes">"&gt;</xsl:text>
+            <owl:Ontology rdf:about="">
             <owl:imports rdf:resource="http://www.w3.org/ns/lemon/lime"/>
             <owl:imports rdf:resource="http://www.w3.org/ns/lemon/ontolex"/>
             <owl:imports rdf:resource="http://www.w3.org/ns/lemon/vartrans"/>     
+            </owl:Ontology>
+            
             <xsl:for-each select="distinct-values(//lang_code/text())">
                 <xsl:if test=".!='art'">
                     <xsl:variable name="me" select="."/>
                     <xsl:for-each select="$source">
                         <xsl:variable name="id" select="concat('source_',/source/@id,'_',$me)"/>
-                        <lime:lexicon>
-                            <xsl:attribute name="rdf:about" select="concat('#',$id)"/>
+                        <lime:Lexicon>
+                        <xsl:attribute name="rdf:about" select="concat('#',$id)"/>
                             <xsl:attribute name="rdfs:label" select="@label"/>
                             <xsl:attribute name="dct:source" select="@url"/>
                             <xsl:attribute name="dc:title" select="@title"/>
@@ -58,14 +61,19 @@
                             <xsl:attribute name="dct:rights" select="@ip_claim"/>
                             <xsl:attribute name="dc:format" select="format[1]/label[1]/text()"/>
                             <xsl:attribute name="dc:language" select="$me"/>
+                        </lime:Lexicon>
+                        <xsl:text disable-output-escaping="yes">&lt;lime:Lexicon xml:base="</xsl:text>
+                            <xsl:value-of select="$base"/>
+                            <xsl:text disable-output-escaping="yes">" rdf:about="</xsl:text>
+                        <xsl:value-of select="concat('#',$id)"/>
+                            <xsl:text disable-output-escaping="yes">"&gt;</xsl:text>                            
                             <xsl:call-template name="build-dict">
                                 <xsl:with-param name="lang_code" select="$me"/>
                             </xsl:call-template>
-                        </lime:lexicon>
+                            <xsl:text disable-output-escaping="yes">&lt;/lime:Lexicon></xsl:text>
                     </xsl:for-each>
                 </xsl:if>
             </xsl:for-each>
-            <xsl:text disable-output-escaping="yes">&lt;/owl:Ontology></xsl:text>
         </rdf:RDF>
     </xsl:template>
 
@@ -73,6 +81,7 @@
         <xsl:param name="lang_code"/>
 
         <xsl:for-each select="/source/meaning/denotation[expr/langvar/lang_code/text()=$lang_code]">
+            <lime:entry>
             <ontolex:LexicalEntry rdf:about="#{@id}">
                 <xsl:for-each select="expr/langvar[lang_code/text()=$lang_code][1]">
                     <rdfs:label>
@@ -90,35 +99,31 @@
                 </xsl:for-each>
                 <xsl:for-each select="denotation_class">
                     <xsl:for-each select="e1/expr/e2">
-                        <panlex:denotation_class
-                            e1="{concat(../../expr/langvar/lang_code/text()[1],':',../../expr/langvar/txt/text())}">
-                            <xsl:choose>
-                                <xsl:when test="expr/langvar/lang_code/text()='art'">
-                                    <!-- datatype property -->
-                                    <xsl:value-of select="expr/langvar/txt/text()"/>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <ontolex:Form rdf:about="#{@id}">
-                                        <xsl:comment>
-                                            <xsl:text> "</xsl:text>
-                                            <xsl:value-of select="expr/langvar/txt/text()"/>
-                                            <xsl:text>"@</xsl:text>
-                                            <xsl:value-of select="expr/langvar/lang_code/text()"/>
-                                            <xsl:text> </xsl:text>
-                                        </xsl:comment>
-                                    </ontolex:Form>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                            <!-- xsl:attribute name="xml:lang" select="expr/langvar/lang_code/text()"/-->
-                        </panlex:denotation_class>
+                        <xsl:text disable-output-escaping="yes">&lt;panlex:</xsl:text>
+                        <xsl:value-of select="../../expr/langvar/txt/text()[1]"/>
+                        <xsl:text disable-output-escaping="yes">></xsl:text>
+                        <xsl:choose>
+                            <xsl:when test="expr/langvar/lang_code/text()='art'">
+                                <owl:Thing rdf:about="{$panlex}{expr/langvar/txt/text()[1]}"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <ontolex:Form rdf:about="#{@id}"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                        <xsl:text disable-output-escaping="yes">&lt;/panlex:</xsl:text>
+                        <xsl:value-of select="../../expr/langvar/txt/text()[1]"/>
+                        <xsl:text disable-output-escaping="yes">></xsl:text>
                     </xsl:for-each>
                 </xsl:for-each>
                 <xsl:for-each select="denotation_prop">
                     <xsl:for-each select="expr/txt">
-                        <panlex:denotation_prop
-                            e1="{concat(../langvar/lang_code/text()[1],':',../langvar/txt/text())}">
-                            <xsl:value-of select="text()"/>
-                        </panlex:denotation_prop>
+                        <xsl:text disable-output-escaping="yes">&lt;panlex:</xsl:text>
+                        <xsl:value-of select="../langvar/txt/text()[1]"/>
+                        <xsl:text disable-output-escaping="yes">&gt;</xsl:text>
+                        <xsl:value-of select="text()"/>
+                        <xsl:text disable-output-escaping="yes">&lt;/panlex:</xsl:text>
+                        <xsl:value-of select="../langvar/txt/text()[1]"/>
+                        <xsl:text disable-output-escaping="yes">></xsl:text>
                     </xsl:for-each>
                 </xsl:for-each>
                 <ontolex:evokes>
@@ -134,15 +139,18 @@
                             </skos:definition>
                         </xsl:for-each>
                         <xsl:for-each select="../meaning_prop/expr/txt">
-                            <panlex:meaning_prop
-                                expr="{concat(../langvar/lang_code/text()[1],':',../langvar/txt/text())}">
+                                <xsl:text disable-output-escaping="yes">&lt;panlex:</xsl:text>
+                                <xsl:value-of select="../langvar/txt/text()[1]"/>
+                                <xsl:text disable-output-escaping="yes">&gt;</xsl:text>
                                 <xsl:value-of select="text()"/>
-                            </panlex:meaning_prop>
+                                <xsl:text disable-output-escaping="yes">&lt;/panlex:</xsl:text>
+                                <xsl:value-of select="../langvar/txt/text()[1]"/>
+                                <xsl:text disable-output-escaping="yes">></xsl:text>
                         </xsl:for-each>
-                        <xsl:for-each select="../meaning_class/e1/expr">
-                            <panlex:meaning_class
-                                expr="{concat(langvar/lang_code/text()[1],':',langvar/txt/text())}">
-                                <xsl:for-each select="e2/expr">
+                        <xsl:for-each select="../meaning_class/e1/expr/e2/expr">
+                            <xsl:text disable-output-escaping="yes">&lt;panlex:</xsl:text>
+                            <xsl:value-of select="../../langvar/txt/text()[1]"/>
+                            <xsl:text disable-output-escaping="yes">></xsl:text>
                                     <ontolex:Form rdf:about="#{@id}">
                                         <xsl:comment>
                                             <xsl:text> "</xsl:text>
@@ -152,9 +160,9 @@
                                             <xsl:text> </xsl:text>
                                         </xsl:comment>
                                     </ontolex:Form>
-                                </xsl:for-each>
-                                <xsl:value-of select="text()"/>
-                            </panlex:meaning_class>
+                            <xsl:text disable-output-escaping="yes">&lt;/panlex:</xsl:text>
+                            <xsl:value-of select="../../langvar/txt/text()[1]"/>
+                            <xsl:text disable-output-escaping="yes">></xsl:text>
                         </xsl:for-each>
                     </ontolex:LexicalConcept>
                     <!-- meaning -->
@@ -175,6 +183,7 @@
                     </xsl:if>
                 </xsl:for-each>
             </ontolex:LexicalEntry>
+            </lime:entry>
         </xsl:for-each>
     </xsl:template>
 
