@@ -46,8 +46,8 @@
                     <xsl:variable name="me" select="."/>
                     <xsl:for-each select="$source">
                         <xsl:variable name="id" select="concat('source_',/source/@id,'_',$me)"/>
-                        <lime:Lexicon>
-                        <xsl:attribute name="rdf:about" select="concat('#',$id)"/>
+                        <lime:Lexicon xml:base="{$base}">
+                            <xsl:attribute name="rdf:about" select="concat('#',$id)"/>
                             <xsl:attribute name="rdfs:label" select="@label"/>
                             <xsl:attribute name="dct:source" select="@url"/>
                             <xsl:attribute name="dc:title" select="@title"/>
@@ -61,16 +61,10 @@
                             <xsl:attribute name="dct:rights" select="@ip_claim"/>
                             <xsl:attribute name="dc:format" select="format[1]/label[1]/text()"/>
                             <xsl:attribute name="dc:language" select="$me"/>
-                        </lime:Lexicon>
-                        <xsl:text disable-output-escaping="yes">&lt;lime:Lexicon xml:base="</xsl:text>
-                            <xsl:value-of select="$base"/>
-                            <xsl:text disable-output-escaping="yes">" rdf:about="</xsl:text>
-                        <xsl:value-of select="concat('#',$id)"/>
-                            <xsl:text disable-output-escaping="yes">"&gt;</xsl:text>                            
                             <xsl:call-template name="build-dict">
                                 <xsl:with-param name="lang_code" select="$me"/>
                             </xsl:call-template>
-                            <xsl:text disable-output-escaping="yes">&lt;/lime:Lexicon></xsl:text>
+                        </lime:Lexicon>
                     </xsl:for-each>
                 </xsl:if>
             </xsl:for-each>

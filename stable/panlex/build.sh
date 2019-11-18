@@ -28,135 +28,113 @@ ARQ=arq;
 # RIOT:       VERSION: 3.9.0
 # RIOT:       BUILD_DATE: 2018-09-28T17:15:32+0000
 
-#############################
-# (1) retrieve source files #
-#############################
+#####################################################
+# (1) create source XML and split into dictionaries #
+#####################################################
 
 mkdir -p src;
-if find src | egrep 'src/panlex-.*-csv.zip$' | head -n 1 | egrep . >/dev/null; then 
-	cd src
-	file=`ls panlex-*-csv.zip | head -n 1`;
-	echo extract src/$file 1>&2;
-	unzip -u $file;
-	
-	# the latest built directory
-	dir=`ls -dt */ | grep 'panlex-.*-csv' | head -n 1`
-	echo 1>&2;
-	echo reading src/$dir 1>&2;
-	
-	cd $dir;
-	
-	if javac ../../PanLex.java; then
-        java -Xmx3g -Dfile.encoding=UTF-8 -classpath ../.. PanLex . 2>&1 | \
-        tee panlex.log;
+if find src | egrep 'src/panlex.*xml.zip$' >& /dev/null; then
+	echo using existing XML dump 1>&2;
+else
+	if find src | egrep 'src/panlex-.*-csv.zip$' | head -n 1 | egrep . >/dev/null; then 
+		cd src
+		file=`ls panlex-*-csv.zip | head -n 1`;
+		echo extract src/$file 1>&2;
+		unzip -u $file;
+		
+		# the latest built directory
+		dir=`ls -dt */ | grep 'panlex-.*-csv' | head -n 1 | sed s/'\/.*'//`
+		echo 1>&2;
+		echo reading src/$dir 1>&2;
+		
+		if [ ! -e $dir-xml.zip ] ; then
+			echo 1>&2;
+			echo building $dir-xml.zip 1>&2;
+			cd $dir;
+			
+			if javac ../../PanLex.java; then
+				java -Xmx3g -Dfile.encoding=UTF-8 -classpath ../.. PanLex . 2>&1 | \
+				tee panlex.log;
+			fi;
+			
+			cd ..
+			zip -rm $dir-xml.zip $dir/sources
+			echo 1>&2;
+		else
+			echo 1>&2;
+			echo using existing $dir-xml.zip 1>&2;
+			echo 1>&2;
+		fi;
+		
+		cd ..
+	else # failures
+		#####################
+		# no CSV dump found #
+		#####################
+		echo "please deposit a current CSV dump from " $SRC " under src/." 1>&2
+		echo "we expect a file with naming scheme src/panlex-YYYYMMDD-csv.zip, with YYYYMMDD being the release date" 1>&2;
 	fi;
-	
+fi;
+
+#################################
+# (2) get language code mapping #
+#################################
+# we expect ISO-639-3 codes, map to ISO-639-1 where applicable
+# this is *approximative* BCP47, as we don't map from 639-3 to 639-2
+
+echo 1>&2
+if [ -e sed/iso-3-to-bcp47.sed ] ; then
+	echo use existing BCP47 mapping 1>&2;
+else
+	echo retrieve BCP47 mapping 1>&2;
+	mkdir -p sed;
+	cd sed;
+	wget -nc https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3_Code_Tables_20190125.zip;
+	unzip -c iso-639-3_Code_Tables_20190125.zip iso-639-3_Code_Tables_20190125/iso-639-3_20190125.tab | \
+	cut -f 1,4 | \
+	egrep '^[a-z]+\s+[a-z]+$'  | \
+	sed s/'\(...\)\s\(..\)'/"s\/<lang_code>\1<\/<lang_code>\2<\/g"/ > iso-3-to-bcp47.sed;
 	cd ..
-	
-	zip -rm `echo $dir | sed s/'\/.*'//`-xml.zip $dir/sources
-	
-	cd ..
-	
-	# DICTS=`wget -O - https://freedict.org/downloads/index.html | \
-		# sed s/'"'/'\n'/g | grep 'src.tar.xz$'`;
-	# for dict in $DICTS; do
-		# wget -nc $dict;
-	# done;
-	# for dict in *.tar.xz; do
-		# tar -xvf $dict;
-	# done;
+fi;
 
-	# #################################
-	# # (2) get language code mapping #
-	# #################################
-	# # map to iso-639-3, resp. iso-639-1 (where applicable)
+##########################################################
+# (2) RDF/XML conversion and language code normalization #
+##########################################################
 
-	# mkdir -p sed;
-	# cd sed;
-	# wget -nc https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3_Code_Tables_20190125.zip;
-	# unzip -c iso-639-3_Code_Tables_20190125.zip iso-639-3_Code_Tables_20190125/iso-639-3_20190125.tab | \
-	# egrep '^[a-z]' | \
-	# perl -pe 'while(m/^(...)[ \t]+([a-z][a-z]([a-z]?))[ \t][^\n]*/) {
-		# s/^(...)[ \t]+([a-z][a-z]([a-z]?))([ \t][^\n]*)/$1\t$4\n$1\t$2/;
-		# };
-		# s/[ \t]+/\t/g;
-		# ' | \
-	# egrep '^[a-z]..\s[a-z]' | \
-	# egrep -v '^(...)\s\1$' | tee lang2iso-3.tsv | \
-	# sed s/'\(...\)\s\(...*\)'/"s\/\\\\\/\2\\\\-\/\\\\\/\1\\\\-\/g\ns\/\\\\-\2\\\\\/\/\\\\-\1\\\\\/\/g"/ > lang2iso-3.sed;
+echo 1>&2;
+mkdir -p rdf;
+for file in src/*xml.zip; do
+	if [ -e `echo $file | sed -e s/'^src\/'// -e s/'xml'/'rdf'/g` ]; then
+		echo $file already processed, skipping 1>&2;
+		echo 1>&2;
+	else
+		echo processing $file 1>&2;
+		for xml in `unzip -l src/panlex-20191001-csv-xml.zip | sed s/'.*\s'// | egrep xml`; do
+			echo $file:$xml 1>&2;
+			target=`echo $xml | sed -e s/'^sources\/'//`;
+			mkdir -p rdf/`echo $target| sed -e s/'\/[^\/]*$'//`;
+			unzip -c $file $xml | \
+			# strip log infos and repair xml
+			grep '<' | xmllint --recover - | \
+			# normalize language codes
+			sed -f sed/iso-3-to-bcp47.sed | \
+			# extract RDF/XML
+			SAXON -s:- -xsl:xml2rdf.xsl base=$SRC`echo $file | sed -e s/'.*\/'//g -e s/'.xml.zip$'//`/`echo $xml |sed s/'.*[^0-9]\([0-9][0-9]*\)[^0-9\/]*$'/'\1'/` \
+			> rdf/`echo $target | sed -e s/'.xml$'//`.rdf;
+			if [ ! -s rdf/`echo $target | sed -e s/'.xml$'//`.rdf ]; then echo empty 1>&2; rm rdf/`echo $target | sed -e s/'.xml$'//`.rdf;
+			else zip -rm `echo $file |sed s/'xml'/'rdf'/g` rdf/`echo $target | sed -e s/'.xml$'//`.rdf;
+			fi;
+			echo 1>&2;
+		done;
+	fi;
+done;
+
+rm -rf rdf;
+for file in src/*rdf.zip; do
+	if [ -e $file ] ; then mv $file .; fi;
+done;
 
 
-	# cat lang2iso-3.tsv | egrep '\s..$' | \
-	# sed s/'\(...\)\s\(..\)'/"s\/\\\\\/\1\\\\-\/\\\\\/\2\\\\-\/g\ns\/\\\\-\1\\\\\/\/\\\\-\2\\\\\/\/g"/ > iso-3-to-bcp47.sed;
-	# cd ..
-
-	# ###################################
-	# # (3) apply language code mapping #
-	# ###################################
-
-	# # map to bcp-47 (iso-1 where applicable, iso-3 otherwise) 
-	# for dir in src/*/; do
-		# tgt=`echo $dir | sed -f sed/lang2iso-3.sed | sed -f sed/iso-3-to-bcp47.sed`;
-		# rm -rf $tgt;
-		# if [ $dir != $tgt ]; then 
-			# echo $dir' => '$tgt 1>&2;
-			# mv $dir $tgt; 
-		# fi;
-	# done;
-
-	# #############################################
-	# # (4) convert to ontolex-lemon and TIAD-TSV #
-	# #############################################
-
-	# RELEASE=freedict-rdf-`date +%F`;
-	# mkdir -p $RELEASE;
-	# for dir in src/*/; do
-		# echo $dir ' => ' $RELEASE 1>&2;
-		# cp -r -f $dir $RELEASE/;
-	# done;
-
-	# cd $RELEASE;
-	# for dir in *-*/; do
-		# echo $dir': OntoLex generation' 1>&2; 
-		# srclang=`echo $dir | sed -e s/'-.*'//g;`
-		# tgtlang=`echo $dir | sed -e s/'.*-'//g -e s/'\/$'//;`
-		# cd $dir;
-		
-		# mkdir -p tei;
-		# mv -f *.tei *css *dtd *rng *xml Makefile INSTALL tei;
-		# for file in *; do
-			# if [ -f $file ]; then cp -f $file tei; fi;
-		# done;
-		# if [ -e lexicon-$srclang-$tgtlang.ttl ]; then
-			# echo found lexicon-$srclang-$tgtlang.ttl, skipping 1>&2;
-		# else if [ -e lexicon-$srclang-$tgtlang.ttl.gz ]; then
-			# echo found lexicon-$srclang-$tgtlang.ttl.gz, skipping 1>&2;
-		# else 
-			# rm -f *.ttl *.ttl.gz;
-			# for file in tei/*.tei; do
-				# if [ ! -e tei/*dtd ] ; then
-					# for dtd in `find .. | egrep -m 1 '\.dtd$'`; do	# missing for wo-fr
-						# echo restore original DTD 1>&2;
-						# cp -f $dtd tei/;
-					# done;
-				# fi;
-				# $SAXON -warnings:recover -s:$file -xsl:../../freedict2ontolex.xsl SRC_LANG=$srclang TGT_LANG=$tgtlang >> lexicon-$srclang-$tgtlang.ttl;
-			# done;
-			
-			# (echo 'Christian Chiarcos <christian.chiarcos@web.de>:'
-			# echo '  converted to OntoLex-lemon') >> AUTHORS
-			
-			# (
-			# echo `date +%F` 'Christian Chiarcos <christian.chiarcos@web.de>';
-			# echo '  * conversion to OntoLex-lemon';
-			# echo;
-			# if [ -e tei/ChangeLog ] ; then
-				# cat tei/ChangeLog;
-			# fi;
-			# ) > ChangeLog;
-		
-			# zip -rm lexicon-$srclang-$tgtlang.tei.zip tei/; 
-		# fi;fi;
 
 		# # TSV generation
 		# for file in *ttl; do
@@ -181,10 +159,3 @@ if find src | egrep 'src/panlex-.*-csv.zip$' | head -n 1 | egrep . >/dev/null; t
 
 	# cd ..;
 
-else # failures
-	#####################
-	# no CSV dump found #
-	#####################
-	echo "please deposit a current CSV dump from " $SRC " under src/." 1>&2
-	echo "we expect a file with naming scheme src/panlex-YYYYMMDD-csv.zip, with YYYYMMDD being the release date" 1>&2;
-fi;
