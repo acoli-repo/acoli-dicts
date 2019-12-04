@@ -50,6 +50,16 @@
                         <xsl:value-of select="."/>
                     </xsl:if>
                 </xsl:for-each>
+                <!-- if no pos given, check whether we have some information about the construction that the entry is contained in -->
+                <xsl:if test="count(s/@n|../../par/@n)=0">
+                    <xsl:for-each select="ancestor::pardef[1]/@n">
+                        <xsl:if test="string-length(.)>0">
+                            <xsl:text>; &#10; lexinfo:morphosyntacticProperty apertium:</xsl:text>
+                            <xsl:value-of select="."/>
+                        </xsl:if>
+                    </xsl:for-each>
+                </xsl:if>
+                    
                 <xsl:text>; &#10; ontolex:lexicalForm </xsl:text>
                 <xsl:value-of select="$form"/>
                 <xsl:if test="string-length($dc_source)>0">
