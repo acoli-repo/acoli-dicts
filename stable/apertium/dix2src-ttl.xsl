@@ -44,7 +44,7 @@
                 
                 <xsl:value-of select="$lexent"/>
                 <xsl:text> a ontolex:LexicalEntry</xsl:text>
-                <xsl:for-each select="s/@n">
+                <xsl:for-each select="s/@n|../../par/@n">
                     <xsl:if test="string-length(.)>0">
                         <xsl:text>; &#10; lexinfo:morphosyntacticProperty apertium:</xsl:text>
                         <xsl:value-of select="."/>

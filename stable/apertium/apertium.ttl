@@ -212,6 +212,7 @@ apertium:cmp a apertium:Tag; system:hasTag "cmp" .
 apertium:Cmp a apertium:Tag; system:hasTag "Cmp" .
 apertium:cmp rdfs:label "Compound (nob)".
 apertium:Cmp rdfs:label "Compound (sme)".
+apertium:cmp rdfs:label "Compound part".
 apertium:cmp rdfs:label "Compound-left-part".
 apertium:cni a apertium:Tag; system:hasTag "cni" .
 apertium:cni rdfs:label "Conditional".
@@ -391,7 +392,6 @@ apertium:dual a apertium:Tag; system:hasTag "dual" .
 apertium:dual rdfs:label "Biaspectual".
 apertium:DZG a apertium:Tag; system:hasTag "DZG" .
 apertium:DZH a apertium:Tag; system:hasTag "DZH" .
-apertium:ea a apertium:Tag; system:hasTag "ea" .
 apertium:EGI a apertium:Tag; system:hasTag "EGI" .
 apertium:ela a apertium:Tag; system:hasTag "ela" .
 apertium:ela rdfs:label "Elative (sl)".
@@ -409,6 +409,7 @@ apertium:emph rdfs:label "wymowny".
 apertium:enc a apertium:Tag; system:hasTag "enc" .
 apertium:enc rdfs:label "Enclitic".
 apertium:enc rdfs:label "Enklitek (Enclitico)".
+apertium:enon a apertium:Tag; system:hasTag "enon" .
 apertium:ep-e a apertium:Tag; system:hasTag "ep-e" .
 apertium:ep-e rdfs:label "e-epenthesis".
 apertium:ep-Ø a apertium:Tag; system:hasTag "ep-Ø" .
@@ -914,6 +915,7 @@ apertium:Pers a apertium:Tag; system:hasTag "Pers" .
 apertium:pers rdfs:label "Personal - Зат (алмашлыгы) - Личное (местоимение)".
 apertium:pers rdfs:label "Personal (pronoun)".
 apertium:pers rdfs:label "Personal pronoun".
+apertium:pers rdfs:label "Personal Pronoun".
 apertium:pers rdfs:label "Personal".
 apertium:Pers rdfs:label "Personal".
 apertium:pers rdfs:label "Личные".
@@ -1383,6 +1385,8 @@ apertium:vbser rdfs:label "Глагол".
 apertium:vbsint a apertium:Tag; system:hasTag "vbsint" .
 apertium:vbtr a apertium:Tag; system:hasTag "vbtr" .
 apertium:vbtr_ntr a apertium:Tag; system:hasTag "vbtr_ntr" .
+apertium:VD a apertium:Tag; system:hasTag "VD" .
+apertium:VD rdfs:label "Voice por determinar – only used where both pasv and actv can be generated".
 apertium:VGen a apertium:Tag; system:hasTag "VGen" .
 apertium:VGen rdfs:label "Verb Genitive".
 apertium:vmod a apertium:Tag; system:hasTag "vmod" .

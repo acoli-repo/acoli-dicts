@@ -170,9 +170,9 @@ done;
 
 cd src;
 (`date +%F`;
-echo OntoLex-lemon conversion of Apertium Bidix;
-echo by Christian Chiarcos, christian.chiarcos@web.de;
-echo Applied Computational Linguistics (ACoLi) lab, Goethe-Universität Frankfurt am Main, Germany;
+echo "OntoLex-lemon conversion of Apertium Bidix";
+echo "by Christian Chiarcos, christian.chiarcos@web.de";
+echo "Applied Computational Linguistics (ACoLi) lab, Goethe-Universität Frankfurt am Main, Germany";
 echo
 for dir in *; do if [ -e $dir/trunk/AUTHORS ]; then echo $dir; cat $dir/trunk/AUTHORS; echo; fi; done) > ../AUTHORS
 cd ..;
