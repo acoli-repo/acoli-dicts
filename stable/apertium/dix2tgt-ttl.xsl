@@ -31,7 +31,15 @@
         <xsl:text>".&#10; </xsl:text>
         
         <xsl:for-each select="//e/p/r">
-            <xsl:variable name="l" select="replace(text()[1],'&quot;','')"/>
+            <xsl:variable name="l">
+                <xsl:variable name="tmp">
+                    <xsl:for-each select=".//text()">
+                        <xsl:value-of select="."/>
+                        <xsl:text> </xsl:text>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:value-of select="replace(normalize-space($tmp),'&quot;','')"/>
+            </xsl:variable>
             <xsl:if test="normalize-space($l)!='' and matches(encode-for-uri($l),'^[_a-zA-Z0-9%].*')">
                 <xsl:variable name="s" select="s[1]/@n"/>
                 <xsl:variable name="lexent" select="concat(':',replace(encode-for-uri(concat($l,'-',$s,'-',lower-case($LANG))),'---*','-'))"/>

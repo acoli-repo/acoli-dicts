@@ -65,9 +65,24 @@
         <xsl:text>".&#10; </xsl:text>
         
         <xsl:for-each select="//e/p">
-            <xsl:variable name="l" select="replace(l/text()[1],'&quot;','')"/>
-            <xsl:variable name="r" select="replace(r/text()[1],'&quot;','')"/>
-            
+            <xsl:variable name="l">
+                <xsl:variable name="tmp">
+                    <xsl:for-each select="l//text()">
+                        <xsl:value-of select="."/>
+                        <xsl:text> </xsl:text>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:value-of select="replace(normalize-space($tmp),'&quot;','')"/>
+            </xsl:variable>
+            <xsl:variable name="r">
+                <xsl:variable name="tmp">
+                    <xsl:for-each select="r//text()">
+                        <xsl:value-of select="."/>
+                        <xsl:text> </xsl:text>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:value-of select="replace(normalize-space($tmp),'&quot;','')"/>
+            </xsl:variable>            
             <xsl:if test="normalize-space(concat($r,$l))!='' and matches(encode-for-uri($l),'^[_a-zA-Z0-9%].*') and matches(encode-for-uri($r),'^[_a-zA-Z0-9%].*')">
                 <xsl:variable name="ls" select="l/s[1]/@n"/>
                 <xsl:variable name="rs" select="l/s[1]/@n"/>                
