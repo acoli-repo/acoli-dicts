@@ -1,18 +1,20 @@
-2019-02-04
+2019-12-04
 OntoLex-lemon conversion of Apertium Bidix
 by Christian Chiarcos, christian.chiarcos@web.de
 Applied Computational Linguistics (ACoLi) lab, Goethe-Universität Frankfurt am Main, Germany
 
 apertium-afr-nld.git
-2007-2008, Frank Naudé <naudefj@users.sourceforge.net>
-2008-2011, Jim O'Regan <joregan@gmail.com>
-2008-2013, Francis M. Tyers <ftyers@prompsit.com>
+2008-2018, Francis M. Tyers <ftyers@prompsit.com>
+2018, Marc Riera Irigoyen <marc.riera.irigoyen@gmail.com>
+2016, Wolfgang Thauer <wolfgangwth@web.de>
+2011-2015, Kevin Brubeck Unhammer <unhammer@fsfe.org>
+2013, Trond Trosterud <trond.trosterud@uit.no>
+2012, Anthony J. Bentley <anthony@anjbe.name>
 2010-2012, Pim Otte <otte.pim@gmail.com>
-2011-2013, Kevin Brubeck Unhammer <unhammer@fsfe.org>
-2011, Keegan Crankshaw <kcranky@users.sourceforge.net>
-2012, Anthony J. Bentley <anthonyjbentley@users.sourceforge.net>
 2012, Laurens Teirlynck <laurens.teirlynck@gmail.com>
-2013, Trond Trosterud <trond.trosterud@hum.uit.no>
+2011, Keegan Crankshaw <kcranky@users.sourceforge.net>
+2008-2011, Jim O'Regan <joregan@gmail.com>
+2007-2008, Frank Naudé <naudefj@telkomsa.net>
 
 apertium-arg-cat.git
 2015-2016, Francis M. Tyers
@@ -35,15 +37,16 @@ Development supported by:
 * Grup Transducens, Universitat d'Alacant
 
 apertium-cat-ita.git
-2009-2010, Antonio Toral <atoral@computing.dcu.ie>
-2009-2012, Francis M. Tyers <ftyers@prompsit.com>
+2011-2019, Hèctor Alòs i Font <hectoralos@gmail.com>
+2009-2018, Francis M. Tyers <ftyers@prompsit.com>
+2018, Marc Riera Irigoyen <marc.riera.irigoyen@gmail.com>
+2018, Sushain Cherivirala <sushain@skc.name>
 2009-2014, Jim O'Regan <joregan@gmail.com>
-2010-2011, Carme Armentano <carmentano@users.sourceforge.net>
+2013, Trond Trosterud <trond.trosterud@uit.no>
+2012, Anthony J. Bentley <anthony@anjbe.name>
+2010-2011, Carme Armentano-Oller <carme.armentano@gmail.com>
 2010, Mireia Ginestí Rosell <mireia.ginesti@gmail.com>
-2011, Hèctor Alòs i Font <hectoralos@gmail.com>
-2012-2014, Kevin Brubeck Unhammer <unhammer@fsfe.org>
-2012, Anthony J. Bentley <anthonyjbentley@users.sourceforge.net>
-2013, Trond Trosterud <trond.trosterud@hum.uit.no>
+2009-2010, Antonio Toral <atoral@computing.dcu.ie>
 
 apertium-cat-srd.git
 Copyright (c) 2017        Gianfranco Fronteddu
@@ -67,15 +70,31 @@ apertium-cym-eng.git
 2012, Anthony J. Bentley <anthonyjbentley@users.sourceforge.net>
 
 apertium-dan-nor.git
-2009-2016, Kevin Brubeck Unhammer <unhammer@fsfe.org>
-2010-2013, Francis M. Tyers <ftyers@prompsit.com>
-2010, Trond Trosterud <trond.trosterud@hum.uit.no>
-2013, Filip Petkovski <fpetkovski@users.sourceforge.net>
+2009-2019, Kevin Brubeck Unhammer <unhammer@fsfe.org>
+2010-2016, Trond Trosterud <trond.trosterud@uit.no>
 2013, Jacob Nordfalk <jacob.nordfalk@gmail.com>
 2013, Jonas Fromseier Mortensen <jonas@fromseier.dk>
+2010-2013, Francis M. Tyers <ftyers@prompsit.com>
+2013, Filip Petkovski <filpetkovski@gmail.com>
 
 apertium-eng-cat.git
-2017-2018, Marc Riera Irigoyen <marc.riera.irigoyen@gmail.com>
+2017-2019, Marc Riera Irigoyen <marc.riera.irigoyen@gmail.com>
+2012-2017, Xavi Ivars <xavi.ivars@gmail.com>
+2007-2017, Francis M. Tyers <ftyers@prompsit.com>
+2016, Bror Hultberg <brorhultberg@gmail.com>
+2007-2016, Mikel L. Forcada <mlf@dlsi.ua.es>
+2009-2015, Kevin Brubeck Unhammer <unhammer@fsfe.org>
+2014, Mariola Alaixa Gadea Ferrando <alaixa77gf@gmail.com>
+2007-2014, Sergio Ortiz Rojas <sergio.ortiz@gmail.com>
+2007-2012, Jim O'Regan <joregan@gmail.com>
+2012, Anthony J. Bentley <anthony@anjbe.name>
+2012, Hèctor Alòs i Font <hectoralos@gmail.com>
+2011, Trond Trosterud <trond.trosterud@uit.no>
+2008-2011, Gema Ramírez Sánchez <gramirez@prompsit.com>
+2007-2011, Mireia Ginestí Rosell <mireia.ginesti@gmail.com>
+2009, Oscar Senra Gómez <oscar@imaxin.com>
+2008, Jacob Nordfalk <jacob.nordfalk@gmail.com>
+2007, Felipe Sánchez Martínez <fsanchez@dlsi.ua.es>
 
 apertium-eng-kaz.git
 (c) 2012 Assem Shormakova
@@ -232,10 +251,11 @@ Copyright (c) 2009 Dejan Čabrilo
 Copyright (c) 2009 Ivica Dimitrijev
 
 apertium-ind-zlm.git
-2012-2014, Kevin Brubeck Unhammer <unhammer@fsfe.org>
-2012, Francis M. Tyers <ftyers@prompsit.com>
-2012, Raymond HS <raymondhs@users.sourceforge.net>
-2012, Septina Dian Larasati <slarasati@users.sourceforge.net>
+2012-2018, Francis M. Tyers <ftyers@prompsit.com>
+2018, Marc Riera Irigoyen <marc.riera.irigoyen@gmail.com>
+2012-2016, Kevin Brubeck Unhammer <unhammer@fsfe.org>
+2012, Raymond HS <raymhs91@gmail.com>
+2012, Septina Dian Larasati <septina.larasati@gmail.com>
 
 apertium-isl-eng.git
 2009-2010, Jim O'Regan <joregan@gmail.com>
@@ -294,9 +314,15 @@ apertium-mlt-ara.git
 2012, Maria Fronczak <mariafronczak@users.sourceforge.net>
 
 apertium-nno-nob.git
-Copyright (C) 2008--2010 Francis Tyers <ftyers@prompsit.com>
-Copyright (C) 2009--2014 Kevin Brubeck Unhammer <unhammer@fsfe.org>
-Copyright (C) 2008--2010 Trond Trosterud <trond.trosterud@hum.uit.no>
+2009-2019, Kevin Brubeck Unhammer <unhammer@fsfe.org>
+2019, Anja Zawadzka Persvold <anja.zawadzka.persvold@ntb.no>
+2019, Jo Christian Oterhals <oterhals@gmail.com>
+2008-2018, Trond Trosterud <trond.trosterud@uit.no>
+2008-2011, Francis M. Tyers <ftyers@prompsit.com>
+2010, Sjur Nørstebø Moshagen <sjur.n.moshagen@uit.no>
+2008-2009, Jim O'Regan <joregan@gmail.com>
+2009, Jacob Nordfalk <jacob.nordfalk@gmail.com>
+2008, Frode Håvik Korneliussen <frokor@users.sourceforge.net>
 
 apertium-oc-ca.git
 (c) 2005       Universitat d'Alacant (Transducens group)
@@ -310,20 +336,45 @@ apertium-oc-es.git
 (c) 2005       Universitat Pompeu Fabra (IULA)
 (c) 2007--2008 Prompsit Language Engineering S.L.
 
+apertium-oci-fra.git
+2018-2019, Hèctor Alòs i Font <hectoralos@gmail.com>
+2019, unuaiga-congres <webmaster@locongres.org>
+2018, Claudi Balaguer <ratapenada@yahoo.com>
+2016-2018, Francis M. Tyers <ftyers@prompsit.com>
+2018, Xavi Ivars <xavi.ivars@gmail.com>
+2016, Aurelie Seguier <unuaiga@users.sourceforge.net>
+
 apertium-pol-szl.git
 2018, Grzegorz Kulik <uostofchuodnego@gmail.com>
 
-apertium-pt-ca.git
-(c) 2004 Universitat Politècnica de Catalunya
-(c) 2004--2008 Universitat d'Alacant
-(c) 2008 Carme Armentano Oller
+apertium-por-cat.git
+2019, Hèctor Alòs i Font <hectoralos@gmail.com>
+2016, Bror Hultberg <brorhultberg@gmail.com>
+2008-2016, Francis M. Tyers <ftyers@prompsit.com>
+2012, Anthony J. Bentley <anthony@anjbe.name>
+2009, Pasquale Minervini <p.minervini@gmail.com>
+2009, Mireia Ginestí Rosell <mireia.ginesti@gmail.com>
+2008, Jim O'Regan <joregan@gmail.com>
+2008, Carme Armentano-Oller <carme.armentano@gmail.com>
+2008, Mikel L. Forcada <mlf@dlsi.ua.es>
 
 apertium-pt-gl.git
 (c) 2007--2008, imaxin|software (http://www.imaxin.com)
 (c) 2005--2008, Universitat d'Alacant (Transducens group)
 
 apertium-ron-cat.git
-2018, Marc Riera Irigoyen <marc.riera.irigoyen@gmail.com>
+2018-2019, Marc Riera Irigoyen <marc.riera.irigoyen@gmail.com>
+2007-2018, Francis M. Tyers <ftyers@prompsit.com>
+2018, Xavi Ivars <xavi.ivars@gmail.com>
+2013-2015, Kevin Brubeck Unhammer <unhammer@fsfe.org>
+2012, Anthony J. Bentley <anthony@anjbe.name>
+2008-2010, Jim O'Regan <joregan@gmail.com>
+2009, Pasquale Minervini <p.minervini@gmail.com>
+2009, Mireia Ginestí Rosell <mireia.ginesti@gmail.com>
+2008, Jacob Nordfalk <jacob.nordfalk@gmail.com>
+2008, Dipesquirol <esquiroletes@users.sourceforge.net>
+2007-2008, Enrique Benimeli Bofarull <dev@ebenimeli.org>
+2008, Gema Ramírez Sánchez <gramirez@prompsit.com>
 
 apertium-rus-ukr.git
 2017, John Lyell <jjlyell@gmail.com>
@@ -358,12 +409,17 @@ apertium-spa-ast.git
 (c) 2005-2006, Universitat Politècnica de Catalunya (TALP group, http://www.talp.upc.edu) (parts of Spanish monolingual data)
 
 apertium-spa-cat.git
-2010-2017, Xavi Ivars <xavi.ivars@gmail.com>
-2017, Hèctor Alòs i Font <hectoralos@gmail.com>
-2013-2017, Kevin Brubeck Unhammer <unhammer@fsfe.org>
-2007-2016, Gema Ramírez Sánchez <gramirez@prompsit.com>
-2007-2015, Mikel L. Forcada <mlf@dlsi.ua.es>
-2007-2015, Francis M. Tyers <ftyers@prompsit.com>
+2017-2019, Jaume Ortolà i Font <jaumeortola@gmail.com>
+2010-2019, Xavi Ivars <xavi.ivars@gmail.com>
+2018-2019, Marc Riera Irigoyen <marc.riera.irigoyen@gmail.com>
+2017-2019, Hèctor Alòs i Font <hectoralos@gmail.com>
+2007-2019, Gema Ramírez Sánchez <gramirez@prompsit.com>
+2013-2019, Kevin Brubeck Unhammer <unhammer@fsfe.org>
+2017-2019, Donís Seguí <donissegui@gmail.com>
+2018, Alberto Navalon <alberto.navalonlillo@gmail.com>
+2007-2018, Mikel L. Forcada <mlf@dlsi.ua.es>
+2007-2018, Francis M. Tyers <ftyers@prompsit.com>
+2018, Sushain Cherivirala <sushain@skc.name>
 2007-2014, Sergio Ortiz Rojas <sergio.ortiz@gmail.com>
 2008-2012, Jim O'Regan <joregan@gmail.com>
 2012, Anthony J. Bentley <anthony@anjbe.name>
@@ -387,14 +443,19 @@ Copyright (C) 2016--2017 Gianfranco Fronteddu <gfro3d@gmail.com>
 Copyright (C) 2016--2017 Hèctor Alòs i Font <hectoralos@gmail.com>
 
 apertium-swe-dan.git
-© 2015--2016, Kevin Brubeck Unhammer <unhammer@fsfe.org>
-© 2012--2015, Per Tunedal
-© 2008--2010, Francis Tyers <ftyers@prompsit.com>
-© 2009--2010, Jacob Nordfalk <jacob.nordfalk@gmail.com>
-© 2008--2009, Michael Kristensen
-© 2005--2009, Universitat d'Alacant (Transducens group)
+2015-2019, Kevin Brubeck Unhammer <unhammer@fsfe.org>
+2017, Trond Trosterud <trond.trosterud@uit.no>
+2008-2016, Francis M. Tyers <ftyers@prompsit.com>
+2012-2015, Per Tunedal <per.tunedal@operamail.com>
+2009-2010, Jacob Nordfalk <jacob.nordfalk@gmail.com>
+2008-2009, Michael Kristensen
+2005-2009, Universitat d'Alacant (Transducens group)
 
 apertium-swe-nor.git
+2013-2019, Kevin Brubeck Unhammer <unhammer@fsfe.org>
+2016-2018, Trond Trosterud <trond.trosterud@uit.no>
+2013-2016, Francis M. Tyers <ftyers@prompsit.com>
+2013, Sjur Nørstebø Moshagen <sjur.n.moshagen@uit.no>
 
 apertium-urd-hin.git
 2010-2014, Francis M. Tyers <ftyers@prompsit.com>

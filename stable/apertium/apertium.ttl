@@ -8,12 +8,6 @@
 Actor.N, V->V"/>
 Adj"/>
 Adv"/>
-apertium::0 a apertium:Tag; system:hasTag ":0" .
-apertium::1 a apertium:Tag; system:hasTag ":1" .
-apertium::2 a apertium:Tag; system:hasTag ":2" .
-apertium::3 a apertium:Tag; system:hasTag ":3" .
-apertium::4 a apertium:Tag; system:hasTag ":4" .
-apertium::5 a apertium:Tag; system:hasTag ":5" .
 apertium:A a apertium:Tag; system:hasTag "A" .
 apertium:A rdfs:label "Adjective".
 apertium:a1 a apertium:Tag; system:hasTag "a1" .
@@ -31,6 +25,7 @@ apertium:abb a apertium:Tag; system:hasTag "abb" .
 apertium:abb rdfs:label "Abbreviation".
 apertium:abbr a apertium:Tag; system:hasTag "abbr" .
 apertium:ABBR a apertium:Tag; system:hasTag "ABBR" .
+apertium:abbr rdfs:label "Abbreviation (sme)".
 apertium:ABBR rdfs:label "Abbreviation (sme)".
 apertium:abbr rdfs:label "Abbreviation".
 apertium:abbr rdfs:label "Abbreviations".
@@ -52,6 +47,7 @@ apertium:acc rdfs:label "винительный/знахідний".
 apertium:acr a apertium:Tag; system:hasTag "acr" .
 apertium:ACR a apertium:Tag; system:hasTag "ACR" .
 apertium:acr rdfs:label "Abbreviation/acronym (nob)".
+apertium:acr rdfs:label "Abbreviation/acronym".
 apertium:ACR rdfs:label "Acronym (sme)".
 apertium:acr rdfs:label "acronym".
 apertium:acr rdfs:label "Acronym".
@@ -59,6 +55,7 @@ apertium:acr rdfs:label "akronim".
 apertium:acr rdfs:label "Teskanv (Acronimo)".
 apertium:actio a apertium:Tag; system:hasTag "actio" .
 apertium:Actio a apertium:Tag; system:hasTag "Actio" .
+apertium:actio rdfs:label "actio".
 apertium:Actio rdfs:label "Actio".
 apertium:Actor a apertium:Tag; system:hasTag "Actor" .
 apertium:Actor rdfs:label "Actor noun (also deverbal agent/actor)".
@@ -213,6 +210,7 @@ apertium:Cmp a apertium:Tag; system:hasTag "Cmp" .
 apertium:cmp rdfs:label "Compound (nob)".
 apertium:Cmp rdfs:label "Compound (sme)".
 apertium:cmp rdfs:label "Compound part".
+apertium:cmp rdfs:label "Compound".
 apertium:cmp rdfs:label "Compound-left-part".
 apertium:cni a apertium:Tag; system:hasTag "cni" .
 apertium:cni rdfs:label "Conditional".
@@ -264,7 +262,6 @@ apertium:com a apertium:Tag; system:hasTag "com" .
 apertium:Com a apertium:Tag; system:hasTag "Com" .
 apertium:com rdfs:label "Comitative".
 apertium:Com rdfs:label "Comitative".
-apertium:comma a apertium:Tag; system:hasTag "comma" .
 apertium:comp a apertium:Tag; system:hasTag "comp" .
 apertium:Comp a apertium:Tag; system:hasTag "Comp" .
 apertium:comp rdfs:label "Comparative (nob)".
@@ -275,14 +272,22 @@ apertium:comp rdfs:label "Derez keñveriañ (Comparatif)".
 apertium:comp rdfs:label "stopień wyższy".
 apertium:ComPxCPlCom a apertium:Tag; system:hasTag "ComPxCPlCom" .
 apertium:ComPxCPlCom rdfs:label "??? TODO".
+apertium:cond a apertium:Tag; system:hasTag "cond" .
 apertium:Cond a apertium:Tag; system:hasTag "Cond" .
+apertium:cond rdfs:label "Conditional".
 apertium:Cond rdfs:label "Conditional".
+apertium:cond2 a apertium:Tag; system:hasTag "cond2" .
 apertium:Cond2 a apertium:Tag; system:hasTag "Cond2" .
+apertium:cond2 rdfs:label "Conditional slr2".
 apertium:Cond2 rdfs:label "Conditional slr2".
+apertium:cond3 a apertium:Tag; system:hasTag "cond3" .
 apertium:Cond3 a apertium:Tag; system:hasTag "Cond3" .
+apertium:cond3 rdfs:label "Conditional slr3".
 apertium:Cond3 rdfs:label "Conditional slr3".
 apertium:conj a apertium:Tag; system:hasTag "conj" .
+apertium:conneg a apertium:Tag; system:hasTag "conneg" .
 apertium:ConNeg a apertium:Tag; system:hasTag "ConNeg" .
+apertium:conneg rdfs:label "Negation form".
 apertium:ConNeg rdfs:label "Negation form".
 apertium:coop a apertium:Tag; system:hasTag "coop" .
 apertium:cop a apertium:Tag; system:hasTag "cop" .
@@ -318,37 +323,71 @@ apertium:dem rdfs:label "Указательные".
 apertium:DENB a apertium:Tag; system:hasTag "DENB" .
 apertium:Der a apertium:Tag; system:hasTag "Der" .
 apertium:Der rdfs:label "Any derivation (just listed here for completeness)".
+apertium:der_ahtti a apertium:Tag; system:hasTag "der_ahtti" .
 apertium:Der_ahtti a apertium:Tag; system:hasTag "Der_ahtti" .
+apertium:der_ahtti rdfs:label "causative??? TODO".
 apertium:Der_ahtti rdfs:label "causative??? TODO".
+apertium:der_alla a apertium:Tag; system:hasTag "der_alla" .
 apertium:Der_alla a apertium:Tag; system:hasTag "Der_alla" .
+apertium:der_alla rdfs:label "reflexive??? TODO".
 apertium:Der_alla rdfs:label "reflexive??? TODO".
+apertium:der_at a apertium:Tag; system:hasTag "der_at" .
 apertium:Der_at a apertium:Tag; system:hasTag "Der_at" .
+apertium:der_at rdfs:label "Adj->Adv".
 apertium:Der_at rdfs:label "Adj->Adv".
+apertium:der_d a apertium:Tag; system:hasTag "der_d" .
 apertium:Der_d a apertium:Tag; system:hasTag "Der_d" .
+apertium:der_d rdfs:label "reflexive or causative".
 apertium:Der_d rdfs:label "reflexive or causative".
+apertium:der_dimin a apertium:Tag; system:hasTag "der_dimin" .
 apertium:Der_Dimin a apertium:Tag; system:hasTag "Der_Dimin" .
+apertium:der_dimin rdfs:label "Diminutive derivation".
 apertium:Der_Dimin rdfs:label "Diminutive derivation".
 apertium:Der_eapmi a apertium:Tag; system:hasTag "Der_eapmi" .
 apertium:Der_eapmi rdfs:label "deverbal noun (action/process)".
+apertium:der_goahti a apertium:Tag; system:hasTag "der_goahti" .
 apertium:Der_goahti a apertium:Tag; system:hasTag "Der_goahti" .
 apertium:Der_goahti rdfs:label "Inchoative – this is actually turned into the lemma 'goahti', just listed here for completeness".
+apertium:der_goahti rdfs:label "Inchoative/ingressive".
+apertium:der_h a apertium:Tag; system:hasTag "der_h" .
 apertium:Der_h a apertium:Tag; system:hasTag "Der_h" .
+apertium:der_h rdfs:label "causative or".
 apertium:Der_h rdfs:label "causative or".
+apertium:der_halla a apertium:Tag; system:hasTag "der_halla" .
 apertium:Der_halla a apertium:Tag; system:hasTag "Der_halla" .
+apertium:der_halla rdfs:label "Passive derivation with illative agent".
 apertium:Der_halla rdfs:label "Passive derivation with illative agent".
+apertium:der_j a apertium:Tag; system:hasTag "der_j" .
 apertium:Der_j a apertium:Tag; system:hasTag "Der_j" .
+apertium:der_j rdfs:label "V->Actor.N, V->V".
 apertium:Der_j rdfs:label "V->Actor.N, V->V".
+apertium:der_las a apertium:Tag; system:hasTag "der_las" .
 apertium:Der_las a apertium:Tag; system:hasTag "Der_las" .
+apertium:der_las rdfs:label "V->Adj".
 apertium:Der_las rdfs:label "V->Adj".
+apertium:der_muš a apertium:Tag; system:hasTag "der_muš" .
 apertium:Der_muš a apertium:Tag; system:hasTag "Der_muš" .
+apertium:der_muš rdfs:label "deverbal noun (action/process)".
 apertium:Der_muš rdfs:label "deverbal noun (action/process)".
+apertium:der_nomact a apertium:Tag; system:hasTag "der_nomact" .
+apertium:der_nomact rdfs:label "deverbal noun (action/process)".
+apertium:der_nomag a apertium:Tag; system:hasTag "der_nomag" .
+apertium:der_nomag rdfs:label "Actor noun (also deverbal agent/actor)".
+apertium:der_passl a apertium:Tag; system:hasTag "der_passl" .
 apertium:Der_PassL a apertium:Tag; system:hasTag "Der_PassL" .
+apertium:der_passl rdfs:label "Passive derivation".
 apertium:Der_PassL rdfs:label "Passive derivation".
+apertium:der_passs a apertium:Tag; system:hasTag "der_passs" .
 apertium:Der_PassS a apertium:Tag; system:hasTag "Der_PassS" .
+apertium:der_passs rdfs:label "Passive derivation".
 apertium:Der_PassS rdfs:label "Passive derivation".
+apertium:der_st a apertium:Tag; system:hasTag "der_st" .
 apertium:Der_st a apertium:Tag; system:hasTag "Der_st" .
+apertium:der_st rdfs:label "general deverbal noun??? TODO".
 apertium:Der_st rdfs:label "general deverbal noun??? TODO".
+apertium:der_vuohta a apertium:Tag; system:hasTag "der_vuohta" .
 apertium:Der_vuohta a apertium:Tag; system:hasTag "Der_vuohta" .
+apertium:der_vuohta rdfs:label "Adj->Noun (-dom, -het)".
 apertium:Der_vuohta rdfs:label "Adj->Noun (-dom, -het)".
 apertium:Der1 a apertium:Tag; system:hasTag "Der1" .
 apertium:Der1 rdfs:label "Derivation #1".
@@ -382,11 +421,17 @@ apertium:du rdfs:label "Dual number".
 apertium:du rdfs:label "Dual".
 apertium:Du rdfs:label "Dual".
 apertium:du rdfs:label "dualis".
+apertium:du1 a apertium:Tag; system:hasTag "du1" .
 apertium:Du1 a apertium:Tag; system:hasTag "Du1" .
+apertium:du1 rdfs:label "First-person dual".
 apertium:Du1 rdfs:label "First-person dual".
+apertium:du2 a apertium:Tag; system:hasTag "du2" .
 apertium:Du2 a apertium:Tag; system:hasTag "Du2" .
+apertium:du2 rdfs:label "Second-person dual".
 apertium:Du2 rdfs:label "Second-person dual".
+apertium:du3 a apertium:Tag; system:hasTag "du3" .
 apertium:Du3 a apertium:Tag; system:hasTag "Du3" .
+apertium:du3 rdfs:label "Third-person dual".
 apertium:Du3 rdfs:label "Third-person dual".
 apertium:dual a apertium:Tag; system:hasTag "dual" .
 apertium:dual rdfs:label "Biaspectual".
@@ -470,8 +515,12 @@ apertium:futI a apertium:Tag; system:hasTag "futI" .
 apertium:futI rdfs:label "Future I".
 apertium:futII a apertium:Tag; system:hasTag "futII" .
 apertium:futII rdfs:label "Future II".
+apertium:g3 a apertium:Tag; system:hasTag "g3" .
 apertium:G3 a apertium:Tag; system:hasTag "G3" .
+apertium:g3 rdfs:label "Grade III (stadieveksling) noun".
 apertium:G3 rdfs:label "Grade III (stadieveksling) noun".
+apertium:g7 a apertium:Tag; system:hasTag "g7" .
+apertium:g7 rdfs:label "Grade III:III (stadieveksling) noun".
 apertium:GABE a apertium:Tag; system:hasTag "GABE" .
 apertium:GAN a apertium:Tag; system:hasTag "GAN" .
 apertium:GD a apertium:Tag; system:hasTag "GD" .
@@ -494,6 +543,7 @@ apertium:genacc a apertium:Tag; system:hasTag "genacc" .
 apertium:ger a apertium:Tag; system:hasTag "ger" .
 apertium:Ger a apertium:Tag; system:hasTag "Ger" .
 apertium:ger rdfs:label "Gerund".
+apertium:ger rdfs:label "Gerundium".
 apertium:Ger rdfs:label "Gerundium".
 apertium:ger rdfs:label "Rannig verb war ober (Particle for present participle)".
 apertium:ger rdfs:label "rzeczownik odczasownikowy".
@@ -511,6 +561,7 @@ apertium:GU a apertium:Tag; system:hasTag "GU" .
 apertium:guess a apertium:Tag; system:hasTag "guess" .
 apertium:guess rdfs:label "Guesser".
 apertium:guio a apertium:Tag; system:hasTag "guio" .
+apertium:guio rdfs:label "Dash in split- or numeral compounds".
 apertium:guio rdfs:label "Dash".
 apertium:guio rdfs:label "Hyphen".
 apertium:HAIEK a apertium:Tag; system:hasTag "HAIEK" .
@@ -556,7 +607,9 @@ apertium:impf a apertium:Tag; system:hasTag "impf" .
 apertium:impf rdfs:label "czasownik niedokonany".
 apertium:impf rdfs:label "Imperfective participle".
 apertium:impf rdfs:label "Imperfective".
+apertium:imprt a apertium:Tag; system:hasTag "imprt" .
 apertium:Imprt a apertium:Tag; system:hasTag "Imprt" .
+apertium:imprt rdfs:label "Imperative".
 apertium:Imprt rdfs:label "Imperative".
 apertium:ind a apertium:Tag; system:hasTag "ind" .
 apertium:Ind a apertium:Tag; system:hasTag "Ind" .
@@ -566,15 +619,17 @@ apertium:ind rdfs:label "Indefinite".
 apertium:Ind rdfs:label "Indicative".
 apertium:ind rdfs:label "rodzajnik nieokreślony".
 apertium:indecl a apertium:Tag; system:hasTag "indecl" .
-apertium:indef a apertium:Tag; system:hasTag "indef" .
 apertium:Indef a apertium:Tag; system:hasTag "Indef" .
 apertium:Indef rdfs:label "Indefinite".
+apertium:indic a apertium:Tag; system:hasTag "indic" .
+apertium:indic rdfs:label "Indicative".
 apertium:indizl a apertium:Tag; system:hasTag "indizl" .
 apertium:INE a apertium:Tag; system:hasTag "INE" .
 apertium:inf a apertium:Tag; system:hasTag "inf" .
 apertium:Inf a apertium:Tag; system:hasTag "Inf" .
 apertium:inf rdfs:label "Anv-verb (Infinitif)".
 apertium:inf rdfs:label "bezokolicznik".
+apertium:inf rdfs:label "infinitive".
 apertium:inf rdfs:label "Infinitive".
 apertium:Inf rdfs:label "Infinitive".
 apertium:infl a apertium:Tag; system:hasTag "infl" .
@@ -631,6 +686,8 @@ apertium:KONP a apertium:Tag; system:hasTag "KONP" .
 apertium:KONT a apertium:Tag; system:hasTag "KONT" .
 apertium:LAB a apertium:Tag; system:hasTag "LAB" .
 apertium:lcit a apertium:Tag; system:hasTag "lcit" .
+apertium:left a apertium:Tag; system:hasTag "left" .
+apertium:left rdfs:label "Left quotation mark".
 apertium:lemq-obj a apertium:Tag; system:hasTag "lemq-obj" .
 apertium:lemq-obj rdfs:label "lemq can move past objects in transfer".
 apertium:LIB a apertium:Tag; system:hasTag "LIB" .
@@ -732,6 +789,7 @@ apertium:ND rdfs:label "Number to be determined".
 apertium:ND rdfs:label "Número por determinar".
 apertium:neg a apertium:Tag; system:hasTag "neg" .
 apertium:Neg a apertium:Tag; system:hasTag "Neg" .
+apertium:neg rdfs:label "Negation verb 'ii'".
 apertium:Neg rdfs:label "Negation verb 'ii'".
 apertium:neg rdfs:label "negation".
 apertium:neg rdfs:label "Negative".
@@ -769,6 +827,8 @@ apertium:nom rdfs:label "Nominative".
 apertium:Nom rdfs:label "Nominative".
 apertium:nom rdfs:label "Subject".
 apertium:nom rdfs:label "именительный/називний".
+apertium:nomag a apertium:Tag; system:hasTag "nomag" .
+apertium:nomag rdfs:label "Actor noun (also deverbal agent/actor)".
 apertium:nomi a apertium:Tag; system:hasTag "nomi" .
 apertium:nonpast a apertium:Tag; system:hasTag "nonpast" .
 apertium:np a apertium:Tag; system:hasTag "np" .
@@ -804,8 +864,6 @@ apertium:num rdfs:label "Numeral".
 apertium:Num rdfs:label "Numeral".
 apertium:num rdfs:label "Имя числительное".
 apertium:num rdfs:label "Имя Числительное".
-apertium:number a apertium:Tag; system:hasTag "number" .
-apertium:number rdfs:label "number".
 apertium:NUMP a apertium:Tag; system:hasTag "NUMP" .
 apertium:NUMS a apertium:Tag; system:hasTag "NUMS" .
 apertium:nya a apertium:Tag; system:hasTag "nya" .
@@ -866,7 +924,6 @@ apertium:part rdfs:label "Particle".
 apertium:part rdfs:label "'Particle'".
 apertium:part rdfs:label "Частица".
 apertium:pass a apertium:Tag; system:hasTag "pass" .
-apertium:pass rdfs:label "Passive (Bokmål)".
 apertium:pass rdfs:label "Passive voice (Bokmål)".
 apertium:pass rdfs:label "Passive voice".
 apertium:pass rdfs:label "Passive".
@@ -887,7 +944,9 @@ apertium:pasv rdfs:label "Passive".
 apertium:pat a apertium:Tag; system:hasTag "pat" .
 apertium:pat rdfs:label "Patronym".
 apertium:pat rdfs:label "Patronymic".
+apertium:pcle a apertium:Tag; system:hasTag "pcle" .
 apertium:Pcle a apertium:Tag; system:hasTag "Pcle" .
+apertium:pcle rdfs:label "Particle".
 apertium:Pcle rdfs:label "Particle".
 apertium:PD a apertium:Tag; system:hasTag "PD" .
 apertium:PD rdfs:label "???".
@@ -938,21 +997,27 @@ apertium:pl rdfs:label "Liester (Plural)".
 apertium:pl rdfs:label "Plural".
 apertium:Pl rdfs:label "Plural".
 apertium:pl rdfs:label "множина".
+apertium:pl1 a apertium:Tag; system:hasTag "pl1" .
 apertium:Pl1 a apertium:Tag; system:hasTag "Pl1" .
+apertium:pl1 rdfs:label "First-person plural".
 apertium:Pl1 rdfs:label "First-person plural".
+apertium:pl2 a apertium:Tag; system:hasTag "pl2" .
 apertium:Pl2 a apertium:Tag; system:hasTag "Pl2" .
+apertium:pl2 rdfs:label "Second-person plural".
 apertium:Pl2 rdfs:label "Second-person plural".
+apertium:pl3 a apertium:Tag; system:hasTag "pl3" .
 apertium:Pl3 a apertium:Tag; system:hasTag "Pl3" .
+apertium:pl3 rdfs:label "Third-person plural".
 apertium:Pl3 rdfs:label "Third-person plural".
 apertium:plc a apertium:Tag; system:hasTag "plc" .
 apertium:Plc a apertium:Tag; system:hasTag "Plc" .
-apertium:plc rdfs:label "Place".
 apertium:Plc rdfs:label "Toponym".
 apertium:plu a apertium:Tag; system:hasTag "plu" .
 apertium:plu rdfs:label "Pluperfect".
 apertium:pmp a apertium:Tag; system:hasTag "pmp" .
 apertium:po a apertium:Tag; system:hasTag "po" .
 apertium:Po a apertium:Tag; system:hasTag "Po" .
+apertium:po rdfs:label "Post-position".
 apertium:Po rdfs:label "Post-position".
 apertium:pos a apertium:Tag; system:hasTag "pos" .
 apertium:pos rdfs:label "dzierżawczy".
@@ -963,7 +1028,6 @@ apertium:pos rdfs:label "Possessive".
 apertium:posi a apertium:Tag; system:hasTag "posi" .
 apertium:posi rdfs:label "Positive (nob)".
 apertium:posi rdfs:label "Positive degree (Bokmål)".
-apertium:posi rdfs:label "Positive".
 apertium:post a apertium:Tag; system:hasTag "post" .
 apertium:post rdfs:label "Postposition - Бәйлек - Септеулік шылау - Послелог".
 apertium:post rdfs:label "Postposition".
@@ -971,7 +1035,9 @@ apertium:post rdfs:label "Послелог".
 apertium:postadv a apertium:Tag; system:hasTag "postadv" .
 apertium:postadv rdfs:label "Postadverb - /Артүстеу/ - /Артрәвеш/ - /Посленаречие/".
 apertium:postnum a apertium:Tag; system:hasTag "postnum" .
+apertium:pot a apertium:Tag; system:hasTag "pot" .
 apertium:Pot a apertium:Tag; system:hasTag "Pot" .
+apertium:pot rdfs:label "Potentialis".
 apertium:Pot rdfs:label "Potentialis".
 apertium:poth a apertium:Tag; system:hasTag "poth" .
 apertium:potpr a apertium:Tag; system:hasTag "potpr" .
@@ -1016,9 +1082,6 @@ apertium:predet rdfs:label "Pre-determiner".
 apertium:predet rdfs:label "Rakdidermener (Pre-determiner)".
 apertium:pref a apertium:Tag; system:hasTag "pref" .
 apertium:pref rdfs:label "Prefix".
-apertium:prep a apertium:Tag; system:hasTag "prep" .
-apertium:prep rdfs:label "Preposition".
-apertium:prepprn a apertium:Tag; system:hasTag "prepprn" .
 apertium:pres a apertium:Tag; system:hasTag "pres" .
 apertium:pres rdfs:label "czas teraźniejszy".
 apertium:pres rdfs:label "Present indicative".
@@ -1029,7 +1092,9 @@ apertium:presneg a apertium:Tag; system:hasTag "presneg" .
 apertium:pret a apertium:Tag; system:hasTag "pret" .
 apertium:pret rdfs:label "Past tense (Bokmål)".
 apertium:pret rdfs:label "Preterite".
+apertium:prfprc a apertium:Tag; system:hasTag "prfprc" .
 apertium:PrfPrc a apertium:Tag; system:hasTag "PrfPrc" .
+apertium:prfprc rdfs:label "Perfect participle".
 apertium:PrfPrc rdfs:label "Perfect participle".
 apertium:prh a apertium:Tag; system:hasTag "prh" .
 apertium:prh rdfs:label "Stumm boas en amzer-vremañ (Present habitual)".
@@ -1053,7 +1118,9 @@ apertium:pron a apertium:Tag; system:hasTag "pron" .
 apertium:Pron a apertium:Tag; system:hasTag "Pron" .
 apertium:pron rdfs:label "Pronominal".
 apertium:Pron rdfs:label "Pronoun".
+apertium:prop a apertium:Tag; system:hasTag "prop" .
 apertium:Prop a apertium:Tag; system:hasTag "Prop" .
+apertium:prop rdfs:label "Proper noun".
 apertium:Prop rdfs:label "Proper noun".
 apertium:prp a apertium:Tag; system:hasTag "prp" .
 apertium:prp rdfs:label "предложный/кличний".
@@ -1064,7 +1131,9 @@ apertium:prs rdfs:label "Present subjunctive".
 apertium:Prs rdfs:label "Present".
 apertium:prs rdfs:label "Subjunctive".
 apertium:prs2 a apertium:Tag; system:hasTag "prs2" .
+apertium:prsprc a apertium:Tag; system:hasTag "prsprc" .
 apertium:PrsPrc a apertium:Tag; system:hasTag "PrsPrc" .
+apertium:prsprc rdfs:label "Present participle".
 apertium:PrsPrc rdfs:label "Present participle".
 apertium:Prt a apertium:Tag; system:hasTag "Prt" .
 apertium:PRT a apertium:Tag; system:hasTag "PRT" .
@@ -1074,16 +1143,17 @@ apertium:prx rdfs:label "Determiner".
 apertium:prx rdfs:label "Proximal (demonstrative)".
 apertium:prx rdfs:label "Proximate".
 apertium:pst a apertium:Tag; system:hasTag "pst" .
+apertium:pst rdfs:label "Positive (nob)".
 apertium:pst rdfs:label "Positive degree (Danish)".
 apertium:pst rdfs:label "Positive degree".
 apertium:pst rdfs:label "Positive".
-apertium:pst rdfs:label "-st form (Nynorsk)".
 apertium:pstv a apertium:Tag; system:hasTag "pstv" .
 apertium:pstv rdfs:label "Lexicalised passive (st-verb)".
 apertium:pstv rdfs:label "-s verbs".
 apertium:pstv rdfs:label "-st verb (Nynorsk)".
 apertium:pun a apertium:Tag; system:hasTag "pun" .
 apertium:punct a apertium:Tag; system:hasTag "punct" .
+apertium:punct rdfs:label "Punctuation".
 apertium:pve a apertium:Tag; system:hasTag "pve" .
 apertium:pve rdfs:label "Positive".
 apertium:px a apertium:Tag; system:hasTag "px" .
@@ -1100,23 +1170,41 @@ apertium:PxCPlComRecipr a apertium:Tag; system:hasTag "PxCPlComRecipr" .
 apertium:PxCPlComRecipr rdfs:label "??? TODO".
 apertium:PXD a apertium:Tag; system:hasTag "PXD" .
 apertium:PXD rdfs:label "Possessive person to be determined".
+apertium:pxdu1 a apertium:Tag; system:hasTag "pxdu1" .
 apertium:PxDu1 a apertium:Tag; system:hasTag "PxDu1" .
+apertium:pxdu1 rdfs:label "First-person dual possessive suffix".
 apertium:PxDu1 rdfs:label "First-person dual possessive suffix".
+apertium:pxdu2 a apertium:Tag; system:hasTag "pxdu2" .
 apertium:PxDu2 a apertium:Tag; system:hasTag "PxDu2" .
+apertium:pxdu2 rdfs:label "Second-person dual possessive suffix".
 apertium:PxDu2 rdfs:label "Second-person dual possessive suffix".
+apertium:pxdu3 a apertium:Tag; system:hasTag "pxdu3" .
 apertium:PxDu3 a apertium:Tag; system:hasTag "PxDu3" .
+apertium:pxdu3 rdfs:label "Third-person dual possessive suffix".
 apertium:PxDu3 rdfs:label "Third-person dual possessive suffix".
+apertium:pxpl1 a apertium:Tag; system:hasTag "pxpl1" .
 apertium:PxPl1 a apertium:Tag; system:hasTag "PxPl1" .
+apertium:pxpl1 rdfs:label "First-person plural possessive suffix".
 apertium:PxPl1 rdfs:label "First-person plural possessive suffix".
+apertium:pxpl2 a apertium:Tag; system:hasTag "pxpl2" .
 apertium:PxPl2 a apertium:Tag; system:hasTag "PxPl2" .
+apertium:pxpl2 rdfs:label "Second-person plural possessive suffix".
 apertium:PxPl2 rdfs:label "Second-person plural possessive suffix".
+apertium:pxpl3 a apertium:Tag; system:hasTag "pxpl3" .
 apertium:PxPl3 a apertium:Tag; system:hasTag "PxPl3" .
+apertium:pxpl3 rdfs:label "Third-person plural possessive suffix".
 apertium:PxPl3 rdfs:label "Third-person plural possessive suffix".
+apertium:pxsg1 a apertium:Tag; system:hasTag "pxsg1" .
 apertium:PxSg1 a apertium:Tag; system:hasTag "PxSg1" .
+apertium:pxsg1 rdfs:label "First-person singular possessive suffix".
 apertium:PxSg1 rdfs:label "First-person singular possessive suffix".
+apertium:pxsg2 a apertium:Tag; system:hasTag "pxsg2" .
 apertium:PxSg2 a apertium:Tag; system:hasTag "PxSg2" .
+apertium:pxsg2 rdfs:label "Second-person singular possessive suffix".
 apertium:PxSg2 rdfs:label "Second-person singular possessive suffix".
+apertium:pxsg3 a apertium:Tag; system:hasTag "pxsg3" .
 apertium:PxSg3 a apertium:Tag; system:hasTag "PxSg3" .
+apertium:pxsg3 rdfs:label "Third-person singular possessive suffix".
 apertium:PxSg3 rdfs:label "Third-person singular possessive suffix".
 apertium:qnt a apertium:Tag; system:hasTag "qnt" .
 apertium:qnt rdfs:label "Quantifier / numeral".
@@ -1124,8 +1212,8 @@ apertium:qnt rdfs:label "Quantifier".
 apertium:qst a apertium:Tag; system:hasTag "qst" .
 apertium:Qst a apertium:Tag; system:hasTag "Qst" .
 apertium:qst rdfs:label "Question modal particle (cltic)".
+apertium:qst rdfs:label "Question particle".
 apertium:Qst rdfs:label "Question particle".
-apertium:quest a apertium:Tag; system:hasTag "quest" .
 apertium:quot a apertium:Tag; system:hasTag "quot" .
 apertium:quot rdfs:label "quote".
 apertium:quote a apertium:Tag; system:hasTag "quote" .
@@ -1137,7 +1225,9 @@ apertium:Racc a apertium:Tag; system:hasTag "Racc" .
 apertium:Racc rdfs:label "Postposition that takes accusative".
 apertium:RARE a apertium:Tag; system:hasTag "RARE" .
 apertium:rcit a apertium:Tag; system:hasTag "rcit" .
+apertium:rcmpnd a apertium:Tag; system:hasTag "rcmpnd" .
 apertium:RCmpnd a apertium:Tag; system:hasTag "RCmpnd" .
+apertium:rcmpnd rdfs:label "First part of a split compound (sme)".
 apertium:RCmpnd rdfs:label "First part of a split compound (sme)".
 apertium:Rdat a apertium:Tag; system:hasTag "Rdat" .
 apertium:Rdat rdfs:label "Postposition that takes dative".
@@ -1157,7 +1247,6 @@ apertium:ref rdfs:label "Stumm emober (Reflexif)".
 apertium:ref rdfs:label "zwrotny".
 apertium:Refl a apertium:Tag; system:hasTag "Refl" .
 apertium:Refl rdfs:label "Reflexive (sme)".
-apertium:refl_prn a apertium:Tag; system:hasTag "refl_prn" .
 apertium:rel a apertium:Tag; system:hasTag "rel" .
 apertium:Rel a apertium:Tag; system:hasTag "Rel" .
 apertium:rel rdfs:label "Relatif".
@@ -1171,6 +1260,8 @@ apertium:res rdfs:label "Reciprocal".
 apertium:res rdfs:label "Residual".
 apertium:Rgen a apertium:Tag; system:hasTag "Rgen" .
 apertium:Rgen rdfs:label "Postposition that takes genitive".
+apertium:right a apertium:Tag; system:hasTag "right" .
+apertium:right rdfs:label "Right quotation mark".
 apertium:Rins a apertium:Tag; system:hasTag "Rins" .
 apertium:Rins rdfs:label "Postposition that takes instrumental".
 apertium:Rloc a apertium:Tag; system:hasTag "Rloc" .
@@ -1195,6 +1286,215 @@ apertium:san a apertium:Tag; system:hasTag "san" .
 apertium:sbj a apertium:Tag; system:hasTag "sbj" .
 apertium:sbj rdfs:label "Subjunctive".
 apertium:se a apertium:Tag; system:hasTag "se" .
+apertium:sem_act a apertium:Tag; system:hasTag "sem_act" .
+apertium:sem_act rdfs:label "Action".
+apertium:sem_act_plc a apertium:Tag; system:hasTag "sem_act_plc" .
+apertium:sem_act_route a apertium:Tag; system:hasTag "sem_act_route" .
+apertium:sem_amount a apertium:Tag; system:hasTag "sem_amount" .
+apertium:sem_amount_semcon a apertium:Tag; system:hasTag "sem_amount_semcon" .
+apertium:sem_ani a apertium:Tag; system:hasTag "sem_ani" .
+apertium:sem_ani rdfs:label "Animal".
+apertium:sem_ani_body-abstr_hum a apertium:Tag; system:hasTag "sem_ani_body-abstr_hum" .
+apertium:sem_ani_build_hum_txt a apertium:Tag; system:hasTag "sem_ani_build_hum_txt" .
+apertium:sem_ani_build-part a apertium:Tag; system:hasTag "sem_ani_build-part" .
+apertium:sem_ani_group a apertium:Tag; system:hasTag "sem_ani_group" .
+apertium:sem_ani_group_hum a apertium:Tag; system:hasTag "sem_ani_group_hum" .
+apertium:sem_ani_hum a apertium:Tag; system:hasTag "sem_ani_hum" .
+apertium:sem_ani_plc_txt a apertium:Tag; system:hasTag "sem_ani_plc_txt" .
+apertium:sem_ani_veh a apertium:Tag; system:hasTag "sem_ani_veh" .
+apertium:sem_aniprod a apertium:Tag; system:hasTag "sem_aniprod" .
+apertium:sem_aniprod_hum a apertium:Tag; system:hasTag "sem_aniprod_hum" .
+apertium:sem_aniprod_obj-clo a apertium:Tag; system:hasTag "sem_aniprod_obj-clo" .
+apertium:sem_aniprod_perc-phys a apertium:Tag; system:hasTag "sem_aniprod_perc-phys" .
+apertium:sem_aniprod_plc a apertium:Tag; system:hasTag "sem_aniprod_plc" .
+apertium:sem_body a apertium:Tag; system:hasTag "sem_body" .
+apertium:sem_body rdfs:label "Body".
+apertium:sem_body_clth a apertium:Tag; system:hasTag "sem_body_clth" .
+apertium:sem_body_food a apertium:Tag; system:hasTag "sem_body_food" .
+apertium:sem_body_group_hum a apertium:Tag; system:hasTag "sem_body_group_hum" .
+apertium:sem_body_hum a apertium:Tag; system:hasTag "sem_body_hum" .
+apertium:sem_body_mat a apertium:Tag; system:hasTag "sem_body_mat" .
+apertium:sem_body_measr a apertium:Tag; system:hasTag "sem_body_measr" .
+apertium:sem_body_obj_tool-catch a apertium:Tag; system:hasTag "sem_body_obj_tool-catch" .
+apertium:sem_body_plc a apertium:Tag; system:hasTag "sem_body_plc" .
+apertium:sem_body_time a apertium:Tag; system:hasTag "sem_body_time" .
+apertium:sem_body-abstr a apertium:Tag; system:hasTag "sem_body-abstr" .
+apertium:sem_body-abstr_prod-audio_semcon a apertium:Tag; system:hasTag "sem_body-abstr_prod-audio_semcon" .
+apertium:sem_build a apertium:Tag; system:hasTag "sem_build" .
+apertium:sem_build rdfs:label "Building".
+apertium:sem_build_clth-part a apertium:Tag; system:hasTag "sem_build_clth-part" .
+apertium:sem_build_edu_org a apertium:Tag; system:hasTag "sem_build_edu_org" .
+apertium:sem_build_org a apertium:Tag; system:hasTag "sem_build_org" .
+apertium:sem_build-part a apertium:Tag; system:hasTag "sem_build-part" .
+apertium:sem_build-part rdfs:label "Buildpart".
+apertium:sem_cat a apertium:Tag; system:hasTag "sem_cat" .
+apertium:sem_clth a apertium:Tag; system:hasTag "sem_clth" .
+apertium:sem_clth rdfs:label "Cloths".
+apertium:sem_clth-jewl a apertium:Tag; system:hasTag "sem_clth-jewl" .
+apertium:sem_clth-jewl_curr a apertium:Tag; system:hasTag "sem_clth-jewl_curr" .
+apertium:sem_clth-jewl_org a apertium:Tag; system:hasTag "sem_clth-jewl_org" .
+apertium:sem_clth-part a apertium:Tag; system:hasTag "sem_clth-part" .
+apertium:sem_ctain a apertium:Tag; system:hasTag "sem_ctain" .
+apertium:sem_ctain rdfs:label "Container".
+apertium:sem_ctain_feat-phys a apertium:Tag; system:hasTag "sem_ctain_feat-phys" .
+apertium:sem_ctain_furn a apertium:Tag; system:hasTag "sem_ctain_furn" .
+apertium:sem_ctain_tool a apertium:Tag; system:hasTag "sem_ctain_tool" .
+apertium:sem_ctain-abstr a apertium:Tag; system:hasTag "sem_ctain-abstr" .
+apertium:sem_ctain-abstr_org a apertium:Tag; system:hasTag "sem_ctain-abstr_org" .
+apertium:sem_ctain-clth a apertium:Tag; system:hasTag "sem_ctain-clth" .
+apertium:sem_ctain-clth_plant a apertium:Tag; system:hasTag "sem_ctain-clth_plant" .
+apertium:sem_ctain-clth_veh a apertium:Tag; system:hasTag "sem_ctain-clth_veh" .
+apertium:sem_curr a apertium:Tag; system:hasTag "sem_curr" .
+apertium:sem_curr rdfs:label "Current".
+apertium:sem_dance a apertium:Tag; system:hasTag "sem_dance" .
+apertium:sem_dir a apertium:Tag; system:hasTag "sem_dir" .
+apertium:sem_domain a apertium:Tag; system:hasTag "sem_domain" .
+apertium:sem_domain_food-med a apertium:Tag; system:hasTag "sem_domain_food-med" .
+apertium:sem_domain_prod-audio a apertium:Tag; system:hasTag "sem_domain_prod-audio" .
+apertium:sem_drink a apertium:Tag; system:hasTag "sem_drink" .
+apertium:sem_edu a apertium:Tag; system:hasTag "sem_edu" .
+apertium:sem_edu rdfs:label "Education".
+apertium:sem_edu_event a apertium:Tag; system:hasTag "sem_edu_event" .
+apertium:sem_edu_group_hum a apertium:Tag; system:hasTag "sem_edu_group_hum" .
+apertium:sem_edu_mat a apertium:Tag; system:hasTag "sem_edu_mat" .
+apertium:sem_edu_org a apertium:Tag; system:hasTag "sem_edu_org" .
+apertium:sem_event a apertium:Tag; system:hasTag "sem_event" .
+apertium:sem_event_food a apertium:Tag; system:hasTag "sem_event_food" .
+apertium:sem_event_plc a apertium:Tag; system:hasTag "sem_event_plc" .
+apertium:sem_feat a apertium:Tag; system:hasTag "sem_feat" .
+apertium:sem_feat_plant a apertium:Tag; system:hasTag "sem_feat_plant" .
+apertium:sem_feat-measr a apertium:Tag; system:hasTag "sem_feat-measr" .
+apertium:sem_feat-measr_plc a apertium:Tag; system:hasTag "sem_feat-measr_plc" .
+apertium:sem_feat-phys a apertium:Tag; system:hasTag "sem_feat-phys" .
+apertium:sem_feat-phys_tool-write a apertium:Tag; system:hasTag "sem_feat-phys_tool-write" .
+apertium:sem_feat-phys_veh a apertium:Tag; system:hasTag "sem_feat-phys_veh" .
+apertium:sem_feat-phys_wthr a apertium:Tag; system:hasTag "sem_feat-phys_wthr" .
+apertium:sem_feat-psych a apertium:Tag; system:hasTag "sem_feat-psych" .
+apertium:sem_feat-psych_hum a apertium:Tag; system:hasTag "sem_feat-psych_hum" .
+apertium:sem_fem a apertium:Tag; system:hasTag "sem_fem" .
+apertium:sem_fem rdfs:label "Feminine".
+apertium:sem_food a apertium:Tag; system:hasTag "sem_food" .
+apertium:sem_food_perc-phys a apertium:Tag; system:hasTag "sem_food_perc-phys" .
+apertium:sem_food_plant a apertium:Tag; system:hasTag "sem_food_plant" .
+apertium:sem_food-med a apertium:Tag; system:hasTag "sem_food-med" .
+apertium:sem_furn a apertium:Tag; system:hasTag "sem_furn" .
+apertium:sem_game a apertium:Tag; system:hasTag "sem_game" .
+apertium:sem_game_obj-play a apertium:Tag; system:hasTag "sem_game_obj-play" .
+apertium:sem_geom a apertium:Tag; system:hasTag "sem_geom" .
+apertium:sem_geom_obj a apertium:Tag; system:hasTag "sem_geom_obj" .
+apertium:sem_group a apertium:Tag; system:hasTag "sem_group" .
+apertium:sem_group rdfs:label "Groupofpeople".
+apertium:sem_group_hum a apertium:Tag; system:hasTag "sem_group_hum" .
+apertium:sem_group_hum_plc a apertium:Tag; system:hasTag "sem_group_hum_plc" .
+apertium:sem_group_org a apertium:Tag; system:hasTag "sem_group_org" .
+apertium:sem_group_sign a apertium:Tag; system:hasTag "sem_group_sign" .
+apertium:sem_group_txt a apertium:Tag; system:hasTag "sem_group_txt" .
+apertium:sem_hum a apertium:Tag; system:hasTag "sem_hum" .
+apertium:sem_hum rdfs:label "Human".
+apertium:sem_hum_lang a apertium:Tag; system:hasTag "sem_hum_lang" .
+apertium:sem_hum_obj a apertium:Tag; system:hasTag "sem_hum_obj" .
+apertium:sem_hum_org a apertium:Tag; system:hasTag "sem_hum_org" .
+apertium:sem_hum_plc a apertium:Tag; system:hasTag "sem_hum_plc" .
+apertium:sem_hum_tool a apertium:Tag; system:hasTag "sem_hum_tool" .
+apertium:sem_hum_veh a apertium:Tag; system:hasTag "sem_hum_veh" .
+apertium:sem_hum_wthr a apertium:Tag; system:hasTag "sem_hum_wthr" .
+apertium:sem_ideol a apertium:Tag; system:hasTag "sem_ideol" .
+apertium:sem_lang a apertium:Tag; system:hasTag "sem_lang" .
+apertium:sem_lang rdfs:label "Language".
+apertium:sem_lang_tool a apertium:Tag; system:hasTag "sem_lang_tool" .
+apertium:sem_mal a apertium:Tag; system:hasTag "sem_mal" .
+apertium:sem_mal rdfs:label "Masculine".
+apertium:sem_mat a apertium:Tag; system:hasTag "sem_mat" .
+apertium:sem_mat rdfs:label "Material".
+apertium:sem_mat_plant a apertium:Tag; system:hasTag "sem_mat_plant" .
+apertium:sem_mat_txt a apertium:Tag; system:hasTag "sem_mat_txt" .
+apertium:sem_measr a apertium:Tag; system:hasTag "sem_measr" .
+apertium:sem_measr rdfs:label "Measure".
+apertium:sem_measr_time a apertium:Tag; system:hasTag "sem_measr_time" .
+apertium:sem_money a apertium:Tag; system:hasTag "sem_money" .
+apertium:sem_money_obj a apertium:Tag; system:hasTag "sem_money_obj" .
+apertium:sem_money_txt a apertium:Tag; system:hasTag "sem_money_txt" .
+apertium:sem_obj a apertium:Tag; system:hasTag "sem_obj" .
+apertium:sem_obj rdfs:label "Object".
+apertium:sem_obj_semcon a apertium:Tag; system:hasTag "sem_obj_semcon" .
+apertium:sem_obj_state a apertium:Tag; system:hasTag "sem_obj_state" .
+apertium:sem_obj-clo a apertium:Tag; system:hasTag "sem_obj-clo" .
+apertium:sem_obj-cogn a apertium:Tag; system:hasTag "sem_obj-cogn" .
+apertium:sem_obj-el a apertium:Tag; system:hasTag "sem_obj-el" .
+apertium:sem_obj-ling a apertium:Tag; system:hasTag "sem_obj-ling" .
+apertium:sem_obj-play a apertium:Tag; system:hasTag "sem_obj-play" .
+apertium:sem_obj-play_sport a apertium:Tag; system:hasTag "sem_obj-play_sport" .
+apertium:sem_obj-rope a apertium:Tag; system:hasTag "sem_obj-rope" .
+apertium:sem_obj-surfc a apertium:Tag; system:hasTag "sem_obj-surfc" .
+apertium:sem_org a apertium:Tag; system:hasTag "sem_org" .
+apertium:sem_org rdfs:label "Organisation".
+apertium:sem_org_rule a apertium:Tag; system:hasTag "sem_org_rule" .
+apertium:sem_org_txt a apertium:Tag; system:hasTag "sem_org_txt" .
+apertium:sem_part a apertium:Tag; system:hasTag "sem_part" .
+apertium:sem_part_prod-cogn a apertium:Tag; system:hasTag "sem_part_prod-cogn" .
+apertium:sem_perc-emo a apertium:Tag; system:hasTag "sem_perc-emo" .
+apertium:sem_perc-emo rdfs:label "perc-emo".
+apertium:sem_perc-emo_wthr a apertium:Tag; system:hasTag "sem_perc-emo_wthr" .
+apertium:sem_perc-phys a apertium:Tag; system:hasTag "sem_perc-phys" .
+apertium:sem_plant a apertium:Tag; system:hasTag "sem_plant" .
+apertium:sem_plant_plant-part a apertium:Tag; system:hasTag "sem_plant_plant-part" .
+apertium:sem_plant-part a apertium:Tag; system:hasTag "sem_plant-part" .
+apertium:sem_plc a apertium:Tag; system:hasTag "sem_plc" .
+apertium:sem_plc rdfs:label "Toponym".
+apertium:sem_plc_pos a apertium:Tag; system:hasTag "sem_plc_pos" .
+apertium:sem_plc_route a apertium:Tag; system:hasTag "sem_plc_route" .
+apertium:sem_plc_substnc a apertium:Tag; system:hasTag "sem_plc_substnc" .
+apertium:sem_plc_substnc_wthr a apertium:Tag; system:hasTag "sem_plc_substnc_wthr" .
+apertium:sem_plc_time a apertium:Tag; system:hasTag "sem_plc_time" .
+apertium:sem_plc_tool-catch a apertium:Tag; system:hasTag "sem_plc_tool-catch" .
+apertium:sem_plc_wthr a apertium:Tag; system:hasTag "sem_plc_wthr" .
+apertium:sem_plc-abstr a apertium:Tag; system:hasTag "sem_plc-abstr" .
+apertium:sem_plc-abstr_rel_state a apertium:Tag; system:hasTag "sem_plc-abstr_rel_state" .
+apertium:sem_plc-abstr_route a apertium:Tag; system:hasTag "sem_plc-abstr_route" .
+apertium:sem_plc-elevate a apertium:Tag; system:hasTag "sem_plc-elevate" .
+apertium:sem_plc-line a apertium:Tag; system:hasTag "sem_plc-line" .
+apertium:sem_plc-water a apertium:Tag; system:hasTag "sem_plc-water" .
+apertium:sem_pos a apertium:Tag; system:hasTag "sem_pos" .
+apertium:sem_process a apertium:Tag; system:hasTag "sem_process" .
+apertium:sem_prod a apertium:Tag; system:hasTag "sem_prod" .
+apertium:sem_prod-audio a apertium:Tag; system:hasTag "sem_prod-audio" .
+apertium:sem_prod-audio_txt a apertium:Tag; system:hasTag "sem_prod-audio_txt" .
+apertium:sem_prod-cogn a apertium:Tag; system:hasTag "sem_prod-cogn" .
+apertium:sem_prod-cogn rdfs:label "Product, cognitive?".
+apertium:sem_prod-cogn_txt a apertium:Tag; system:hasTag "sem_prod-cogn_txt" .
+apertium:sem_prod-ling a apertium:Tag; system:hasTag "sem_prod-ling" .
+apertium:sem_prod-vis a apertium:Tag; system:hasTag "sem_prod-vis" .
+apertium:sem_rel a apertium:Tag; system:hasTag "sem_rel" .
+apertium:sem_route a apertium:Tag; system:hasTag "sem_route" .
+apertium:sem_rule a apertium:Tag; system:hasTag "sem_rule" .
+apertium:sem_semcon a apertium:Tag; system:hasTag "sem_semcon" .
+apertium:sem_semcon rdfs:label "Semcon".
+apertium:sem_semcon_txt a apertium:Tag; system:hasTag "sem_semcon_txt" .
+apertium:sem_sign a apertium:Tag; system:hasTag "sem_sign" .
+apertium:sem_sport a apertium:Tag; system:hasTag "sem_sport" .
+apertium:sem_state a apertium:Tag; system:hasTag "sem_state" .
+apertium:sem_state-sick a apertium:Tag; system:hasTag "sem_state-sick" .
+apertium:sem_substnc a apertium:Tag; system:hasTag "sem_substnc" .
+apertium:sem_substnc_wthr a apertium:Tag; system:hasTag "sem_substnc_wthr" .
+apertium:sem_sur a apertium:Tag; system:hasTag "sem_sur" .
+apertium:sem_sur rdfs:label "Surname".
+apertium:sem_time a apertium:Tag; system:hasTag "sem_time" .
+apertium:sem_time rdfs:label "Time".
+apertium:sem_time_wthr a apertium:Tag; system:hasTag "sem_time_wthr" .
+apertium:sem_tool a apertium:Tag; system:hasTag "sem_tool" .
+apertium:sem_tool rdfs:label "Tool".
+apertium:sem_tool-catch a apertium:Tag; system:hasTag "sem_tool-catch" .
+apertium:sem_tool-clean a apertium:Tag; system:hasTag "sem_tool-clean" .
+apertium:sem_tool-it a apertium:Tag; system:hasTag "sem_tool-it" .
+apertium:sem_tool-measr a apertium:Tag; system:hasTag "sem_tool-measr" .
+apertium:sem_tool-music a apertium:Tag; system:hasTag "sem_tool-music" .
+apertium:sem_tool-write a apertium:Tag; system:hasTag "sem_tool-write" .
+apertium:sem_txt a apertium:Tag; system:hasTag "sem_txt" .
+apertium:sem_txt rdfs:label "Texts".
+apertium:sem_veh a apertium:Tag; system:hasTag "sem_veh" .
+apertium:sem_veh rdfs:label "Vehicled".
+apertium:sem_wpn a apertium:Tag; system:hasTag "sem_wpn" .
+apertium:sem_wthr a apertium:Tag; system:hasTag "sem_wthr" .
 apertium:sent a apertium:Tag; system:hasTag "sent" .
 apertium:sent rdfs:label "End of sentence marker".
 apertium:sent rdfs:label "End of sentence".
@@ -1214,13 +1514,25 @@ apertium:sg rdfs:label "Singular".
 apertium:Sg rdfs:label "Singular".
 apertium:sg rdfs:label "Unander (Singular)".
 apertium:sg rdfs:label "однина".
+apertium:sg1 a apertium:Tag; system:hasTag "sg1" .
 apertium:Sg1 a apertium:Tag; system:hasTag "Sg1" .
+apertium:sg1 rdfs:label "First-person singular".
 apertium:Sg1 rdfs:label "First-person singular".
+apertium:sg2 a apertium:Tag; system:hasTag "sg2" .
 apertium:Sg2 a apertium:Tag; system:hasTag "Sg2" .
+apertium:sg2 rdfs:label "Second-person singular".
 apertium:Sg2 rdfs:label "Second-person singular".
+apertium:sg3 a apertium:Tag; system:hasTag "sg3" .
 apertium:Sg3 a apertium:Tag; system:hasTag "Sg3" .
+apertium:sg3 rdfs:label "Third-person singular".
 apertium:Sg3 rdfs:label "Third-person singular".
+apertium:sggencmp a apertium:Tag; system:hasTag "sggencmp" .
+apertium:sggencmp rdfs:label "Singular genitive compound-left".
+apertium:sgnomcmp a apertium:Tag; system:hasTag "sgnomcmp" .
+apertium:sgnomcmp rdfs:label "Singular nominative compound-left".
+apertium:shcmp a apertium:Tag; system:hasTag "shcmp" .
 apertium:ShCmp a apertium:Tag; system:hasTag "ShCmp" .
+apertium:shcmp rdfs:label "Short Compound???".
 apertium:ShCmp rdfs:label "Short Compound???".
 apertium:short a apertium:Tag; system:hasTag "short" .
 apertium:short rdfs:label "short adj".
@@ -1276,6 +1588,7 @@ apertium:Superl rdfs:label "Superlative (sme)".
 apertium:supn a apertium:Tag; system:hasTag "supn" .
 apertium:supn rdfs:label "Supine (pp-like)".
 apertium:supn rdfs:label "Supine".
+apertium:supn rdfs:label "Supine/Supinum".
 apertium:Sur a apertium:Tag; system:hasTag "Sur" .
 apertium:Sur rdfs:label "Surname".
 apertium:sym a apertium:Tag; system:hasTag "sym" .
@@ -1331,12 +1644,15 @@ apertium:ut rdfs:label "Common".
 apertium:ut rdfs:label "Utrum".
 apertium:v a apertium:Tag; system:hasTag "v" .
 apertium:V a apertium:Tag; system:hasTag "V" .
+apertium:v rdfs:label "Standard verb".
 apertium:V rdfs:label "Standard verb".
 apertium:v rdfs:label "Verb - Фигыль - Глагол".
 apertium:v rdfs:label "Verb, lexical".
 apertium:v rdfs:label "Глагол".
 apertium:v2 a apertium:Tag; system:hasTag "v2" .
+apertium:vabess a apertium:Tag; system:hasTag "vabess" .
 apertium:VAbess a apertium:Tag; system:hasTag "VAbess" .
+apertium:vabess rdfs:label "Verbal Abessive".
 apertium:VAbess rdfs:label "Verbal Abessive".
 apertium:vaux a apertium:Tag; system:hasTag "vaux" .
 apertium:vaux rdfs:label "Auxiliary verb".
@@ -1387,7 +1703,9 @@ apertium:vbtr a apertium:Tag; system:hasTag "vbtr" .
 apertium:vbtr_ntr a apertium:Tag; system:hasTag "vbtr_ntr" .
 apertium:VD a apertium:Tag; system:hasTag "VD" .
 apertium:VD rdfs:label "Voice por determinar – only used where both pasv and actv can be generated".
+apertium:vgen a apertium:Tag; system:hasTag "vgen" .
 apertium:VGen a apertium:Tag; system:hasTag "VGen" .
+apertium:vgen rdfs:label "Verb Genitive".
 apertium:VGen rdfs:label "Verb Genitive".
 apertium:vmod a apertium:Tag; system:hasTag "vmod" .
 apertium:voc a apertium:Tag; system:hasTag "voc" .

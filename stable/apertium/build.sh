@@ -169,7 +169,7 @@ done;
 ################
 
 cd src;
-(`date +%F`;
+(date +%F;
 echo "OntoLex-lemon conversion of Apertium Bidix";
 echo "by Christian Chiarcos, christian.chiarcos@web.de";
 echo "Applied Computational Linguistics (ACoLi) lab, Goethe-Universität Frankfurt am Main, Germany";

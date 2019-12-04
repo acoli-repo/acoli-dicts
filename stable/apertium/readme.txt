@@ -11,6 +11,8 @@ We deviate in the following aspects:
 
 content
 -------
+apertium-rdf-2019-12-04/
+	revised RDF and TSV editions
 apertium-rdf-2019-02-03/
 	RDF and TSV editions of the data
 apertium.ttl
@@ -79,9 +81,11 @@ todos & known issues
 
 history
 -------
+- 2019-12-04 error analysis (JB) and revision (CC)
 - 2019-02-03 initial release (CC)
 
 contributors
 ------------
 CC - Christian Chiarcos, christian.chiarcos@web.de
+JB - Julia Bosque-Gil, U Zaragoza
 AP - Apertium authors (of the source data), see AUTHORS
