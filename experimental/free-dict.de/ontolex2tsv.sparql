@@ -1,0 +1,34 @@
+# return TSV file as used for TIAD-2019
+# "source written representation"
+# "source lexical entry (URI)"
+# "source sense (URI)"					# empty (lexical concept)
+# "translation (URI)"					# empty
+# "target sense (URI)"					# empty
+# "target lexical entry (URI)"			# empty
+# "target written representation"
+# "part of speech (URI)" 				# empty
+## note that this is not a bidict, so that parts of the TIAD information is empty
+## in particular, we return the rdfs:label of concepts
+
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#> 
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#> 
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#> 
+
+SELECT DISTINCT ?srep ?slex ?ssense ?trans ?tsense ?tlex ?turi ?trep ?pos
+WHERE {
+	?slex ontolex:lexicalForm/ontolex:writtenRep ?srep.
+	?slex ontolex:evokes ?concept.
+	?concept rdfs:label ?trep.
+	# OPTIONAL {
+		# ?slex ontolex:morphosyntacticProperty ?pos.	# not yet
+	# }
+	FILTER(strlen(?srep) > 0)
+	FILTER(strlen(?trep) > 0)
+} ORDER BY ?srep ?slex ?trep

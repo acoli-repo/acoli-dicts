@@ -5,6 +5,7 @@
 
 # color codes for dictionaries
 FREEDICT=blue;
+FREEDICT_DE=midnightblue;
 APERTIUM=black;
 DBNARY=gray;
 XDXF=red;
@@ -31,6 +32,10 @@ for file in ../../experimental/xdxf/*rdf*/*-*; do
 		sed -e s/'.*\/'//g \
 			-e s/'^\([a-z]*\)-\([a-z]*\)$'/'\1\t\2\tcolor='$XDXF', style=dotted'/g;
 	fi;
+done;
+for file in ../../experimental/free-dict.de/*/*-*.tsv.gz; do
+	echo $file | \
+	sed -e s/'^.*\/\([a-z]*\)-\([a-z]*\).tsv.gz$'/'\1\t\2\tcolor='$FREEDICT_DE', style=dotted'/g;
 done;
 
 ) | \
@@ -102,14 +107,17 @@ echo 'X -- Apertium [color='$APERTIUM'];'
 echo 'X -- FreeDict [color='$FREEDICT'];'
 echo 'X -- DBnary [color='$DBNARY'];'
 echo 'X -- XDXF [color='$XDXF', style=dotted];'
+echo 'X -- FreeDictDe [color='$FREEDICT_DE', style=dotted];'
 echo 'Apertium [color=white];'
 echo 'FreeDict [color=white];'
 echo 'DBnary [color=white];'
 echo 'XDXF [color=white];'
+echo 'FreeDictDe [label="free-dict.de", color=white];'
 echo 'OTHER -- Apertium [style=invis];'
 echo 'Apertium -- FreeDict [style=invis];'
-echo 'FreeDict -- DBnary [style=invis];'
+echo 'FreeDictDe -- DBnary [style=invis];'
 echo 'DBnary -- XDXF [style=invis];'
+echo 'XDXF -- FreeDictDe [style=invis];'
 
 
 echo '}'
@@ -324,4 +332,4 @@ cat ../../dicts.dot | neato -Tgif > ../../dicts.gif
 # resize and merge with legend
 HEIGHT=`convert ../../dicts.gif info: | sed s/'^[^ ]* GIF [0-9]*x\([0-9]*\) .*'/'\1'/`;
 convert -resize x$HEIGHT ../../legend.gif ../../legend-shrunk.gif
-convert ../../dicts.gif ../../legend-shrunk.gif +append ../../dicts-w-legend.gif
+convert ../../dicts.gif ../../legend-shrunk.gif +append ../../dicts-w-legend.gifß

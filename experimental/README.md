@@ -13,8 +13,20 @@ Please create individual subdirectories here.
  - successfully converted to 
 	 - 52 language varieties (51 plus spoken English), 108 language pairs, 147 individual dictionaries
  - quality of source data is unbalanced, extraction errors in original XDXF data not fixed
-	 
-## project structure
+ 
+### StarDict converter (under development)
+ - dictionary ecosystem, providing dictionaries and a tool
+ - retrieved dictionaries restricted to those with explicit open license (GPL, CC-BY, etc.), also including "free-to-use" resources, no legal clearance beyond the original listing on the distributor site
+ - provides low-level encoding of dictionaries, with index words and definitions. No systematic markup beyond that.
+ - No systematic indication of languages.
+ - Preliminary retrieval and conversion pipeline included.
+
+### free-dict.de converter
+ - six dictionaries with online search interface and HTML serialization, mostly crowd-sourced content.
+ - conversion for Zazaki-German dictionary only
+ - unter experimental until copyright status is clarified.
+ 
+## suggested project structure
 
 For complex converter suites, we recommend the following subdirectories (non-normative).
 
