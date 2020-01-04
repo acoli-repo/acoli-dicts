@@ -1,0 +1,349 @@
+# file	src	tgt	size	comment			extraction	conventions
+txt/Quick/stardict-quick_afr-eng-2.4.2.txt	af	en	3233		grouped/af_en	grouped/af_en/stardict-quick_afr-eng-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_afr-swe-2.4.2.txt	af	sv	2118		grouped/af_sv	grouped/af_sv/stardict-quick_afr-swe-2.4.2.txt	ok	,
+txt/fr/stardict-arabe-francais-2.4.2.txt	ar-Latn	fr	1051		grouped/ar-Latn_fr	grouped/ar-Latn_fr/stardict-arabe-francais-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_bul-swe-2.4.2.txt	bg	sv	7406		grouped/bg_sv	grouped/bg_sv/stardict-quick_bul-swe-2.4.2.txt	encoding error	,
+txt/fr/stardict-breton-francais-2.4.2.txt	br	fr	31906		grouped/br_fr	grouped/br_fr/stardict-breton-francais-2.4.2.txt	ok	,
+txt/fr/stardict-corse-francais-2.4.2.txt	co	fr	1999	Romance	grouped/co_fr	grouped/co_fr/stardict-corse-francais-2.4.2.txt	ok	,
+txt/misc/stardict-cihar-czech-20140101-2.4.2.txt	cs	cs	18248		grouped/cs_cs			
+txt/misc/stardict-czech-2.4.2.txt	cs	cs	21607		grouped/cs_cs			
+txt/misc/stardict-cihar-czech-german-20170101-2.4.2.txt	cs	de	573		grouped/cs_de	grouped/cs_de/stardict-cihar-czech-german-20170101-2.4.2.txt	encoding errors	
+txt/misc/stardict-cihar-czech-german-20170101-ascii-2.4.2.txt	cs	de	1451		grouped/cs_de	grouped/cs_de/stardict-cihar-czech-german-20170101-ascii-2.4.2.txt	ok	remove parentheses
+txt/misc/stardict-cihar-czech-german-20170101-ascii-notags-2.4.2.txt	cs	de	1451		grouped/cs_de	grouped/cs_de/stardict-cihar-czech-german-20170101-ascii-notags-2.4.2.txt	ok	,
+txt/misc/stardict-cihar-czech-german-20170101-notags-2.4.2.txt	cs	de	1453		grouped/cs_de	grouped/cs_de/stardict-cihar-czech-german-20170101-notags-2.4.2.txt	encoding	,
+txt/misc/stardict-cihar-czech-english-20170301-2.4.2.txt	cs	en	44184		grouped/cs_en	grouped/cs_en/stardict-cihar-czech-english-20170301-2.4.2.txt	encoding	
+txt/misc/stardict-cihar-czech-english-20170301-ascii-2.4.2.txt	cs	en	87915		grouped/cs_en	grouped/cs_en/stardict-cihar-czech-english-20170301-ascii-2.4.2.txt	ok	remove parentheses
+txt/misc/stardict-cihar-czech-english-20170301-ascii-notags-2.4.2.txt	cs	en	87939		grouped/cs_en	grouped/cs_en/stardict-cihar-czech-english-20170301-ascii-notags-2.4.2.txt	ok	remove :
+txt/misc/stardict-cihar-czech-english-20170301-notags-2.4.2.txt	cs	en	43956		grouped/cs_en	grouped/cs_en/stardict-cihar-czech-english-20170301-notags-2.4.2.txt	encoding	remove []
+txt/misc/stardict-czech-english-2.4.2.txt	cs	en	35		grouped/cs_en	grouped/cs_en/stardict-czech-english-2.4.2.txt	encoding	
+txt/misc/stardict-quick_czech-nld-2.4.2.txt	cs	nl	12967		grouped/cs_nl	grouped/cs_nl/stardict-quick_czech-nld-2.4.2.txt	encoding	
+txt/misc/stardict-eurfa_cym-2.4.2.txt	cy	en	12024		grouped/cy_en	grouped/cy_en/stardict-eurfa_cym-2.4.2.txt	no tgt lang	
+txt/misc/stardict-welsh_english-2.4.2.txt	cy	en	24549		grouped/cy_en	grouped/cy_en/stardict-welsh_english-2.4.2.txt	ok	,; remove ()
+txt/Quick/stardict-quick_wel-swe-2.4.2.txt	cy	sv	1026		grouped/cy_sv	grouped/cy_sv/stardict-quick_wel-swe-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_dan-deu-2.4.2.txt	da	de	2702		grouped/da_de	grouped/da_de/stardict-quick_dan-deu-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_dan-eng-2.4.2.txt	da	en	2939		grouped/da_en	grouped/da_en/stardict-quick_dan-eng-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_dan-spa-2.4.2.txt	da	es	2524		grouped/da_es	grouped/da_es/stardict-quick_dan-spa-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_dan-fin-2.4.2.txt	da	fi	1438		grouped/da_fi	grouped/da_fi/stardict-quick_dan-fin-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_dan-fra-2.4.2.txt	da	fr	2440		grouped/da_fr	grouped/da_fr/stardict-quick_dan-fra-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_dan-hun-2.4.2.txt	da	hu	1188		grouped/da_hu	grouped/da_hu/stardict-quick_dan-hun-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_dan-ind-2.4.2.txt	da	id	709		grouped/da_id	grouped/da_id/stardict-quick_dan-ind-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_dan-ita-2.4.2.txt	da	it	2350		grouped/da_it	grouped/da_it/stardict-quick_dan-ita-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_dan-jpn-2.4.2.txt	da	ja	1647		grouped/da_ja	grouped/da_ja/stardict-quick_dan-jpn-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_dan-lat-2.4.2.txt	da	la	853		grouped/da_la	grouped/da_la/stardict-quick_dan-lat-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_dan-nld-2.4.2.txt	da	nl	2446		grouped/da_nl	grouped/da_nl/stardict-quick_dan-nld-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_dan-nor-2.4.2.txt	da	no	1783		grouped/da_no	grouped/da_no/stardict-quick_dan-nor-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_dan-por-2.4.2.txt	da	pt	2171		grouped/da_pt	grouped/da_pt/stardict-quick_dan-por-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_dan-swe-2.4.2.txt	da	sv	2333		grouped/da_sv	grouped/da_sv/stardict-quick_dan-swe-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_dan-swa-2.4.2.txt	da	sw	591		grouped/da_sw	grouped/da_sw/stardict-quick_dan-swa-2.4.2.txt	ok	,
+txt/misc/stardict-cihar-german-czech-20170101-2.4.2.txt	de	cs	1294		grouped/de_cs	grouped/de_cs/stardict-cihar-german-czech-20170101-2.4.2.txt	ok	, remove ()[]
+txt/misc/stardict-cihar-german-czech-20170101-ascii-2.4.2.txt	de	cs	1292		grouped/de_cs	grouped/de_cs/stardict-cihar-german-czech-20170101-ascii-2.4.2.txt	ok	, remove ()[]
+txt/misc/stardict-cihar-german-czech-20170101-ascii-notags-2.4.2.txt	de	cs	1292		grouped/de_cs	grouped/de_cs/stardict-cihar-german-czech-20170101-ascii-notags-2.4.2.txt	ok	, remove ()[]:
+txt/misc/stardict-cihar-german-czech-20170101-notags-2.4.2.txt	de	cs	1294		grouped/de_cs	grouped/de_cs/stardict-cihar-german-czech-20170101-notags-2.4.2.txt	encoding	
+txt/Quick/stardict-quick_deu-dan-2.4.2.txt	de	da	6142		grouped/de_da	grouped/de_da/stardict-quick_deu-dan-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_deu-deu-2.4.2.txt	de	de	6057		grouped/de_de			
+txt/misc/stardict-jdict-GerEnglish-2.4.2.txt	de	en	96735		grouped/de_en	grouped/de_en/stardict-jdict-GerEnglish-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_deu-eng-2.4.2.txt	de	en	80502		grouped/de_en	grouped/de_en/stardict-quick_deu-eng-2.4.2.txt	ok	,
+txt/misc/stardict-jdict-GerHung-2.4.2.txt	de	hu	22097		grouped/de_hu	grouped/de_hu/stardict-jdict-GerHung-2.4.2.txt	ok	, remove ()
+txt/misc/stardict-De_Nld-2.4.2.txt	de	nl	49		grouped/de_nl			
+txt/Quick/stardict-quick_deu-swe-2.4.2.txt	de	sv	28019		grouped/de_sv	grouped/de_sv/stardict-quick_deu-swe-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_gre-swe-2.4.2.txt	el	sv	1515		grouped/el_sv	grouped/el_sv/stardict-quick_gre-swe-2.4.2.txt	encoding	,
+txt/Quick/stardict-quick_eng-afr-2.4.2.txt	en	af	4178		grouped/en_af	grouped/en_af/stardict-quick_eng-afr-2.4.2.txt	ok	,
+txt/misc/stardict-cihar-english-czech-20170301-2.4.2.txt	en	cs	88451		grouped/en_cs	grouped/en_cs/stardict-cihar-english-czech-20170301-2.4.2.txt	ok	remove []
+txt/misc/stardict-cihar-english-czech-20170301-ascii-2.4.2.txt	en	cs	88411		grouped/en_cs	grouped/en_cs/stardict-cihar-english-czech-20170301-ascii-2.4.2.txt	ok	
+txt/misc/stardict-cihar-english-czech-20170301-ascii-notags-2.4.2.txt	en	cs	88438		grouped/en_cs	grouped/en_cs/stardict-cihar-english-czech-20170301-ascii-notags-2.4.2.txt	empty	
+txt/misc/stardict-cihar-english-czech-20170301-notags-2.4.2.txt	en	cs	88472		grouped/en_cs	grouped/en_cs/stardict-cihar-english-czech-20170301-notags-2.4.2.txt	encoding	
+txt/misc/stardict-english-czech-2.4.2.txt	en	cs	84737		grouped/en_cs	grouped/en_cs/stardict-english-czech-2.4.2.txt	ok	remove : []
+txt/misc/stardict-eurfa_eng-2.4.2.txt	en	cy	10060		grouped/en_cy	grouped/en_cy/stardict-eurfa_eng-2.4.2.txt	empty	
+txt/Quick/stardict-quick_eng-dan-2.4.2.txt	en	da	3696		grouped/en_da	grouped/en_da/stardict-quick_eng-dan-2.4.2.txt	ok	,
+txt/misc/stardict-idp-eng-ger-2.4.2.txt	en	de	6262		grouped/en_de	grouped/en_de/stardict-idp-eng-ger-2.4.2.txt	ok	remove ()[]
+txt/Quick/stardict-quick_eng-deu-2.4.2.txt	en	de	292		grouped/en_de	grouped/en_de/stardict-quick_eng-deu-2.4.2.txt	ok	,
+txt/dict.org/stardict-BritannicaConcise-2.4.2.txt	en	en	24350		grouped/en_en			
+txt/dict.org/stardict-cced-2.4.2.txt	en	en	33980		grouped/en_en			
+txt/dict.org/stardict-dictd_www.dict.org_devils-2.4.2.txt	en	en	981		grouped/en_en			
+txt/dict.org/stardict-dictd_www.dict.org_elements-2.4.2.txt	en	en	126		grouped/en_en			
+txt/dict.org/stardict-dictd_www.dict.org_foldoc-2.4.2.txt	en	en	13398		grouped/en_en			
+txt/dict.org/stardict-dictd_www.dict.org_gazetteer-2.4.2.txt	en	en	52968		grouped/en_en			
+txt/dict.org/stardict-dictd_www.dict.org_hitchcock-2.4.2.txt	en	en	2610		grouped/en_en			
+txt/dict.org/stardict-dictd_www.dict.org_wn-2.4.2.txt	en	en	149258		grouped/en_en			
+txt/dict.org/stardict-dictd_www.dict.org_world95-2.4.2.txt	en	en	128		grouped/en_en			
+txt/dict.org/stardict-dictd-easton-2.4.2.txt	en	en	3825		grouped/en_en			
+txt/dict.org/stardict-dictd-gazetteer2k-counties-2.4.2.txt	en	en	10205		grouped/en_en			
+txt/dict.org/stardict-dictd-gazetteer2k-places-2.4.2.txt	en	en	42587		grouped/en_en			
+txt/dict.org/stardict-dictd-gazetteer2k-zips-2.4.2.txt	en	en	33220		grouped/en_en			
+txt/dict.org/stardict-dictd-jargon-2.4.2.txt	en	en	2361		grouped/en_en			
+txt/dict.org/stardict-dictd-moby-thesaurus-2.4.2.txt	en	en	30115		grouped/en_en			
+txt/dict.org/stardict-dictd-world02-2.4.2.txt	en	en	29		grouped/en_en			
+txt/dict.org/stardict-eedic-2.4.2.txt	en	en	22093		grouped/en_en			
+txt/dict.org/stardict-eng_irregular-2.4.2.txt	en	en	4691		grouped/en_en			
+txt/dict.org/stardict-EnglishEtymology-2.4.2.txt	en	en	18338		grouped/en_en			
+txt/dict.org/stardict-longman-2.4.2.txt	en	en	42866		grouped/en_en			
+txt/dict.org/stardict-merrianwebster-2.4.2.txt	en	en	20318		grouped/en_en			
+txt/dict.org/stardict-oald-2.4.2.txt	en	en	34070		grouped/en_en			
+txt/dict.org/stardict-oxford_collocations-2.4.2.txt	en	en	8288		grouped/en_en			
+txt/dict.org/stardict-OxfordCollocationsDictionary-2.4.2.txt	en	en	7562		grouped/en_en			
+txt/dict.org/stardict-thesaurus-ee-2.4.2.txt	en	en	19954		grouped/en_en			
+txt/misc/stardict-acronyms-2.4.2.txt	en	en	254		grouped/en_en			
+txt/misc/stardict-ant_dictionary-2.4.2.txt	en	en	18989		grouped/en_en			
+txt/misc/stardict-CIA09-2.4.2.txt	en	en	40		grouped/en_en			
+txt/PowerWord/2009/stardict-powerword2009_1_614-2.4.2.txt	en	en	81722		grouped/en_en			
+txt/PowerWord/2010/stardict-powerword2010_1_502_2-2.4.2.txt	en	en	1		grouped/en_en			
+txt/PowerWord/2010/stardict-powerword2010_1_614-2.4.2.txt	en	en	81722		grouped/en_en			
+txt/Quick/stardict-quick_eng-eng-2.4.2.txt	en	en	12227		grouped/en_en			
+txt/special/stardict-wordnet-3.0.0.txt	en	en	87321		grouped/en_en			
+txt/misc/stardict-English-Esperanto-2.4.2.txt	en	eo	13210		grouped/en_eo	grouped/en_eo/stardict-English-Esperanto-2.4.2.txt	ok	remove final .
+txt/misc/stardict-Harrap_s_dictionary_en-es-2.4.2.txt	en	es	43697		grouped/en_es	grouped/en_es/stardict-Harrap_s_dictionary_en-es-2.4.2.txt	distorted	
+txt/misc/stardict-i2e-2.4.2.txt	en	es	22144		grouped/en_es	grouped/en_es/stardict-i2e-2.4.2.txt	ok	remove ()
+txt/misc/stardict-idp-eng-spa-2.4.2.txt	en	es	6542		grouped/en_es	grouped/en_es/stardict-idp-eng-spa-2.4.2.txt	ok	;/ remove []()
+txt/misc/stardict-jdict-EngSpanish-2.4.2.txt	en	es	22510		grouped/en_es	grouped/en_es/stardict-jdict-EngSpanish-2.4.2.txt	ok	remove ()
+txt/misc/stardict-wordtrans-i2e-2.4.2.txt	en	es	22685		grouped/en_es	grouped/en_es/stardict-quick_eng-spa-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_eng-spa-2.4.2.txt	en	es	20722		grouped/en_es	grouped/en_es/stardict-wordtrans-i2e-2.4.2.txt	ok	remove ()
+txt/Quick/stardict-quick_eng-fin-2.4.2.txt	en	fi	2799		grouped/en_fi	grouped/en_fi/stardict-quick_eng-fin-2.4.2.txt	ok	,
+txt/misc/stardict-idp-eng-fr-2.4.2.txt	en	fr	2897		grouped/en_fr	grouped/en_fr/stardict-idp-eng-fr-2.4.2.txt	ok	remove [], remove / (accent symbol)
+txt/Quick/stardict-quick_eng-fra-2.4.2.txt	en	fr	20077		grouped/en_fr	grouped/en_fr/stardict-quick_eng-fra-2.4.2.txt	ok	,
+txt/misc/stardict-English-Croatian-2.4.2.txt	en	hr	92821		grouped/en_hr	grouped/en_hr/stardict-English-Croatian-2.4.2.txt	encoding issues	
+txt/misc/stardict-jdict-EngHun-2.4.2.txt	en	hu	67338		grouped/en_hu	grouped/en_hu/stardict-jdict-EngHun-2.4.2.txt	ok	
+txt/misc/stardict-jdict-EngHunExpressions-2.4.2.txt	en	hu	28211		grouped/en_hu	grouped/en_hu/stardict-jdict-EngHunExpressions-2.4.2.txt	encoding issues	; remove ()
+txt/misc/stardict-jdict-FrenchHung-2.4.2.txt	en	hu	5474		grouped/en_hu	grouped/en_hu/stardict-jdict-FrenchHung-2.4.2.txt	ok	
+txt/Quick/stardict-quick_eng-hun-2.4.2.txt	en	hu	63109		grouped/en_hu	grouped/en_hu/stardict-quick_eng-hun-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_eng-ind-2.4.2.txt	en	id	23618		grouped/en_id	grouped/en_id/stardict-quick_eng-ind-2.4.2.txt	ok	,
+txt/misc/stardict-idp-eng-ita-2.4.2.txt	en	it	4859		grouped/en_it	grouped/en_it/stardict-idp-eng-ita-2.4.2.txt	ok	- remove []
+txt/Quick/stardict-quick_eng-ita-2.4.2.txt	en	it	13448		grouped/en_it	grouped/en_it/stardict-quick_eng-ita-2.4.2.txt	ok	
+txt/Quick/stardict-quick_eng-jpn-2.4.2.txt	en	ja	55191		grouped/en_ja	grouped/en_ja/stardict-quick_eng-jpn-2.4.2.txt	ok	, remove  ()
+txt/misc/stardict-idp-eng-lat-2.4.2.txt	en	la	8006		grouped/en_la	grouped/en_la/stardict-idp-eng-lat-2.4.2.txt	ok	, remove final .
+txt/Quick/stardict-quick_eng-lat-2.4.2.txt	en	la	8457		grouped/en_la	grouped/en_la/stardict-quick_eng-lat-2.4.2.txt	ok	,
+txt/misc2/stardict-en-nl_vandale_an_1_0d-2.4.2.txt	en	nl	73352		grouped/en_nl	grouped/en_nl/stardict-en-nl_vandale_an_1_0d-2.4.2.txt	encoding	
+txt/Quick/stardict-quick_eng-nld-2.4.2.txt	en	nl	9913		grouped/en_nl	grouped/en_nl/stardict-quick_eng-nld-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_eng-nor-2.4.2.txt	en	no	6022		grouped/en_no	grouped/en_no/stardict-quick_eng-nor-2.4.2.txt	ok	,
+txt/mova.org/stardict-dictd_www.mova.org_slovnyk_en-pl-2.4.2.txt	en	pl	15412		grouped/en_pl	grouped/en_pl/stardict-dictd_www.mova.org_slovnyk_en-pl-2.4.2.txt	extraction errors	
+txt/misc/stardict-idp-eng-por-2.4.2.txt	en	pt	1226		grouped/en_pt	grouped/en_pt/stardict-idp-eng-por-2.4.2.txt	ok	remove ()[]
+txt/Quick/stardict-quick_eng-por-2.4.2.txt	en	pt	6072		grouped/en_pt	grouped/en_pt/stardict-quick_eng-por-2.4.2.txt	ok	
+txt/misc/stardict-jdict-EngSerbian-2.4.2.txt	en	sr	27566		grouped/en_sr	grouped/en_sr/stardict-jdict-EngSerbian-2.4.2.txt	ok	
+txt/Quick/stardict-quick_eng-swe-2.4.2.txt	en	sv	10036		grouped/en_sv	grouped/en_sv/stardict-quick_eng-swe-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_eng-swa-2.4.2.txt	en	sw	957		grouped/en_sw	grouped/en_sw/stardict-quick_eng-swa-2.4.2.txt	ok	,
+txt/misc/stardict-Esperanto-English-2.4.2.txt	eo	en	2076		grouped/eo_en	grouped/eo_en/stardict-Esperanto-English-2.4.2.txt	ok	, remove final ., ()
+txt/Quick/stardict-quick_esp-swe-2.4.2.txt	eo	sv	2616		grouped/eo_sv	grouped/eo_sv/stardict-quick_esp-swe-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_spa-dan-2.4.2.txt	es	da	4539		grouped/es_da	grouped/es_da/stardict-quick_spa-dan-2.4.2.txt	ok	,
+txt/misc/stardict-wordtrans-es-de-2.4.2.txt	es	de	12816		grouped/es_de	grouped/es_de/stardict-wordtrans-es-de-2.4.2.txt	ok	remove ()
+txt/misc/stardict-e2i-2.4.2.txt	es	en	17802		grouped/es_en	grouped/es_en/stardict-e2i-2.4.2.txt	ok	remove ()
+txt/misc/stardict-es-en_Advanced-VOX-2.4.2.txt	es	en	54554		grouped/es_en	grouped/es_en/stardict-es-en_Advanced-VOX-2.4.2.txt	extraction errors	
+txt/misc2/stardict-es-en_Babylon-2.4.2.txt	es	en	2331		grouped/es_en	grouped/es_en/stardict-es-en_Babylon-2.4.2.txt	extraction errors	
+txt/Quick/stardict-quick_spa-eng-2.4.2.txt	es	en	19036		grouped/es_en	grouped/es_en/stardict-quick_spa-eng-2.4.2.txt	ok	,
+txt/misc2/stardict-es-es_gdle_larousse-2.4.2.txt	es	es	18260		grouped/es_es			
+txt/misc2/stardict-es-es_Larousse-2.4.2.txt	es	es	18260		grouped/es_es			
+txt/misc2/stardict-es-es_Moliner-2.4.2.txt	es	es	73698		grouped/es_es			
+txt/misc/stardict-wordtrans-es-ita-2.4.2.txt	es	it	5087		grouped/es_it	grouped/es_it/stardict-wordtrans-es-ita-2.4.2.txt	ok	split ". "
+txt/misc/stardict-myspell_Spanish_grammar-2.4.2.txt	es	n/a	236		grouped/es_n/a			
+txt/Quick/stardict-quick_spa-swe-2.4.2.txt	es	sv	7625		grouped/es_sv	grouped/es_sv/stardict-quick_spa-swe-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_fin-dan-2.4.2.txt	fi	da	1327		grouped/fi_da	grouped/fi_da/stardict-quick_fin-dan-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_fin-eng-2.4.2.txt	fi	en	1754		grouped/fi_en	grouped/fi_en/stardict-quick_fin-eng-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_fin-swe-2.4.2.txt	fi	sv	1489		grouped/fi_sv	grouped/fi_sv/stardict-quick_fin-swe-2.4.2.txt	ok	,
+txt/fr/stardict-francais-breton-2.4.2.txt	fr	br	32686		grouped/fr_br	grouped/fr_br/stardict-francais-breton-2.4.2.txt	ok	remove ()
+txt/fr/stardict-francais-corse-2.4.2.txt	fr	co	1792		grouped/fr_co	grouped/fr_co/stardict-francais-corse-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_fra-dan-2.4.2.txt	fr	da	6081		grouped/fr_da	grouped/fr_da/stardict-quick_fra-dan-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_fra-eng-2.4.2.txt	fr	en	35256		grouped/fr_en	grouped/fr_en/stardict-quick_fra-eng-2.4.2.txt	ok	
+txt/fr/stardict-dicoAF1835_27.xdxf-2.4.2.txt	fr	fr	26		grouped/fr_fr			
+txt/fr/stardict-dictionnaireCuisine38.xdxf-2.4.2.txt	fr	fr	121		grouped/fr_fr			
+txt/fr/stardict-ideesrecues8.xdxf-2.4.2.txt	fr	fr	960		grouped/fr_fr			
+txt/fr/stardict-xmlittre-2.4.2.txt	fr	fr	30285		grouped/fr_fr			
+txt/Quick/stardict-quick_fra-swe-2.4.2.txt	fr	sv	9437		grouped/fr_sv	grouped/fr_sv/stardict-quick_fra-swe-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_fry-swe-2.4.2.txt	fy	sv	128		grouped/fy_sv	grouped/fy_sv/stardict-quick_fry-swe-2.4.2.txt	ok	,
+txt/fr/stardict-gaeliqueirlandais-francais-2.4.2.txt	ga	fr	5710		grouped/ga_fr	grouped/ga_fr/stardict-gaeliqueirlandais-francais-2.4.2.txt	ok	, remove ()
+txt/fr/stardict-baya-francais-2.4.2.txt	gba	fr	466	Gbaya, Niger-Congo language	grouped/gba_fr	grouped/gba_fr/stardict-baya-francais-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_hun-dan-2.4.2.txt	hu	da	1212		grouped/hu_da	grouped/hu_da/stardict-quick_hun-dan-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_hun-eng-2.4.2.txt	hu	en	98605		grouped/hu_en	grouped/hu_en/stardict-quick_hun-eng-2.4.2.txt	ok	,
+txt/fr/stardict-hongrois-francais-2.4.2.txt	hu	fr	6980		grouped/hu_fr	grouped/hu_fr/stardict-hongrois-francais-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_hun-swe-2.4.2.txt	hu	sv	1346		grouped/hu_sv	grouped/hu_sv/stardict-quick_hun-swe-2.4.2.txt	ok	,
+txt/misc/stardict-jdict-InterlEng-2.4.2.txt	ia	en	26922		grouped/ia_en	grouped/ia_en/stardict-jdict-InterlEng-2.4.2.txt	extraction errors	,; remove ()
+txt/Quick/stardict-quick_ind-dan-2.4.2.txt	id	da	656		grouped/id_da	grouped/id_da/stardict-quick_ind-dan-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_ind-eng-2.4.2.txt	id	en	22337		grouped/id_en	grouped/id_en/stardict-quick_ind-eng-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_ind-swe-2.4.2.txt	id	sv	674		grouped/id_sv	grouped/id_sv/stardict-quick_ind-swe-2.4.2.txt	ok	,
+txt/misc/stardict-is_cz_dictionary-2.4.2.txt	is	cs	1102		grouped/is_cs	grouped/is_cs/stardict-is_cz_dictionary-2.4.2.txt	extraction errors	
+txt/Quick/stardict-quick_isl-swe-2.4.2.txt	is	sv	516		grouped/is_sv	grouped/is_sv/stardict-quick_isl-swe-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_ita-dan-2.4.2.txt	it	da	3455		grouped/it_da	grouped/it_da/stardict-quick_ita-dan-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_ita-eng-2.4.2.txt	it	en	9631		grouped/it_en	grouped/it_en/stardict-quick_ita-eng-2.4.2.txt	ok	,
+txt/misc/stardict-wordtrans-it-hu-2.4.2.txt	it	hu	16615		grouped/it_hu	grouped/it_hu/stardict-wordtrans-it-hu-2.4.2.txt	ok	remove ()
+txt/Quick/stardict-quick_ita-swe-2.4.2.txt	it	sv	7390		grouped/it_sv	grouped/it_sv/stardict-quick_ita-swe-2.4.2.txt	extraction errors ?	,
+txt/Quick/stardict-quick_jpn-dan-2.4.2.txt	ja	da	4587		grouped/ja_da	grouped/ja_da/stardict-quick_jpn-dan-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_jpn-eng-2.4.2.txt	ja	en	48991		grouped/ja_en	grouped/ja_en/stardict-quick_jpn-eng-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_jpn-swe-2.4.2.txt	ja	sv	7731		grouped/ja_sv	grouped/ja_sv/stardict-quick_jpn-swe-2.4.2.txt	ok	,
+txt/fr/stardict-kabyle-francais-2.4.2.txt	kab	fr	3232	Afro-Asiatic	grouped/kab_fr	grouped/kab_fr/stardict-kabyle-francais-2.4.2.txt	encoding errors	
+txt/Quick/stardict-quick_lat-dan-2.4.2.txt	la	da	895		grouped/la_da	grouped/la_da/stardict-quick_lat-dan-2.4.2.txt	ok	,
+txt/misc/stardict-latin-english-2.4.2.txt	la	en	37545		grouped/la_en	grouped/la_en/stardict-latin-english-2.4.2.txt	complex structure	
+txt/Quick/stardict-quick_lat-eng-2.4.2.txt	la	en	4453		grouped/la_en	grouped/la_en/stardict-quick_lat-eng-2.4.2.txt	ok	,
+txt/fr/stardict-latin-francais-2.4.2.txt	la	fr	10442		grouped/la_fr	grouped/la_fr/stardict-latin-francais-2.4.2.txt	complex structure	
+txt/Quick/stardict-quick_lat-swe-2.4.2.txt	la	sv	1000		grouped/la_sv	grouped/la_sv/stardict-quick_lat-swe-2.4.2.txt	ok	,
+txt/misc/stardict-tokipona-nimi-2.4.2.txt	n/a	en	119	no language code, constructed language	grouped/n/a_en			
+txt/freedict.de/stardict-freedict-afr-deu-2.4.2.txt	n/a	n/a	3800	excluded (direct import)	grouped/n/a_n/a			,
+txt/freedict.de/stardict-freedict-afr-eng-2.4.2.txt	n/a	n/a	5019		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-cro-eng-2.4.2.txt	n/a	n/a	79457		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-cze-eng-2.4.2.txt	n/a	n/a	488		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-dan-eng-2.4.2.txt	n/a	n/a	3994		grouped/n/a_n/a			,
+txt/freedict.de/stardict-freedict-deu-fra-2.4.2.txt	n/a	n/a	26		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-deu-ita-2.4.2.txt	n/a	n/a	4451		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-deu-nld-2.4.2.txt	n/a	n/a	12804		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-deu-por-2.4.2.txt	n/a	n/a	1742		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-eng-afr-2.4.2.txt	n/a	n/a	5554		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-eng-cro-2.4.2.txt	n/a	n/a	58386		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-eng-cze-2.4.2.txt	n/a	n/a	80231		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-eng-hun-2.4.2.txt	n/a	n/a	87500		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-eng-ita-2.4.2.txt	n/a	n/a	4115		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-eng-rom-2.4.2.txt	n/a	n/a	989		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-eng-swa-2.4.2.txt	n/a	n/a	1339		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-fra-eng-2.4.2.txt	n/a	n/a	20		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-hun-eng-2.4.2.txt	n/a	n/a	409		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-iri-eng-2.4.2.txt	n/a	n/a	1185		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-ita-deu-2.4.2.txt	n/a	n/a	2819		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-jpn-deu-2.4.2.txt	n/a	n/a	452		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-kha-deu-2.4.2.txt	n/a	n/a	1004		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-lat-deu-2.4.2.txt	n/a	n/a	1794		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-lat-eng-2.4.2.txt	n/a	n/a	2301		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-por-deu-2.4.2.txt	n/a	n/a	8284		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-por-eng-2.4.2.txt	n/a	n/a	10391		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-sco-deu-2.4.2.txt	n/a	n/a	257		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-slo-eng-2.4.2.txt	n/a	n/a	826		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-spa-eng-2.4.2.txt	n/a	n/a	4500		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-swa-eng-2.4.2.txt	n/a	n/a	1509		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-swe-eng-2.4.2.txt	n/a	n/a	5215		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-tur-deu-2.4.2.txt	n/a	n/a	16		grouped/n/a_n/a			
+txt/freedict.de/stardict-freedict-tur-eng-2.4.2.txt	n/a	n/a	1026		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-afr-deu-2.4.2.txt	n/a	n/a	1099		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-afr-eng-2.4.2.txt	n/a	n/a	1366		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-bre-fra-2.4.2.txt	n/a	n/a	5065		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-ces-eng-2.4.2.txt	n/a	n/a	191		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-ckb-kmr-2.4.2.txt	n/a	n/a	1827		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-cym-eng-2.4.2.txt	n/a	n/a	3107		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-dan-eng-2.4.2.txt	n/a	n/a	1209		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-deu-eng-2.4.2.txt	n/a	n/a	26246		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-deu-fra-2.4.2.txt	n/a	n/a	8567		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-deu-ita-2.4.2.txt	n/a	n/a	1295		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-deu-kur-2.4.2.txt	n/a	n/a	3993		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-deu-nld-2.4.2.txt	n/a	n/a	3346		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-deu-por-2.4.2.txt	n/a	n/a	2399		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-deu-tur-2.4.2.txt	n/a	n/a	4939		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-eng-afr-2.4.2.txt	n/a	n/a	1492		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-eng-ces-2.4.2.txt	n/a	n/a	19313		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-eng-cym-2.4.2.txt	n/a	n/a	3462		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-eng-deu-2.4.2.txt	n/a	n/a	25271		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-eng-hrv-2.4.2.txt	n/a	n/a	25650		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-eng-hun-2.4.2.txt	n/a	n/a	41157		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-eng-ita-2.4.2.txt	n/a	n/a	1135		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-eng-lit-2.4.2.txt	n/a	n/a	1489		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-eng-nld-2.4.2.txt	n/a	n/a	2438		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-eng-rom-2.4.2.txt	n/a	n/a	425		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-eng-swh-2.4.2.txt	n/a	n/a	459		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-eng-tur-2.4.2.txt	n/a	n/a	7105		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-fra-bre-2.4.2.txt	n/a	n/a	8717		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-fra-nld-2.4.2.txt	n/a	n/a	2706		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-gla-deu-2.4.2.txt	n/a	n/a	92		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-gle-eng-2.4.2.txt	n/a	n/a	455		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-gle-pol-2.4.2.txt	n/a	n/a	150		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-hrv-eng-2.4.2.txt	n/a	n/a	39336		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-hun-eng-2.4.2.txt	n/a	n/a	79089		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-isl-eng-2.4.2.txt	n/a	n/a	2650		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-ita-deu-2.4.2.txt	n/a	n/a	765		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-ita-eng-2.4.2.txt	n/a	n/a	835		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-jpn-deu-2.4.2.txt	n/a	n/a	123		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-kha-deu-2.4.2.txt	n/a	n/a	347		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-kha-eng-2.4.2.txt	n/a	n/a	781		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-kur-deu-2.4.2.txt	n/a	n/a	3164		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-kur-eng-2.4.2.txt	n/a	n/a	825		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-kur-tur-2.4.2.txt	n/a	n/a	3898		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-lat-deu-2.4.2.txt	n/a	n/a	1670		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-lat-eng-2.4.2.txt	n/a	n/a	682		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-lit-eng-2.4.2.txt	n/a	n/a	1392		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-nld-deu-2.4.2.txt	n/a	n/a	4282		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-nld-eng-2.4.2.txt	n/a	n/a	5999		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-nld-fra-2.4.2.txt	n/a	n/a	4413		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-nno-nob-2.4.2.txt	n/a	n/a	13934		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-oci-cat-2.4.2.txt	n/a	n/a	2539		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-pol-gle-2.4.2.txt	n/a	n/a	107		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-por-deu-2.4.2.txt	n/a	n/a	2314		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-por-eng-2.4.2.txt	n/a	n/a	3043		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-slk-eng-2.4.2.txt	n/a	n/a	315		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-spa-ast-2.4.2.txt	n/a	n/a	4774		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-spa-eng-2.4.2.txt	n/a	n/a	1410		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-spa-por-2.4.2.txt	n/a	n/a	80		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-swe-deu-2.4.2.txt	n/a	n/a	5316		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-swe-eng-2.4.2.txt	n/a	n/a	1546		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-swh-eng-2.4.2.txt	n/a	n/a	746		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-swh-pol-2.4.2.txt	n/a	n/a	434		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-tur-deu-2.4.2.txt	n/a	n/a	363		grouped/n/a_n/a			
+txt/freedict2/stardict-freedict2-tur-eng-2.4.2.txt	n/a	n/a	397		grouped/n/a_n/a			
+txt/kenere.com/stardict-kenere_XingShiSuSongFa-2.4.2.txt	n/a	n/a	0		grouped/n/a_n/a			
+txt/misc/stardict-dictd_duc-viet-2.4.2.txt	n/a	n/a	44241	viet encoding broken	grouped/n/a_n/a			
+txt/misc/stardict-dictd_nauy-viet-2.4.2.txt	n/a	n/a	1070	viet encoding broken	grouped/n/a_n/a			
+txt/misc/stardict-dictd_phap-viet-2.4.2.txt	n/a	n/a	4	viet encoding broken	grouped/n/a_n/a			
+txt/misc/stardict-dictd_viet-anh-2.4.2.txt	n/a	n/a	420	viet encoding broken	grouped/n/a_n/a			
+txt/misc/stardict-dictd_viet-duc-2.4.2.txt	n/a	n/a	74	viet encoding broken	grouped/n/a_n/a			
+txt/misc/stardict-dictd_viet-phap-2.4.2.txt	n/a	n/a	434	viet encoding broken	grouped/n/a_n/a			
+txt/misc/stardict-dictd_viet-viet-2.4.2.txt	n/a	n/a	1742	viet encoding broken	grouped/n/a_n/a			
+txt/misc/stardict-eovidata-2.4.2.txt	n/a	n/a	17125	encoding broken	grouped/n/a_n/a			
+txt/misc/stardict-sk_en_legal-2.4.2.txt	n/a	n/a	15590	encoding broken	grouped/n/a_n/a			
+txt/misc/stardict-xfardic-gcide-2.4.2.txt	n/a	n/a	13485	distorted export	grouped/n/a_n/a			
+txt/misc2/stardict_ES-PL_PL-ES-2.4.2.txt	n/a	n/a	60373	distorted export	grouped/n/a_n/a			
+txt/misc2/stardict-Neolingus_DE-PL_PL-DE-2.4.2.txt	n/a	n/a	48838	Polish encoding distorted	grouped/n/a_n/a			
+txt/PowerWord/2005/stardict-powerword_pwpcedx-2.4.2.txt	n/a	n/a	0		grouped/n/a_n/a			
+txt/PowerWord/2009/stardict-powerword2009_1_502_2-2.4.2.txt	n/a	n/a	1		grouped/n/a_n/a			
+txt/special/stardict-treedict-infoBrowse-zh_CN-2.4.2.txt	n/a	n/a	0		grouped/n/a_n/a			
+txt/stardict-dictd_www.dict.org_gcide-2.4.2.txt	n/a	n/a	0		grouped/n/a_n/a			
+txt/zh_CN/stardict-gyfancha-2.4.2.txt	n/a	n/a	20280	encoding broken	grouped/n/a_n/a			
+txt/zh_CN/stardict-KangXiZiDian-3.0.0.txt	n/a	n/a	1681	encoding broken	grouped/n/a_n/a			
+txt/zh_CN/stardict-woaifayu-ef-2.4.2.txt	n/a	n/a	43072	encoding broken	grouped/n/a_n/a			
+txt/zh_CN/stardict-woaifayu-fe-2.4.2.txt	n/a	n/a	36241	encoding broken	grouped/n/a_n/a			
+txt/zh_CN/stardict-woaifayu-ff-2.4.2.txt	n/a	n/a	27031	encoding broken	grouped/n/a_n/a			
+txt/zh_CN/stardict-woaifayu-fi-2.4.2.txt	n/a	n/a	34747	encoding broken	grouped/n/a_n/a			
+txt/zh_CN/stardict-wubi86-2.4.2.txt	n/a	n/a	74436	encoding broken	grouped/n/a_n/a			
+txt/zh_CN/stardict-wubi98-2.4.2.txt	n/a	n/a	74434	encoding broken	grouped/n/a_n/a			
+txt/misc/stardict-quick_nld-czech-2.4.2.txt	nl	cs	12164		grouped/nl_cs	grouped/nl_cs/stardict-quick_nld-czech-2.4.2.txt	encoding errors	
+txt/Quick/stardict-quick_nld-dan-2.4.2.txt	nl	da	4675		grouped/nl_da	grouped/nl_da/stardict-quick_nld-dan-2.4.2.txt	ok	,
+txt/misc/stardict-Nld_De-2.4.2.txt	nl	de	103481		grouped/nl_de	grouped/nl_de/stardict-Nld_De-2.4.2.txt	distorted	,
+txt/misc/stardict-Nld_Eng-2.4.2.txt	nl	en	105116		grouped/nl_en	grouped/nl_en/stardict-Nld_Eng-2.4.2.txt	distorted	,
+txt/misc2/stardict-nl-en_vandale_an_1_1d-2.4.2.txt	nl	en	27583		grouped/nl_en	grouped/nl_en/stardict-nl-en_vandale_an_1_1d-2.4.2.txt	distorted	,
+txt/Quick/stardict-quick_nld-eng-2.4.2.txt	nl	en	12992		grouped/nl_en	grouped/nl_en/stardict-quick_nld-eng-2.4.2.txt	ok	
+txt/misc/stardict-Nld_Fr-2.4.2.txt	nl	fr	109761		grouped/nl_fr	grouped/nl_fr/stardict-Nld_Fr-2.4.2.txt	distorted	
+txt/Quick/stardict-quick_nld-swe-2.4.2.txt	nl	sv	8010		grouped/nl_sv	grouped/nl_sv/stardict-quick_nld-swe-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_nor-dan-2.4.2.txt	no	da	2375		grouped/no_da	grouped/no_da/stardict-quick_nor-dan-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_nor-eng-2.4.2.txt	no	en	6556		grouped/no_en	grouped/no_en/stardict-quick_nor-eng-2.4.2.txt	ok	, remove final . []
+txt/Quick/stardict-quick_nor-swe-2.4.2.txt	no	sv	4148		grouped/no_sv	grouped/no_sv/stardict-quick_nor-swe-2.4.2.txt	ok	,
+txt/mova.org/stardict-dictd_www.mova.org_slovnyk_pl-en-2.4.2.txt	pl	en	645		grouped/pl_en	grouped/pl_en/stardict-dictd_www.mova.org_slovnyk_pl-en-2.4.2.txt	extraction errors	,
+txt/misc/stardict-myspell_Polish_grammar-2.4.2.txt	pl	n/a	29		grouped/pl_n/a			
+txt/Quick/stardict-quick_pol-swe-2.4.2.txt	pl	sv	240		grouped/pl_sv	grouped/pl_sv/stardict-quick_pol-swe-2.4.2.txt	extraction errors	
+txt/Quick/stardict-quick_por-dan-2.4.2.txt	pt	da	2529		grouped/pt_da	grouped/pt_da/stardict-quick_por-dan-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_por-eng-2.4.2.txt	pt	en	5332		grouped/pt_en	grouped/pt_en/stardict-quick_por-eng-2.4.2.txt	ok	,
+txt/misc2/stardict-dict-michaelis-pt-en-es-2.4.2.txt	pt	es	16723		grouped/pt_es	grouped/pt_es/stardict-dict-michaelis-pt-en-es-2.4.2.txt	ok	
+txt/misc2/stardict-DicAberto-2.4.2.txt	pt	pt	57832		grouped/pt_pt			
+txt/Quick/stardict-quick_por-swe-2.4.2.txt	pt	sv	3179		grouped/pt_sv	grouped/pt_sv/stardict-quick_por-swe-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_rum-swe-2.4.2.txt	ro	sv	3390		grouped/ro_sv	grouped/ro_sv/stardict-quick_rum-swe-2.4.2.txt	encoding errors	,
+txt/Quick/stardict-quick_slo-swe-2.4.2.txt	sk	sv	1545		grouped/sk_sv	grouped/sk_sv/stardict-quick_slo-swe-2.4.2.txt	encoding errors	,
+txt/fr/stardict-sum-fra-2.4.2.txt	sux	fr	300		grouped/sux_fr	grouped/sux_fr/stardict-sum-fra-2.4.2.txt	ok	
+txt/Quick/stardict-quick_swe-afr-2.4.2.txt	sv	af	3120		grouped/sv_af	grouped/sv_af/stardict-quick_swe-afr-2.4.2.txt	ok	
+txt/Quick/stardict-quick_swe-bul-2.4.2.txt	sv	bg	6942		grouped/sv_bg	grouped/sv_bg/stardict-quick_swe-bul-2.4.2.txt	encoding errors	,
+txt/Quick/stardict-quick_swe-wel-2.4.2.txt	sv	cy	2054		grouped/sv_cy	grouped/sv_cy/stardict-quick_swe-wel-2.4.2.txt	ok	
+txt/Quick/stardict-quick_swe-dan-2.4.2.txt	sv	da	4294		grouped/sv_da	grouped/sv_da/stardict-quick_swe-dan-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_swe-deu-2.4.2.txt	sv	de	25514		grouped/sv_de	grouped/sv_de/stardict-quick_swe-deu-2.4.2.txt	ok (factual errors)	,
+txt/Quick/stardict-quick_swe-gre-2.4.2.txt	sv	el	2408		grouped/sv_el	grouped/sv_el/stardict-quick_swe-gre-2.4.2.txt	encoding	,
+txt/misc2/stardict-folkets_sv-en-2.4.2.txt	sv	en	633		grouped/sv_en	grouped/sv_en/stardict-folkets_sv-en-2.4.2.txt	extraction errors	
+txt/Quick/stardict-quick_swe-eng-2.4.2.txt	sv	en	11341		grouped/sv_en	grouped/sv_en/stardict-quick_swe-eng-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_swe-esp-2.4.2.txt	sv	es	4893		grouped/sv_es	grouped/sv_es/stardict-quick_swe-esp-2.4.2.txt	distorted ?	, remove after ;, remove ()
+txt/Quick/stardict-quick_swe-spa-2.4.2.txt	sv	es	7154		grouped/sv_es	grouped/sv_es/stardict-quick_swe-spa-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_swe-fin-2.4.2.txt	sv	fi	2637		grouped/sv_fi	grouped/sv_fi/stardict-quick_swe-fin-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_swe-fra-2.4.2.txt	sv	fr	6757		grouped/sv_fr	grouped/sv_fr/stardict-quick_swe-fra-2.4.2.txt	ok	
+txt/Quick/stardict-quick_swe-fry-2.4.2.txt	sv	fy	122		grouped/sv_fy	grouped/sv_fy/stardict-quick_swe-fry-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_swe-hun-2.4.2.txt	sv	hu	2003		grouped/sv_hu	grouped/sv_hu/stardict-quick_swe-hun-2.4.2.txt	ok	,
+txt/misc/stardict-jdict-SweInterling-2.4.2.txt	sv	ia	2902		grouped/sv_ia	grouped/sv_ia/stardict-jdict-SweInterling-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_swe-ind-2.4.2.txt	sv	id	1228		grouped/sv_id	grouped/sv_id/stardict-quick_swe-ind-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_swe-isl-2.4.2.txt	sv	is	1068		grouped/sv_is	grouped/sv_is/stardict-quick_swe-isl-2.4.2.txt	ok	
+txt/Quick/stardict-quick_swe-ita-2.4.2.txt	sv	it	6487		grouped/sv_it	grouped/sv_it/stardict-quick_swe-ita-2.4.2.txt	extraction errors?	,
+txt/Quick/stardict-quick_swe-jpn-2.4.2.txt	sv	ja	4649		grouped/sv_ja	grouped/sv_ja/stardict-quick_swe-jpn-2.4.2.txt	ok	, remove ()
+txt/Quick/stardict-quick_swe-lat-2.4.2.txt	sv	la	1563		grouped/sv_la	grouped/sv_la/stardict-quick_swe-lat-2.4.2.txt	ok	
+txt/Quick/stardict-quick_swe-nld-2.4.2.txt	sv	nl	7062		grouped/sv_nl	grouped/sv_nl/stardict-quick_swe-nld-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_swe-nor-2.4.2.txt	sv	no	4551		grouped/sv_no	grouped/sv_no/stardict-quick_swe-nor-2.4.2.txt	ok	,
+txt/Quick/stardict-quick_swe-pol-2.4.2.txt	sv	pl	328		grouped/sv_pl	grouped/sv_pl/stardict-quick_swe-pol-2.4.2.txt	encoding errors	,
+txt/Quick/stardict-quick_swe-por-2.4.2.txt	sv	pt	4630		grouped/sv_pt	grouped/sv_pt/stardict-quick_swe-por-2.4.2.txt	ok	, remove ()
+txt/Quick/stardict-quick_swe-rum-2.4.2.txt	sv	ro	3155		grouped/sv_ro	grouped/sv_ro/stardict-quick_swe-rum-2.4.2.txt	ok	
+txt/Quick/stardict-quick_swe-slo-2.4.2.txt	sv	sk	2630		grouped/sv_sk	grouped/sv_sk/stardict-quick_swe-slo-2.4.2.txt	encoding errors	
+txt/Quick/stardict-quick_swe-swa-2.4.2.txt	sv	sw	907		grouped/sv_sw	grouped/sv_sw/stardict-quick_swe-swa-2.4.2.txt	ok	
+txt/Quick/stardict-quick_swa-dan-2.4.2.txt	sw	da	536		grouped/sw_da	grouped/sw_da/stardict-quick_swa-dan-2.4.2.txt	ok	
+txt/Quick/stardict-quick_swa-eng-2.4.2.txt	sw	en	650		grouped/sw_en	grouped/sw_en/stardict-quick_swa-eng-2.4.2.txt	ok	
+txt/Quick/stardict-quick_swa-swe-2.4.2.txt	sw	sv	530		grouped/sw_sv	grouped/sw_sv/stardict-quick_swa-swe-2.4.2.txt	ok	
+txt/fr/stardict-Wallon_Francais-2.4.2.txt	wa	fr	11596	Romance	grouped/wa_fr	grouped/wa_fr/stardict-Wallon_Francais-2.4.2.txt	ok	

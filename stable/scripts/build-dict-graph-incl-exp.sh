@@ -4,11 +4,13 @@
 # requires ImageMagick (convert) and dot/neato (GraphViz)
 
 # color codes for dictionaries
-FREEDICT=blue;
-FREEDICT_DE=midnightblue;
 APERTIUM=black;
 DBNARY=gray;
 XDXF=red;
+# experimental = dotted
+FREEDICT=blue;
+FREEDICT_DE=midnightblue;
+STARDICT=green;
 
 # build graph of connected dictionaries
 (for dir in ../freedict/*rdf*/*-*; do 
@@ -37,7 +39,10 @@ for file in ../../experimental/free-dict.de/*/*-*.tsv.gz; do
 	echo $file | \
 	sed -e s/'^.*\/\([a-z]*\)-\([a-z]*\).tsv.gz$'/'\1\t\2\tcolor='$FREEDICT_DE', style=dotted'/g;
 done;
-
+for dir in `ls  ../../experimental/stardict/star*/*/*tsv.gz | sed s/'\/[^\/]*$'// | uniq`; do
+	echo $dir | \
+	perl -pe 's/^.*\/([a-z]+)(-[^_\/]*)?_([a-z]+)[^a-z\/][^\/]*/$1\t$3\tcolor='$STARDICT', style=dotted\n/g;'
+done;
 ) | \
 bash langs2dot.sh | egrep '[a-zA-Z]' > ../../dicts.dot;
 
@@ -103,25 +108,32 @@ echo 'AMERICA -- OTHER [style=invis];'
 
 # dictionaries
 echo 'X [style=invis];'
-echo 'X -- Apertium [color='$APERTIUM'];'
-echo 'X -- FreeDict [color='$FREEDICT'];'
-echo 'X -- DBnary [color='$DBNARY'];'
+echo 'Apertium -- X [color='$APERTIUM'];'
+echo 'FreeDict -- X [color='$FREEDICT'];'
+echo 'DBnary -- X [color='$DBNARY'];'
 echo 'X -- XDXF [color='$XDXF', style=dotted];'
 echo 'X -- FreeDictDe [color='$FREEDICT_DE', style=dotted];'
+echo 'X -- StarDict [color='$STARDICT', style=dotted];'
 echo 'Apertium [color=white];'
 echo 'FreeDict [color=white];'
 echo 'DBnary [color=white];'
 echo 'XDXF [color=white];'
+echo 'StarDict [color=white];'
 echo 'FreeDictDe [label="free-dict.de", color=white];'
+
 echo 'OTHER -- Apertium [style=invis];'
 echo 'Apertium -- FreeDict [style=invis];'
-echo 'FreeDictDe -- DBnary [style=invis];'
-echo 'DBnary -- XDXF [style=invis];'
-echo 'XDXF -- FreeDictDe [style=invis];'
+echo 'Apertium -- DBnary [style=invis];'
 
+echo 'FreeDict -- FreeDictDe [style=invis];'
+echo 'DBnary -- XDXF [style=invis];'
+echo 'FreeDictDe -- StarDict [style=invis];'
+echo 'XDXF -- StarDict [style=invis];'
 
 echo '}'
-) | dot -Tgif > ../../legend.gif
+) | \
+#egrep -n '^'
+dot -Tgif > ../../legend.gif
 
 
 cat ../../dicts.dot | grep ' -' | sed s/'\[.*'// | sed s/'\s'/'\n'/g | egrep '[a-z]' | sort -u | \
@@ -300,6 +312,7 @@ perl -pe '
 	s/^zlm$/zlm [style=filled,fillcolor='$PACIFIC'];/g;
 	
 	# Subsaharic Africa
+	s/^gba$/gba [style=filled,fillcolor='$SUBSAHARIC'];/g;
 	s/^sw$/sw [style=filled,fillcolor='$SUBSAHARIC'];/g;
 	s/^swh$/swh [style=filled,fillcolor='$SUBSAHARIC'];/g;
 	s/^wo$/wo [style=filled,fillcolor='$SUBSAHARIC'];/g;
@@ -332,4 +345,4 @@ cat ../../dicts.dot | neato -Tgif > ../../dicts.gif
 # resize and merge with legend
 HEIGHT=`convert ../../dicts.gif info: | sed s/'^[^ ]* GIF [0-9]*x\([0-9]*\) .*'/'\1'/`;
 convert -resize x$HEIGHT ../../legend.gif ../../legend-shrunk.gif
-convert ../../dicts.gif ../../legend-shrunk.gif +append ../../dicts-w-legend.gifß
+convert ../../dicts.gif ../../legend-shrunk.gif +append ../../dicts-w-legend.gif

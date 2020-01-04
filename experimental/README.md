@@ -14,12 +14,14 @@ Please create individual subdirectories here.
 	 - 52 language varieties (51 plus spoken English), 108 language pairs, 147 individual dictionaries
  - quality of source data is unbalanced, extraction errors in original XDXF data not fixed
  
-### StarDict converter (under development)
+### StarDict converter
  - dictionary ecosystem, providing dictionaries and a tool
  - retrieved dictionaries restricted to those with explicit open license (GPL, CC-BY, etc.), also including "free-to-use" resources, no legal clearance beyond the original listing on the distributor site
  - provides low-level encoding of dictionaries, with index words and definitions. No systematic markup beyond that.
- - No systematic indication of languages.
- - Preliminary retrieval and conversion pipeline included.
+ - manual indication of languages.
+ - shallow, lossy extraction (the format semi-formalized only, no systematic encoding of grammatical features, translations, etc.), 
+   providing a *selection* of open/free-to-use resources that are sound (reliable translation detection, few encoding errors)
+ - no systematic metadata, parts of it seem to be crowd-sourced and moderate quality
 
 ### free-dict.de converter
  - six dictionaries with online search interface and HTML serialization, mostly crowd-sourced content.
