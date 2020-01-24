@@ -2,13 +2,17 @@
 # no arguments, produces a dictionary/language graph for ACoLi dictionaries
 # requires ImageMagick (convert) and dot/neato (GraphViz)
 
+
 # color codes for dictionaries
-FREEDICT=blue;
 APERTIUM=black;
 DBNARY=gray;
+FREEDICT=blue;
+PANLEX=red;
+
 
 # build graph of connected dictionaries
-(for dir in ../freedict/*rdf*/*-*; do 
+(
+for dir in ../freedict/*rdf*/*-*; do 
 	echo $dir | \
 	sed -e s/'.*\/'//g -e s/'\-'/'\t'/g -e s/'$'/'\tcolor='$FREEDICT/g; 
 done;
@@ -20,6 +24,10 @@ for file in ../dbnary/dbnary-tiad*/*tsv.gz; do
 	echo $file | sed -e s/'.*\/'//g -e s/'_dbnary.*'// | \
 	sed -e s/'^\([a-z]*\)_\([a-z]*\)$'/'\1\t\2\tcolor='$DBNARY/g;
 done;
+if [ -e ../panlex/biling-tsv/langtab.tsv ]; then
+	egrep '[0-9][0-9][0-9][0-9][0-9]$' ../panlex/biling-tsv/langtab.tsv | \
+	sed -e s/'.*\/\([a-z][a-z]*\)-\([a-z][a-z]*\).tsv.*'/'\1\t\2\tcolor='$PANLEX/g;
+fi;
 ) | \
 bash langs2dot.sh | egrep '[a-zA-Z]' > ../dicts.dot;
 
@@ -88,12 +96,15 @@ echo 'X [style=invis];'
 echo 'X -- Apertium [color='$APERTIUM'];'
 echo 'X -- FreeDict [color='$FREEDICT'];'
 echo 'X -- DBnary [color='$DBNARY'];'
+echo 'X -- PanLex [color='$PANLEX'];'
 echo 'Apertium [color=white];'
 echo 'FreeDict [color=white];'
 echo 'DBnary [color=white];'
+echo 'PanLex [color=white];'
 echo 'OTHER -- Apertium [style=invis];'
 echo 'Apertium -- FreeDict [style=invis];'
 echo 'FreeDict -- DBnary [style=invis];'
+echo 'DBnary -- PanLex [style=invis];'
 
 echo '}'
 ) | dot -Tgif > ../legend.gif
@@ -236,7 +247,11 @@ perl -pe '
 	s/^qu$/qu [style=filled,fillcolor='$AMERICA'];/g;
 
 	# CAUCASIAN
+	# SW CAUC
 	s/^ka$/ka [style=filled,fillcolor='$CAUCASIAN'];/g;
+	# NW CAUC
+	s/^abq$/abq [style=filled,fillcolor='$CAUCASIAN'];/g;
+	# NE CAUC
 
 	# DRAVIDIAN
 	s/^ml$/ml [style=filled,fillcolor='$DRAVIDIAN'];/g;
@@ -264,7 +279,6 @@ perl -pe '
 	s/^yue$/yue [style=filled,fillcolor='$EAST_ASIA'];/g;
 	s/^vi$/vi [style=filled,fillcolor='$EAST_ASIA'];/g;
 	s/^zh$/zh [style=filled,fillcolor='$EAST_ASIA'];/g;
-	
 	
 	# PACIFIC
 	s/^id$/id [style=filled,fillcolor='$PACIFIC'];/g;

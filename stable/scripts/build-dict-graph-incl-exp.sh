@@ -6,14 +6,16 @@
 # color codes for dictionaries
 APERTIUM=black;
 DBNARY=gray;
-XDXF=red;
-# experimental = dotted
 FREEDICT=blue;
+PANLEX=red;
+# experimental = dotted
+XDXF=red;
 FREEDICT_DE=midnightblue;
 STARDICT=green;
 
 # build graph of connected dictionaries
-(for dir in ../freedict/*rdf*/*-*; do 
+(
+for dir in ../freedict/*rdf*/*-*; do 
 	echo $dir | \
 	sed -e s/'.*\/'//g -e s/'\-'/'\t'/g -e s/'$'/'\tcolor='$FREEDICT/g; 
 done;
@@ -25,6 +27,10 @@ for file in ../dbnary/dbnary-tiad*/*tsv.gz; do
 	echo $file | sed -e s/'.*\/'//g -e s/'_dbnary.*'// | \
 	sed -e s/'^\([a-z]*\)_\([a-z]*\)$'/'\1\t\2\tcolor='$DBNARY/g;
 done;
+if [ -e ../panlex/biling-tsv/langtab.tsv ]; then
+	egrep '[0-9][0-9][0-9][0-9][0-9]$' ../panlex/biling-tsv/langtab.tsv | \
+	sed -e s/'.*\/\([a-z][a-z]*\)-\([a-z][a-z]*\).tsv.*'/'\1\t\2\tcolor='$PANLEX/g;
+fi;
 
 # experimental stuff
 for file in ../../experimental/xdxf/*rdf*/*-*; do
@@ -111,19 +117,22 @@ echo 'X [style=invis];'
 echo 'Apertium -- X [color='$APERTIUM'];'
 echo 'FreeDict -- X [color='$FREEDICT'];'
 echo 'DBnary -- X [color='$DBNARY'];'
+echo 'PanLex -- X [color='$PANLEX'];'
 echo 'X -- XDXF [color='$XDXF', style=dotted];'
 echo 'X -- FreeDictDe [color='$FREEDICT_DE', style=dotted];'
 echo 'X -- StarDict [color='$STARDICT', style=dotted];'
 echo 'Apertium [color=white];'
 echo 'FreeDict [color=white];'
 echo 'DBnary [color=white];'
+echo 'PanLex [color=white];'
 echo 'XDXF [color=white];'
 echo 'StarDict [color=white];'
 echo 'FreeDictDe [label="free-dict.de", color=white];'
 
 echo 'OTHER -- Apertium [style=invis];'
+echo 'OTHER -- PanLex [style=invis];'
 echo 'Apertium -- FreeDict [style=invis];'
-echo 'Apertium -- DBnary [style=invis];'
+echo 'PanLex -- DBnary [style=invis];'
 
 echo 'FreeDict -- FreeDictDe [style=invis];'
 echo 'DBnary -- XDXF [style=invis];'
@@ -273,7 +282,11 @@ perl -pe '
 	s/^qu$/qu [style=filled,fillcolor='$AMERICA'];/g;
 
 	# CAUCASIAN
+	# SW CAUC
 	s/^ka$/ka [style=filled,fillcolor='$CAUCASIAN'];/g;
+	# NW CAUC
+	s/^abq$/abq [style=filled,fillcolor='$CAUCASIAN'];/g;
+	# NE CAUC
 
 	# DRAVIDIAN
 	s/^ml$/ml [style=filled,fillcolor='$DRAVIDIAN'];/g;
