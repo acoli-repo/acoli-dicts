@@ -1,0 +1,28 @@
+PanLex Data License (OntoLex/TIAD edition)
+==
+
+PanLex is a project of <a href="http://longnow.org">The Long Now Foundation</a>, and provides <a href="https://panlex.org/snapshot/">CSV and JSON snapshots</a> of the PanLex Database, <a href="https://db.panlex.org">PanLex Lite</a>, and the <a href="https://db.panlex.org">PanLex Swadesh Lists</a> (“the Data”) under the <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal License</a>. 
+
+The <a href="https://github.com/acoli-repo/acoli-dicts/tree/master/stable/panlex">RDF edition of the PanLex Database</a> has been created at the <a href="http://www.acoli.informatik.uni-frankfurt.de/">Applied Computational Linguistics (ACoLi) Lab, Goethe Universität Frankfurt</a>, and is also distributed under the <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal License</a>. 
+
+You can copy, modify, and distribute the Data, even for commercial purposes, all without asking permission.
+
+When using PanLex RDF data or referring to PanLex RDF, please cite either 
+- both the websites <code>http://panlex.org</code> <i>and</i> <code>https://github.com/acoli-repo/acoli-dicts</code> or
+- <i>both</i> the following papers:
+	- Kamholz, David, Jonathan Pool, and Susan M. Colowick. 2014. PanLex: Building a Resource for Panlingual Lexical Translation. Proceedings of the 9th International Conference on Language Resources and Evaluation (LREC 2014). <code>http://www.lrec-conf.org/proceedings/lrec2014/pdf/1029_Paper.pdf</code>
+	- Christian Chiarcos, Christian Fäth, Maxim Ionov. subm. The ACoLi Dictionary Graph. Submitted to the 12th International Conference on Language Resources and Evaluation (LREC 2020)
+
+Please direct all inquiries about the PanLex RDF conversion to <a href="mailto:christian.chiarcos@web.de">Christian Chiarcos</a>, and all inquiries about PanLex data to <a href="mailto:info@panlex.org">info@panlex.org</a>.
+
+PanLex Data License (original data)
+==
+Note: The original license statement can be found under https://panlex.org/license/.
+
+PanLex is a project of <a href="http://longnow.org">The Long Now Foundation</a>, and provides <a href="https://panlex.org/snapshot/">CSV and JSON snapshots</a> of the PanLex Database, <a href="https://db.panlex.org">PanLex Lite</a>, and the <a href="https://db.panlex.org">PanLex Swadesh Lists</a> (“the Data”) under the <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal License</a>. You can copy, modify, and distribute the Data, even for commercial purposes, all without asking permission.
+
+When using PanLex data or referring to PanLex, please cite either the website (<code>http://panlex.org</code>) or the <a href="http://www.lrec-conf.org/proceedings/lrec2014/pdf/1029_Paper.pdf">following paper</a>:
+
+Kamholz, David, Jonathan Pool, and Susan M. Colowick. 2014. PanLex: Building a Resource for Panlingual Lexical Translation. Proceedings of the 9th International Conference on Language Resources and Evaluation (LREC 2014). <code>http://www.lrec-conf.org/proceedings/lrec2014/pdf/1029_Paper.pdf</code>
+
+Please direct all inquiries to <a href="mailto:info@panlex.org">info@panlex.org</a>.
