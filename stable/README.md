@@ -2,7 +2,7 @@
 # ACoLi Dicts
 Ontolex-lemon dictionaries provided by the Applied Computational Linguistics (ACoLi) lab at Goethe Universität Frankfurt am Main, Germany, and the associated research group Linked Open Dictionaries (LiODi, 2015-2020, funded by BMBF)
 
-The stable release, provides OntoLex-lemon and TIAD-TSV editions of open source dictionaries for 130 language varieties and 373 language pairs, see statistics below.
+The stable release, provides OntoLex-lemon and TIAD-TSV editions of open source dictionaries for (more than) 242 language varieties and 1756 language pairs, see statistics below.
 Additional data has been converted, but is still awaiting copyright clearance.
 
 ![dictionary graph](https://raw.githubusercontent.com/acoli-repo/acoli-dicts/master/stable/dicts-w-legend.gif "Dictionary graph")
