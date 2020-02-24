@@ -39,11 +39,13 @@ SRC=https://github.com/apertium/apertium-trunk.git;
 mkdir -p src;
 cd src;
 
+# This works for me, it's better to replace svn checkout with this line (MI 2020-02-23)
 # git clone --recurse-submodules --shallow-submodules --depth 1 git@github.com:apertium/apertium-trunk.git
 ## (defined under https://github.com/apertium/apertium-trunk) FAILED
 # git clone --recurse-submodules --shallow-submodules --depth 1 https://github.com/apertium/apertium-trunk.git
 ## recursion FAILED
 
+# --- remove this if you uncomment `git clone ... git@github...` line`
 svn checkout $SRC;
 for url in `cat apertium-trunk.git/trunk/.gitmodules | grep url | sed s/'.*='//g; `; do
 	#echo $url;
@@ -51,6 +53,7 @@ for url in `cat apertium-trunk.git/trunk/.gitmodules | grep url | sed s/'.*='//g
 	echo $url 1>&2;
 	svn checkout $url;
 done;
+# --- end remove ---
 
 cd ..;
 
@@ -61,7 +64,7 @@ cd ..;
 
 mkdir -p langs/;
 cd langs/;
-for pair in `find ../src/ | egrep '/apertium-(.+)-(.+).\1-\2.dix$';`; do
+for pair in `find ../src/ | egrep '/trunk/apertium-(.+)-(.+).\1-\2.dix$';`; do
 	ln -s $pair . &
 done;
 sleep 1;
@@ -179,3 +182,4 @@ cd ..;
 
 cp LICENSE_DATA $RELEASE/COPYING;
 cp AUTHORS $RELEASE;
+
