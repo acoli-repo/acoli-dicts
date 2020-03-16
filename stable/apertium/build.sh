@@ -77,28 +77,6 @@ cd ..
 # (3) bootstrap apertium ontology #
 ###################################
 
-(echo '@prefix apertium: <http://wiki.apertium.org/wiki/Bidix#> .';
-echo '@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .';
-echo '@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .';
-echo '@prefix owl: <http://www.w3.org/2002/07/owl#> .';
-echo '@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .';
-echo '@prefix system: <http://purl.org/olia/system.owl#> .';
-echo ;
-#egrep '<sdef ' langs/* | \
-cat langs/* | \
-egrep '<sdef ' | \
-perl -pe '
-	s/\t/ /g;
-	s/  +/ /g;
-	s/(<sdef n="([^"]+)")/apertium:$2 a apertium:Tag; system:hasTag "$2" . \n$1/g;
-	s/(<sdef n="([^"]+)"[^>]* c="([^"]+)"[^>]*>)/apertium:$2 rdfs:label "$3".\n$1/g;
-	s/<.*>//g;
-	s/ *\n */\n/g;
-	s/^ +//g;
-	s/ +$//g;
-' | \
-sort -u | egrep .) > apertium.ttl
-
 ./bootstrap-apertium-ontology.py langs/*.dix
 
 #################################
