@@ -2,6 +2,7 @@
 # builds OntoLex-lemon dictionaries from Apertium Bidix
 
 # (c) 2019-02-03 Christian Chiarcos, christian.chiarcos@web.de
+# 2020-03-\d{2} Max Ionov, max.ionov@gmail.com
 # Apache License 2.0, see https://www.apache.org/licenses/LICENSE-2.0
 
 ##########
@@ -40,20 +41,22 @@ mkdir -p src;
 cd src;
 
 # This works for me, it's better to replace svn checkout with this line (MI 2020-02-23)
-# git clone --recurse-submodules --shallow-submodules --depth 1 git@github.com:apertium/apertium-trunk.git
+git clone --recurse-submodules --shallow-submodules --depth 1 git@github.com:apertium/apertium-trunk.git
+DIXPATH='/apertium-trunk/apertium-[^/]+/apertium-(.+)-(.+).\1-\2.dix$';
 ## (defined under https://github.com/apertium/apertium-trunk) FAILED
 # git clone --recurse-submodules --shallow-submodules --depth 1 https://github.com/apertium/apertium-trunk.git
 ## recursion FAILED
 
-# --- remove this if you uncomment `git clone ... git@github...` line`
-svn checkout $SRC;
-for url in `cat apertium-trunk.git/trunk/.gitmodules | grep url | sed s/'.*='//g; `; do
-	#echo $url;
-	url=`echo $url | sed s/'.*:'/'https:\/\/github.com\/'/g;`;
-	echo $url 1>&2;
-	svn checkout $url;
-done;
-# --- end remove ---
+# --- uncomment this if you comment `git clone ... git@github...` line`
+# svn checkout $SRC;
+# for url in `cat apertium-trunk.git/trunk/.gitmodules | grep url | sed s/'.*='//g; `; do
+# 	#echo $url;
+# 	url=`echo $url | sed s/'.*:'/'https:\/\/github.com\/'/g;`;
+# 	echo $url 1>&2;
+# 	svn checkout $url;
+# done;
+# DIXPATH='/trunk/apertium-(.+)-(.+).\1-\2.dix$';
+# --- end uncomment ---
 
 cd ..;
 
@@ -64,7 +67,7 @@ cd ..;
 
 mkdir -p langs/;
 cd langs/;
-for pair in `find ../src/ | egrep '/trunk/apertium-(.+)-(.+).\1-\2.dix$';`; do
+for pair in `find ../src/ | egrep $DIXPATH;`; do
 	ln -s $pair . &
 done;
 sleep 1;
@@ -79,6 +82,7 @@ echo '@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .';
 echo '@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .';
 echo '@prefix owl: <http://www.w3.org/2002/07/owl#> .';
 echo '@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .';
+echo '@prefix system: <http://purl.org/olia/system.owl#> .';
 echo ;
 #egrep '<sdef ' langs/* | \
 cat langs/* | \
@@ -88,12 +92,14 @@ perl -pe '
 	s/  +/ /g;
 	s/(<sdef n="([^"]+)")/apertium:$2 a apertium:Tag; system:hasTag "$2" . \n$1/g;
 	s/(<sdef n="([^"]+)"[^>]* c="([^"]+)"[^>]*>)/apertium:$2 rdfs:label "$3".\n$1/g;
-	s/<[^>]*>//g;
+	s/<.*>//g;
 	s/ *\n */\n/g;
 	s/^ +//g;
 	s/ +$//g;
 ' | \
 sort -u | egrep .) > apertium.ttl
+
+./bootstrap-apertium-ontology.py langs/*.dix
 
 #################################
 # (4) get language code mapping #
