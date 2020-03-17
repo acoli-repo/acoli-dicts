@@ -69,7 +69,7 @@ for filename in sys.argv[1:]:
 
 print('Finished processing *.dix files, {} {} processed, found {} tags'.format(n_dicts,
                                                                                'files' if n_dicts > 1 else 'files',
-                                                                               len(triples)))
+                                                                               len([triple for triple in triples if 'hasTag' in triple])))
 
 with open('apertium.ttl', 'w', encoding='utf-8') as out_file:
     out_file.write(tmpl_prefixes + '\n'.join(sorted(triples)) + '\n')
