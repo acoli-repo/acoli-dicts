@@ -41,7 +41,7 @@ mkdir -p src;
 cd src;
 
 # This works for me, it's better to replace svn checkout with this line (MI 2020-02-23)
-#git clone --recurse-submodules --shallow-submodules --depth 1 git@github.com:apertium/apertium-trunk.git
+git clone --recurse-submodules --shallow-submodules --depth 1 git@github.com:apertium/apertium-trunk.git
 DIXPATH='/apertium-trunk/apertium-[^/]+/apertium-(.+)-(.+).\1-\2.dix$';
 ## (defined under https://github.com/apertium/apertium-trunk) FAILED
 # git clone --recurse-submodules --shallow-submodules --depth 1 https://github.com/apertium/apertium-trunk.git
@@ -144,6 +144,7 @@ for file in langs/*; do
 		--data=$DIR/Apertium-$srclang-${tgtlang}_Lexicon$TGTLANG.ttl \
 		--data=$DIR/Apertium-$srclang-${tgtlang}_TranslationSet$SRCLANG-$TGTLANG.ttl \
 		--query=ontolex2tsv.sparql --results=TSV | grep -v '^?' > $RELEASE/trans_$SRCLANG-$TGTLANG.tsv;
+	gzip $RELEASE/trans_$SRCLANG-$TGTLANG.tsv
 	# rm $DIR.tmp.ttl;
 	cd $DIR;
 	zip -m ../../$DIR.zip *;
