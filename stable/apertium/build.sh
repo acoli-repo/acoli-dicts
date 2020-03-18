@@ -41,7 +41,7 @@ mkdir -p src;
 cd src;
 
 # This works for me, it's better to replace svn checkout with this line (MI 2020-02-23)
-git clone --recurse-submodules --shallow-submodules --depth 1 git@github.com:apertium/apertium-trunk.git
+#git clone --recurse-submodules --shallow-submodules --depth 1 git@github.com:apertium/apertium-trunk.git
 DIXPATH='/apertium-trunk/apertium-[^/]+/apertium-(.+)-(.+).\1-\2.dix$';
 ## (defined under https://github.com/apertium/apertium-trunk) FAILED
 # git clone --recurse-submodules --shallow-submodules --depth 1 https://github.com/apertium/apertium-trunk.git
@@ -161,7 +161,9 @@ echo "OntoLex-lemon conversion of Apertium Bidix";
 echo "by Christian Chiarcos, christian.chiarcos@web.de and Maxim Ionov, max.ionov@gmail.com";
 echo "Applied Computational Linguistics (ACoLi) lab, Goethe-Universität Frankfurt am Main, Germany";
 echo
+# both options: for SVN and for Git checkout
 for dir in *; do if [ -e $dir/trunk/AUTHORS ]; then echo $dir; cat $dir/trunk/AUTHORS; echo; fi; done) > ../AUTHORS
+for dir in apertium-trunk/*; do if [ -e $dir/AUTHORS ]; then echo ${dir/apertium-trunk\//}; cat $dir/AUTHORS; echo; fi; done >> ../AUTHORS
 cd ..;
 
 cp LICENSE_DATA $RELEASE/COPYING;
