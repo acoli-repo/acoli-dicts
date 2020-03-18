@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:acoli="http://acoli.cs.uni-frankfurt.de/" version="2.0">
+
+<!-- Better string escape for URI than encode-for-uri: also replaces dots with underscores and escapes backslashes -->
+<xsl:function name="acoli:encode-for-uri-rdf">
+    <xsl:param name="str"/>
+    <xsl:value-of select="replace(encode-for-uri($str), '[.;]+', '_')"/>
+</xsl:function>
 
 <xsl:output method="text" indent="no"/>
    
@@ -42,7 +48,7 @@
             </xsl:variable>
             <xsl:if test="normalize-space($l)!='' and matches(encode-for-uri($l),'^[_a-zA-Z0-9%].*')">
                 <xsl:variable name="s" select="s[1]/@n"/>
-                <xsl:variable name="lexent" select="concat(':',replace(encode-for-uri(concat($l,'-',$s,'-',lower-case($LANG))),'---*','-'))"/>
+                <xsl:variable name="lexent" select="concat(':',replace(acoli:encode-for-uri-rdf(concat($l,'-',$s,'-',lower-case($LANG))),'---*','-'))"/>
                 <xsl:variable name="form" select="concat($lexent,'-form')"/>
                 
                 <xsl:value-of select="concat('&lt;',$lexicon,'>')"/>
@@ -56,7 +62,7 @@
                     <xsl:if test="string-length(.)>0">
                         <xsl:text>; &#10; lexinfo:morphosyntacticProperty apertium:</xsl:text>
                         <!-- and for this precaution I want to thank Dutch and it's "'n_een" morphosyntactic property -->
-                        <xsl:value-of select="encode-for-uri(.)"/>
+                        <xsl:value-of select="acoli:encode-for-uri-rdf(.)"/>
                     </xsl:if>
                 </xsl:for-each>
                 <!-- if no pos given, check whether we have some information about the construction that the entry is contained in -->
@@ -64,7 +70,7 @@
                     <xsl:for-each select="ancestor::pardef[1]/@n">
                         <xsl:if test="string-length(.)>0">
                             <xsl:text>; &#10; lexinfo:morphosyntacticProperty apertium:</xsl:text>
-                            <xsl:value-of select="encode-for-uri(.)"/>
+                            <xsl:value-of select="acoli:encode-for-uri-rdf(.)"/>
                         </xsl:if>
                     </xsl:for-each>
                 </xsl:if>
@@ -80,7 +86,7 @@
                 <xsl:value-of select="$form"/>
                 <xsl:text> a ontolex:Form</xsl:text>
                 <xsl:text>; &#10; ontolex:writtenRep """</xsl:text>
-                <xsl:value-of select="$l"/>
+                <xsl:value-of select="replace($l, '\\', '\\\\')"/>
                 <xsl:text>"""@</xsl:text>
                 <xsl:value-of select="lower-case($LANG)"/>
                 <xsl:text> . &#10;&#10;</xsl:text>
