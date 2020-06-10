@@ -21,3 +21,7 @@ Notes:
 5) Heuristic sense (gloss) splitting at [\n,], if no [,()] is contained. If the latter, all is preserved as rdfs:comment of the lexical entry rather than as a sense.
 
 6) XDXF remains in experimental until a converter for the logical format has been developed (if any data can be found) and a data quality check has been performed. 
+
+Acknowledgements:
+
+Project "Linked Open Dictionaries" (LiODi), funded as an independent research group in the eHumanities programme of the German Federal Ministry of Education and Science (BMBF, 2015-2020).
