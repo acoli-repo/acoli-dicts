@@ -74,3 +74,7 @@ contributors
 CC - Christian Chiarcos, christian.chiarcos@web.de
 CF - Christian Fäth
 PL - PanLex contributors and editors (of the source data)
+
+acknowledgments
+---------------
+Funded by the Horizon 2020 Research and Innovation Action "Pret-a-LLOD" (ERC, 2019-2021).
