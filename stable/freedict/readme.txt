@@ -45,3 +45,7 @@ contributors
 ------------
 CC - Christian Chiarcos, christian.chiarcos@web.de
 FD - FreeDict authors (of the source data), see AUTHORS and ChangeLogs
+
+acknowledgements
+----------------
+Funded by the project "Linked Open Dictionaries" (LiODi), an independent research group funded in the eHumanities programme of the German Federal Ministry of Education and Science (BMBF, 2015-2020).
