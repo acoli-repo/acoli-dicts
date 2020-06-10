@@ -81,11 +81,19 @@ todos & known issues
 
 history
 -------
+- 2020-XX-XX updates and lexinfo linking (JB, MI, CF)
 - 2019-12-04 error analysis (JB) and revision (CC)
 - 2019-02-03 initial release (CC)
+
+acknowledgements
+----------------
+The initial conversion of Apertium XML to RDF (2019) was supported by project "Linked Open Dictionaries" (LiODi), an independent research group funded by the German Federal Ministry of Education and Science (BMBF, 2015-2020).
+Subsequent maintenance and linking with lexinfo was conducted within the Horizon 2020 Research and Innovation Action "Pret-a-LLOD" (ERC, 2019-2021).
 
 contributors
 ------------
 CC - Christian Chiarcos, christian.chiarcos@web.de
 JB - Julia Bosque-Gil, U Zaragoza
+MI - Maxim Ionov, GU Frankfurt
+CF - Christian Fäth, GU Frankfurt
 AP - Apertium authors (of the source data), see AUTHORS
