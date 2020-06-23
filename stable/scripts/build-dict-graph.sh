@@ -8,6 +8,7 @@ APERTIUM=black;
 DBNARY=gray;
 FREEDICT=blue;
 PANLEX=red;
+MUSE=green;
 
 
 # build graph of connected dictionaries
@@ -28,6 +29,10 @@ if [ -e ../panlex/biling-tsv/langtab.tsv ]; then
 	egrep '[0-9][0-9][0-9][0-9][0-9]$' ../panlex/biling-tsv/langtab.tsv | \
 	sed -e s/'.*\/\([a-z][a-z]*\)-\([a-z][a-z]*\).tsv.*'/'\1\t\2\tcolor='$PANLEX/g;
 fi;
+for file in ../muse/*rdf*/*-*.ttl; do
+	echo $file | \
+	sed -e s/'.*\/'//g -e s/'\..*'// -e s/'\-'/'\t'/g -e s/'$'/'\tcolor='$MUSE/g;
+done;
 ) | \
 bash langs2dot.sh | egrep '[a-zA-Z]' > ../dicts.dot;
 
@@ -97,14 +102,17 @@ echo 'X -- Apertium [color='$APERTIUM'];'
 echo 'X -- FreeDict [color='$FREEDICT'];'
 echo 'X -- DBnary [color='$DBNARY'];'
 echo 'X -- PanLex [color='$PANLEX'];'
+echo 'X -- MUSE [color='$MUSE'];'
 echo 'Apertium [color=white];'
 echo 'FreeDict [color=white];'
 echo 'DBnary [color=white];'
 echo 'PanLex [color=white];'
+echo 'MUSE [color=white];'
 echo 'OTHER -- Apertium [style=invis];'
 echo 'Apertium -- FreeDict [style=invis];'
 echo 'FreeDict -- DBnary [style=invis];'
 echo 'DBnary -- PanLex [style=invis];'
+echo 'PanLex -- MUSE [style=invis];'
 
 echo '}'
 ) | dot -Tgif > ../legend.gif

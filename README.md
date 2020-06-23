@@ -1,3 +1,4 @@
+
 # ACoLi Dicts
 Ontolex-lemon dictionaries provided by the Applied Computational Linguistics (ACoLi) lab at Goethe Universität Frankfurt am Main, Germany, and the associated research group Linked Open Dictionaries (LiODi, 2015-2020)
 
@@ -11,25 +12,35 @@ Additional data has been converted, but is still awaiting copyright clearance.
 ## Overview
 | &nbsp; | languages |  lexical data sets | license |  OntoLex/RDF data | TIAD/TSV data| comments |
 |--|--|--|--|--|--|--|
-|Apertium  | 46 | 55 | GPL | https://github.com/acoli-repo/acoli-dicts/tree/master/stable/apertium/apertium-rdf-2019-02-03 (*.rdf.zip) | https://github.com/acoli-repo/acoli-dicts/tree/master/stable/apertium/apertium-rdf-2019-02-03/ (trans*tsv.gz) | modeling based on http://linguistic.linkeddata.es/apertium/, designed for machine translation |
-|FreeDict | 45 | 145 | GPL | https://github.com/acoli-repo/acoli-dicts/tree/master/stable/freedict/freedict-rdf-2019-02-05 (\*/*.ttl.gz) | https://github.com/acoli-repo/acoli-dicts/tree/master/stable/freedict/freedict-rdf-2019-02-05 (\*/*.tsv.gz) | plain word lists, user-generated content |
-|DBnary | 119* | 275* | CC-BY-SA 3.0 | http://kaiko.getalp.org/ (external) | https://github.com/acoli-repo/acoli-dicts/tree/master/stable/dbnary/dbnary-tiad-2019-02-16 (\*.tsv.gz) | * counted only language pairs with 10,000+ entries, user-generated content |
-|PanLex | 194*| 1651**| CC0 | https://github.com/acoli-repo/acoli-dicts/tree/master/stable/panlex/panlex-20191001-csv-rdf | https://github.com/acoli-repo/acoli-dicts/tree/master/stable/panlex/biling-tsv | * only language pairs with 10.000 entries; ** TIAD-TSV files | 
-|XDXF | 51 | 107 | GPL |https://github.com/acoli-repo/acoli-dicts/tree/master/experimental/xdxf/xdxf-rdf-2019-02-22 (\*/\*.ttl.gz) | https://github.com/acoli-repo/acoli-dicts/tree/master/experimental/xdxf/xdxf-rdf-2019-02-22 (\*/\*.tsv.gz) | experimental |
-|free-dict.de | 2 | 1 | "free" | https://github.com/acoli-repo/acoli-dicts/tree/master/experimental/free-dict.de/free-dict-de-2020-01-02 (\*.ttl.gz) | https://github.com/acoli-repo/acoli-dicts/tree/master/experimental/free-dict.de/free-dict-de-2020-01-02 (*.tsv.gz) | experimental (partial) |
-|StarDict | 32 | 130 | "open"/"free" | https://github.com/acoli-repo/acoli-dicts/tree/master/experimental/stardict/stardict-2020-01-04 (\*/\*.ttl.gz) | https://github.com/acoli-repo/acoli-dicts/tree/master/experimental/stardict/stardict-2020-01-04 (\*/\*.tsv.gz) | experimental (partial) |
-| **total** | **248** | **2204**
+|Apertium  | 46 | 55 | GPL | [stable/apertium/apertium-rdf-2019-02-03](https://github.com/acoli-repo/acoli-dicts/tree/master/stable/apertium/apertium-rdf-2019-02-03) (*.rdf.zip) | [stable/apertium/apertium-rdf-2019-02-03](https://github.com/acoli-repo/acoli-dicts/tree/master/stable/apertium/apertium-rdf-2019-02-03) (trans*tsv.gz) | modeling based on http://linguistic.linkeddata.es/apertium/, designed for machine translation |
+|FreeDict | 45 | 145 | GPL |[stable/freedict/freedict-rdf-2019-02-05](https://github.com/acoli-repo/acoli-dicts/tree/master/stable/freedict/freedict-rdf-2019-02-05) (\*/*.ttl.gz) | [stable/freedict/freedict-rdf-2019-02-05](https://github.com/acoli-repo/acoli-dicts/tree/master/stable/freedict/freedict-rdf-2019-02-05) (\*/*.tsv.gz) | plain word lists, user-generated content |
+|DBnary | 119* | 275* | CC-BY-SA 3.0 | http://kaiko.getalp.org/ (external) | [stable/dbnary/dbnary-tiad-2019-02-16](https://github.com/acoli-repo/acoli-dicts/tree/master/stable/dbnary/dbnary-tiad-2019-02-16)  | * counted only language pairs with 10,000+ entries, user-generated content |
+|PanLex | 194*| 1651**| CC0 | [stable/panlex/panlex-20191001-csv-rdf](https://github.com/acoli-repo/acoli-dicts/tree/master/stable/panlex/panlex-20191001-csv-rdf) | [stable/panlex/biling-tsv](https://github.com/acoli-repo/acoli-dicts/tree/master/stable/panlex/biling-tsv) | * only language pairs with 10.000 entries; ** TIAD-TSV files | 
+|MUSE   | 45  | 107  | CC-BY-NC 4.0 | [stable/muse-rdf-2020-06-12](stable/muse/muse-rdf-2020-06-12) | [stable/muse-tsv-2020-06-12](stable/muse/muse-tsv-2020-06-12) | machine-generated, high-precision wordlist |
+|XDXF | 51 | 107 | GPL |[experimental/xdxf/xdxf-rdf-2019-02-22](https://github.com/acoli-repo/acoli-dicts/tree/master/experimental/xdxf/xdxf-rdf-2019-02-22) (\*/\*.ttl.gz) | [experimental/xdxf/xdxf-rdf-2019-02-22](https://github.com/acoli-repo/acoli-dicts/tree/master/experimental/xdxf/xdxf-rdf-2019-02-22) (\*/\*.tsv.gz) | experimental |
+|free-dict.de | 2 | 1 | "free" | [experimental/free-dict.de/free-dict-de-2020-01-02](https://github.com/acoli-repo/acoli-dicts/tree/master/experimental/free-dict.de/free-dict-de-2020-01-02) (\*.ttl.gz) | [experimental/free-dict.de/free-dict-de-2020-01-02](https://github.com/acoli-repo/acoli-dicts/tree/master/experimental/free-dict.de/free-dict-de-2020-01-02) (*.tsv.gz) | experimental (partial) |
+|StarDict | 32 | 130 | "open"/"free" | [experimental/stardict/stardict-2020-01-04](https://github.com/acoli-repo/acoli-dicts/tree/master/experimental/stardict/stardict-2020-01-04) (\*/\*.ttl.gz) | [experimental/stardict/stardict-2020-01-04](https://github.com/acoli-repo/acoli-dicts/tree/master/experimental/stardict/stardict-2020-01-04) (\*/\*.tsv.gz) | experimental (partial) |
+| **total** | **248** | **2311**
 
 ## subdirectories
 
-stable/
-data releases
+* [stable/](stable/) data releases
+* [experimental/](experimental/) work in progress, contains converters/build scripts and resulting data by several individual contributors, including student projects
 
-experimental/ 
-work in progress, contains converters, original data and resulting data by several individual contributors, including student projects
-@students/contributors: please create your personal subdirectories here
+## acknowledgements, licensing and references
 
-## contributors
+The ACoLi Dictionary Graph has been created and continues to be developed at the Applied Computational Linguistics Lab at Goethe Universität Frankfurt, Germany since 2014 in the context of numerous research projects, including
+- Independent Research Group ["Linked Open Dictionaries" (LiODi)](https://acoli-repo.github.io/liodi/), funded in the eHumanities programme of  the German Federal Ministry of Education and Science (BMBF, 2015-2020)
+- Horion 2020 Research and Innovation Action [Pret-a-LLOD. Ready-to-use Multilingual Linked Language Data for Knowledge Services across Sectors](https://www.pret-a-llod.eu), funded by the European Research Council (ERC, 2019-2021)
 
-t.b.a.
+To refer to the dataset as a whole in scientific publications, please refer to Chiarcos et al. (2020):
 
+	@inproceedings{chiarcos2020acoli,
+	  title={The ACoLi Dictionary Graph},
+	  author={Chiarcos, Christian and F{\"a}th, Christian and Ionov, Maxim},
+	  booktitle={Proceedings of The 12th Language Resources and Evaluation Conference},
+	  pages={3281--3290},
+	  year={2020}
+	}
+ 
+All datasets are published under open or non-commercial licenses. We put our RDF and TIAD-TSV editions are put under the same license as the underlying source data. For detailed acknowledgements and licensing of individual datasets see the respective subdirectories. 

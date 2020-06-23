@@ -8,6 +8,7 @@ APERTIUM=black;
 DBNARY=gray;
 FREEDICT=blue;
 PANLEX=red;
+MUSE=green;
 # experimental = dotted
 XDXF=red;
 FREEDICT_DE=midnightblue;
@@ -31,6 +32,10 @@ if [ -e ../panlex/biling-tsv/langtab.tsv ]; then
 	egrep '[0-9][0-9][0-9][0-9][0-9]$' ../panlex/biling-tsv/langtab.tsv | \
 	sed -e s/'.*\/\([a-z][a-z]*\)-\([a-z][a-z]*\).tsv.*'/'\1\t\2\tcolor='$PANLEX/g;
 fi;
+for file in ../muse/*rdf*/*-*.ttl; do
+	echo $file | \
+	sed -e s/'.*\/'//g -e s/'\..*'// -e s/'\-'/'\t'/g -e s/'$'/'\tcolor='$MUSE/g;
+done;
 
 # experimental stuff
 for file in ../../experimental/xdxf/*rdf*/*-*; do
@@ -118,6 +123,7 @@ echo 'Apertium -- X [color='$APERTIUM'];'
 echo 'FreeDict -- X [color='$FREEDICT'];'
 echo 'DBnary -- X [color='$DBNARY'];'
 echo 'PanLex -- X [color='$PANLEX'];'
+echo 'MUSE -- X [color='$MUSE'];'
 echo 'X -- XDXF [color='$XDXF', style=dotted];'
 echo 'X -- FreeDictDe [color='$FREEDICT_DE', style=dotted];'
 echo 'X -- StarDict [color='$STARDICT', style=dotted];'
@@ -125,17 +131,19 @@ echo 'Apertium [color=white];'
 echo 'FreeDict [color=white];'
 echo 'DBnary [color=white];'
 echo 'PanLex [color=white];'
+echo 'MUSE [color=white];'
 echo 'XDXF [color=white];'
 echo 'StarDict [color=white];'
 echo 'FreeDictDe [label="free-dict.de", color=white];'
 
-echo 'OTHER -- Apertium [style=invis];'
 echo 'OTHER -- PanLex [style=invis];'
+echo 'PanLex -- Apertium [style=invis];'
 echo 'Apertium -- FreeDict [style=invis];'
 echo 'PanLex -- DBnary [style=invis];'
+echo 'DBnary -- MUSE [style=invis];'
 
 echo 'FreeDict -- FreeDictDe [style=invis];'
-echo 'DBnary -- XDXF [style=invis];'
+echo 'MUSE -- XDXF [style=invis];'
 echo 'FreeDictDe -- StarDict [style=invis];'
 echo 'XDXF -- StarDict [style=invis];'
 
