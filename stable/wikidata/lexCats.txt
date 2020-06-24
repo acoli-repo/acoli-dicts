@@ -1,0 +1,159 @@
+# frequency	word class	interpretation	lexinfo 2.0 instance	lexinfo 2.0 class	OLiA concept(s)
+206578	wd:Q1084	noun	lexinfo:noun	_	olia:Noun
+28523	wd:Q24905	verb	lexinfo:verb	_	olia:Verb
+25819	wd:Q380057	adverb	lexinfo:adverb	_	olia:Adverb
+25002	wd:Q34698	adjective	lexinfo:adjective	_	olia:Adjective
+3752	wd:Q7233569	postpositive adjective	lexinfo:adjective	_	olia:Adjective and olia:PostNominalModifier
+2201	wd:Q147276	proper noun	lexinfo:properNoun	_	olia:ProperNoun
+1101	wd:Q111029	root	_	_	olia:Root
+865	wd:Q63116	numeral	lexinfo:numeral	_	olia:Numeral
+597	wd:Q2120608	function word	_	_	olia:Unique
+567	wd:Q4833830	preposition	lexinfo:preposition	_	olia:Preposition
+448	wd:Q36224	pronoun	lexinfo:pronoun	_	olia:Pronoun
+377	wd:Q36484	conjunction	lexinfo:conjunction	_	olia:Conjunction
+312	wd:Q12259986	prenominal adjective	lexinfo:adjective	_	olia:Adjective and olia:PreNominalModifier
+289	wd:Q83034	interjection	lexinfo:interjection	_	olia:Interjection
+265	wd:Q102047	suffix	lexinfo:suffix	_	olia:Suffix
+202	wd:Q134830	prefix	lexinfo:prefix	_	olia:Prefix
+196	wd:Q9788	letter	lexinfo:letter	_	olia:Letter
+191	wd:Q29888377	nominal phrase	_	lexinfo:NounPhrase	olia:NounPhrase
+160	wd:Q184943	grammatical particle	lexinfo:particle	_	olia:MorphologicalParticle
+154	wd:Q101352	family name	lexinfo:properNoun	_	olia:FamilyName
+120	wd:Q3257782	locution	_	_	olia:Collocation
+74	wd:Q576271	determiner	lexinfo:determiner	_	olia:Determiner
+73	wd:Q62155	affix	lexinfo:affix	_	olia:Affix
+60	wd:Q187931	phrase	lexinfo:phraseologicalUnit	_	olia:Phrase and olia:Collocation
+54	wd:Q1480213	Japanese particle	lexinfo:particle	_	olia:Particle
+51	wd:Q468801	personal pronoun	lexinfo:personalPronoun	_	olia:PersonalPronoun
+48	wd:Q5978303	adverbial locution	_	_	olia:AdverbialPhrase and olia:Collocation
+44	wd:Q28771286	Malayalam numeral	lexinfo:numeral	_	olia:Numeral
+37	wd:Q28129886	proper name	lexinfo:properNoun	_	olia:ProperNoun
+37	wd:Q2304610	interrogative word	lexinfo:interrogativeParticle	_	olia:InterrogativeModality and olia_top:Word
+35	wd:Q11639843	adnominal adjective	lexinfo:adjective	_	olia:Adjective and olia:AdnominalConstituent
+32	wd:Q56753314	common name	lexinfo:properNoun	_	olia:ProperNoun
+32	wd:Q35102	proverb	lexinfo:proverb	_	olia:Proverb
+30	wd:Q1774805	transitive verb	lexinfo:verb	_	olia:Verb and olia:Transitive
+29	wd:Q10976085	verb phrase	_	lexinfo:VerbPhrase	olia:VerbPhrase
+28	wd:Q4889706	linker (connector)	lexinfo:conjunction	_	olia:Conjunction
+28	wd:Q102786	abbreviation	lexinfo:abbreviatedForm	_	olia:Abbreviation
+24	wd:Q12262560	adversative linker	lexinfo:conjunction	_	olia:Conjunction and olia-discourse:Contrast
+22	wd:Q11399805	Japanese auxiliary verb	_	_	olia:AuxiliaryVerb
+18	wd:Q3241972	character	lexinfo:letter	_	olia:Character
+18	wd:Q1166153	intransitive verb	lexinfo:verb	_	olia:Verb and olia:Intransitive
+17	wd:Q7884789	toponym	lexinfo:properNoun	_	
+16	wd:Q10319522	prepositional phrase	_	_	olia:PrepositionalPhrase
+15	wd:Q57584278	case suffix	lexinfo:suffix	_	olia:Suffix and olia:CaseMarker
+15	wd:Q103184	article	lexinfo:article	_	olia:Article
+14	wd:Q54310231	interrogative pronoun	lexinfo:interrogativePronoun	_	olia:InterrogativePronoun
+13	wd:Q5551966	phraseme	lexinfo:phraseologicalUnit	_	olia:Phrase and olia:Collocation
+12	wd:Q5051	possessive adjective	lexinfo:adjective	_	olia:PossessiveAdjective
+12	wd:Q1502460	possessive pronoun	lexinfo:possessivePronoun	_	olia:PossessivePronoun
+11	wd:Q80768799	Tajik noun	lexinfo:noun	_	olia:Noun
+11	wd:Q2865743	definite article	lexinfo:definiteArticle	_	olia:DefiniteArticle
+11	wd:Q2006180	pro-form	lexinfo:pronoun	_	olia:Pronoun
+10	wd:Q956030	indefinite pronoun	lexinfo:indefinitePronoun	_	olia:IndefinitePronoun
+10	wd:Q5978305	conjunctive phrase	lexinfo:conjunction	_	olia:Conjunction and olia:Phrase
+9	wd:Q63153	classifier	_	_	olia:Classifier
+9	wd:Q3813849	indefinite article	lexinfo:indefiniteArticle	_	olia:IndefiniteArticle
+9	wd:Q184511	idiom	lexinfo:idiom	_	olia:Collocation
+7	wd:Q814722	participle	lexinfo:participle	_	olia:Participle
+7	wd:Q34793275	demonstrative pronoun	lexinfo:demonstrativePronoun	_	olia:DemonstrativePronoun
+7	wd:Q2428747	common noun	lexinfo:commonNoun	_	olia:CommonNoun
+7	wd:Q170239	onomatopoeia	_	_	olia:OnomatopoeticWord
+7	wd:Q12734432	adjective phrase	_	lexinfo:AdjectivePhrase	olia:AdjectivePhrase
+7	wd:Q11073520	proverb	lexinfo:proverb	_	olia:Proverb
+7	wd:Q1091269	adjectival noun	lexinfo:noun	_	olia:SubstantiveAdjective
+6	wd:Q55832776	root predicate (Lojban)	lexinfo:root	_	olia:Root
+6	wd:Q202444	given name	lexinfo:properNoun	_	olia:ProperNoun
+6	wd:Q1964223	name suffix	lexinfo:suffix	_	olia:Suffix and olia:ProperNoun
+6	wd:Q161873	postposition	lexinfo:postposition	_	olia:Postposition
+6	wd:Q1552433	preverb	_	_	olia:PreverbalParticle
+6	wd:Q1401131	noun phrase	_	lexinfo:NounPhrase	olia:NounPhrase
+6	wd:Q1153504	interfix	_	_	
+5	wd:Q55966771	Spanish definite article	lexinfo:definiteArticle	_	olia:DefiniteArticle
+5	wd:Q25592053	Tajik prefixes	lexinfo:prefix	_	olia:Prefix
+5	wd:Q162940	diacritic	_	_	olia:Diacritic
+5	wd:Q1527589	phrasal verb	lexinfo:verb	_	olia:Verb and olia:VerbalParticle
+5	wd:Q126473	contraction	lexinfo:contraction	_	olia:Contraction
+5	wd:Q11655558	subordinator	lexinfo:subordinatingConjunction	_	olia:SubordinatingConjunction
+4	wd:Q1122269	collocation	lexinfo:collocation	_	olia:Collocation
+3	wd:Q5456361	fixed expression	lexinfo:collocation	_	olia:FixedExpression
+3	wd:Q3734650	adverbial phrase	_	lexinfo:AdverbialPhrase	olia:AdverbPhrase
+3	wd:Q3679981	Chinese particle	lexinfo:particle	_	olia:Particle
+3	wd:Q2824480	demonstrative adjective	lexinfo:adjective	_	
+3	wd:Q1923028	gerund	lexinfo:gerundive	_	olia:Gerund
+3	wd:Q12308941	male given name	lexinfo:properNoun	_	olia:ProperNoun and olia:Masculine
+3	wd:Q1050744	relative pronoun	lexinfo:relativePronoun	_	olia:RelativePronoun
+# 2	wd:Q999234	_	_	_	
+# 2	wd:Q8242	_	_	_	
+# 2	wd:Q55832778	_	_	_	
+# 2	wd:Q55064750	_	_	_	
+# 2	wd:Q53996674	_	_	_	
+# 2	wd:Q5	_	_	_	
+# 2	wd:Q499327	_	_	_	
+# 2	wd:Q47088290	_	_	_	
+# 2	wd:Q4423888	_	_	_	
+# 2	wd:Q41500	_	_	_	
+# 2	wd:Q3938	_	_	_	
+# 2	wd:Q3618903	_	_	_	
+# 2	wd:Q282301	_	_	_	
+# 2	wd:Q25619940	_	_	_	
+# 2	wd:Q25592017	_	_	_	
+# 2	wd:Q2303637	_	_	_	
+# 2	wd:Q2116774	_	_	_	
+# 2	wd:Q201322	_	_	_	
+# 2	wd:Q1909485	_	_	_	
+# 2	wd:Q1778442	_	_	_	
+# 2	wd:Q13955	_	_	_	
+# 2	wd:Q134316	_	_	_	
+# 2	wd:Q101244	_	_	_	
+# 1	wd:Q953129	_	_	_	
+# 1	wd:Q947873	_	_	_	
+# 1	wd:Q918270	_	_	_	
+# 1	wd:Q904896	_	_	_	
+# 1	wd:Q85103750	_	_	_	
+# 1	wd:Q82799	_	_	_	
+# 1	wd:Q7883029	_	_	_	
+# 1	wd:Q77812772	_	_	_	
+# 1	wd:Q747810	_	_	_	
+# 1	wd:Q72563989	_	_	_	
+# 1	wd:Q719278	_	_	_	
+# 1	wd:Q7163	_	_	_	
+# 1	wd:Q7063863	_	_	_	
+# 1	wd:Q67384733	_	_	_	
+# 1	wd:Q66614509	_	_	_	
+# 1	wd:Q656720	_	_	_	
+# 1	wd:Q63930195	_	_	_	
+# 1	wd:Q56042915	_	_	_	
+# 1	wd:Q55951821	_	_	_	
+# 1	wd:Q53997514	_	_	_	
+# 1	wd:Q53764782	_	_	_	
+# 1	wd:Q503992	_	_	_	
+# 1	wd:Q36940674	_	_	_	
+# 1	wd:Q36161	_	_	_	
+# 1	wd:Q35505	_	_	_	
+# 1	wd:Q349	_	_	_	
+# 1	wd:Q3366864	_	_	_	
+# 1	wd:Q3232931	_	_	_	
+# 1	wd:Q29654788	_	_	_	
+# 1	wd:Q28833099	_	_	_	
+# 1	wd:Q217438	_	_	_	
+# 1	wd:Q210523	_	_	_	
+# 1	wd:Q2029372	_	_	_	
+# 1	wd:Q19842659	_	_	_	
+# 1	wd:Q1931259	_	_	_	
+# 1	wd:Q1930668	_	_	_	
+# 1	wd:Q18603649	_	_	_	
+# 1	wd:Q185451	_	_	_	
+# 1	wd:Q184439	_	_	_	
+# 1	wd:Q1787727	_	_	_	
+# 1	wd:Q1686000	_	_	_	
+# 1	wd:Q168417	_	_	_	
+# 1	wd:Q1555508	_	_	_	
+# 1	wd:Q146078	_	_	_	
+# 1	wd:Q138246	_	_	_	
+# 1	wd:Q133311	_	_	_	
+# 1	wd:Q1331793	_	_	_	
+# 1	wd:Q131105	_	_	_	
+# 1	wd:Q1257438	_	_	_	
+# 1	wd:Q10265745	_	_	_	

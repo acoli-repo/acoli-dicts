@@ -1,0 +1,69 @@
+# return TSV file as used for TIAD-2019
+# "source written representation"
+# "source lexical entry (URI)"
+# "source sense (URI)" (optional)
+# "translation (URI)" or "concept (URI)" or "external (ontology) term (URI)"
+# "target sense (URI)" (optional)
+# "target lexical entry (URI)"
+# "target written representation"
+# "part of speech (URI)"  (optional)
+# note on part of speech: in the original Apertium model, these parts of speech were actually memnonics for transformation rules which happened
+# to often represent a part of speech category that holds for *both* languages. This worked because Apertium is designed for MT between closely
+# related languages. It is, however, not generally the case that source and target expression of a translation pair have the same part of speech.
+# By default, this is thus interpreted as the part of speech of the source written representation only.
+
+PREFIX apertium: <http://wiki.apertium.org/wiki/Bidix#>
+PREFIX cc: <http://creativecommons.org/ns#>
+PREFIX data: <https://www.wikidata.org/wiki/Special:EntityData/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#>
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#>
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/>
+PREFIX pqv: <http://www.wikidata.org/prop/qualifier/value/>
+PREFIX pr: <http://www.wikidata.org/prop/reference/>
+PREFIX prn: <http://www.wikidata.org/prop/reference/value-normalized/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX prv: <http://www.wikidata.org/prop/reference/value/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX psn: <http://www.wikidata.org/prop/statement/value-normalized/>
+PREFIX psv: <http://www.wikidata.org/prop/statement/value/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ref: <http://www.wikidata.org/reference/>
+PREFIX s: <http://www.wikidata.org/entity/statement/>
+PREFIX schema: <http://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX v: <http://www.wikidata.org/value/>
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#>
+PREFIX wdno: <http://www.wikidata.org/prop/novalue/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wdtn: <http://www.wikidata.org/prop/direct-normalized/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# note that is Wikidata lexicalizations are non-directed
+# note that we do not retrieve grammatical features of different forms, etc., cf. wikibase:lexicalCategory
+
+SELECT ?srep ?slex ?ssense ?concept ?tsense ?tlex ?turi ?trep ?pos
+WHERE {
+	?concept ^wdt:P5137 ?ssense, ?tsense.		# wdt:P5137 corresponds to ontolex:denotes
+	FILTER(?ssense != ?tsense)
+	?ssense ^ontolex:sense ?slex.
+	?tsense ^ontolex:sense ?tlex.
+	FILTER(?slex!=?tlex)
+	?slex wikibase:lemma ?srep.
+	?tlex wikibase:lemma ?trep.
+	FILTER(?srep!=?trep)
+	FILTER(lang(?srep)!=lang(?trep))
+	OPTIONAL { ?slex wikibase:lexicalCategory ?pos
+		FILTER(strstarts(str(?pos),'http://www.lexinfo.net/ontology/2.0/lexinfo#'))
+		# these should be rewritten in preprocessing, but partially, only
+	}
+}
