@@ -1,0 +1,727 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://www.w3.org/1999/xhtml> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://cldf.clld.org/v1.0/terms.rdf>
+    dc:title "The CLDF Ontology"@en ;
+    a owl:Ontology ;
+    rdfs:comment """
+            The CLDF Ontology is an RDF vocabulary describing the dataset types, tables
+            and columns specified in the CLDF standard.
+        """@en ;
+    rdfs:label "The CLDF Ontology"@en ;
+    owl:versionInfo "Version 1.0 (2017-10-12)"@en ;
+    foaf:homepage <http://cldf.clld.org/> .
+
+<http://cldf.clld.org/v1.0/terms.rdf#BorrowingTable>
+    dc:type "table" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                The Borrowing Table stores information about borrowings or loanwords by
+                linking two rows in the Form Table as
+                <a href=\"https://en.wikipedia.org/wiki/Associative_entity\">associative entity</a>
+                where additional information about the particular case of borrowing can be provided.
+            </p>
+        """^^rdf:XMLLiteral ;
+    csvw:name "\"BorrowingTable\""@en ;
+    csvw:url "\"borrowings.csv\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#CodeTable>
+    dc:type "table" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            The Code Table lists valid values for categorical parameters, thus
+            enabling validity checks and providing a place for additional information
+            about codes such as a source.
+        """ ;
+    csvw:name "\"CodeTable\""@en ;
+    csvw:url "\"codes.csv\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#CognateTable>
+    dc:type "table" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                The table of cognate judgements accompanying a CLDF Wordlist.
+                If the only thing we know about cognate sets is the set of members, a Cognate
+                Table can be used without a corresponding
+                <a href=\"#CognatesetTable\">Cognateset Table</a>, otherwise it will become the
+                <a href=\"https://en.wikipedia.org/wiki/Associative_entity\">associative table</a>
+                between Form Table and Cognateset Table.
+            </p>
+        """^^rdf:XMLLiteral ;
+    csvw:name "\"CognateTable\""@en ;
+    csvw:url "\"cognates.csv\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#CognatesetTable>
+    dc:type "table" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            A table holding additional data about cognate sets.
+        """ ;
+    csvw:name "\"CognatesetTable\""@en ;
+    csvw:url "\"cognatesets.csv\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#Dictionary>
+    dc:type "module" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">A dataset according to the
+                <a href=\"https://github.com/glottobank/cldf/tree/master/modules/Dictionary\">CLDF Dictionary</a>
+                specification</p>
+        """^^rdf:XMLLiteral ;
+    rdfs:subClassOf dcat:Distribution ;
+    csvw:name "\"Dictionary\""@en .
+
+<http://cldf.clld.org/v1.0/terms.rdf#EntryTable>
+    dc:type "table" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            The table of entries of a CLDF Dictionary
+        """ ;
+    csvw:name "\"EntryTable\""@en ;
+    csvw:url "\"entries.csv\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#ExampleTable>
+    dc:type "table" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            The table of examples provided with a CLDF dataset
+        """ ;
+    csvw:name "\"ExampleTable\""@en ;
+    csvw:url "\"examples.csv\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#FormTable>
+    dc:type "table" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            The table of forms of a CLDF Wordlist
+        """ ;
+    csvw:name "\"FormTable\""@en ;
+    csvw:url "\"forms.csv\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#FunctionalEquivalentTable>
+    dc:type "table" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            A table to specify which parts of strings are functionally equivalent.
+            This is typically used to parallel texts (i.e. expressions of the same content in different languages)
+            However, it can be used in general to annotated that two expression from different languages
+            are functionally equivalent (but not necessarily cognate)
+        """ ;
+    csvw:name "\"FunctionalEquivalentTable\""@en ;
+    csvw:url "\"functionalEquivalents.csv\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#FunctionalEquivalentsetTable>
+    dc:type "table" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            The table to list all sets of functional equivalents from a 
+            \"http://cldf.clld.org/v1.0/terms.rdf#FunctionalEquivalentTable\" and adding descriptions for these 
+            sets
+        """ ;
+    csvw:name "\"FunctionalEquivalentsetTable\""@en ;
+    csvw:url "\"functionalEquivalentsets.csv\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#Generic>
+    dc:type "module" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                A generic CLDF dataset; i.e. a set of cross-linguistic data which does
+                not fit any of the established CLDF modules.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:subClassOf dcat:Distribution ;
+    csvw:name "\"Generic\""@en .
+
+<http://cldf.clld.org/v1.0/terms.rdf#LanguageTable>
+    dc:type "table" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            The table of languages provided with a CLDF dataset
+        """ ;
+    csvw:name "\"LanguageTable\""@en ;
+    csvw:url "\"languages.csv\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#ParallelText>
+    dc:type "module" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">A dataset according to the
+                <a href=\"https://github.com/glottobank/cldf/tree/master/modules/ParallelText\">CLDF Parallel Text</a>
+                specification</p>
+        """^^rdf:XMLLiteral ;
+    rdfs:subClassOf dcat:Distribution ;
+    csvw:name "\"ParallelText\""@en .
+
+<http://cldf.clld.org/v1.0/terms.rdf#ParameterTable>
+    dc:type "table" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            The table of parameters available in a CLDF dataset
+        """ ;
+    csvw:name "\"ParameterTable\""@en ;
+    csvw:url "\"parameters.csv\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#SenseTable>
+    dc:type "table" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            The table of senses of a CLDF Dictionary
+        """ ;
+    csvw:name "\"SenseTable\""@en ;
+    csvw:url "\"senses.csv\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#StructureDataset>
+    dc:type "module" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">A dataset according to the
+                <a href=\"https://github.com/glottobank/cldf/tree/master/modules/StructureDataset\">CLDF Structure Dataset</a>
+                specification</p>
+        """^^rdf:XMLLiteral ;
+    rdfs:subClassOf dcat:Distribution ;
+    csvw:name "\"StructureDataset\""@en .
+
+<http://cldf.clld.org/v1.0/terms.rdf#ValueTable>
+    dc:type "table" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            The table of value assignments of a CLDF Structure Dataset
+        """ ;
+    csvw:name "\"ValueTable\""@en ;
+    csvw:url "\"values.csv\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#Wordlist>
+    dc:type "module" ;
+    a rdfs:Class ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">A dataset according to the
+                <a href=\"https://github.com/glottobank/cldf/tree/master/modules/Wordlist\">CLDF Wordlist</a>
+                specification</p>
+        """^^rdf:XMLLiteral ;
+    rdfs:subClassOf dcat:Distribution ;
+    csvw:name "\"Wordlist\""@en .
+
+<http://cldf.clld.org/v1.0/terms.rdf#alignment>
+    dc:source <http://bibliography.lingpy.org/raw.php?key=List2014d> ;
+    dc:type "cognate-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">An alignment represents
+                <a href=\"http://linguistics-ontology.org/gold/2010/Segment\">segments</a>
+                which are grouped
+                into a common <a href=\"#cognatesetReference\">cognate set</a> as a matrix in which cognate
+                segments are placed in the same column while gap characters are introduced in
+                those sound sequences missing a certain counterpart.</p>
+        """^^rdf:XMLLiteral ;
+    rdfs:range rdfs:Literal ;
+    csvw:name "\"Alignment\"" ;
+    csvw:separator "\" \"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#analyzedWord>
+    dc:type "example-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                The morpheme-pattern analysis of a word in an example.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:subPropertyOf <http://purl.org/linguistics/gold/GrammarUnit> ;
+    csvw:name "\"Analyzed_Word\"" ;
+    csvw:separator "\"\\\\t\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#codeReference>
+    dc:references <file:///cygdrive/c/Users/chiarcos/Desktop/corpus/acoli-dicts/trunk/stable/ids/terms.rdf#CodeTable> ;
+    dc:type "reference-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                An identifier referencing a code (aka category) description
+                by providing a foreign key into the CodeTable.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Foreign_key> ;
+    rdfs:subPropertyOf dc:references ;
+    csvw:name "\"Code_ID\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#cognatesetReference>
+    dc:references <file:///cygdrive/c/Users/chiarcos/Desktop/corpus/acoli-dicts/trunk/stable/ids/terms.rdf#CognatesetTable> ;
+    dc:type "reference-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                An identifier referencing a cognateset either
+            </p>
+            <ul xmlns=\"http://www.w3.org/1999/xhtml\">
+                <li>by providing a foreign key into the CognatesetTable or</li>
+                <li>by using a known encoding scheme.</li>
+            </ul>
+        """^^rdf:XMLLiteral ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Foreign_key> ;
+    rdfs:subPropertyOf dc:references ;
+    csvw:name "\"Cognateset_ID\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#comment>
+    dc:type "generic-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                A human-readable comment on a resource, providing additional context.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:subPropertyOf rdfs:comment ;
+    csvw:name "\"Comment\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#concepticonReference>
+    dc:source <http://bibliography.lingpy.org/raw.php?key=List2016a> ;
+    dc:type "reference-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            A concept set groups a number of concept labels which are used in
+            different questionnaires and were judged to denote the same concept despite
+            potential differences among the concrete concept labels (be it their spelling,
+            or the language in which they were originally created).
+        """ ;
+    rdfs:range rdfs:Literal ;
+    rdfs:seeAlso <http://concepticon.clld.org> ;
+    csvw:datatype "{\"base\": \"string\", \"format\": \"[0-9]+\"}" ;
+    csvw:name "\"Concepticon_ID\"" ;
+    csvw:valueUrl "\"http://concepticon.clld.org/parameters/{Concepticon_ID}\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#description>
+    dc:type "generic-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">A description for an entity.</p>
+        """^^rdf:XMLLiteral ;
+    rdfs:seeAlso <http://dublincore.org/documents/dcmi-terms/#terms-description> ;
+    rdfs:subPropertyOf dc:description ;
+    csvw:name "\"Description\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#entryReference>
+    dc:references <file:///cygdrive/c/Users/chiarcos/Desktop/corpus/acoli-dicts/trunk/stable/ids/terms.rdf#EntryTable> ;
+    dc:type "reference-property" ;
+    a rdf:Property ;
+    rdfs:comment ""^^rdf:XMLLiteral, """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                An identifier referencing a dictionary entry
+                by providing a foreign key into the EntryTable.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Foreign_key> ;
+    rdfs:subPropertyOf dc:references ;
+    csvw:name "\"Entry_ID\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#exampleReference>
+    dc:format <http://purl.org/linguistics/gold/InterlinearGlossedText> ;
+    dc:references <file:///cygdrive/c/Users/chiarcos/Desktop/corpus/acoli-dicts/trunk/stable/ids/terms.rdf#ExampleTable> ;
+    dc:type "reference-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                An identifier referencing an example by providing a foreign key into the
+                ExampleTable.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Foreign_key> ;
+    rdfs:subPropertyOf dc:references ;
+    csvw:name "\"Example_ID\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#form>
+    dc:type "form-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">A lexical unit is any collection of word forms corresponding to a
+                certain meaning which can be found in comparative datasets.</p>
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">Ideally, a lexical
+                unit would just present itself as one single
+                <a href=\"http://linguistics-ontology.org/gold/2010/FormUnit\">form</a>. However,
+                in practice, scholars often list speech variants and at times even non-cognate
+                alternatives for their preferred form.</p>
+        """^^rdf:XMLLiteral ;
+    rdfs:range rdfs:Literal ;
+    rdfs:subPropertyOf <http://purl.org/linguistics/gold/hasLexicalUnit> ;
+    csvw:name "\"Form\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#formReference>
+    dc:references <file:///cygdrive/c/Users/chiarcos/Desktop/corpus/acoli-dicts/trunk/stable/ids/terms.rdf#FormTable> ;
+    dc:type "reference-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                An identifier referencing a form
+                by providing a foreign key into the FormTable.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Foreign_key> ;
+    rdfs:subPropertyOf dc:references ;
+    csvw:name "\"Form_ID\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#functionalEquivalentsetReference>
+    dc:references <file:///cygdrive/c/Users/chiarcos/Desktop/corpus/acoli-dicts/trunk/stable/ids/terms.rdf#FunctionalEquivalentsetTable> ;
+    dc:type "reference-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\"> A functional equivalent set is a group of strings from different languages that express similar function.
+                This is an identifier referencing a cognateset either
+                <ul>
+                    <li>by providing a foreign key into the FunctionalEquivalentsetTable or</li>
+                    <li>by using a known encoding scheme.</li>
+                </ul>
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Foreign_key> ;
+    rdfs:subPropertyOf dc:references ;
+    csvw:name "\"FunctionalEquivalentset_ID\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#gloss>
+    dc:type "example-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                A gloss corresponding to the morpheme-pattern analysis of a word in an example.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:seeAlso <http://purl.org/linguistics/gold/hasGlosses> ;
+    csvw:name "\"Gloss\"" ;
+    csvw:separator "\"\\\\t\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#glottocode>
+    dc:type "language-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">A <a href=\"http://glottolog.org\">Glottolog</a> code denoting a languoid.</p>
+        """^^rdf:XMLLiteral ;
+    rdfs:seeAlso <http://glottolog.org> ;
+    rdfs:subPropertyOf dc:identifier ;
+    csvw:datatype "{\"base\": \"string\", \"format\": \"[a-z0-9]{4}[1-9][0-9]{3}\"}" ;
+    csvw:name "\"Glottocode\"" ;
+    csvw:valueUrl "\"http://glottolog.org/resource/languoid/id/{glottocode}\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#headword>
+    dc:type "entry-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                The headword of a dictionary entry.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:subPropertyOf <http://purl.org/linguistics/gold/OrthographicWord> ;
+    csvw:name "\"Headword\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#id>
+    dc:type "generic-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">A unique identifier for a row in a table.</p>
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                To allow usage of identifiers as path components of URLs
+                IDs must only contain alphanumeric characters, underscore and hyphen.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:seeAlso <http://dublincore.org/documents/dcmi-terms/#terms-identifier> ;
+    rdfs:subPropertyOf dc:identifier ;
+    csvw:datatype "{\"base\": \"string\", \"format\": \"[a-zA-Z0-9_\\\\-]+\"}" ;
+    csvw:name "\"ID\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#iso639P3code>
+    dc:type "language-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            An ISO 639-3 language code, i.e. a three-letter code denoting a valid ISO 639-3
+            language or macrolanguage.
+        """ ;
+    rdfs:seeAlso <http://www.sil.org/ISO639-3/> ;
+    rdfs:subPropertyOf dc:identifier ;
+    owl:equivalentProperty <http://lexvo.org/ontology#iso639P3Code> ;
+    csvw:datatype "{\"base\": \"string\", \"format\": \"[a-z]{3}\"}" ;
+    csvw:name "\"ISO639P3code\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#languageReference>
+    dc:references <file:///cygdrive/c/Users/chiarcos/Desktop/corpus/acoli-dicts/trunk/stable/ids/terms.rdf#LanguageTable> ;
+    dc:type "reference-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                An identifier referencing a language either
+            </p>
+            <ul xmlns=\"http://www.w3.org/1999/xhtml\">
+                <li>by providing a foreign key into the LanguageTable or</li>
+                <li>by using a known encoding scheme.</li>
+            </ul>
+        """^^rdf:XMLLiteral ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Foreign_key> ;
+    rdfs:subPropertyOf dc:references ;
+    csvw:name "\"Language_ID\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#latitude>
+    dc:type "language-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                A latitude in the
+                <a href=\"https://en.wikipedia.org/wiki/World_Geodetic_System\">WGS 84</a>
+                standard coordinate system, specified as decimal number of degrees.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:subPropertyOf <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+    csvw:datatype "{\"base\": \"decimal\", \"minimum\": -90, \"maximum\": 90}" ;
+    csvw:name "\"Latitude\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#longitude>
+    dc:type "language-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                A longitude in the
+                <a href=\"https://en.wikipedia.org/wiki/World_Geodetic_System\">WGS 84</a>
+                standard coordinate system, specified as decimal number of degrees.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:subPropertyOf <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+    csvw:datatype "{\"base\": \"decimal\", \"minimum\": -180, \"maximum\": 180}" ;
+    csvw:name "\"Longitude\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#macroarea>
+    dc:type "language-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">A macroarea as defined by <a href=\"http://glottolog.org\">Glottolog</a>.</p>
+        """^^rdf:XMLLiteral ;
+    rdfs:seeAlso <http://glottolog.org/meta/glossary#macroarea> ;
+    csvw:name "\"Macroarea\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#metaLanguageReference>
+    dc:references <file:///cygdrive/c/Users/chiarcos/Desktop/corpus/acoli-dicts/trunk/stable/ids/terms.rdf#LanguageTable> ;
+    dc:type "reference-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                An identifier referencing the meta language - e.g. of the translation of
+                an example - either
+            </p>
+            <ul xmlns=\"http://www.w3.org/1999/xhtml\">
+                <li>by providing a foreign key into the LanguageTable or</li>
+                <li>by using a known encoding scheme.</li>
+            </ul>
+        """^^rdf:XMLLiteral ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Foreign_key> ;
+    rdfs:subPropertyOf dc:references ;
+    csvw:name "\"Meta_Language_ID\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#motivationStructure>
+    dc:type "form-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">The motivation structure of a word form gives glosses for each of
+                its <a href=\"http://linguistics-ontology.org/gold/2010/Morpheme\">morphemes</a>.
+                In this it is similar to an instance of
+                <a href=\"http://linguistics-ontology.org/gold/2010/InterlinearGlossedText\">interlinear glossed text</a>
+                which describes the underlying semantic
+                motivation for a given word form.</p>
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">As an example, consider Chinese <i>shùpí</i>
+                \"bark (of a tree)\" which is a compound consisting of <i>shù</i> \"tree\" and <i>pí</i>
+                \"skin\", and whose motivation structure could be rendered as <tt>tree bark</tt>.</p>
+        """^^rdf:XMLLiteral ;
+    rdfs:range rdfs:Literal ;
+    csvw:name "\"Motivation_Structure\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#name>
+    dc:type "generic-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">A title, name or label for an entity.</p>
+        """^^rdf:XMLLiteral ;
+    rdfs:seeAlso <http://dublincore.org/documents/dcmi-terms/#terms-title> ;
+    rdfs:subPropertyOf dc:title ;
+    csvw:name "\"Name\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#parameterReference>
+    dc:references <file:///cygdrive/c/Users/chiarcos/Desktop/corpus/acoli-dicts/trunk/stable/ids/terms.rdf#ParameterTable> ;
+    dc:type "reference-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                An identifier referencing a parameter either
+            </p>
+            <ul xmlns=\"http://www.w3.org/1999/xhtml\">
+                <li>by providing a foreign key into the ParameterTable or</li>
+                <li>by using a known encoding scheme.</li>
+            </ul>
+        """^^rdf:XMLLiteral ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Foreign_key> ;
+    rdfs:subPropertyOf dc:references ;
+    csvw:name "\"Parameter_ID\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#partOfSpeech>
+    dc:type "entry-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                The part-of-speech of dictionary entry.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:subPropertyOf <http://purl.org/linguistics/gold/PartOfSpeechProperty> ;
+    csvw:name "\"Part_Of_Speech\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#primaryText>
+    dc:type "example-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                The primary text of an example.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:subPropertyOf <http://purl.org/linguistics/gold/hasSourceLine> ;
+    csvw:name "\"Primary_Text\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#prosodicStructure>
+    dc:type "form-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">The prosodic structure of a
+                <a href=\"http://linguistics-ontology.org/gold/2010/Segment\">word form</a>
+                labels similar prosodic contexts which may recur even within the same word. Prosodic
+                structures for a given language may have an underlying template that describes
+                which syllables are possible. In Chinese dialects, for example, one could
+                describe the basic template of most syllables as consisting of <em>initial</em>,
+                <em>medial</em>, <em>nucleus</em>, <em>coda</em>, and <em>tone</em>, of which the nucleus and the tone as
+                a suprasegmental element are usually the only required elements.</p>
+        """^^rdf:XMLLiteral ;
+    rdfs:range rdfs:Literal ;
+    csvw:name "\"Prosodic_Structure\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#root>
+    dc:type "form-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">The root of a <a href=\"#soundSequence\">word form</a> is an abstract basic
+                unit from which several <a href=\"#stem\">stems</a> can be derived.</p>
+        """^^rdf:XMLLiteral ;
+    rdfs:range rdfs:Literal ;
+    csvw:name "\"Root\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#segmentSlice>
+    dc:type "cognate-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                List of segment indices or segment ranges forming the target of a
+                partial cognacy judgement.
+            </p>
+        """^^rdf:XMLLiteral ;
+    csvw:datatype "{\"base\": \"string\", \"format\": \"\\\\d+(:\\\\d+)?\"}" ;
+    csvw:name "\"Segment_Slice\"" ;
+    csvw:separator "\" \"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#segments>
+    dc:type "form-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                A list of segments (aka a sound sequence) is understood as the strict segmental
+                representation of a
+                <a href=\"http://linguistics-ontology.org/gold/2010/FormUnit\">form unit</a>
+                of a language, which is usually given in phonetic transcription.
+                <a href=\"http://linguistics-ontology.org/gold/2010/Suprasegmental\">Suprasegmental elements</a>,
+                like tone or accent, of sound sequences are
+                usually represented in a sequential form, although they are usually
+                co-articulated along with the segmental elements of a sound sequence.
+                Alternatively, suprasegmental aspects could also be represented as part of the
+                <a href=\"#prosodicStructure\">prosodic structure</a> of a word form.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:range rdfs:Literal ;
+    csvw:name "\"Segments\"" ;
+    csvw:separator "\" \"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#source>
+    dc:type "generic-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">Semicolon-separated source specifications, of the form &lt;source_ID&gt;[], 
+            e.g. http://glottolog.org/resource/reference/id/318814[34], or meier2015[3-12]
+            where meier2015 is a citation key in the accompanying BibTeX file.</p>
+        """^^rdf:XMLLiteral ;
+    rdfs:subPropertyOf dc:source ;
+    csvw:datatype "{\"base\": \"string\"}" ;
+    csvw:name "\"Source\"" ;
+    csvw:separator "\";\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#sourceFormReference>
+    dc:references <file:///cygdrive/c/Users/chiarcos/Desktop/corpus/acoli-dicts/trunk/stable/ids/terms.rdf#FormTable> ;
+    dc:type "reference-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                An identifier referencing the source form of a loanword
+                by providing a foreign key into the FormTable.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Foreign_key> ;
+    rdfs:subPropertyOf dc:references ;
+    csvw:name "\"Source_Form_ID\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#stem>
+    dc:type "form-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">A stem is a concrete <a href=\"#soundSequence\">word form</a> in a language
+            which has been derived as such from a given <a href=\"#root\">root</a>.</p>
+        """^^rdf:XMLLiteral ;
+    rdfs:range rdfs:Literal ;
+    csvw:name "\"Stem\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#targetFormReference>
+    dc:references <file:///cygdrive/c/Users/chiarcos/Desktop/corpus/acoli-dicts/trunk/stable/ids/terms.rdf#FormTable> ;
+    dc:type "reference-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                An identifier referencing a loanword
+                by providing a foreign key into the FormTable.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Foreign_key> ;
+    rdfs:subPropertyOf dc:references ;
+    csvw:name "\"Target_Form_ID\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#translatedText>
+    dc:type "example-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                The translated text of an example.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:subPropertyOf <http://purl.org/linguistics/gold/hasTranslationLine> ;
+    csvw:name "\"Translated_Text\"" .
+
+<http://cldf.clld.org/v1.0/terms.rdf#value>
+    dc:type "value-property" ;
+    a rdf:Property ;
+    rdfs:comment """
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                The value (a.k.a. datapoint or measurement) of a language for a structural
+                feature.
+            </p>
+            <p xmlns=\"http://www.w3.org/1999/xhtml\">
+                For features with a limited, discrete set of valid values (a.k.a. categorical variables)
+                it is recommended to relate items of a ValueTable to the respective code
+                in the CodeTable.
+            </p>
+        """^^rdf:XMLLiteral ;
+    rdfs:subPropertyOf <http://purl.org/linguistics/gold/feature> ;
+    csvw:name "\"Value\"" ;
+    csvw:null "[\"?\", \"\"]" .
+

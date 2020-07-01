@@ -1,0 +1,55 @@
+# create an OntoLex-Lemon representation, preserve the original URIs
+
+PREFIX lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> 
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#> 
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+PREFIX terms: <http://cldf.clld.org/v1.0/terms.rdf#>
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+
+# note that we maintain ISO639-3 codes, but we need BCP47 codes
+CONSTRUCT {
+	?lexicon lime:entry ?entry; ?l1 ?l2.	
+	?entry a ontolex:LexicalEntry;
+		ontolex:lexicalForm [ 
+			a ontolex:Form; 
+			ontolex:writtenRep ?wRep,?stdRep;
+			ontolex:phoneticRep ?phonRep
+		];
+		ontolex:evokes ?parameter.
+	?parameter a ontolex:LexicalConcept; 
+		rdfs:label ?name;
+		ontolex:isConceptOf ?conception.
+		?conception rdfs:label ?name.
+} WHERE {
+	?entry terms:form ?form;
+		   terms:languageReference ?ref;
+		   terms:parameterReference ?parameter.
+	OPTIONAL { 
+		?parameter terms:conceptionReference ?conception 
+	}
+	OPTIONAL {
+		[] terms:parameterReference ?parameter.
+		?parameter terms:name ?name.
+	}
+	OPTIONAL { 
+		?entry terms:alt_form ?phonRep; 
+			terms:alt_transcription "Phonemic" 
+	}
+	OPTIONAL { 
+		?entry terms:alt_form ?standardForm; 
+			terms:alt_transcription "Standard";
+			terms:languageReference/terms:iso639P3code ?iso639.
+		BIND(strlang(str(?standardForm),?iso639) AS ?stdRep)
+	}
+	?ref terms:iso639P3code ?iso639.
+	BIND(strlang(str(?form),?iso639) AS ?wRep)
+	OPTIONAL {
+		# unique within IDS graph
+		?lexicon a lime:Lexicon; ?l1 ?l2.
+	}
+}
