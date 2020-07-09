@@ -1,0 +1,38 @@
+# return TSV file as used for TIAD-2019
+# "source written representation"
+# "source lexical entry (URI)"
+# "source sense (URI)"
+# "translation (URI)"
+# "target sense (URI)"
+# "target lexical entry (URI)"
+# "target written representation"
+# "part of speech (URI)" 
+## we ignore URI
+
+# requires source data to come from the following named graph
+# http://ids.clld.org/SOURCE and
+# target language data assumed to reside in default graphs:
+
+PREFIX apertium: <http://wiki.apertium.org/wiki/Bidix#> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#> 
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#> 
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#> 
+
+SELECT ?srep ?slex ?ssense ?trans ?tsense ?tlex ?turi ?trep ?pos
+WHERE {
+	GRAPH <http://ids.clld.org/SOURCE> {
+		?slex a ontolex:LexicalEntry; 
+			ontolex:lexicalForm/(ontolex:writtenRep|ontolex:phonRep) ?srep;
+			ontolex:evokes ?trans.
+	}
+	?tlex a ontolex:LexicalEntry; 
+		ontolex:lexicalForm/(ontolex:writtenRep|ontolex:phonRep) ?trep;
+		ontolex:evokes ?trans.
+}

@@ -10,17 +10,18 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX terms: <http://cldf.clld.org/v1.0/terms.rdf#>
 PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#> 
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX dct: <http://purl.org/dc/terms/>
 
 # note that we maintain ISO639-3 codes, but we need BCP47 codes
 CONSTRUCT {
 	?lexicon lime:entry ?entry; ?l1 ?l2.	
 	?entry a ontolex:LexicalEntry;
-		ontolex:lexicalForm [ 
-			a ontolex:Form; 
-			ontolex:writtenRep ?wRep,?stdRep;
-			ontolex:phoneticRep ?phonRep
-		];
+		dct:language ?language, ?glottolog;
+		ontolex:lexicalForm ?lexform;
 		ontolex:evokes ?parameter.
+	?lexform a ontolex:Form; 
+			ontolex:writtenRep ?wRep,?stdRep;
+			ontolex:phoneticRep ?phonRep.
 	?parameter a ontolex:LexicalConcept; 
 		rdfs:label ?name;
 		ontolex:isConceptOf ?conception.
@@ -29,6 +30,7 @@ CONSTRUCT {
 	?entry terms:form ?form;
 		   terms:languageReference ?ref;
 		   terms:parameterReference ?parameter.
+	BIND(URI(concat(str(?entry),'_',ENCODE_FOR_URI(str(?form)))) as ?lexform)
 	OPTIONAL { 
 		?parameter terms:conceptionReference ?conception 
 	}
@@ -36,18 +38,41 @@ CONSTRUCT {
 		[] terms:parameterReference ?parameter.
 		?parameter terms:name ?name.
 	}
+	
+	{ 
+	  ?entry terms:form ?form; terms:languageReference/terms:iso639P3code ?iso639.
+	  BIND(uri(concat('http://lexvo.org/id/iso639-3/',?iso639)) as ?language)
+	  ?entry terms:languageReference/terms:glottocode ?glottocode.
+	  BIND(uri(concat('https://glottolog.org/resource/languoid/id/',?glottocode)) as ?glottolog)
+	} UNION {
+	  ?entry terms:form ?form; terms:languageReference/terms:glottocode ?glottocode.
+	  MINUS { ?entry terms:languageReference/terms:iso639P3code ?iso639. }
+	  BIND(uri(concat('https://glottolog.org/resource/languoid/id/',?glottocode)) as ?language)
+	  BIND(uri(concat('https://glottolog.org/resource/languoid/id/',?glottocode)) as ?glottolog)
+	}
+
+	OPTIONAL {
+		?glottolog owl:sameAs+ ?bcp47URI.
+		  FILTER(strstarts(str(?bcp47URI),'https://www.iana.org/assignments/language-subtag-registry/'))
+		  ?bcp47URI rdfs:label ?bcp47.
+	}
+	BIND(IF(BOUND(?bcp47), 
+		strlang(str(?form),?bcp47),
+		?form) AS ?wRep)
+
 	OPTIONAL { 
-		?entry terms:alt_form ?phonRep; 
-			terms:alt_transcription "Phonemic" 
+		?entry terms:alt_form ?phonemicForm; 
+			terms:alt_transcription "Phonemic".
+		BIND(strlang(str(?phonemicForm),'x-fonipa') AS ?phonRep)
 	}
 	OPTIONAL { 
 		?entry terms:alt_form ?standardForm; 
 			terms:alt_transcription "Standard";
 			terms:languageReference/terms:iso639P3code ?iso639.
-		BIND(strlang(str(?standardForm),?iso639) AS ?stdRep)
+		BIND(if(bound(?bcp47), strlang(str(?standardForm),?bcp47), strlang(str(?standardForm),?iso639)) AS ?stdRep)
 	}
-	?ref terms:iso639P3code ?iso639.
-	BIND(strlang(str(?form),?iso639) AS ?wRep)
+
+		
 	OPTIONAL {
 		# unique within IDS graph
 		?lexicon a lime:Lexicon; ?l1 ?l2.
