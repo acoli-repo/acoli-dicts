@@ -1,0 +1,30 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX glottolog: <https://glottolog.org/resource/languoid/id/>
+PREFIX sil: <https://iso639-3.sil.org/code/>
+PREFIX lexvo3: <http://lexvo.org/id/iso639-3/>
+PREFIX lexvo1: <http://lexvo.org/id/iso639-1/>
+PREFIX bcp47: <https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT {
+	?glottolog owl:sameAs ?bcp47URI.
+	?bcp47URI rdfs:label ?bcp47.
+} WHERE {
+		?glottolog (owl:sameAs|skos:broader) [].
+		FILTER(strstarts(str(?glottolog),'https://glottolog.org/resource/languoid/id/'))
+		OPTIONAL { 	?glottolog owl:sameAs+ ?lexvo1. 
+					FILTER(strstarts(str(?lexvo1),'http://lexvo.org/id/iso639-1/')) }
+		OPTIONAL { ?glottolog owl:sameAs+ ?lexvo3.
+					FILTER(strstarts(str(?lexvo3),'http://lexvo.org/id/iso639-3/')) }
+		OPTIONAL { ?glottolog (skos:broader|owl:sameAs)+ ?lexvo1x.
+					FILTER(strstarts(str(?lexvo1x),'http://lexvo.org/id/iso639-1/')) }
+		OPTIONAL { ?glottolog (skos:broader|owl:sameAs)+ ?lexvo3x.
+					FILTER(strstarts(str(?lexvo3x),'http://lexvo.org/id/iso639-3/')) }
+		BIND(IF(bound(?lexvo1), replace(str(?lexvo1),'.*/',''),
+			 IF(bound(?lexvo3), replace(str(?lexvo3),'.*/',''),
+			 IF(bound(?lexvo1x), concat(replace(str(?lexvo1x),'.*/',''),'-x-',replace(str(?glottolog),'.*/','')),
+			 IF(bound(?lexvo3x), concat(replace(str(?lexvo3x),'.*/',''),'-x-',replace(str(?glottolog),'.*/','')),
+			 concat('mis-x-',replace(str(?glottolog),'.*/','')))))) AS ?bcp47)
+		BIND(uri(concat('https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry#',?bcp47)) AS ?bcp47URI)
+}

@@ -88,24 +88,29 @@ fi;
 LANGS=`cut -f 1 $TSV | grep '@' | sed s/'.*@'// | sort -u | grep -v 'mis' | grep -i -v '\-x\-q' | sed s/'\-.*'//g | sort -u`
 echo $LANGS
 OUT=wikidata-tsv-`date +%F`
+OUT=wikidata-tsv-2020-06-24
 for src in $LANGS; do
-	mkdir -p $OUT/$src;
-	for tgt in $LANGS; do
-		if [ $src != $tgt ]; then
-			echo -n extracting translations from $src to $tgt' ' 1>&2;
-			egrep '@'$src'[^a-z].*@'$tgt'[^a-z]' $TSV > $OUT/$src/$src-$tgt.tsv;
-			if [ -e $OUT/$src/$src-$tgt.tsv ]; then
-				if [ ! -s $OUT/$src/$src-$tgt.tsv ]; then
-					echo -n failed': ' 1>&2;
-					cat $OUT/$src/$src-$tgt.tsv | wc -l 1>&2;
-					rm $OUT/$src/$src-$tgt.tsv;
-				else 
-					echo -n ok': ' 1>&2;
-					cat $OUT/$src/$src-$tgt.tsv | wc -l 1>&2;
+	if [ -d $OUT/$src ] ; then
+		echo found $OUT/$src, skipping $src 1>&2;
+	else
+		mkdir -p $OUT/$src;
+		for tgt in $LANGS; do
+			if [ $src != $tgt ]; then
+				echo -n extracting translations from $src to $tgt' ' 1>&2;
+				egrep '@'$src'[^a-z].*@'$tgt'[^a-z]' $TSV > $OUT/$src/$src-$tgt.tsv;
+				if [ -e $OUT/$src/$src-$tgt.tsv ]; then
+					if [ ! -s $OUT/$src/$src-$tgt.tsv ]; then
+						echo -n failed': ' 1>&2;
+						cat $OUT/$src/$src-$tgt.tsv | wc -l 1>&2;
+						rm $OUT/$src/$src-$tgt.tsv;
+					else 
+						echo -n ok': ' 1>&2;
+						cat $OUT/$src/$src-$tgt.tsv | wc -l 1>&2;
+					fi;
 				fi;
 			fi;
-		fi;
-	done;
-	rmdir $OUT/$src >&/dev/null
+		done;
+		rmdir $OUT/$src >&/dev/null
+	fi;
 done;
 rm -rf $OUT/mis*/ $OUT/*/*-mis*tsv; # uncoded language

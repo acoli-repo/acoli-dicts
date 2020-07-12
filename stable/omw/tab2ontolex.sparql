@@ -1,0 +1,50 @@
+PREFIX lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#>
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#>
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX terms: <http://cldf.clld.org/v1.0/terms.rdf#>
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX pwn30: <http://wordnet-rdf.princeton.edu/wn30/>
+PREFIX wn: <http://globalwordnet.github.io/schemas/wn#>
+PREFIX omw: <http://compling.hss.ntu.edu.sg/omw/wns/>
+
+
+CONSTRUCT {
+	?dict a lime:Lexicon; lime:entry ?entry; lime:language ?d; dct:language ?lang.
+	#?synset a ontolex:LexicalConcept.
+	#; 
+	#	skos:definition ?def;
+	#	wn:example [ rdf:value ?example ].
+	?entry a ontolex:LexicalEntry;
+		ontolex:evokes ?synset;
+		ontolex:canonicalForm ?form.
+	?form a ontolex:Form; ontolex:writtenRep ?rep.
+} WHERE {
+	BIND(uri(concat('http://wordnet-rdf.princeton.edu/wn30/',?a)) as ?synset)
+	BIND(replace(?a,'.*-','') as ?pos)
+	  FILTER(?b='lemma')
+	  FILTER(strlen(?d)>0)
+	  BIND(URI(concat('http://compling.hss.ntu.edu.sg/omw/wns/',?d)) as ?dict)
+	  BIND(URI(concat('http://compling.hss.ntu.edu.sg/omw/wns/',?d,'/',encode_for_uri(?c),'-',?pos)) as ?entry)
+	  BIND(URI(concat(str(?entry),'-form')) as ?form)
+	  BIND(URI(concat('http://lexvo.org/id/iso639-3/',?d)) as ?lang)
+	  BIND(strlang(?c,?d) AS ?rep)
+}
+
+# to be handled by multiple construct queries
+# not possible in TARQL with input from stdin
+
+#	}
+	# UNION
+	# { FILTER(?b='def')
+	  # BIND (strlang(?b,?d) AS ?def)
+	# } UNION
+	# { FILTER(?b='exe')
+	  # BIND(strlang(?b,?d) AS ?example)
+	# }
+#}
