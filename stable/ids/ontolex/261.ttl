@@ -1,0 +1,3815 @@
+@prefix bcp47: <https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:  <http://www.w3.org/ns/lemon/lime#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix lexvo3: <http://lexvo.org/id/iso639-3/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lexvo1: <http://lexvo.org/id/iso639-1/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix terms: <http://cldf.clld.org/v1.0/terms.rdf#> .
+@prefix sil:   <https://iso639-3.sil.org/code/> .
+@prefix lexvo: <http://lexvo.org/id/iso639-3/> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix glottolog: <https://glottolog.org/resource/languoid/id/> .
+
+<http://ids.clld.org/parameters/17-420>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "cause" .
+
+<http://ids.clld.org/parameters/8-560>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "leaf" .
+
+<http://ids.clld.org/values/13-140-261-1_pon>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pon"@brg .
+
+<http://ids.clld.org/values/15-410-261-3_r%CC%8C%CC%A3i-%27somopoek>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ṛ̌i-'somopoek"@brg .
+
+<http://ids.clld.org/parameters/19-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "people (populace)" .
+
+<http://ids.clld.org/values/15-640-261-1_kotipo%27pin>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kotipo'pin"@brg .
+
+<http://ids.clld.org/parameters/12-560>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "small, little" .
+
+<http://ids.clld.org/values/2-270-261-1_mo->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "mo-"@brg .
+
+<http://ids.clld.org/parameters/15-410>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hear" .
+
+<http://ids.clld.org/values/3-811-261-1_i%27no-k>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "i'no-k"@brg .
+
+<http://ids.clld.org/values/12-560-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-560> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-560-261-1_-c%CC%8Ci> .
+
+<http://ids.clld.org/values/20-240-261-3_-tipo>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-tipo"@brg .
+
+<http://ids.clld.org/values/10-470-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-470> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-470-261-1_-yono-w> .
+
+<http://ids.clld.org/values/13-210-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/13-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/13-210-261-1_%27ac%CC%8Cokon> .
+
+<http://ids.clld.org/values/11-120-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/11-120> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/11-120-261-1_-%27ko-ti> .
+
+<http://ids.clld.org/values/16-810-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-810> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-810-261-1_%27monikowapa> .
+
+<http://ids.clld.org/parameters/4-230>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "nose" .
+
+<http://ids.clld.org/values/9-343-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-343> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-343-261-3_su%27ipistakapa> .
+
+<http://ids.clld.org/values/4-240-261-1_ni-%27noki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-'noki"@brg .
+
+<http://ids.clld.org/values/17-170-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/17-170> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/17-170-261-1_-c%CC%8Co-> .
+
+<http://ids.clld.org/parameters/2-220>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "woman" .
+
+<http://ids.clld.org/parameters/3-811>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "louse" .
+
+<http://ids.clld.org/values/9-190-261-1_ni-%27ro->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-'ro-"@brg .
+
+<http://ids.clld.org/values/1-210-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-210-261-1_po%27ewok> .
+
+<http://ids.clld.org/values/10-720-261-1_s%CC%8Ca%27no-ki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ša'no-ki"@brg .
+
+<http://ids.clld.org/values/4-880-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-880> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-880-261-1_we%27r%CC%8C%CC%A3ok> .
+
+<http://ids.clld.org/values/2-360-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-360> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-360-261-1_n-en> .
+
+<http://ids.clld.org/parameters/12-440>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "far (adv)" .
+
+<http://ids.clld.org/values/4-351-261-1_-pes>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-pes"@brg .
+
+<http://ids.clld.org/parameters/4-142>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "beard" .
+
+<http://ids.clld.org/values/3-811-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-811> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-811-261-1_i%27no-k> .
+
+<http://ids.clld.org/values/4-310-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-310-261-3_-ton> .
+
+<http://ids.clld.org/values/7-120-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/7-120> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/7-120-261-3_-%27we-r%CC%8C%CC%A3> .
+
+<http://ids.clld.org/parameters/2-100>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "person, human being" .
+
+<http://ids.clld.org/parameters/4-331>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "palm of hand" .
+
+<http://ids.clld.org/values/15-690-261-1_%27ya-s-ko->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ya-s-ko-"@brg .
+
+<http://ids.clld.org/values/2-360-261-1_n-en>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "n-en"@brg .
+
+<http://ids.clld.org/values/10-370-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-370> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-370-261-1_-ar-> .
+
+<http://ids.clld.org/parameters/12-50>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "inside, in" .
+
+<http://ids.clld.org/values/11-880-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/11-880> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/11-880-261-1_s%CC%8Co-%27wa-no-n> .
+
+<http://ids.clld.org/values/13-10-261-1_po%27nos%CC%8C>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "po'noš"@brg .
+
+<http://ids.clld.org/values/12-30-261-3_poe->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "poe-"@brg .
+
+<http://ids.clld.org/values/19-210-261-1_%27c%CC%8Cinti>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'činti"@brg .
+
+<http://ids.clld.org/values/4-344-261-1_n-i%27tip>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "n-i'tip"@brg .
+
+<http://ids.clld.org/values/15-770-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-770> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-770-261-1_-%27mo-ri> .
+
+<http://ids.clld.org/values/14-410-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/14-410> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/14-410-261-3_r%CC%8C%CC%A3o%27sesokonoer%CC%8C%CC%A3> .
+
+<http://ids.clld.org/parameters/2-510>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "uncle" .
+
+<http://ids.clld.org/parameters/15-690>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "yellow" .
+
+<http://ids.clld.org/values/8-311-261-1_e%27so-ki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "e'so-ki"@brg .
+
+<http://ids.clld.org/parameters/17-170>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "know" .
+
+<http://ids.clld.org/parameters/12-730>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "straight" .
+
+<http://ids.clld.org/values/1-420-261-1_%27ewokoe>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ewokoe"@brg .
+
+<http://ids.clld.org/values/5-140-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-140> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-140-261-1_ni%27%CE%B2ei%CA%94inow> .
+
+<http://ids.clld.org/parameters/2-920>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "you (singular)" .
+
+<http://ids.clld.org/values/4-210-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-210-261-3_ni-%27kis> .
+
+<http://ids.clld.org/values/2-910-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-910> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-910-261-3_n-ti> .
+
+<http://ids.clld.org/values/4-280-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-280> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-280-261-3_ni-%27pi-h> .
+
+<http://ids.clld.org/parameters/4-400>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "chest" .
+
+<http://ids.clld.org/values/16-620-261-3_ni-%27ki%CA%94inow>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-'kiʔinow"@brg .
+
+<http://ids.clld.org/values/4-345-261-1_e%27tip>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "e'tip"@brg .
+
+<http://ids.clld.org/values/6-350-261-1_-%27po-ri-a>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'po-ri-a"@brg .
+
+<http://ids.clld.org/values/12-430-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-430> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-430-261-1_a%27ne-kon> .
+
+<http://ids.clld.org/parameters/4-344>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fingernail" .
+
+<http://ids.clld.org/values/20-340-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/20-340> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/20-340-261-1_ni-yic%CC%8Co> .
+
+<http://ids.clld.org/values/13-150-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/13-150> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/13-150-261-1_mo-> .
+
+<http://ids.clld.org/values/13-20-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/13-20> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/13-20-261-1_m-a%27pi-n> .
+
+<http://ids.clld.org/values/3-823-261-1_ane>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ane"@brg .
+
+<http://ids.clld.org/values/10-620-261-1_%27amo%28n-%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'amo(n-)"@brg .
+
+<http://ids.clld.org/values/3-820-261-1_yomo%27ep>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "yomo'ep"@brg .
+
+<http://ids.clld.org/values/10-230-261-1_nesta%27paika>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "nesta'paika"@brg .
+
+<http://ids.clld.org/parameters/3-220>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "ox" .
+
+<http://ids.clld.org/values/2-230-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-230> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-230-261-1_a%27c%CC%8Cane> .
+
+<http://ids.clld.org/values/4-750-261-3_r%CC%8C%CC%A3e%27pen>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ṛ̌e'pen"@brg .
+
+<http://ids.clld.org/values/6-120-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/6-120> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/6-120-261-1_ra%27roni> .
+
+<http://ids.clld.org/values/4-460-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-460> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-460-261-1_-%27he-ki> .
+
+<http://ids.clld.org/values/2-450-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-450> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-450-261-3_%27n-eta> .
+
+<http://ids.clld.org/values/4-660-261-1_e%27tis>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "e'tis"@brg .
+
+<http://ids.clld.org/values/4-360-261-1_nic%CC%8Co%27%CE%B2ekos>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ničo'βekos"@brg .
+
+<http://ids.clld.org/values/9-360-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-360> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-360-261-1_-%27sipa> .
+
+<http://ids.clld.org/values/5-110-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-110> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-110-261-1_-ni-> .
+
+<http://ids.clld.org/parameters/1-840>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "ashes" .
+
+<http://ids.clld.org/parameters/4-270>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tooth" .
+
+<http://ids.clld.org/parameters/7-120>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "house" .
+
+<http://ids.clld.org/parameters/11-120>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "own, possess" .
+
+<http://ids.clld.org/values/4-610-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-610> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-610-261-3_-mo%27ko-w> .
+
+<http://ids.clld.org/values/2-100-261-1_%27c%CC%8Ci-n-ti>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'či-n-ti"@brg .
+
+<http://ids.clld.org/values/2-550-261-1_%27mpiri>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'mpiri"@brg .
+
+<http://ids.clld.org/values/2-920-261-1_pi-%27ti>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pi-'ti"@brg .
+
+<http://ids.clld.org/parameters/5-110>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "eat" .
+
+<http://ids.clld.org/values/2-810-261-1_ni%27c%CC%8Conopos>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni'čonopos"@brg .
+
+<http://ids.clld.org/values/4-400-261-1_c%CC%8Ca%27ko-ki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ča'ko-ki"@brg .
+
+<http://ids.clld.org/parameters/1-310>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "water" .
+
+<http://ids.clld.org/values/20-240-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/20-240> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/20-240-261-1_tipo%27pok> .
+
+<http://ids.clld.org/values/2-510-261-1_kik>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kik"@brg .
+
+<http://ids.clld.org/values/19-210-261-3_c%CC%8Cinti-ne%CE%B2>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "činti-neβ"@brg .
+
+<http://ids.clld.org/values/4-180-261-1_-i%27ho-s>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-i'ho-s"@brg .
+
+<http://ids.clld.org/values/15-640-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-640> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-640-261-1_kotipo%27pin> .
+
+<http://ids.clld.org/values/4-144-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-144> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-144-261-1_-i%27s%CC%8Ca> .
+
+<http://ids.clld.org/values/16-720-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-720> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-720-261-1_me%27hewokon> .
+
+<http://ids.clld.org/values/7-120-261-1_%27pa-r%CC%8C%CC%A3i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'pa-ṛ̌i"@brg .
+
+<http://ids.clld.org/parameters/1-720>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wind" .
+
+<http://ids.clld.org/values/3-817-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-817> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-817-261-1_ko%27s%CC%8Ci-ri> .
+
+<http://ids.clld.org/parameters/4-150>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "blood" .
+
+<http://ids.clld.org/values/4-260-261-1_-pe-n>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-pe-n"@brg .
+
+<http://ids.clld.org/values/17-660-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/17-660> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/17-660-261-3_r%CC%8C%CC%A3a%27%CE%B2iyowon%3F> .
+
+<http://ids.clld.org/values/4-360-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-360> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-360-261-1_nic%CC%8Co%27%CE%B2ekos> .
+
+<http://ids.clld.org/values/8-220-261-1_-%27saho-kia->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'saho-kia-"@brg .
+
+<http://ids.clld.org/values/2-270-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-270> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-270-261-1_mo-> .
+
+<http://ids.clld.org/values/3-350-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-350-261-1_si%27mori> .
+
+<http://ids.clld.org/values/4-330-261-1_-wo->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-wo-"@brg .
+
+<http://ids.clld.org/values/8-680-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-680> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-680-261-1_son> .
+
+<http://ids.clld.org/parameters/6-350>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sew" .
+
+<http://ids.clld.org/parameters/2-550>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "cousin" .
+
+<http://ids.clld.org/values/2-310-261-1_na%CE%B2i%27non>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "naβi'non"@brg .
+
+<http://ids.clld.org/values/4-410-261-1_-s%CC%8Co-n>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-šo-n"@brg .
+
+<http://ids.clld.org/parameters/4-205>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "forehead" .
+
+<http://ids.clld.org/values/2-210-261-1_hi-r%CC%8C%CC%A3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "hi-ṛ̌"@brg .
+
+<http://ids.clld.org/values/5-130-261-3_-e%27ro->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-e'ro-"@brg .
+
+<http://ids.clld.org/parameters/5-123>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "ripe" .
+
+<http://ids.clld.org/values/20-640-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/20-640> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/20-640-261-1_sir%CC%8C%CC%A3ia%27mok> .
+
+<http://ids.clld.org/values/16-270-261-3_ememna%27reko>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ememna'reko"@brg .
+
+<http://ids.clld.org/parameters/16-260>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "play" .
+
+<http://ids.clld.org/values/12-630-261-1_s%CC%8Co%27po->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "šo'po-"@brg .
+
+<http://ids.clld.org/parameters/5-810>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "salt" .
+
+<http://ids.clld.org/values/12-440-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-440> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-440-261-1_a%27%CE%B2e-> .
+
+<http://ids.clld.org/parameters/9-190>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "rope, cord" .
+
+<http://ids.clld.org/parameters/3-832>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mosquito" .
+
+<http://ids.clld.org/parameters/2-960>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "they" .
+
+<http://ids.clld.org/values/3-350-261-1_si%27mori>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "si'mori"@brg .
+
+<http://ids.clld.org/parameters/10-450>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "walk" .
+
+<http://ids.clld.org/values/2-350-261-3_c%CC%8Cac%CC%8C>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "čač"@brg .
+
+<http://ids.clld.org/parameters/12-240>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "open" .
+
+<http://ids.clld.org/parameters/1-590>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "rainbow" .
+
+<http://ids.clld.org/parameters/4-440>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "heart" .
+
+<http://ids.clld.org/values/4-340-261-1_ni-%27wohis>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-'wohis"@brg .
+
+<http://ids.clld.org/values/1-880-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-880> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-880-261-1_ya%27kis> .
+
+<http://ids.clld.org/values/11-210-261-1_-po%27e-ko-w>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-po'e-ko-w"@brg .
+
+<http://ids.clld.org/values/3-813-261-1_to%27tikop>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "to'tikop"@brg .
+
+<http://ids.clld.org/values/2-960-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-960> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-960-261-1_no-%27ti> .
+
+<http://ids.clld.org/values/12-80-261-1_a%27ni-ye>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "a'ni-ye"@brg .
+
+<http://ids.clld.org/values/7-510-261-1_ec%CC%8Co%27pi>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ečo'pi"@brg .
+
+<http://ids.clld.org/values/1-520-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-520> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-520-261-1_se-s> .
+
+<http://ids.clld.org/values/20-240-261-1_tipo%27pok>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tipo'pok"@brg .
+
+<http://ids.clld.org/values/10-370-261-1_-ar->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-ar-"@brg .
+
+<http://ids.clld.org/parameters/17-510>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "and" .
+
+<http://ids.clld.org/values/4-330-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-330> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-330-261-1_-wo-> .
+
+<http://ids.clld.org/values/5-160-261-1_-hi-%27ko->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-hi-'ko-"@brg .
+
+<http://ids.clld.org/values/19-610-261-1_-%27rapi>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'rapi"@brg .
+
+<http://ids.clld.org/values/8-220-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-220> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-220-261-1_-%27saho-kia-> .
+
+<http://ids.clld.org/values/4-120-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-120> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-120-261-3_ni-%27c%CC%8Com> .
+
+<http://ids.clld.org/values/9-370-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-370> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-370-261-1_he%CE%B2i-r%CC%8C%CC%A3> .
+
+<http://ids.clld.org/parameters/4-320>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "elbow" .
+
+<http://ids.clld.org/values/5-820-261-1_%27yiti>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'yiti"@brg .
+
+<http://ids.clld.org/values/11-620-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/11-620> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/11-620-261-1_kopo%27e-> .
+
+<http://ids.clld.org/values/4-320-261-1_nito%27taki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "nito'taki"@brg .
+
+<http://ids.clld.org/parameters/2-310>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "husband" .
+
+<http://ids.clld.org/values/5-710-261-1_-i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-i"@brg .
+
+<http://ids.clld.org/values/17-170-261-1_-c%CC%8Co->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-čo-"@brg .
+
+<http://ids.clld.org/values/10-610-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-610> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-610-261-1_nam> .
+
+<http://ids.clld.org/values/17-450-261-1_ni%27kamoser%CC%8C%CC%A3ow>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni'kamoseṛ̌ow"@brg .
+
+<http://ids.clld.org/values/12-560-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-560> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-560-261-3_%27mic%CC%8Cokir%CC%8C%CC%A3i> .
+
+<http://ids.clld.org/parameters/1-880>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "firewood" .
+
+<http://ids.clld.org/values/1-420-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-420> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-420-261-1_%27ewokoe> .
+
+<http://ids.clld.org/values/17-170-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/17-170> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/17-170-261-3_-tir%CC%8C%CC%A3i> .
+
+<http://ids.clld.org/values/16-250-261-1_-%27ko-ka->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'ko-ka-"@brg .
+
+<http://ids.clld.org/parameters/4-200>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "head" .
+
+<http://ids.clld.org/values/4-660-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-660> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-660-261-1_e%27tis> .
+
+<http://ids.clld.org/values/2-930-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-930> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-930-261-1_r%CC%8C%CC%A3o-%27ti> .
+
+<http://ids.clld.org/parameters/3-813>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "flea" .
+
+<http://ids.clld.org/values/3-220-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-220> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-220-261-1_%5Bwiye%5D> .
+
+<http://ids.clld.org/values/3-650-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-650> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-650-261-1_him> .
+
+<http://ids.clld.org/values/4-300-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-300> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-300-261-1_ni-%27powosi> .
+
+<http://ids.clld.org/values/19-510-261-1_ni%27tor%CC%8C%CC%A3i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni'toṛ̌i"@brg .
+
+<http://ids.clld.org/parameters/18-220>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "say" .
+
+<http://ids.clld.org/values/13-0-261-1_%27inkaw%20~%20%27onkaw>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'inkaw ~ 'onkaw"@brg .
+
+<http://ids.clld.org/parameters/14-420>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "night" .
+
+<http://ids.clld.org/parameters/9-360>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wash" .
+
+<http://ids.clld.org/parameters/20-640>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "trap (noun)" .
+
+<http://ids.clld.org/parameters/10-620>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bring" .
+
+<http://ids.clld.org/parameters/4-144>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "body hair" .
+
+<http://ids.clld.org/parameters/4-610>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sleep" .
+
+<http://ids.clld.org/parameters/4-190>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "back" .
+
+<http://ids.clld.org/parameters/3-550>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "chicken" .
+
+<http://ids.clld.org/values/3-850-261-3_%27peropi>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'peropi"@brg .
+
+<http://ids.clld.org/values/1-560-261-1_r%CC%8C%CC%A3o%27c%CC%8Cor%CC%8C%CC%A3eow>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ṛ̌o'čoṛ̌eow"@brg .
+
+<http://ids.clld.org/values/4-344-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-344> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-344-261-1_n-i%27tip> .
+
+<http://ids.clld.org/values/7-120-261-5>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/7-120> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/7-120-261-5_-den-pe-n> .
+
+<http://ids.clld.org/parameters/15-780>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sharp" .
+
+<http://ids.clld.org/values/8-540-261-1_r%CC%8C%CC%A3eki%27ton>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ṛ̌eki'ton"@brg .
+
+<http://ids.clld.org/parameters/16-310>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "pain" .
+
+<http://ids.clld.org/values/14-451-261-1_kope%27ap>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kope'ap"@brg .
+
+<http://ids.clld.org/values/16-270-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-270> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-270-261-1_-%27emo-ni> .
+
+<http://ids.clld.org/values/2-940-261-1_%CE%B2i-%27ti>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "βi-'ti"@brg .
+
+<http://ids.clld.org/values/16-530-261-3_%27ni-piko-w>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ni-piko-w"@brg .
+
+<http://ids.clld.org/values/15-410-261-1_-som->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-som-"@brg .
+
+<http://ids.clld.org/values/2-470-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-470> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-470-261-1_-os> .
+
+<http://ids.clld.org/values/6-380-261-1_kotipo%27pin>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kotipo'pin"@brg .
+
+<http://ids.clld.org/values/3-550-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-550> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-550-261-1_%27tipor%CC%8C%CC%A3ek> .
+
+<http://ids.clld.org/values/3-980-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-980> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-980-261-1_so%27pi-r%CC%8C%CC%A3> .
+
+<http://ids.clld.org/values/4-200-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-200> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-200-261-1_ni-%27po%CA%94e> .
+
+<http://ids.clld.org/values/2-470-261-1_-os>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-os"@brg .
+
+<http://ids.clld.org/values/1-890-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-890> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-890-261-1_emones> .
+
+<http://ids.clld.org/values/4-270-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-270> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-270-261-1_ni-%27se-r%CC%8C%CC%A3> .
+
+<http://ids.clld.org/values/7-440-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/7-440> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/7-440-261-1_%5Bmes%5D> .
+
+<http://ids.clld.org/parameters/16-720>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bad" .
+
+<http://ids.clld.org/values/5-710-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-710> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-710-261-1_-i> .
+
+<http://ids.clld.org/values/12-550-261-1_c%CC%8Co->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "čo-"@brg .
+
+<http://ids.clld.org/parameters/15-660>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "red" .
+
+<http://ids.clld.org/values/2-960-261-1_no-%27ti>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "no-'ti"@brg .
+
+<http://ids.clld.org/values/10-480-261-1_-piko-w>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-piko-w"@brg .
+
+<http://ids.clld.org/values/12-560-261-5_ti%27%CA%94a-ci>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ti'ʔa-ci"@brg .
+
+<http://ids.clld.org/values/5-791-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-791> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-791-261-1_ro%27kamokow> .
+
+<http://ids.clld.org/parameters/2-456>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sibling" .
+
+<http://ids.clld.org/values/4-209-261-1_nipoeho%27kon>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "nipoeho'kon"@brg .
+
+<http://ids.clld.org/values/4-142-261-1_ni-s%CC%8Ca%27won>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-ša'won"@brg .
+
+<http://ids.clld.org/values/4-280-261-5>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-280> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-280-261-5_-c%CC%8Ca%27no-ki> .
+
+<http://ids.clld.org/parameters/9-120>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "work" .
+
+<http://ids.clld.org/values/4-280-261-5_-c%CC%8Ca%27no-ki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-ča'no-ki"@brg .
+
+<http://ids.clld.org/parameters/2-470>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "grandmother" .
+
+<http://ids.clld.org/values/1-851-261-1_-a%27har%CC%8C%CC%A3ow>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-a'haṛ̌ow"@brg .
+
+<http://ids.clld.org/values/10-550-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-550> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-550-261-1_to%20bis%CC%8Ci%27moc%CC%8C> .
+
+<http://ids.clld.org/parameters/1-520>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sun" .
+
+<http://ids.clld.org/values/4-270-261-1_ni-%27se-r%CC%8C%CC%A3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-'se-ṛ̌"@brg .
+
+<http://ids.clld.org/values/4-980-261-1_-%27ka%CE%B2io>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'kaβio"@brg .
+
+<http://ids.clld.org/values/3-591-261-1_%CE%B2i%27te-r%CC%8C%CC%A3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "βi'te-ṛ̌"@brg .
+
+<http://ids.clld.org/values/16-530-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-530> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-530-261-1_-pi-> .
+
+<http://ids.clld.org/values/17-680-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/17-680> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/17-680-261-1_kon%20to%20%27woyokon> .
+
+<http://ids.clld.org/values/14-451-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/14-451> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/14-451-261-1_kope%27ap> .
+
+<http://ids.clld.org/values/4-380-261-1_ni%27wohis%20to%20ni%27poih>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni'wohis to ni'poih"@brg .
+
+<http://ids.clld.org/values/1-720-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-720> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-720-261-1_%CE%B2ir%CC%8C%CC%A3> .
+
+<http://ids.clld.org/values/1-360-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-360> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-360-261-1_wapo%27er%CC%8C%CC%A3> .
+
+<http://ids.clld.org/parameters/10-370>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fly (vb)" .
+
+<http://ids.clld.org/values/2-440-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-440> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-440-261-1_ni%27piri> .
+
+<http://ids.clld.org/parameters/4-360>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "knee" .
+
+<http://ids.clld.org/values/5-110-261-3_ni-%27kow>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-'kow"@brg .
+
+<http://ids.clld.org/values/5-610-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-610> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-610-261-1_n-es%CC%8C> .
+
+<http://ids.clld.org/parameters/11-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "give" .
+
+<http://ids.clld.org/values/3-950-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-950> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-950-261-1_si%27por%CC%8C%CC%A3i> .
+
+<http://ids.clld.org/parameters/2-350>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "father" .
+
+<http://ids.clld.org/values/4-240-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-240> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-240-261-1_ni-%27noki> .
+
+<http://ids.clld.org/values/12-730-261-1_to%27%CE%B2i->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "to'βi-"@brg .
+
+<http://ids.clld.org/values/9-370-261-1_he%CE%B2i-r%CC%8C%CC%A3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "heβi-ṛ̌"@brg .
+
+<http://ids.clld.org/values/8-920-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-920> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-920-261-1_ka%27ha-> .
+
+<http://ids.clld.org/values/8-560-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-560> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-560-261-1_e-pono%27e> .
+
+<http://ids.clld.org/values/4-460-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-460> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-460-261-3_nic%CC%8Co%27koki> .
+
+<http://ids.clld.org/parameters/12-570>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "long" .
+
+<http://ids.clld.org/values/5-110-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-110> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-110-261-3_ni-%27kow> .
+
+<http://ids.clld.org/parameters/11-620>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "borrow" .
+
+<http://ids.clld.org/values/10-450-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-450> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-450-261-1_-yo%27no> .
+
+<http://ids.clld.org/parameters/5-610>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "meat" .
+
+<http://ids.clld.org/parameters/1-810>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fire" .
+
+<http://ids.clld.org/values/4-280-261-1_-pi-h>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-pi-h"@brg .
+
+<http://ids.clld.org/parameters/4-240>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mouth" .
+
+<http://ids.clld.org/values/20-240-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/20-240> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/20-240-261-3_-tipo> .
+
+<http://ids.clld.org/values/2-280-261-1_%27monc%CC%8Ci>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'monči"@brg .
+
+<http://ids.clld.org/parameters/2-230>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "male" .
+
+<http://ids.clld.org/values/4-220-261-3_senoki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "senoki"@brg .
+
+<http://ids.clld.org/parameters/15-830>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wet, damp" .
+
+<http://ids.clld.org/values/2-350-261-1_-i%27a>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-i'a"@brg .
+
+<http://ids.clld.org/values/1-410-261-1_kaki%27woko-ye>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kaki'woko-ye"@brg .
+
+<http://ids.clld.org/values/17-650-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/17-650> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/17-650-261-1_kaeerapoka> .
+
+<http://ids.clld.org/values/2-930-261-3_r%CC%8C%CC%A3i-%27ti>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ṛ̌i-'ti"@brg .
+
+<http://ids.clld.org/values/3-850-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-850> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-850-261-1_ki%27wor%CC%8C%CC%A3> .
+
+<http://ids.clld.org/values/1-330-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-330> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-330-261-1_%27c%CC%8C-aki> .
+
+<http://ids.clld.org/values/4-140-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-140> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-140-261-1_-c%CC%8Ca-> .
+
+<http://ids.clld.org/values/4-440-261-1_neto%27ko%CA%94in>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "neto'koʔin"@brg .
+
+<http://ids.clld.org/values/1-341-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-341> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-341-261-1_%27aki> .
+
+<http://ids.clld.org/parameters/4-120>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "skin, hide" .
+
+<http://ids.clld.org/values/13-30-261-1_m%27po-n>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "m'po-n"@brg .
+
+<http://ids.clld.org/parameters/19-510>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "friend, companion" .
+
+<http://ids.clld.org/values/4-370-261-1_ni%27poih>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni'poih"@brg .
+
+<http://ids.clld.org/values/3-980-261-1_so%27pi-r%CC%8C%CC%A3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "so'pi-ṛ̌"@brg .
+
+<http://ids.clld.org/values/8-920-261-1_ka%27ha->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ka'ha-"@brg .
+
+<http://ids.clld.org/values/11-880-261-1_s%CC%8Co-%27wa-no-n>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "šo-'wa-no-n"@brg .
+
+<http://ids.clld.org/values/6-280-261-1_-s%CC%8Ca>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-ša"@brg .
+
+<http://ids.clld.org/values/9-250-261-1_po%27e>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "po'e"@brg .
+
+<http://ids.clld.org/values/4-120-261-1_-c%CC%8C-om>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-č-om"@brg .
+
+<http://ids.clld.org/values/2-310-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-310-261-1_na%CE%B2i%27non> .
+
+<http://ids.clld.org/values/9-343-261-1_%27ko-piti->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ko-piti-"@brg .
+
+<http://ids.clld.org/values/10-470-261-1_-yono-w>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-yono-w"@brg .
+
+<http://ids.clld.org/values/3-820-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-820> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-820-261-1_yomo%27ep> .
+
+<http://ids.clld.org/values/4-300-261-1_ni-%27powosi>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-'powosi"@brg .
+
+<http://ids.clld.org/parameters/2-930>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "he/she/it" .
+
+<http://ids.clld.org/parameters/1-560>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "thunder" .
+
+<http://ids.clld.org/values/4-180-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-180> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-180-261-1_-i%27ho-s> .
+
+<http://ids.clld.org/parameters/4-410>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "breast (of woman)" .
+
+<http://ids.clld.org/values/5-260-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-260> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-260-261-1_%27hopi> .
+
+<http://ids.clld.org/values/5-110-261-1_-ni->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-ni-"@brg .
+
+<http://ids.clld.org/values/13-0-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/13-0> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/13-0-261-1_%27inkaw%20~%20%27onkaw> .
+
+<http://ids.clld.org/parameters/3-350>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "pig" .
+
+<http://ids.clld.org/values/4-140-261-3_ni-%27c%CC%8Cahaih>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-'čahaih"@brg .
+
+<http://ids.clld.org/values/4-330-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-330> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-330-261-3_ni-%27wohi-s> .
+
+<http://ids.clld.org/values/4-441-261-1_ta%27ha>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ta'ha"@brg .
+
+<http://ids.clld.org/values/11-620-261-1_kopo%27e->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kopo'e-"@brg .
+
+<http://ids.clld.org/parameters/3-760>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "monkey" .
+
+<http://ids.clld.org/values/12-550-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-550> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-550-261-1_c%CC%8Co-> .
+
+<http://ids.clld.org/parameters/2-810>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "relatives, kinsmen" .
+
+<http://ids.clld.org/values/2-610-261-1_nimo%27s%CC%8Cok>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "nimo'šok"@brg .
+
+<http://ids.clld.org/values/12-80-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-80> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-80-261-1_a%27ni-ye> .
+
+<http://ids.clld.org/values/10-831-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-831> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-831-261-1_ya%27s%CC%8Cor%CC%8C%CC%A3> .
+
+<http://ids.clld.org/values/19-610-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/19-610> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/19-610-261-1_-%27rapi> .
+
+<http://ids.clld.org/values/2-950-261-1_yi-%27ti>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "yi-'ti"@brg .
+
+<http://ids.clld.org/parameters/8-311>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "seed" .
+
+<http://ids.clld.org/values/20-340-261-1_ni-yic%CC%8Co>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-yičo"@brg .
+
+<http://ids.clld.org/values/12-560-261-5>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-560> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-560-261-5_ti%27%CA%94a-ci> .
+
+<http://ids.clld.org/values/4-440-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-440> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-440-261-1_neto%27ko%CA%94in> .
+
+<http://ids.clld.org/values/2-350-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-350-261-1_-i%27a> .
+
+<http://ids.clld.org/parameters/10-710>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "road" .
+
+<http://ids.clld.org/values/5-160-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-160> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-160-261-1_-hi-%27ko-> .
+
+<http://ids.clld.org/parameters/13-140>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "every, all" .
+
+<http://ids.clld.org/parameters/4-280>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "neck" .
+
+<http://ids.clld.org/values/6-240-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/6-240> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/6-240-261-1_ka%27ha-wes%CC%8C> .
+
+<http://ids.clld.org/values/2-930-261-1_r%CC%8C%CC%A3o-%27ti>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ṛ̌o-'ti"@brg .
+
+<http://ids.clld.org/parameters/11-130>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "take" .
+
+<http://ids.clld.org/values/2-930-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-930> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-930-261-3_r%CC%8C%CC%A3i-%27ti> .
+
+<http://ids.clld.org/parameters/2-270>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "child" .
+
+<http://ids.clld.org/values/3-650-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-650> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-650-261-3_ko%CE%B2es> .
+
+<http://ids.clld.org/values/4-300-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-300> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-300-261-3_-%27powos> .
+
+<http://ids.clld.org/values/3-650-261-1_him>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "him"@brg .
+
+<http://ids.clld.org/values/3-823-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-823> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-823-261-1_ane> .
+
+<http://ids.clld.org/parameters/3-110>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "animal" .
+
+<http://ids.clld.org/parameters/8-910>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sweet potato" .
+
+<http://ids.clld.org/values/4-144-261-1_-i%27s%CC%8Ca>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-i'ša"@brg .
+
+<http://ids.clld.org/values/10-720-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-720> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-720-261-1_s%CC%8Ca%27no-ki> .
+
+<http://ids.clld.org/values/13-150-261-1_mo->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "mo-"@brg .
+
+<http://ids.clld.org/values/1-880-261-1_ya%27kis>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ya'kis"@brg .
+
+<http://ids.clld.org/values/4-310-261-3_-ton>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-ton"@brg .
+
+<http://ids.clld.org/values/17-240-261-1_-karo-%27wo-w>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-karo-'wo-w"@brg .
+
+<http://ids.clld.org/values/17-420-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/17-420> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/17-420-261-1_i-> .
+
+<http://ids.clld.org/parameters/4-160>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bone" .
+
+<http://ids.clld.org/values/12-50-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-50> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-50-261-1_-ye> .
+
+<http://ids.clld.org/values/12-150-261-1_-s%CC%8Com>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-šom"@brg .
+
+<http://ids.clld.org/values/4-205-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-205> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-205-261-1_ni%27panor%CC%8C%CC%A3> .
+
+<http://ids.clld.org/parameters/16-810>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "beautiful" .
+
+<http://ids.clld.org/values/1-830-261-1_kotiso%27kon>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kotiso'kon"@brg .
+
+<http://ids.clld.org/values/12-420-261-1_%27sa-pi>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'sa-pi"@brg .
+
+<http://ids.clld.org/values/16-270-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-270> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-270-261-3_ememna%27reko> .
+
+<http://ids.clld.org/values/3-760-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-760> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-760-261-1_yo-r%CC%8C%CC%A3> .
+
+<http://ids.clld.org/values/4-410-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-410> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-410-261-1_-s%CC%8Co-n> .
+
+<http://ids.clld.org/values/2-320-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-320> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-320-261-1_ne-%27yon> .
+
+<http://ids.clld.org/values/5-130-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-130> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-130-261-1_er> .
+
+<http://ids.clld.org/parameters/9-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "strike (hit, beat)" .
+
+<http://ids.clld.org/values/12-570-261-1_-pi>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-pi"@brg .
+
+<http://ids.clld.org/values/8-311-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-311> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-311-261-1_e%27so-ki> .
+
+<http://ids.clld.org/values/17-560-261-1_%27onkaw>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'onkaw"@brg .
+
+<http://ids.clld.org/values/10-610-261-1_nam>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "nam"@brg .
+
+<http://ids.clld.org/parameters/16-270>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "love" .
+
+<http://ids.clld.org/parameters/4-980>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "intoxicated" .
+
+<http://ids.clld.org/values/12-420-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-420> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-420-261-1_%27sa-pi> .
+
+<http://ids.clld.org/values/15-660-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-660> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-660-261-1_moro%27sero-> .
+
+<http://ids.clld.org/values/13-140-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/13-140> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/13-140-261-1_pon> .
+
+<http://ids.clld.org/parameters/5-820>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "pepper" .
+
+<http://ids.clld.org/values/13-10-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/13-10> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/13-10-261-1_po%27nos%CC%8C> .
+
+<http://ids.clld.org/values/16-310-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-310-261-1_-koti-> .
+
+<http://ids.clld.org/parameters/4-450>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "liver" .
+
+<http://ids.clld.org/parameters/9-343>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "squeeze, wring" .
+
+<http://ids.clld.org/parameters/6-240>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "cotton" .
+
+<http://ids.clld.org/values/20-250-261-1_kori->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kori-"@brg .
+
+<http://ids.clld.org/parameters/2-440>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "brother" .
+
+<http://ids.clld.org/values/16-530-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-530> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-530-261-3_%27ni-piko-w> .
+
+<http://ids.clld.org/values/2-456-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-456> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-456-261-1_-%27pi-ri> .
+
+<http://ids.clld.org/values/9-360-261-1_-%27sipa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'sipa"@brg .
+
+<http://ids.clld.org/values/1-570-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-570> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-570-261-1_r%CC%8C%CC%A3o%27c%CC%8Comor%CC%8C%CC%A3omor%CC%8C%CC%A3eow> .
+
+<http://ids.clld.org/values/4-230-261-1_-%27si-ri>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'si-ri"@brg .
+
+<http://ids.clld.org/values/4-380-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-380> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-380-261-1_ni%27wohis%20to%20ni%27poih> .
+
+<http://ids.clld.org/values/2-220-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-220> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-220-261-1_e%27ton> .
+
+<http://ids.clld.org/values/10-831-261-3_pkore>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pkore"@brg .
+
+<http://ids.clld.org/values/5-820-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-820> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-820-261-1_%27yiti> .
+
+<http://ids.clld.org/parameters/1-213>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "dust" .
+
+<http://ids.clld.org/values/4-450-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-450> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-450-261-1_-e%27pe-r%CC%8C%CC%A3on> .
+
+<http://ids.clld.org/values/2-440-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-440> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-440-261-3_ni%27ay> .
+
+<http://ids.clld.org/values/4-230-261-3_ni-pa-%27sir%CC%8C%CC%A3i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-pa-'siṛ̌i"@brg .
+
+<http://ids.clld.org/parameters/13-10>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "one" .
+
+<http://ids.clld.org/parameters/4-330>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hand" .
+
+<http://ids.clld.org/parameters/6-120>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "clothing, clothes" .
+
+<http://ids.clld.org/parameters/2-320>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wife" .
+
+<http://ids.clld.org/values/10-230-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-230> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-230-261-1_nesta%27paika> .
+
+<http://ids.clld.org/values/17-170-261-3_-tir%CC%8C%CC%A3i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-tiṛ̌i"@brg .
+
+<http://ids.clld.org/values/2-456-261-1_-%27pi-ri>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'pi-ri"@brg .
+
+<http://ids.clld.org/values/14-180-261-1_ne%27r%CC%8C%CC%A3iki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ne'ṛ̌iki"@brg .
+
+<http://ids.clld.org/values/5-140-261-1_ni%27%CE%B2ei%CA%94inow>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni'βeiʔinow"@brg .
+
+<http://ids.clld.org/parameters/8-540>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "root" .
+
+<http://ids.clld.org/values/10-380-261-1_-%27ha%CE%B2i-ko-w>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'haβi-ko-w"@brg .
+
+<http://ids.clld.org/parameters/1-890>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "charcoal" .
+
+<http://ids.clld.org/parameters/4-740>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "live, living, life" .
+
+<http://ids.clld.org/values/1-750-261-1_so%27won>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "so'won"@brg .
+
+<http://ids.clld.org/values/16-710-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-710> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-710-261-1_%27heni> .
+
+<http://ids.clld.org/values/15-830-261-1_-po%27to->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-po'to-"@brg .
+
+<http://ids.clld.org/values/12-560-261-1_-c%CC%8Ci>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-či"@brg .
+
+<http://ids.clld.org/values/12-810-261-1_c%CC%8Coporikon>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "čoporikon"@brg .
+
+<http://ids.clld.org/parameters/20-240>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bow" .
+
+<http://ids.clld.org/parameters/5-160>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "suck" .
+
+<http://ids.clld.org/parameters/1-360>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "river, stream, brook" .
+
+<http://ids.clld.org/parameters/3-823>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wasp" .
+
+<http://ids.clld.org/parameters/4-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "eye" .
+
+<http://ids.clld.org/values/9-120-261-1_koto->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "koto-"@brg .
+
+<http://ids.clld.org/values/1-540-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-540> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-540-261-1_wa%27his> .
+
+<http://ids.clld.org/values/4-350-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-350-261-1_ni%27pes> .
+
+<http://ids.clld.org/values/2-620-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-620> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-620-261-1_-mos> .
+
+<http://ids.clld.org/values/4-300-261-3_-%27powos>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'powos"@brg .
+
+<http://ids.clld.org/values/3-850-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-850> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-850-261-3_%27peropi> .
+
+<http://ids.clld.org/parameters/9-370>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sweep" .
+
+<http://ids.clld.org/values/4-140-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-140> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-140-261-3_ni-%27c%CC%8Cahaih> .
+
+<http://ids.clld.org/parameters/12-420>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "left (side)" .
+
+<http://ids.clld.org/parameters/5-791>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "grease, fat" .
+
+<http://ids.clld.org/values/15-810-261-1_-%27hi-no->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'hi-no-"@brg .
+
+<http://ids.clld.org/parameters/10-851>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "paddle (noun)" .
+
+<http://ids.clld.org/values/15-780-261-1_ko-%27se-ro>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ko-'se-ro"@brg .
+
+<http://ids.clld.org/parameters/2-610>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "father-in-law (of a man)" .
+
+<http://ids.clld.org/values/1-213-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-213> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-213-261-1_kopo%27er%CC%8C%CC%A3> .
+
+<http://ids.clld.org/values/5-791-261-1_ro%27kamokow>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ro'kamokow"@brg .
+
+<http://ids.clld.org/values/3-850-261-1_ki%27wor%CC%8C%CC%A3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ki'woṛ̌"@brg .
+
+<http://ids.clld.org/values/16-250-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-250> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-250-261-1_-%27ko-ka-> .
+
+<http://ids.clld.org/values/2-440-261-3_ni%27ay>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni'ay"@brg .
+
+<http://ids.clld.org/parameters/3-970>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "crocodile, alligator" .
+
+<http://ids.clld.org/parameters/12-30>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "down, below" .
+
+<http://ids.clld.org/parameters/9-250>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "ax" .
+
+<http://ids.clld.org/values/16-620-261-1_-%27kami->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'kami-"@brg .
+
+<http://ids.clld.org/values/4-310-261-1_-po%27wo-ki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-po'wo-ki"@brg .
+
+<http://ids.clld.org/parameters/4-209>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "chin" .
+
+<http://ids.clld.org/values/4-740-261-1_-c%CC%8Co-%27ko->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-čo-'ko-"@brg .
+
+<http://ids.clld.org/parameters/17-680>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "who?" .
+
+<http://ids.clld.org/values/2-950-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-950> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-950-261-1_yi-%27ti> .
+
+<http://ids.clld.org/values/1-510-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-510> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-510-261-1_a%27ni-ye> .
+
+<http://ids.clld.org/values/2-310-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-310-261-3_-emo> .
+
+<http://ids.clld.org/values/4-320-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-320> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-320-261-1_nito%27taki> .
+
+<http://ids.clld.org/values/4-750-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-750> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-750-261-1_-e%27pe-> .
+
+<http://ids.clld.org/values/1-810-261-1_%27ya-ki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ya-ki"@brg .
+
+<http://ids.clld.org/values/16-260-261-1_r%CC%8C%CC%A3o%27ponic%CC%8C>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ṛ̌o'ponič"@brg .
+
+<http://ids.clld.org/values/16-370-261-1_-ya>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-ya"@brg .
+
+<http://ids.clld.org/values/4-331-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-331> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-331-261-1_%27waki> .
+
+<http://ids.clld.org/parameters/1-341>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "lagoon" .
+
+<http://ids.clld.org/parameters/3-850>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "snake" .
+
+<http://ids.clld.org/parameters/6-280>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fur" .
+
+<http://ids.clld.org/values/5-260-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-260> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-260-261-3_kehe%CE%B2i> .
+
+<http://ids.clld.org/parameters/1-530>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "moon" .
+
+<http://ids.clld.org/parameters/17-560>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "no, negative" .
+
+<http://ids.clld.org/values/17-420-261-1_i->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "i-"@brg .
+
+<http://ids.clld.org/parameters/14-180>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "now" .
+
+<http://ids.clld.org/values/20-640-261-1_sir%CC%8C%CC%A3ia%27mok>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "siṛ̌ia'mok"@brg .
+
+<http://ids.clld.org/values/16-720-261-1_me%27hewokon>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "me'hewokon"@brg .
+
+<http://ids.clld.org/values/2-450-261-3_%27n-eta>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'n-eta"@brg .
+
+<http://ids.clld.org/parameters/10-380>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "blow" .
+
+<http://ids.clld.org/values/5-260-261-3_kehe%CE%B2i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "keheβi"@brg .
+
+<http://ids.clld.org/parameters/4-370>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "foot" .
+
+<http://ids.clld.org/values/10-831-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-831> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-831-261-3_pkore> .
+
+<http://ids.clld.org/values/1-410-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-410> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-410-261-1_kaki%27woko-ye> .
+
+<http://ids.clld.org/values/15-770-261-1_-%27mo-ri>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'mo-ri"@brg .
+
+<http://ids.clld.org/values/1-840-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-840> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-840-261-1_po%27ip> .
+
+<http://ids.clld.org/parameters/2-360>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mother" .
+
+<http://ids.clld.org/values/4-220-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-220> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-220-261-1_-%27c%CC%8Coko-n> .
+
+<http://ids.clld.org/parameters/1-410>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "woods, forest" .
+
+<http://ids.clld.org/values/2-920-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-920> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-920-261-1_pi-%27ti> .
+
+<http://ids.clld.org/parameters/12-11>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "behind" .
+
+<http://ids.clld.org/values/1-851-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-851> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-851-261-1_-a%27har%CC%8C%CC%A3ow> .
+
+<http://ids.clld.org/values/8-540-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-540> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-540-261-1_r%CC%8C%CC%A3eki%27ton> .
+
+<http://ids.clld.org/values/4-220-261-1_-%27c%CC%8Coko-n>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'čoko-n"@brg .
+
+<http://ids.clld.org/values/13-210-261-1_%27ac%CC%8Cokon>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ačokon"@brg .
+
+<http://ids.clld.org/values/2-350-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-350-261-3_c%CC%8Cac%CC%8C> .
+
+<http://ids.clld.org/values/12-30-261-1_pai->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pai-"@brg .
+
+<http://ids.clld.org/parameters/3-817>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "ant" .
+
+<http://ids.clld.org/parameters/4-250>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "lip" .
+
+<http://ids.clld.org/values/4-393-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-393> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-393-261-1_e%27sis> .
+
+<http://ids.clld.org/values/4-345-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-345> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-345-261-1_e%27tip> .
+
+<http://ids.clld.org/values/12-730-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-730> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-730-261-1_to%27%CE%B2i-> .
+
+<http://ids.clld.org/values/8-680-261-1_son>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "son"@brg .
+
+<http://ids.clld.org/parameters/2-461>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "old man" .
+
+<http://ids.clld.org/values/4-460-261-3_nic%CC%8Co%27koki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ničo'koki"@brg .
+
+<http://ids.clld.org/values/16-620-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-620> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-620-261-1_-%27kami-> .
+
+<http://ids.clld.org/values/16-260-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-260> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-260-261-1_r%CC%8C%CC%A3o%27ponic%CC%8C> .
+
+<http://ids.clld.org/values/17-420-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/17-420> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/17-420-261-3_imo-> .
+
+<http://ids.clld.org/parameters/4-660>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "defecate" .
+
+<http://ids.clld.org/parameters/7-510>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "roof" .
+
+<http://ids.clld.org/values/3-970-261-1_kahire>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kahire"@brg .
+
+<http://ids.clld.org/values/3-110-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-110> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-110-261-1_-%27per> .
+
+<http://ids.clld.org/values/3-970-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-970> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-970-261-1_kahire> .
+
+<http://ids.clld.org/values/1-810-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-810> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-810-261-1_%27ya-ki> .
+
+<http://ids.clld.org/values/6-350-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/6-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/6-350-261-1_-%27po-ri-a> .
+
+<http://ids.clld.org/values/6-780-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/6-780> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/6-780-261-1_s%CC%8Co%27me> .
+
+<http://ids.clld.org/values/4-260-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-260> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-260-261-1_-pe-n> .
+
+<http://ids.clld.org/values/2-100-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-100> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-100-261-1_%27c%CC%8Ci-n-ti> .
+
+<http://ids.clld.org/values/11-150-261-1_-a%27mo>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-a'mo"@brg .
+
+<http://ids.clld.org/parameters/4-351>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "thigh" .
+
+<http://ids.clld.org/values/9-343-261-3_su%27ipistakapa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "su'ipistakapa"@brg .
+
+<http://ids.clld.org/values/14-410-261-3_r%CC%8C%CC%A3o%27sesokonoer%CC%8C%CC%A3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ṛ̌o'sesokonoeṛ̌"@brg .
+
+<http://ids.clld.org/values/1-620-261-1_ha%27mor%CC%8C%CC%A3en>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ha'moṛ̌en"@brg .
+
+<http://ids.clld.org/values/1-530-261-1_ki%27he-r%CC%8C%CC%A3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ki'he-ṛ̌"@brg .
+
+<http://ids.clld.org/parameters/12-70>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "under" .
+
+<http://ids.clld.org/values/5-130-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-130> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-130-261-3_-e%27ro-> .
+
+<http://ids.clld.org/values/4-260-261-3_epenene>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "epenene"@brg .
+
+<http://ids.clld.org/parameters/10-550>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "reach, arrive" .
+
+<http://ids.clld.org/values/12-630-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-630> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-630-261-1_s%CC%8Co%27po-> .
+
+<http://ids.clld.org/values/12-560-261-3_%27mic%CC%8Cokir%CC%8C%CC%A3i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'mičokiṛ̌i"@brg .
+
+<http://ids.clld.org/values/17-240-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/17-240> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/17-240-261-1_-karo-%27wo-w> .
+
+<http://ids.clld.org/values/1-330-261-1_%27c%CC%8C-aki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'č-aki"@brg .
+
+<http://ids.clld.org/parameters/2-940>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "we" .
+
+<http://ids.clld.org/parameters/8-220>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "dig" .
+
+<http://ids.clld.org/values/4-160-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-160> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-160-261-1_-%27opi> .
+
+<http://ids.clld.org/parameters/14-451>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "afternoon" .
+
+<http://ids.clld.org/parameters/1-570>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "lightning (as striking)" .
+
+<http://ids.clld.org/values/2-456-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-456> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-456-261-3_%27mpiri> .
+
+<http://ids.clld.org/values/8-840-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-840> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-840-261-1_-%27apoe> .
+
+<http://ids.clld.org/values/4-230-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-230> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-230-261-1_-%27si-ri> .
+
+<http://ids.clld.org/values/1-360-261-1_wapo%27er%CC%8C%CC%A3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "wapo'eṛ̌"@brg .
+
+<http://ids.clld.org/values/3-591-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-591> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-591-261-1_%CE%B2i%27te-r%CC%8C%CC%A3> .
+
+<http://ids.clld.org/values/8-910-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-910> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-910-261-1_se%27r%CC%8C%CC%A3e> .
+
+<http://ids.clld.org/values/14-150-261-1_c%CC%8Ci-n>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "či-n"@brg .
+
+<http://ids.clld.org/parameters/12-630>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "thick (in dimension)" .
+
+<http://ids.clld.org/values/15-810-261-3_kohino-kon>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kohino-kon"@brg .
+
+<http://ids.clld.org/values/4-880-261-1_we%27r%CC%8C%CC%A3ok>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "we'ṛ̌ok"@brg .
+
+<http://ids.clld.org/values/4-350-261-1_ni%27pes>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni'pes"@brg .
+
+<http://ids.clld.org/values/12-240-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-240> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-240-261-1_%27%CE%B2e-ha> .
+
+<http://ids.clld.org/parameters/4-300>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "shoulder" .
+
+<http://ids.clld.org/values/15-410-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-410> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-410-261-1_-som-> .
+
+<http://ids.clld.org/values/18-220-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/18-220> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/18-220-261-1_%27k-ic%CC%8Co> .
+
+<http://ids.clld.org/values/2-230-261-1_a%27c%CC%8Cane>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "a'čane"@brg .
+
+<http://ids.clld.org/parameters/16-530>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fear, fright" .
+
+<http://ids.clld.org/values/4-460-261-1_-%27he-ki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'he-ki"@brg .
+
+<http://ids.clld.org/values/10-550-261-1_to%20bis%CC%8Ci%27moc%CC%8C>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "to biši'moč"@brg .
+
+<http://ids.clld.org/parameters/10-720>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "path" .
+
+<http://ids.clld.org/parameters/5-660>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bean" .
+
+<http://ids.clld.org/values/10-710-261-3_s%CC%8Ca%27no-ki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ša'no-ki"@brg .
+
+<http://ids.clld.org/values/1-720-261-1_%CE%B2ir%CC%8C%CC%A3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "βiṛ̌"@brg .
+
+<http://ids.clld.org/parameters/13-150>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "much, many" .
+
+<http://ids.clld.org/values/4-170-261-1_e%27hi>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "e'hi"@brg .
+
+<http://ids.clld.org/values/14-420-261-1_yoto%27e-r%CC%8C%CC%A3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "yoto'e-ṛ̌"@brg .
+
+<http://ids.clld.org/values/1-750-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-750> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-750-261-1_so%27won> .
+
+<http://ids.clld.org/parameters/3-650>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fish" .
+
+<http://ids.clld.org/values/18-220-261-1_%27k-ic%CC%8Co>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'k-ičo"@brg .
+
+<http://ids.clld.org/parameters/2-280>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "infant, baby" .
+
+<http://ids.clld.org/values/4-280-261-3_ni-%27pi-h>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-'pi-h"@brg .
+
+<http://ids.clld.org/parameters/5-130>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "drink" .
+
+<http://ids.clld.org/values/4-200-261-1_ni-%27po%CA%94e>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-'poʔe"@brg .
+
+<http://ids.clld.org/parameters/1-330>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "lake" .
+
+<http://ids.clld.org/values/2-620-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-620> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-620-261-3_-aki> .
+
+<http://ids.clld.org/values/7-120-261-3_-%27we-r%CC%8C%CC%A3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'we-ṛ̌"@brg .
+
+<http://ids.clld.org/values/2-620-261-1_-mos>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-mos"@brg .
+
+<http://ids.clld.org/parameters/8-920>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tapioca, manioc, cassava" .
+
+<http://ids.clld.org/values/12-440-261-1_a%27%CE%B2e->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "a'βe-"@brg .
+
+<http://ids.clld.org/values/1-213-261-3_poi-p>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "poi-p"@brg .
+
+<http://ids.clld.org/values/5-130-261-1_er>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "er"@brg .
+
+<http://ids.clld.org/values/12-570-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-570> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-570-261-1_-pi> .
+
+<http://ids.clld.org/values/10-480-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-480> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-480-261-1_-piko-w> .
+
+<http://ids.clld.org/values/12-30-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-30> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-30-261-1_pai-> .
+
+<http://ids.clld.org/parameters/4-170>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "horn" .
+
+<http://ids.clld.org/values/1-213-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-213> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-213-261-3_poi-p> .
+
+<http://ids.clld.org/values/11-130-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/11-130> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/11-130-261-1_-a%27mo> .
+
+<http://ids.clld.org/values/3-760-261-1_yo-r%CC%8C%CC%A3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "yo-ṛ̌"@brg .
+
+<http://ids.clld.org/values/10-851-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-851> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-851-261-1_%27ha%CE%B2i> .
+
+<http://ids.clld.org/parameters/4-345>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "claw" .
+
+<http://ids.clld.org/values/15-810-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-810> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-810-261-1_-%27hi-no-> .
+
+<http://ids.clld.org/values/12-240-261-1_%27%CE%B2e-ha>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'βe-ha"@brg .
+
+<http://ids.clld.org/values/11-130-261-1_-a%27mo>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-a'mo"@brg .
+
+<http://ids.clld.org/parameters/1-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "earth, land" .
+
+<http://ids.clld.org/parameters/13-0>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "zero, nothing" .
+
+<http://ids.clld.org/values/11-120-261-1_-%27ko-ti>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'ko-ti"@brg .
+
+<http://ids.clld.org/parameters/17-240>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "learn" .
+
+<http://ids.clld.org/values/1-210-261-1_po%27ewok>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "po'ewok"@brg .
+
+<http://ids.clld.org/values/4-331-261-1_%27waki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'waki"@brg .
+
+<http://ids.clld.org/values/10-851-261-1_%27ha%CE%B2i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'haβi"@brg .
+
+<http://ids.clld.org/values/4-210-261-3_ni-%27kis>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-'kis"@brg .
+
+<http://ids.clld.org/values/4-170-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-170> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-170-261-1_e%27hi> .
+
+<http://ids.clld.org/parameters/1-620>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "darkness" .
+
+<http://ids.clld.org/values/12-70-261-1_a%27piye>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "a'piye"@brg .
+
+<http://ids.clld.org/values/3-832-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-832> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-832-261-1_ni> .
+
+<http://ids.clld.org/values/19-240-261-1_rom>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "rom"@brg .
+
+<http://ids.clld.org/parameters/17-650>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "when?" .
+
+<http://ids.clld.org/values/16-270-261-1_-%27emo-ni>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'emo-ni"@brg .
+
+<http://ids.clld.org/values/2-461-261-1_a%27ne>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "a'ne"@brg .
+
+<http://ids.clld.org/values/4-750-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-750> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-750-261-3_r%CC%8C%CC%A3e%27pen> .
+
+<http://ids.clld.org/parameters/15-640>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "white" .
+
+<http://ids.clld.org/values/4-330-261-3_ni-%27wohi-s>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-'wohi-s"@brg .
+
+<http://ids.clld.org/parameters/6-780>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "headband, headdress" .
+
+<http://ids.clld.org/values/10-380-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-380> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-380-261-1_-%27ha%CE%B2i-ko-w> .
+
+<http://ids.clld.org/values/16-710-261-1_%27heni>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'heni"@brg .
+
+<http://ids.clld.org/values/2-456-261-3_%27mpiri>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'mpiri"@brg .
+
+<http://ids.clld.org/parameters/10-470>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "go" .
+
+<http://ids.clld.org/values/16-530-261-1_-pi->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-pi-"@brg .
+
+<http://ids.clld.org/parameters/4-460>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "stomach" .
+
+<http://ids.clld.org/parameters/3-820>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bee" .
+
+<http://ids.clld.org/values/15-780-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-780> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-780-261-1_ko-%27se-ro> .
+
+<http://ids.clld.org/values/12-70-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-70> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-70-261-1_a%27piye> .
+
+<http://ids.clld.org/parameters/2-450>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sister" .
+
+<http://ids.clld.org/values/12-11-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-11> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-11-261-1_s%CC%8Cir%CC%8C%CC%A3iwa%27niye> .
+
+<http://ids.clld.org/values/19-240-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/19-240> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/19-240-261-1_rom> .
+
+<http://ids.clld.org/values/6-240-261-1_ka%27ha-wes%CC%8C>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ka'ha-weš"@brg .
+
+<http://ids.clld.org/values/17-510-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/17-510> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/17-510-261-1_ac%CC%8C> .
+
+<http://ids.clld.org/values/1-620-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-620> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-620-261-1_ha%27mor%CC%8C%CC%A3en> .
+
+<http://ids.clld.org/values/10-710-261-1_s%CC%8Co-%27no->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "šo-'no-"@brg .
+
+<http://ids.clld.org/parameters/14-150>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "old" .
+
+<http://ids.clld.org/parameters/5-710>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fruit" .
+
+<http://ids.clld.org/parameters/13-20>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "two" .
+
+<http://ids.clld.org/values/4-441-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-441> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-441-261-1_ta%27ha> .
+
+<http://ids.clld.org/values/4-220-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-220> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-220-261-3_senoki> .
+
+<http://ids.clld.org/parameters/4-340>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "finger" .
+
+<http://ids.clld.org/values/13-20-261-1_m-a%27pi-n>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "m-a'pi-n"@brg .
+
+<http://ids.clld.org/values/6-350-261-3_ni-%27por%CC%8C%CC%A3ia-w>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-'poṛ̌ia-w"@brg .
+
+<http://ids.clld.org/values/3-813-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-813> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-813-261-1_to%27tikop> .
+
+<http://ids.clld.org/values/17-510-261-1_ac%CC%8C>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ač"@brg .
+
+<http://ids.clld.org/values/10-710-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-710> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-710-261-1_s%CC%8Co-%27no-> .
+
+<http://ids.clld.org/values/13-30-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/13-30> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/13-30-261-1_m%27po-n> .
+
+<http://ids.clld.org/values/12-50-261-1_-ye>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-ye"@brg .
+
+<http://ids.clld.org/parameters/12-550>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "large, big" .
+
+<http://ids.clld.org/parameters/4-750>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "die, dead" .
+
+<http://ids.clld.org/values/17-660-261-3_r%CC%8C%CC%A3a%27%CE%B2iyowon%3F>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ṛ̌a'βiyowon?"@brg .
+
+<http://ids.clld.org/values/3-832-261-1_ni>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni"@brg .
+
+<http://ids.clld.org/values/12-11-261-1_s%CC%8Cir%CC%8C%CC%A3iwa%27niye>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "šiṛ̌iwa'niye"@brg .
+
+<http://ids.clld.org/parameters/20-250>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "arrow" .
+
+<http://ids.clld.org/values/12-150-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-150> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-150-261-1_-s%CC%8Com> .
+
+<http://ids.clld.org/values/15-660-261-1_moro%27sero->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "moro'sero-"@brg .
+
+<http://ids.clld.org/values/4-210-261-1_-i%27ki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-i'ki"@brg .
+
+<http://ids.clld.org/parameters/10-230>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fall" .
+
+<http://ids.clld.org/parameters/4-220>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "ear" .
+
+<http://ids.clld.org/values/19-210-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/19-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/19-210-261-1_%27c%CC%8Cinti> .
+
+<http://ids.clld.org/values/4-610-261-1_-i%27mo>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-i'mo"@brg .
+
+<http://ids.clld.org/parameters/19-610>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "custom" .
+
+<http://ids.clld.org/values/1-590-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-590> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-590-261-1_ni%27a> .
+
+<http://ids.clld.org/parameters/2-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "man (vs. woman)" .
+
+<http://ids.clld.org/parameters/4-441>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "lung" .
+
+<http://ids.clld.org/parameters/15-810>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "heavy" .
+
+<http://ids.clld.org/values/16-620-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-620> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-620-261-3_ni-%27ki%CA%94inow> .
+
+<http://ids.clld.org/values/6-120-261-1_ra%27roni>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ra'roni"@brg .
+
+<http://ids.clld.org/values/4-400-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-400> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-400-261-1_c%CC%8Ca%27ko-ki> .
+
+<http://ids.clld.org/values/3-110-261-1_-%27per>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'per"@brg .
+
+<http://ids.clld.org/values/17-660-261-1_oypoka>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "oypoka"@brg .
+
+<http://ids.clld.org/parameters/12-430>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "near (adv)" .
+
+<http://ids.clld.org/values/6-350-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/6-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/6-350-261-3_ni-%27por%CC%8C%CC%A3ia-w> .
+
+<http://ids.clld.org/values/4-260-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-260> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-260-261-3_epenene> .
+
+<http://ids.clld.org/values/2-100-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-100> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-100-261-3_c%CC%8Conoe-> .
+
+<http://ids.clld.org/parameters/2-620>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mother-in-law (of a man)" .
+
+<http://ids.clld.org/values/1-590-261-1_ni%27a>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni'a"@brg .
+
+<http://ids.clld.org/values/20-250-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/20-250> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/20-250-261-1_kori-> .
+
+<http://ids.clld.org/values/17-680-261-1_kon%20to%20%27woyokon>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kon to 'woyokon"@brg .
+
+<http://ids.clld.org/parameters/8-840>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "banana tree" .
+
+<http://ids.clld.org/values/1-213-261-1_kopo%27er%CC%8C%CC%A3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kopo'eṛ̌"@brg .
+
+<http://ids.clld.org/parameters/3-980>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "turtle" .
+
+<http://ids.clld.org/values/9-210-261-1_nesta%27ka%CE%B2iyar>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "nesta'kaβiyar"@brg .
+
+<http://ids.clld.org/values/5-660-261-1_c%CC%8Ci%27c%CC%8Cor%CC%8C%CC%A3op>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "či'čoṛ̌op"@brg .
+
+<http://ids.clld.org/values/4-140-261-1_-c%CC%8Ca->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-ča-"@brg .
+
+<http://ids.clld.org/values/16-370-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-370> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-370-261-1_-ya> .
+
+<http://ids.clld.org/values/17-450-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/17-450> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/17-450-261-1_ni%27kamoser%CC%8C%CC%A3ow> .
+
+<http://ids.clld.org/values/8-910-261-1_se%27r%CC%8C%CC%A3e>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "se'ṛ̌e"@brg .
+
+<http://ids.clld.org/values/1-560-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-560> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-560-261-1_r%CC%8C%CC%A3o%27c%CC%8Cor%CC%8C%CC%A3eow> .
+
+<http://ids.clld.org/values/4-370-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-370> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-370-261-1_ni%27poih> .
+
+<http://ids.clld.org/parameters/11-880>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "dear (costly, expensive)" .
+
+<http://ids.clld.org/values/2-210-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-210-261-1_hi-r%CC%8C%CC%A3> .
+
+<http://ids.clld.org/values/2-280-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-280> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-280-261-1_%27monc%CC%8Ci> .
+
+<http://ids.clld.org/values/4-250-261-1_ni%27c%CC%8Comonoki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni'čomonoki"@brg .
+
+<http://ids.clld.org/values/5-810-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-810> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-810-261-1_%27c%CC%8Cobi%20~%20%27c%CC%8Cobe> .
+
+<http://ids.clld.org/values/1-890-261-1_emones>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "emones"@brg .
+
+<http://ids.clld.org/values/4-393-261-1_e%27sis>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "e'sis"@brg .
+
+<http://ids.clld.org/values/2-320-261-1_ne-%27yon>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ne-'yon"@brg .
+
+<http://ids.clld.org/parameters/8-941>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sugar cane" .
+
+<http://ids.clld.org/parameters/2-910>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "I" .
+
+<http://ids.clld.org/values/4-209-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-209> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-209-261-1_nipoeho%27kon> .
+
+<http://ids.clld.org/values/1-620-261-3_ha%27mo-r%CC%8C%CC%A3e>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ha'mo-ṛ̌e"@brg .
+
+<http://ids.clld.org/values/4-230-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-230> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-230-261-3_ni-pa-%27sir%CC%8C%CC%A3i> .
+
+<http://ids.clld.org/parameters/1-540>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "star" .
+
+<http://ids.clld.org/values/14-410-261-1_se-s>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "se-s"@brg .
+
+<http://ids.clld.org/parameters/16-620>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "desire, want" .
+
+<http://ids.clld.org/values/5-123-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-123> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-123-261-1_-ya-> .
+
+<http://ids.clld.org/values/3-220-261-1_%5Bwiye%5D>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "[wiye]"@brg .
+
+<http://ids.clld.org/values/14-180-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/14-180> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/14-180-261-1_ne%27r%CC%8C%CC%A3iki> .
+
+<http://ids.clld.org/values/12-810-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-810> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-810-261-1_c%CC%8Coporikon> .
+
+<http://ids.clld.org/values/15-690-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-690> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-690-261-1_%27ya-s-ko-> .
+
+<http://ids.clld.org/parameters/4-380>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "toe" .
+
+<http://ids.clld.org/values/4-160-261-1_-%27opi>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'opi"@brg .
+
+<http://ids.clld.org/values/19-510-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/19-510> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/19-510-261-1_ni%27tor%CC%8C%CC%A3i> .
+
+<http://ids.clld.org/values/15-410-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-410> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-410-261-3_r%CC%8C%CC%A3i-%27somopoek> .
+
+<http://ids.clld.org/values/4-150-261-1_%27iti>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'iti"@brg .
+
+<http://ids.clld.org/parameters/1-420>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tree (cf 08.600)" .
+
+<http://ids.clld.org/values/1-530-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-530> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-530-261-1_ki%27he-r%CC%8C%CC%A3> .
+
+<http://ids.clld.org/parameters/17-450>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "need, necessity" .
+
+<http://ids.clld.org/values/3-817-261-1_ko%27s%CC%8Ci-ri>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ko'ši-ri"@brg .
+
+<http://ids.clld.org/parameters/19-240>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "chief, chieftain" .
+
+<http://ids.clld.org/values/4-340-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-340> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-340-261-1_ni-%27wohis> .
+
+<http://ids.clld.org/values/2-610-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-610> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-610-261-1_nimo%27s%CC%8Cok> .
+
+<http://ids.clld.org/values/7-510-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/7-510> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/7-510-261-1_ec%CC%8Co%27pi> .
+
+<http://ids.clld.org/values/17-420-261-3_imo->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "imo-"@brg .
+
+<http://ids.clld.org/values/4-351-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-351> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-351-261-1_-pes> .
+
+<http://ids.clld.org/parameters/1-830>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "smoke (noun)" .
+
+<http://ids.clld.org/values/7-120-261-5_-den-pe-n>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-den-pe-n"@brg .
+
+<http://ids.clld.org/parameters/4-260>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tongue" .
+
+<http://ids.clld.org/values/1-341-261-1_%27aki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'aki"@brg .
+
+<http://ids.clld.org/values/4-610-261-3_-mo%27ko-w>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-mo'ko-w"@brg .
+
+<http://ids.clld.org/values/9-343-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-343> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-343-261-1_%27ko-piti-> .
+
+<http://ids.clld.org/values/10-620-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-620> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-620-261-1_%27amo%28n-%29> .
+
+<http://ids.clld.org/values/5-610-261-1_n-es%CC%8C>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "n-eš"@brg .
+
+<http://ids.clld.org/values/14-150-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/14-150> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/14-150-261-1_c%CC%8Ci-n> .
+
+<http://ids.clld.org/values/12-570-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-570> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-570-261-3_%27pero-> .
+
+<http://ids.clld.org/values/12-30-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-30> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-30-261-3_poe-> .
+
+<http://ids.clld.org/parameters/4-393>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "feather" .
+
+<http://ids.clld.org/values/15-810-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-810> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-810-261-3_kohino-kon> .
+
+<http://ids.clld.org/parameters/4-140>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hair (head)" .
+
+<http://ids.clld.org/values/2-510-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-510> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-510-261-1_kik> .
+
+<http://ids.clld.org/values/12-570-261-3_%27pero->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'pero-"@brg .
+
+<http://ids.clld.org/values/2-940-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-940> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-940-261-1_%CE%B2i-%27ti> .
+
+<http://ids.clld.org/values/5-260-261-1_%27hopi>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'hopi"@brg .
+
+<http://ids.clld.org/parameters/16-370>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "cry, weep" .
+
+<http://ids.clld.org/values/4-310-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-310-261-1_-po%27wo-ki> .
+
+<http://ids.clld.org/values/9-210-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-210-261-1_nesta%27ka%CE%B2iyar> .
+
+<http://ids.clld.org/values/4-740-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-740> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-740-261-1_-c%CC%8Co-%27ko-> .
+
+<http://ids.clld.org/values/7-120-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/7-120> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/7-120-261-1_%27pa-r%CC%8C%CC%A3i> .
+
+<http://ids.clld.org/parameters/12-80>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "up, above" .
+
+<http://ids.clld.org/values/4-205-261-1_ni%27panor%CC%8C%CC%A3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni'panoṛ̌"@brg .
+
+<http://ids.clld.org/values/14-410-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/14-410> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/14-410-261-1_se-s> .
+
+<http://ids.clld.org/values/4-750-261-1_-e%27pe->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-e'pe-"@brg .
+
+<http://ids.clld.org/values/17-650-261-1_kaeerapoka>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kaeerapoka"@brg .
+
+<http://ids.clld.org/values/2-100-261-3_c%CC%8Conoe->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "čonoe-"@brg .
+
+<http://ids.clld.org/parameters/16-250>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "laugh" .
+
+<http://ids.clld.org/parameters/2-950>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "you (plural)" .
+
+<http://ids.clld.org/values/16-810-261-1_%27monikowapa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'monikowapa"@brg .
+
+<http://ids.clld.org/values/1-830-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-830> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-830-261-1_kotiso%27kon> .
+
+<http://ids.clld.org/values/3-550-261-1_%27tipor%CC%8C%CC%A3ek>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'tipoṛ̌ek"@brg .
+
+<http://ids.clld.org/values/4-210-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-210-261-1_-i%27ki> .
+
+<http://ids.clld.org/values/4-280-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-280> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-280-261-1_-pi-h> .
+
+<http://ids.clld.org/values/2-910-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-910> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-910-261-1_ni-> .
+
+<http://ids.clld.org/values/2-550-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-550> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-550-261-1_%27mpiri> .
+
+<http://ids.clld.org/parameters/3-591>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bat" .
+
+<http://ids.clld.org/values/1-540-261-1_wa%27his>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "wa'his"@brg .
+
+<http://ids.clld.org/values/1-620-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-620> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-620-261-3_ha%27mo-r%CC%8C%CC%A3e> .
+
+<http://ids.clld.org/values/4-450-261-1_-e%27pe-r%CC%8C%CC%A3on>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-e'pe-ṛ̌on"@brg .
+
+<http://ids.clld.org/values/9-250-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-250> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-250-261-1_po%27e> .
+
+<http://ids.clld.org/values/2-910-261-3_n-ti>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "n-ti"@brg .
+
+<http://ids.clld.org/values/1-840-261-1_po%27ip>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "po'ip"@brg .
+
+<http://ids.clld.org/parameters/20-340>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "shield" .
+
+<http://ids.clld.org/parameters/5-260>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "pot, cooking vessel" .
+
+<http://ids.clld.org/parameters/4-310>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "arm" .
+
+<http://ids.clld.org/values/11-210-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/11-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/11-210-261-1_-po%27e-ko-w> .
+
+<http://ids.clld.org/values/8-941-261-1_ko%27te-n>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ko'te-n"@brg .
+
+<http://ids.clld.org/values/10-710-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-710> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-710-261-3_s%CC%8Ca%27no-ki> .
+
+<http://ids.clld.org/values/7-440-261-1_%5Bmes%5D>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "[mes]"@brg .
+
+<http://ids.clld.org/values/2-810-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-810> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-810-261-1_ni%27c%CC%8Conopos> .
+
+<http://ids.clld.org/values/2-450-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-450> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-450-261-1_ni-%27pir%CC%8C%CC%A3i> .
+
+<http://ids.clld.org/parameters/11-150>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hold" .
+
+<http://ids.clld.org/values/19-210-261-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/19-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/19-210-261-3_c%CC%8Cinti-ne%CE%B2> .
+
+<http://ids.clld.org/parameters/5-140>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hunger" .
+
+<http://ids.clld.org/values/2-461-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-461> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-461-261-1_a%27ne> .
+
+<http://ids.clld.org/values/8-560-261-1_e-pono%27e>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "e-pono'e"@brg .
+
+<http://ids.clld.org/values/4-610-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-610> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-610-261-1_-i%27mo> .
+
+<http://ids.clld.org/values/4-250-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-250> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-250-261-1_ni%27c%CC%8Comonoki> .
+
+<http://ids.clld.org/values/6-780-261-1_s%CC%8Co%27me>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "šo'me"@brg .
+
+<http://ids.clld.org/values/8-941-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-941> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-941-261-1_ko%27te-n> .
+
+<http://ids.clld.org/parameters/14-410>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "day" .
+
+<http://ids.clld.org/values/2-910-261-1_ni->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-"@brg .
+
+<http://ids.clld.org/parameters/10-610>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "carry (bear)" .
+
+<https://ids.clld.org/download>
+        a                          lime:Lexicon ;
+        dct:bibliographicCitation  "KeyMary Ritchie & ComrieBernard (eds.) 2015.\nThe Intercontinental Dictionary Series.\nLeipzig: Max Planck Institute for Evolutionary Anthropology.\n(Available online at http://ids.clld.orgAccessed on 2018-04-19.)\n" ;
+        dct:creator                "KeyMary Ritchie & ComrieBernard" ;
+        dct:identifier             "http://ids.clld.org/" ;
+        dct:issued                 "2015-05-25" ;
+        dct:license                "http://creativecommons.org/licenses/by/4.0/" ;
+        dct:publisher              "Max Planck Institute for Evolutionary AnthropologyLeipzig" ;
+        dct:source                 "sources.bib" ;
+        dct:title                  "IDS" ;
+        lime:entry                 <http://ids.clld.org/values/17-660-261-1> , <http://ids.clld.org/values/13-20-261-1> , <http://ids.clld.org/values/4-750-261-1> , <http://ids.clld.org/values/3-817-261-1> , <http://ids.clld.org/values/1-213-261-3> , <http://ids.clld.org/values/5-160-261-1> , <http://ids.clld.org/values/9-360-261-1> , <http://ids.clld.org/values/3-220-261-1> , <http://ids.clld.org/values/17-170-261-3> , <http://ids.clld.org/values/2-450-261-3> , <http://ids.clld.org/values/13-150-261-1> , <http://ids.clld.org/values/4-180-261-1> , <http://ids.clld.org/values/12-440-261-1> , <http://ids.clld.org/values/1-520-261-1> , <http://ids.clld.org/values/1-210-261-1> , <http://ids.clld.org/values/10-620-261-1> , <http://ids.clld.org/values/15-780-261-1> , <http://ids.clld.org/values/2-456-261-3> , <http://ids.clld.org/values/16-720-261-1> , <http://ids.clld.org/values/4-300-261-3> , <http://ids.clld.org/values/1-830-261-1> , <http://ids.clld.org/values/6-780-261-1> , <http://ids.clld.org/values/2-310-261-1> , <http://ids.clld.org/values/1-410-261-1> , <http://ids.clld.org/values/5-710-261-1> , <http://ids.clld.org/values/11-120-261-1> , <http://ids.clld.org/values/12-560-261-1> , <http://ids.clld.org/values/19-610-261-1> , <http://ids.clld.org/values/3-823-261-1> , <http://ids.clld.org/values/17-510-261-1> , <http://ids.clld.org/values/9-343-261-3> , <http://ids.clld.org/values/9-250-261-1> , <http://ids.clld.org/values/9-343-261-1> , <http://ids.clld.org/values/2-930-261-1> , <http://ids.clld.org/values/4-144-261-1> , <http://ids.clld.org/values/12-430-261-1> , <http://ids.clld.org/values/12-560-261-5> , <http://ids.clld.org/values/4-220-261-1> , <http://ids.clld.org/values/4-980-261-1> , <http://ids.clld.org/values/2-610-261-1> , <http://ids.clld.org/values/5-660-261-1> , <http://ids.clld.org/values/1-750-261-1> , <http://ids.clld.org/values/2-440-261-3> , <http://ids.clld.org/values/15-830-261-1> , <http://ids.clld.org/values/4-140-261-3> , <http://ids.clld.org/values/4-331-261-1> , <http://ids.clld.org/values/4-310-261-3> , <http://ids.clld.org/values/16-530-261-1> , <http://ids.clld.org/values/1-540-261-1> , <http://ids.clld.org/values/5-820-261-1> , <http://ids.clld.org/values/10-480-261-1> , <http://ids.clld.org/values/1-530-261-1> , <http://ids.clld.org/values/16-310-261-1> , <http://ids.clld.org/values/2-461-261-1> , <http://ids.clld.org/values/11-620-261-1> , <http://ids.clld.org/values/4-610-261-1> , <http://ids.clld.org/values/4-344-261-1> , <http://ids.clld.org/values/19-210-261-3> , <http://ids.clld.org/values/20-240-261-1> , <http://ids.clld.org/values/3-760-261-1> , <http://ids.clld.org/values/12-810-261-1> , <http://ids.clld.org/values/12-560-261-3> , <http://ids.clld.org/values/2-456-261-1> , <http://ids.clld.org/values/2-940-261-1> , <http://ids.clld.org/values/2-230-261-1> , <http://ids.clld.org/values/4-740-261-1> , <http://ids.clld.org/values/4-750-261-3> , <http://ids.clld.org/values/4-230-261-1> , <http://ids.clld.org/values/10-370-261-1> , <http://ids.clld.org/values/11-150-261-1> , <http://ids.clld.org/values/4-142-261-1> , <http://ids.clld.org/values/12-240-261-1> , <http://ids.clld.org/values/10-450-261-1> , <http://ids.clld.org/values/1-620-261-1> , <http://ids.clld.org/values/4-370-261-1> , <http://ids.clld.org/values/16-530-261-3> , <http://ids.clld.org/values/2-620-261-3> , <http://ids.clld.org/values/17-170-261-1> , <http://ids.clld.org/values/2-100-261-3> , <http://ids.clld.org/values/2-950-261-1> , <http://ids.clld.org/values/10-710-261-3> , <http://ids.clld.org/values/15-810-261-3> , <http://ids.clld.org/values/17-680-261-1> , <http://ids.clld.org/values/1-360-261-1> , <http://ids.clld.org/values/5-610-261-1> , <http://ids.clld.org/values/2-930-261-3> , <http://ids.clld.org/values/20-250-261-1> , <http://ids.clld.org/values/8-910-261-1> , <http://ids.clld.org/values/4-450-261-1> , <http://ids.clld.org/values/4-220-261-3> , <http://ids.clld.org/values/12-70-261-1> , <http://ids.clld.org/values/5-123-261-1> , <http://ids.clld.org/values/17-420-261-3> , <http://ids.clld.org/values/4-190-261-1> , <http://ids.clld.org/values/8-920-261-1> , <http://ids.clld.org/values/14-451-261-1> , <http://ids.clld.org/values/10-230-261-1> , <http://ids.clld.org/values/10-470-261-1> , <http://ids.clld.org/values/4-200-261-1> , <http://ids.clld.org/values/4-345-261-1> , <http://ids.clld.org/values/20-340-261-1> , <http://ids.clld.org/values/4-209-261-1> , <http://ids.clld.org/values/4-460-261-1> , <http://ids.clld.org/values/10-550-261-1> , <http://ids.clld.org/values/4-240-261-1> , <http://ids.clld.org/values/1-851-261-1> , <http://ids.clld.org/values/2-550-261-1> , <http://ids.clld.org/values/4-393-261-1> , <http://ids.clld.org/values/2-440-261-1> , <http://ids.clld.org/values/12-570-261-1> , <http://ids.clld.org/values/8-560-261-1> , <http://ids.clld.org/values/15-640-261-1> , <http://ids.clld.org/values/4-400-261-1> , <http://ids.clld.org/values/1-590-261-1> , <http://ids.clld.org/values/1-880-261-1> , <http://ids.clld.org/values/8-540-261-1> , <http://ids.clld.org/values/14-180-261-1> , <http://ids.clld.org/values/13-0-261-1> , <http://ids.clld.org/values/2-210-261-1> , <http://ids.clld.org/values/5-110-261-1> , <http://ids.clld.org/values/2-350-261-3> , <http://ids.clld.org/values/2-910-261-1> , <http://ids.clld.org/values/20-240-261-3> , <http://ids.clld.org/values/12-80-261-1> , <http://ids.clld.org/values/5-130-261-3> , <http://ids.clld.org/values/7-120-261-5> , <http://ids.clld.org/values/4-280-261-5> , <http://ids.clld.org/values/4-330-261-3> , <http://ids.clld.org/values/10-851-261-1> , <http://ids.clld.org/values/14-150-261-1> , <http://ids.clld.org/values/12-30-261-3> , <http://ids.clld.org/values/4-230-261-3> , <http://ids.clld.org/values/1-560-261-1> , <http://ids.clld.org/values/2-810-261-1> , <http://ids.clld.org/values/2-100-261-1> , <http://ids.clld.org/values/2-960-261-1> , <http://ids.clld.org/values/19-240-261-1> , <http://ids.clld.org/values/10-710-261-1> , <http://ids.clld.org/values/7-440-261-1> , <http://ids.clld.org/values/6-280-261-1> , <http://ids.clld.org/values/18-220-261-1> , <http://ids.clld.org/values/12-50-261-1> , <http://ids.clld.org/values/3-850-261-1> , <http://ids.clld.org/values/10-610-261-1> , <http://ids.clld.org/values/10-720-261-1> , <http://ids.clld.org/values/4-360-261-1> , <http://ids.clld.org/values/17-650-261-1> , <http://ids.clld.org/values/12-11-261-1> , <http://ids.clld.org/values/5-260-261-3> , <http://ids.clld.org/values/4-150-261-1> , <http://ids.clld.org/values/4-460-261-3> , <http://ids.clld.org/values/1-620-261-3> , <http://ids.clld.org/values/4-160-261-1> , <http://ids.clld.org/values/19-510-261-1> , <http://ids.clld.org/values/2-310-261-3> , <http://ids.clld.org/values/4-210-261-3> , <http://ids.clld.org/values/12-30-261-1> , <http://ids.clld.org/values/12-570-261-3> , <http://ids.clld.org/values/16-270-261-1> , <http://ids.clld.org/values/2-920-261-1> , <http://ids.clld.org/values/3-820-261-1> , <http://ids.clld.org/values/1-310-261-1> , <http://ids.clld.org/values/17-560-261-1> , <http://ids.clld.org/values/3-650-261-3> , <http://ids.clld.org/values/11-210-261-1> , <http://ids.clld.org/values/4-350-261-1> , <http://ids.clld.org/values/7-510-261-1> , <http://ids.clld.org/values/4-380-261-1> , <http://ids.clld.org/values/15-410-261-1> , <http://ids.clld.org/values/16-260-261-1> , <http://ids.clld.org/values/4-210-261-1> , <http://ids.clld.org/values/1-810-261-1> , <http://ids.clld.org/values/5-810-261-1> , <http://ids.clld.org/values/5-130-261-1> , <http://ids.clld.org/values/2-470-261-1> , <http://ids.clld.org/values/7-120-261-3> , <http://ids.clld.org/values/4-280-261-3> , <http://ids.clld.org/values/4-330-261-1> , <http://ids.clld.org/values/12-730-261-1> , <http://ids.clld.org/values/4-140-261-1> , <http://ids.clld.org/values/13-210-261-1> , <http://ids.clld.org/values/4-340-261-1> , <http://ids.clld.org/values/9-370-261-1> , <http://ids.clld.org/values/1-720-261-1> , <http://ids.clld.org/values/16-270-261-3> , <http://ids.clld.org/values/4-440-261-1> , <http://ids.clld.org/values/2-220-261-1> , <http://ids.clld.org/values/7-120-261-1> , <http://ids.clld.org/values/4-280-261-1> , <http://ids.clld.org/values/16-620-261-3> , <http://ids.clld.org/values/17-240-261-1> , <http://ids.clld.org/values/5-140-261-1> , <http://ids.clld.org/values/1-840-261-1> , <http://ids.clld.org/values/3-350-261-1> , <http://ids.clld.org/values/4-120-261-1> , <http://ids.clld.org/values/3-850-261-3> , <http://ids.clld.org/values/10-380-261-1> , <http://ids.clld.org/values/15-410-261-3> , <http://ids.clld.org/values/14-410-261-3> , <http://ids.clld.org/values/12-550-261-1> , <http://ids.clld.org/values/4-351-261-1> , <http://ids.clld.org/values/1-420-261-1> , <http://ids.clld.org/values/9-210-261-1> , <http://ids.clld.org/values/2-620-261-1> , <http://ids.clld.org/values/3-650-261-1> , <http://ids.clld.org/values/2-450-261-1> , <http://ids.clld.org/values/3-813-261-1> , <http://ids.clld.org/values/12-420-261-1> , <http://ids.clld.org/values/5-260-261-1> , <http://ids.clld.org/values/19-210-261-1> , <http://ids.clld.org/values/4-441-261-1> , <http://ids.clld.org/values/11-880-261-1> , <http://ids.clld.org/values/15-810-261-1> , <http://ids.clld.org/values/4-410-261-1> , <http://ids.clld.org/values/8-220-261-1> , <http://ids.clld.org/values/6-350-261-1> , <http://ids.clld.org/values/15-660-261-1> , <http://ids.clld.org/values/8-311-261-1> , <http://ids.clld.org/values/8-680-261-1> , <http://ids.clld.org/values/4-260-261-1> , <http://ids.clld.org/values/10-831-261-3> , <http://ids.clld.org/values/16-250-261-1> , <http://ids.clld.org/values/1-890-261-1> , <http://ids.clld.org/values/8-840-261-1> , <http://ids.clld.org/values/17-450-261-1> , <http://ids.clld.org/values/15-770-261-1> , <http://ids.clld.org/values/4-320-261-1> , <http://ids.clld.org/values/13-140-261-1> , <http://ids.clld.org/values/8-941-261-1> , <http://ids.clld.org/values/17-660-261-3> , <http://ids.clld.org/values/1-570-261-1> , <http://ids.clld.org/values/17-420-261-1> , <http://ids.clld.org/values/9-190-261-1> , <http://ids.clld.org/values/9-120-261-1> , <http://ids.clld.org/values/1-330-261-1> , <http://ids.clld.org/values/16-810-261-1> , <http://ids.clld.org/values/4-880-261-1> , <http://ids.clld.org/values/4-250-261-1> , <http://ids.clld.org/values/4-300-261-1> , <http://ids.clld.org/values/16-620-261-1> , <http://ids.clld.org/values/1-341-261-1> , <http://ids.clld.org/values/1-213-261-1> , <http://ids.clld.org/values/3-970-261-1> , <http://ids.clld.org/values/4-170-261-1> , <http://ids.clld.org/values/14-410-261-1> , <http://ids.clld.org/values/3-830-261-1> , <http://ids.clld.org/values/13-10-261-1> , <http://ids.clld.org/values/3-980-261-1> , <http://ids.clld.org/values/4-270-261-1> , <http://ids.clld.org/values/11-130-261-1> , <http://ids.clld.org/values/3-950-261-1> , <http://ids.clld.org/values/3-550-261-1> , <http://ids.clld.org/values/3-110-261-1> , <http://ids.clld.org/values/20-640-261-1> , <http://ids.clld.org/values/4-310-261-1> , <http://ids.clld.org/values/2-280-261-1> , <http://ids.clld.org/values/13-30-261-1> , <http://ids.clld.org/values/12-150-261-1> , <http://ids.clld.org/values/3-591-261-1> , <http://ids.clld.org/values/4-120-261-3> , <http://ids.clld.org/values/2-320-261-1> , <http://ids.clld.org/values/4-610-261-3> , <http://ids.clld.org/values/3-832-261-1> , <http://ids.clld.org/values/2-910-261-3> , <http://ids.clld.org/values/16-370-261-1> , <http://ids.clld.org/values/15-690-261-1> , <http://ids.clld.org/values/2-360-261-1> , <http://ids.clld.org/values/16-710-261-1> , <http://ids.clld.org/values/2-510-261-1> , <http://ids.clld.org/values/10-831-261-1> , <http://ids.clld.org/values/3-811-261-1> , <http://ids.clld.org/values/4-205-261-1> , <http://ids.clld.org/values/6-380-261-1> , <http://ids.clld.org/values/5-110-261-3> , <http://ids.clld.org/values/14-420-261-1> , <http://ids.clld.org/values/1-510-261-1> , <http://ids.clld.org/values/6-240-261-1> , <http://ids.clld.org/values/2-270-261-1> , <http://ids.clld.org/values/5-791-261-1> , <http://ids.clld.org/values/6-120-261-1> , <http://ids.clld.org/values/4-660-261-1> , <http://ids.clld.org/values/2-350-261-1> , <http://ids.clld.org/values/6-350-261-3> , <http://ids.clld.org/values/12-630-261-1> , <http://ids.clld.org/values/4-260-261-3> .
+
+<http://ids.clld.org/parameters/1-750>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "rain (noun)" .
+
+<http://ids.clld.org/values/2-620-261-3_-aki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-aki"@brg .
+
+<http://ids.clld.org/parameters/4-180>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tail" .
+
+<http://ids.clld.org/values/1-520-261-1_se-s>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "se-s"@brg .
+
+<http://ids.clld.org/values/4-120-261-3_ni-%27c%CC%8Com>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-'čom"@brg .
+
+<http://ids.clld.org/parameters/10-831>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "canoe" .
+
+<http://ids.clld.org/values/4-190-261-1_-%27c%CC%8Cipi>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'čipi"@brg .
+
+<http://ids.clld.org/parameters/15-770>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "smooth" .
+
+<http://ids.clld.org/values/16-310-261-1_-koti->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-koti-"@brg .
+
+<http://ids.clld.org/values/5-123-261-1_-ya->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-ya-"@brg .
+
+<http://ids.clld.org/values/14-420-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/14-420> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/14-420-261-1_yoto%27e-r%CC%8C%CC%A3> .
+
+<http://ids.clld.org/values/17-660-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/17-660> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/17-660-261-1_oypoka> .
+
+<http://ids.clld.org/parameters/12-810>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "round" .
+
+<http://ids.clld.org/parameters/3-950>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "frog" .
+
+<http://ids.clld.org/parameters/7-440>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "table" .
+
+<http://ids.clld.org/values/12-430-261-1_a%27ne-kon>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "a'ne-kon"@brg .
+
+<http://ids.clld.org/parameters/6-380>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "thread" .
+
+<http://ids.clld.org/values/4-150-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-150> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-150-261-1_%27iti> .
+
+<http://ids.clld.org/values/5-660-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-660> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-660-261-1_c%CC%8Ci%27c%CC%8Cor%CC%8C%CC%A3op> .
+
+<http://ids.clld.org/values/6-380-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/6-380> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/6-380-261-1_kotipo%27pin> .
+
+<http://ids.clld.org/parameters/17-660>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "where?" .
+
+<http://ids.clld.org/values/1-310-261-1_in>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "in"@brg .
+
+<http://ids.clld.org/values/1-510-261-1_a%27ni-ye>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "a'ni-ye"@brg .
+
+<http://ids.clld.org/values/9-120-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-120> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-120-261-1_koto-> .
+
+<http://ids.clld.org/parameters/1-851>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "burn (vb trans)" .
+
+<http://ids.clld.org/values/3-950-261-1_si%27por%CC%8C%CC%A3i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "si'poṛ̌i"@brg .
+
+<http://ids.clld.org/parameters/16-710>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "good" .
+
+<http://ids.clld.org/values/9-190-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-190> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-190-261-1_ni-%27ro-> .
+
+<http://ids.clld.org/values/3-650-261-3_ko%CE%B2es>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "koβes"@brg .
+
+<http://ids.clld.org/parameters/10-480>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "come" .
+
+<http://ids.clld.org/values/2-220-261-1_e%27ton>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "e'ton"@brg .
+
+<http://ids.clld.org/parameters/3-830>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fly" .
+
+<http://ids.clld.org/values/11-150-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/11-150> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/11-150-261-1_-a%27mo> .
+
+<http://ids.clld.org/parameters/1-510>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sky" .
+
+<http://ids.clld.org/values/17-560-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/17-560> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/17-560-261-1_%27onkaw> .
+
+<http://ids.clld.org/values/15-830-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-830> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-830-261-1_-po%27to-> .
+
+<http://ids.clld.org/values/10-450-261-1_-yo%27no>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-yo'no"@brg .
+
+<http://ids.clld.org/values/10-831-261-1_ya%27s%CC%8Cor%CC%8C%CC%A3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ya'šoṛ̌"@brg .
+
+<http://ids.clld.org/parameters/8-680>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tobacco" .
+
+<http://ids.clld.org/parameters/4-880>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "medicine, drug" .
+
+<http://ids.clld.org/values/8-840-261-1_-%27apoe>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-'apoe"@brg .
+
+<http://ids.clld.org/values/1-570-261-1_r%CC%8C%CC%A3o%27c%CC%8Comor%CC%8C%CC%A3omor%CC%8C%CC%A3eow>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ṛ̌o'čomoṛ̌omoṛ̌eow"@brg .
+
+<http://ids.clld.org/values/3-830-261-1_-a%27ro>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-a'ro"@brg .
+
+<http://ids.clld.org/parameters/13-30>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "three" .
+
+<http://ids.clld.org/values/3-830-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-830> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-830-261-1_-a%27ro> .
+
+<http://ids.clld.org/values/2-440-261-1_ni%27piri>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni'piri"@brg .
+
+<http://ids.clld.org/values/1-310-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-310-261-1_in> .
+
+<http://ids.clld.org/parameters/13-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "full" .
+
+<http://ids.clld.org/values/5-810-261-1_%27c%CC%8Cobi%20~%20%27c%CC%8Cobe>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'čobi ~ 'čobe"@brg .
+
+<http://ids.clld.org/values/6-280-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/6-280> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/6-280-261-1_-s%CC%8Ca> .
+
+<http://ids.clld.org/values/4-120-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-120> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-120-261-1_-c%CC%8C-om> .
+
+<http://ids.clld.org/parameters/12-150>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "stand" .
+
+<http://ids.clld.org/parameters/4-350>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "leg" .
+
+<http://ids.clld.org/values/4-980-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-980> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-980-261-1_-%27ka%CE%B2io> .
+
+<http://ids.clld.org/values/4-190-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-190> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-190-261-1_-%27c%CC%8Cipi> .
+
+<http://ids.clld.org/values/2-450-261-1_ni-%27pir%CC%8C%CC%A3i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ni-'piṛ̌i"@brg .
+
+<http://ids.clld.org/values/2-310-261-3_-emo>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-emo"@brg .
+
+<http://ids.clld.org/values/4-142-261-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:baur1253 , lexvo:brg ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-142> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-142-261-1_ni-s%CC%8Ca%27won> .
