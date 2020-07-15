@@ -1,0 +1,687 @@
+@prefix bcp47: <https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:  <http://www.w3.org/ns/lemon/lime#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix lexvo3: <http://lexvo.org/id/iso639-3/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lexvo1: <http://lexvo.org/id/iso639-1/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix terms: <http://cldf.clld.org/v1.0/terms.rdf#> .
+@prefix sil:   <https://iso639-3.sil.org/code/> .
+@prefix lexvo: <http://lexvo.org/id/iso639-3/> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix glottolog: <https://glottolog.org/resource/languoid/id/> .
+
+<http://ids.clld.org/values/12-480-813-1_p%C9%99%C4%87a%3An>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pəća:n"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-370-813-1_%CA%94um%20khum>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ʔum khum"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-580-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-580> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-580-813-1_khu%3Ar%20da%3A%C5%8B> .
+
+<http://ids.clld.org/values/12-420-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-420> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-420-813-1_to%20aka%3Aj> .
+
+<http://ids.clld.org/values/1-610-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-610> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-610-813-1_pla%3A%C5%8B%20%C5%8B%C9%94i> .
+
+<http://ids.clld.org/parameters/1-560>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "thunder" .
+
+<http://ids.clld.org/parameters/8-120>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "field (for cultivation)" .
+
+<https://ids.clld.org/download>
+        a                          lime:Lexicon ;
+        dct:bibliographicCitation  "KeyMary Ritchie & ComrieBernard (eds.) 2015.\nThe Intercontinental Dictionary Series.\nLeipzig: Max Planck Institute for Evolutionary Anthropology.\n(Available online at http://ids.clld.orgAccessed on 2018-04-19.)\n" ;
+        dct:creator                "KeyMary Ritchie & ComrieBernard" ;
+        dct:identifier             "http://ids.clld.org/" ;
+        dct:issued                 "2015-05-25" ;
+        dct:license                "http://creativecommons.org/licenses/by/4.0/" ;
+        dct:publisher              "Max Planck Institute for Evolutionary AnthropologyLeipzig" ;
+        dct:source                 "sources.bib" ;
+        dct:title                  "IDS" ;
+        lime:entry                 <http://ids.clld.org/values/8-170-813-1> , <http://ids.clld.org/values/12-480-813-1> , <http://ids.clld.org/values/9-690-813-1> , <http://ids.clld.org/values/1-730-813-1> , <http://ids.clld.org/values/1-750-813-1> , <http://ids.clld.org/values/1-440-813-1> , <http://ids.clld.org/values/1-720-813-1> , <http://ids.clld.org/values/1-310-813-1> , <http://ids.clld.org/values/1-810-813-1> , <http://ids.clld.org/values/1-580-813-1> , <http://ids.clld.org/values/1-540-813-1> , <http://ids.clld.org/values/1-230-813-1> , <http://ids.clld.org/values/9-650-813-1> , <http://ids.clld.org/values/9-730-813-1> , <http://ids.clld.org/values/1-370-813-1> , <http://ids.clld.org/values/1-215-813-1> , <http://ids.clld.org/values/12-420-813-1> , <http://ids.clld.org/values/1-324-813-1> , <http://ids.clld.org/values/1-530-813-1> , <http://ids.clld.org/values/9-670-813-1> , <http://ids.clld.org/values/12-450-813-1> , <http://ids.clld.org/values/1-740-813-1> , <http://ids.clld.org/values/1-213-813-1> , <http://ids.clld.org/values/9-640-813-1> , <http://ids.clld.org/values/12-850-813-1> , <http://ids.clld.org/values/12-460-813-1> , <http://ids.clld.org/values/8-120-813-1> , <http://ids.clld.org/values/12-410-813-1> , <http://ids.clld.org/values/1-550-813-1> , <http://ids.clld.org/values/1-830-813-1> , <http://ids.clld.org/values/9-680-813-1> , <http://ids.clld.org/values/1-210-813-1> , <http://ids.clld.org/values/1-820-813-1> , <http://ids.clld.org/values/1-510-813-1> , <http://ids.clld.org/values/1-360-813-1> , <http://ids.clld.org/values/1-610-813-1> , <http://ids.clld.org/values/1-220-813-1> , <http://ids.clld.org/values/1-560-813-1> , <http://ids.clld.org/values/1-212-813-1> , <http://ids.clld.org/values/1-320-813-1> , <http://ids.clld.org/values/1-520-813-1> , <http://ids.clld.org/values/9-660-813-1> , <http://ids.clld.org/values/1-590-813-1> , <http://ids.clld.org/values/1-640-813-1> , <http://ids.clld.org/values/1-760-813-1> , <http://ids.clld.org/values/12-470-813-1> , <http://ids.clld.org/values/1-890-813-1> .
+
+<http://ids.clld.org/values/12-850-813-1_tau%20tai>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tau tai"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/9-640>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "gold" .
+
+<http://ids.clld.org/values/1-212-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-212> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-212-813-1_k%C9%99tai> .
+
+<http://ids.clld.org/values/1-230-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-230> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-230-813-1_pa%3A%C5%8B> .
+
+<http://ids.clld.org/parameters/1-212>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "earth=ground, soil" .
+
+<http://ids.clld.org/values/1-890-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-890> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-890-813-1_s%C9%94ih%20igrai> .
+
+<http://ids.clld.org/parameters/1-360>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "river, stream, brook" .
+
+<http://ids.clld.org/parameters/12-410>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "right (side)" .
+
+<http://ids.clld.org/values/1-520-813-1_s%C9%99%C5%8B%C9%94i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "səŋɔi"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-310-813-1_%CA%94um>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ʔum"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-720-813-1_khu%3Ar>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "khu:r"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/1-580>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "storm" .
+
+<http://ids.clld.org/parameters/9-660>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "copper, bronze" .
+
+<http://ids.clld.org/values/1-540-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-540> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-540-813-1_s%C9%99man> .
+
+<http://ids.clld.org/values/12-460-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-460> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-460-813-1_to%20l%C9%9Bh%20s%C9%99%C5%8B%C9%94i> .
+
+<http://ids.clld.org/values/9-670-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-670> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-670-813-1_hir> .
+
+<http://ids.clld.org/values/1-610-813-1_pla%3A%C5%8B%20%C5%8B%C9%94i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pla:ŋ ŋɔi"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-310-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-310-813-1_%CA%94um> .
+
+<http://ids.clld.org/parameters/12-850>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hole" .
+
+<http://ids.clld.org/values/1-590-813-1_aj%C9%94%C5%8B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ajɔŋ"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/1-810>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fire" .
+
+<http://ids.clld.org/values/9-690-813-1_si>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "si"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-540-813-1_s%C9%99man>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "səman"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/1-324>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "foam" .
+
+<http://ids.clld.org/parameters/9-680>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "lead (noun)" .
+
+<http://ids.clld.org/values/1-510-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-510> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-510-813-1_pl%C9%9B%C5%8B> .
+
+<http://ids.clld.org/values/1-590-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-590> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-590-813-1_aj%C9%94%C5%8B> .
+
+<http://ids.clld.org/values/9-640-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-640> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-640-813-1_khrir> .
+
+<http://ids.clld.org/values/1-220-813-1_sur>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "sur"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-360-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-360> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-360-813-1_pl%C9%94%3A%C5%8B> .
+
+<http://ids.clld.org/values/9-660-813-1_d%C9%94%3A%C5%8B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "dɔ:ŋ"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/12-410-813-1_to%20a%CA%94oih>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "to aʔoih"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/1-610>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "light (noun)" .
+
+<http://ids.clld.org/values/1-440-813-1_ma%3Au>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ma:u"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/1-830>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "smoke (noun)" .
+
+<http://ids.clld.org/values/1-230-813-1_pa%3A%C5%8B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pa:ŋ"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-730-813-1_n%C9%99%CA%94u%3At>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "nəʔu:t"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/1-510>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sky" .
+
+<http://ids.clld.org/parameters/12-450>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "east" .
+
+<http://ids.clld.org/parameters/1-730>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "cloud" .
+
+<http://ids.clld.org/values/1-440-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-440> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-440-813-1_ma%3Au> .
+
+<http://ids.clld.org/values/1-320-813-1_%CA%94um%20da%3A%C5%8B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ʔum da:ŋ"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/12-850-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-850> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-850-813-1_tau%20tai> .
+
+<http://ids.clld.org/values/1-215-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-215> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-215-813-1_khai%CA%94> .
+
+<http://ids.clld.org/values/1-760-813-1_priar>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "priar"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-210-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-210-813-1_k%C9%99tai> .
+
+<http://ids.clld.org/values/1-810-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-810> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-810-813-1_%C5%8Bar> .
+
+<http://ids.clld.org/values/1-550-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-550> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-550-813-1_la%CA%94%20lo%CA%94> .
+
+<http://ids.clld.org/values/9-680-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-680> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-680-813-1_ple%20k%C9%99%CA%92%CC%81%C9%9Bt> .
+
+<http://ids.clld.org/values/12-470-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-470> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-470-813-1_p%C9%94h%C9%94%3A%C5%8B> .
+
+<http://ids.clld.org/values/1-320-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-320> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-320-813-1_%CA%94um%20da%3A%C5%8B> .
+
+<http://ids.clld.org/parameters/1-310>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "water" .
+
+<http://ids.clld.org/parameters/1-530>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "moon" .
+
+<http://ids.clld.org/parameters/12-470>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "north" .
+
+<http://ids.clld.org/parameters/1-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "earth, land" .
+
+<http://ids.clld.org/parameters/1-750>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "rain (noun)" .
+
+<http://ids.clld.org/values/1-820-813-1_t%C9%94%CA%94%20%C5%8Bar>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tɔʔ ŋar"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/8-120-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-120> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-120-813-1_ku%C5%8B> .
+
+<http://ids.clld.org/values/1-324-813-1_buih>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "buih"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/9-650-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-650> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-650-813-1_r%C9%99%3An> .
+
+<http://ids.clld.org/parameters/9-730>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "clay" .
+
+<http://ids.clld.org/values/1-370-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-370> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-370-813-1_%CA%94um%20khum> .
+
+<http://ids.clld.org/values/1-740-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-740> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-740-813-1_m%C9%94k%20%C5%84%C9%94%3A%C5%8B> .
+
+<http://ids.clld.org/values/1-215-813-1_khai%CA%94>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "khaiʔ"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/1-550>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "lightning" .
+
+<http://ids.clld.org/values/12-470-813-1_p%C9%94h%C9%94%3A%C5%8B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pɔhɔ:ŋ"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/1-230>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "plain, field" .
+
+<http://ids.clld.org/values/1-640-813-1_%CA%94um%20a%C5%8Ba%3An>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ʔum aŋa:n"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/1-215>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sand" .
+
+<http://ids.clld.org/values/9-730-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-730> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-730-813-1_nh%C9%94%3A%C5%8B> .
+
+<http://ids.clld.org/values/9-650-813-1_r%C9%99%3An>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "rə:n"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/9-680-813-1_ple%20k%C9%99%CA%92%CC%81%C9%9Bt>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ple kəʒ́ɛt"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-820-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-820> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-820-813-1_t%C9%94%CA%94%20%C5%8Bar> .
+
+<http://ids.clld.org/values/1-560-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-560> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-560-813-1_k%C9%99nam%20pl%C9%9B%C5%8B> .
+
+<http://ids.clld.org/parameters/1-890>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "charcoal" .
+
+<http://ids.clld.org/values/1-220-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-220> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-220-813-1_sur> .
+
+<http://ids.clld.org/values/9-690-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-690> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-690-813-1_si> .
+
+<http://ids.clld.org/values/12-480-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-480> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-480-813-1_p%C9%99%C4%87a%3An> .
+
+<http://ids.clld.org/parameters/9-650>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "silver" .
+
+<http://ids.clld.org/values/1-560-813-1_k%C9%99nam%20pl%C9%9B%C5%8B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kənam plɛŋ"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-212-813-1_k%C9%99tai>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kətai"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-360-813-1_pl%C9%94%3A%C5%8B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "plɔ:ŋ"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/9-730-813-1_nh%C9%94%3A%C5%8B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "nhɔ:ŋ"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-213-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-213> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-213-813-1_k%C9%99buh> .
+
+<http://ids.clld.org/parameters/1-370>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "spring, well" .
+
+<http://ids.clld.org/parameters/12-420>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "left (side)" .
+
+<http://ids.clld.org/values/9-660-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-660> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-660-813-1_d%C9%94%3A%C5%8B> .
+
+<http://ids.clld.org/values/12-460-813-1_to%20l%C9%9Bh%20s%C9%99%C5%8B%C9%94i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "to lɛh səŋɔi"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-640-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-640> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-640-813-1_%CA%94um%20a%C5%8Ba%3An> .
+
+<http://ids.clld.org/parameters/1-590>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "rainbow" .
+
+<http://ids.clld.org/parameters/9-670>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "iron" .
+
+<http://ids.clld.org/values/1-750-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-750> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-750-813-1_klai> .
+
+<http://ids.clld.org/values/1-520-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-520> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-520-813-1_s%C9%99%C5%8B%C9%94i> .
+
+<http://ids.clld.org/values/1-890-813-1_s%C9%94ih%20igrai>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "sɔih igrai"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-530-813-1_pla%3A%C5%8B%20kiar>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pla:ŋ kiar"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-510-813-1_pl%C9%9B%C5%8B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "plɛŋ"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/1-820>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "flame (noun)" .
+
+<http://ids.clld.org/values/1-213-813-1_k%C9%99buh>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kəbuh"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/9-670-813-1_hir>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "hir"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-324-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-324> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-324-813-1_buih> .
+
+<http://ids.clld.org/values/1-830-813-1_t%C9%94%CA%94>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tɔʔ"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/1-720>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wind" .
+
+<http://ids.clld.org/values/1-720-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-720> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-720-813-1_khu%3Ar> .
+
+<http://ids.clld.org/values/1-810-813-1_%C5%8Bar>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ŋar"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/8-170-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-170> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-170-813-1_r%C9%94%3A%C5%8B> .
+
+<http://ids.clld.org/values/1-580-813-1_khu%3Ar%20da%3A%C5%8B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "khu:r da:ŋ"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/9-690>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tin, tinplate" .
+
+<http://ids.clld.org/parameters/8-170>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "ditch" .
+
+<http://ids.clld.org/values/1-830-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-830> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-830-813-1_t%C9%94%CA%94> .
+
+<http://ids.clld.org/values/12-420-813-1_to%20aka%3Aj>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "to aka:j"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/12-410-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-410> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-410-813-1_to%20a%CA%94oih> .
+
+<http://ids.clld.org/values/9-640-813-1_khrir>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "khrir"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/1-750-813-1_klai>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "klai"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/8-170-813-1_r%C9%94%3A%C5%8B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "rɔ:ŋ"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/1-520>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sun" .
+
+<http://ids.clld.org/parameters/12-460>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "west" .
+
+<http://ids.clld.org/parameters/1-740>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fog" .
+
+<http://ids.clld.org/values/1-210-813-1_k%C9%99tai>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kətai"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/1-213>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "dust" .
+
+<http://ids.clld.org/parameters/1-640>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "dew" .
+
+<http://ids.clld.org/values/1-760-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-760> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-760-813-1_priar> .
+
+<http://ids.clld.org/values/1-530-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-530> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-530-813-1_pla%3A%C5%8B%20kiar> .
+
+<http://ids.clld.org/values/1-740-813-1_m%C9%94k%20%C5%84%C9%94%3A%C5%8B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "mɔk ńɔ:ŋ"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/1-320>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sea" .
+
+<http://ids.clld.org/values/12-450-813-1_to%20lip%20s%C9%99%C5%8B%C9%94i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "to lip səŋɔi"@mis-x-pala1336 .
+
+<http://ids.clld.org/values/12-450-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-450> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-450-813-1_to%20lip%20s%C9%99%C5%8B%C9%94i> .
+
+<http://ids.clld.org/parameters/1-540>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "star" .
+
+<http://ids.clld.org/values/1-550-813-1_la%CA%94%20lo%CA%94>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "laʔ loʔ"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/12-480>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "south" .
+
+<http://ids.clld.org/parameters/1-220>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mountain, hill" .
+
+<http://ids.clld.org/parameters/1-760>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "snow (noun)" .
+
+<http://ids.clld.org/values/8-120-813-1_ku%C5%8B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kuŋ"@mis-x-pala1336 .
+
+<http://ids.clld.org/parameters/1-440>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "stone, rock" .
+
+<http://ids.clld.org/values/1-730-813-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:pala1336 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-730> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-730-813-1_n%C9%99%CA%94u%3At> .
