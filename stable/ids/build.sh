@@ -201,26 +201,49 @@ if [ ! -d tsv ] ; then
 	mkdir tsv;
 fi;
 
-	for file1 in `egrep -l -m 1 'writtenRep.*"@' ontolex/*.ttl`; do
-		lang1=`egrep -m 1 'writtenRep.*"@' $file1 |sed s/'.*@\([a-z][a-z]*\)[^a-z].*'/'\1'/`; 	# only the primary language code
-		if [ $lang1 != 'mis' ] ;then
-			if [ $lang1 != 'x' ]; then
-				if [ ! -e tsv/$lang1 ] ; then mkdir tsv/$lang1 ;fi
-				rapper -i turtle $file1 | sed s/'\.[ \t]*$'/' <http:\/\/ids.clld.org\/SOURCE> .'/ > tsv/tmp.nq;
-
-				for file2 in `egrep -l -m 1 'writtenRep.*"@' ontolex/*.ttl`; do
-					lang2=`egrep -m 1 'writtenRep.*"@' $file2 |sed s/'.*@\([a-z][a-z]*\)[^a-z].*'/'\1'/`;
-						if [ $lang2 != 'mis' ] ;then
-							if [ $lang2 != 'x' ]; then
-								if [ $lang1 != $lang2 ] ;then
-									echo TIAD-TSV export: $lang1 $lang2 1>&2;
-									$ARQ --data=$file2 --data=tsv/tmp.nq --query=ontolex2tsv.sparql	--results=TSV | grep -v '^?' >> tsv/$lang1/$lang1-$lang2.tsv
-									sort -o -u tsv/$lang1/$lang1-$lang2.tsv tsv/$lang1/$lang1-$lang2.tsv
-								fi;
-							fi;
-						fi;
-				done;
-				rm tsv/tmp.nq;
+# aggregate information per language
+if [ -e tmp ]; then
+	echo using aggregated dictionaries in tmp, not updating 1>&2;
+else
+	mkdir tmp;
+	for file in `egrep -l -m 1 'writtenRep.*"@' ontolex/*.ttl`; do
+		lang=`egrep -m 1 'writtenRep.*"@' $file |sed s/'.*@\([a-z][a-z]*\)[^a-z].*'/'\1'/`; 	# only the primary language code
+		if [ $lang != 'mis' ] ;then
+			if [ $lang != 'x' ]; then
+				echo aggregate information on $lang'  ' 1>&2;
+				if [ ! -e tmp/$lang.ttl ]; then 
+					cp $file tmp/$lang.ttl;
+				else 
+					cat $file >> tmp/$lang.ttl
+				fi;
 			fi;
 		fi;
 	done;
+fi;
+
+for file1 in tmp/*.ttl; do
+	lang1=`echo $file1 | sed s/'.*\/\([a-z][a-z]*\)\.ttl'/'\1'/`;
+	if [ -e tsv/$lang1.zip ]; then
+		echo found tsv/$lang1.zip, skipping 1>&2;
+	else
+		if [ ! -e tsv/$lang1 ] ; then mkdir tsv/$lang1 ;fi
+		rapper -i turtle $file1 | sed s/'\.[ \t]*$'/' <http:\/\/ids.clld.org\/SOURCE> .'/ > tsv/tmp.nq;
+		for file2 in tmp/*ttl; do
+			lang2=`echo $file2 | sed s/'.*\/\([a-z][a-z]*\)\.ttl'/'\1'/`;
+				if [ $lang1 != $lang2 ] ;then
+					if [ ! -e tsv/$lang2.zip ]; then
+						if [ ! -e tsv/$lang1/$lang1-$lang2.tsv ]; then
+							echo TIAD-TSV export: $lang1 $lang2 1>&2;
+							$ARQ --data=$file2 --data=tsv/tmp.nq --query=ontolex2tsv.sparql	--results=TSV | grep -v '^?' >> tsv/$lang1/$lang1-$lang2.tsv
+							sort -o -u tsv/$lang1/$lang1-$lang2.tsv tsv/$lang1/$lang1-$lang2.tsv
+						fi;
+					fi;
+				fi;
+		done;
+		rm tsv/tmp.nq;
+		for file in tsv/$lang1/*tsv; do	# remove empty files
+			if [ ! -s $file ]; then rm $file; fi;
+		done;
+		zip -rm tsv/$lang1.zip tsv/$lang1
+	fi;
+done;
