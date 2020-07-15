@@ -1,0 +1,2671 @@
+@prefix bcp47: <https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:  <http://www.w3.org/ns/lemon/lime#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix lexvo3: <http://lexvo.org/id/iso639-3/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lexvo1: <http://lexvo.org/id/iso639-1/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix terms: <http://cldf.clld.org/v1.0/terms.rdf#> .
+@prefix sil:   <https://iso639-3.sil.org/code/> .
+@prefix lexvo: <http://lexvo.org/id/iso639-3/> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix glottolog: <https://glottolog.org/resource/languoid/id/> .
+
+<http://ids.clld.org/values/4-521-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-521> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-521-293-1_h%C9%9Bk> .
+
+<http://ids.clld.org/values/15-510-293-3_pu-pun>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pu-pun"@ram .
+
+<http://ids.clld.org/parameters/4-230>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "nose" .
+
+<http://ids.clld.org/parameters/20-250>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "arrow" .
+
+<http://ids.clld.org/values/3-811-293-1_ii-ko>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ii-ko"@ram .
+
+<http://ids.clld.org/values/9-110-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-110> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-110-293-1_t%C9%94n> .
+
+<http://ids.clld.org/parameters/16-230>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "joyful, glad, happy" .
+
+<http://ids.clld.org/values/4-160-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-160> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-160-293-1_-hi> .
+
+<http://ids.clld.org/values/5-130-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-130> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-130-293-1_-k%CA%B0o%CC%83%20%28k%CA%B0%C9%94%CC%83%20%3F%29> .
+
+<http://ids.clld.org/values/2-350-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-350-293-1_-pa%CC%83m> .
+
+<http://ids.clld.org/parameters/4-200>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "head" .
+
+<http://ids.clld.org/parameters/20-220>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "club" .
+
+<http://ids.clld.org/parameters/2-450>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sister" .
+
+<http://ids.clld.org/values/4-580-293-1_-ku-c%CC%B7a>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-ku-c̷a"@ram .
+
+<http://ids.clld.org/values/1-520-293-1_p%C9%A8t>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pɨt"@ram .
+
+<http://ids.clld.org/values/9-211-293-1_tw%C9%99>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "twə"@ram .
+
+<http://ids.clld.org/parameters/3-650>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fish" .
+
+<http://ids.clld.org/values/16-290-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-290> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-290-293-1_p%20%28%3F%29> .
+
+<http://ids.clld.org/parameters/15-650>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "black" .
+
+<http://ids.clld.org/values/3-750-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-750> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-750-293-3_kaar%C9%99> .
+
+<http://ids.clld.org/values/2-350-293-3_c%CC%B7u%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "c̷ũ"@ram .
+
+<http://ids.clld.org/parameters/14-420>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "night" .
+
+<http://ids.clld.org/values/3-650-293-1_t%C9%9Bp>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tɛp"@ram .
+
+<http://ids.clld.org/parameters/18-280>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "name" .
+
+<http://ids.clld.org/values/4-210-293-1_ii-t%C9%94>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ii-tɔ"@ram .
+
+<http://ids.clld.org/values/1-540-293-1_kac%CC%B7ee-r%C9%9B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kac̷ee-rɛ"@ram .
+
+<http://ids.clld.org/values/11-210-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/11-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/11-210-293-3_%C5%8B%C9%94%CC%83> .
+
+<http://ids.clld.org/values/1-430-293-1_pi%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pĩ"@ram .
+
+<http://ids.clld.org/values/12-212-293-1_p%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pɨ"@ram .
+
+<http://ids.clld.org/parameters/4-580>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bite" .
+
+<http://ids.clld.org/parameters/12-610>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wide, broad" .
+
+<http://ids.clld.org/values/4-856-293-1_kuhe>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kuhe"@ram .
+
+<http://ids.clld.org/values/8-311-293-1_i%CA%94-h%C9%A8%C9%A8%20%28h%C9%A8-%20%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "iʔ-hɨɨ (hɨ- ?)"@ram .
+
+<http://ids.clld.org/values/9-880-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-880> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-880-293-1_k%CA%B0r%C9%94r> .
+
+<http://ids.clld.org/values/7-110-293-1_k%CA%B0ri%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kʰrĩ"@ram .
+
+<http://ids.clld.org/values/7-110-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/7-110> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/7-110-293-1_k%CA%B0ri%CC%83> .
+
+<http://ids.clld.org/values/8-540-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-540> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-540-293-1_haare> .
+
+<http://ids.clld.org/values/9-360-293-1_ku%CA%94ho%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kuʔhõ"@ram .
+
+<http://ids.clld.org/values/4-330-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-330> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-330-293-1_hu%CC%83%CA%94k%CA%B0ra> .
+
+<http://ids.clld.org/values/9-770-293-1_kohpip%20%28ko%CA%94pip%20%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kohpip (koʔpip ?)"@ram .
+
+<http://ids.clld.org/parameters/3-813>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "flea" .
+
+<http://ids.clld.org/values/2-910-293-1_pa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pa"@ram .
+
+<http://ids.clld.org/values/20-250-293-1_kruw>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kruw"@ram .
+
+<http://ids.clld.org/parameters/1-540>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "star" .
+
+<http://ids.clld.org/values/15-840-293-1_kr%C9%99>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "krə"@ram .
+
+<http://ids.clld.org/values/5-700-293-1_yat%20%28y%C9%9Bt%20%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "yat (yɛt ?)"@ram .
+
+<http://ids.clld.org/parameters/3-970>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "crocodile, alligator" .
+
+<http://ids.clld.org/values/16-230-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-230> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-230-293-1_hak%CA%B0r%C9%A8> .
+
+<http://ids.clld.org/values/4-140-293-1_ii-k%CA%B0i%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ii-kʰĩ"@ram .
+
+<http://ids.clld.org/values/1-520-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-520> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-520-293-3_p%C9%A8t%C9%A8> .
+
+<http://ids.clld.org/parameters/7-150>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "yard, court" .
+
+<http://ids.clld.org/values/10-440-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-440> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-440-293-1_hakrun%20%28%3F%29> .
+
+<http://ids.clld.org/parameters/1-510>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sky" .
+
+<http://ids.clld.org/values/3-650-293-3_kr%C9%99n->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "krən-"@ram .
+
+<http://ids.clld.org/parameters/7-120>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "house" .
+
+<http://ids.clld.org/values/4-392-293-1_haaraa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "haaraa"@ram .
+
+<http://ids.clld.org/values/9-343-293-1_%C5%8B%C9%9B%CC%83n>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ŋɛ̃n"@ram .
+
+<http://ids.clld.org/values/8-570-293-1_ii-r%C9%99%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ii-rə̃"@ram .
+
+<http://ids.clld.org/parameters/4-140>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hair (head)" .
+
+<http://ids.clld.org/values/16-670-293-1_no%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "nõ"@ram .
+
+<http://ids.clld.org/parameters/2-360>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mother" .
+
+<http://ids.clld.org/values/10-610-293-1_p%C9%99>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pə"@ram .
+
+<http://ids.clld.org/values/5-610-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-610> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-610-293-1_hi%CC%83> .
+
+<http://ids.clld.org/values/8-120-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-120> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-120-293-1_pur> .
+
+<http://ids.clld.org/values/5-110-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-110> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-110-293-1_-k%CA%B0re%CC%83> .
+
+<http://ids.clld.org/values/5-840-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-840> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-840-293-1_p%C9%9Bn> .
+
+<http://ids.clld.org/values/4-370-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-370> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-370-293-1_ii-par> .
+
+<http://ids.clld.org/values/4-270-293-1_ii-c%CC%B7wa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ii-c̷wa"@ram .
+
+<http://ids.clld.org/values/3-760-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-760> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-760-293-1_kuk%CA%B0oy> .
+
+<http://ids.clld.org/parameters/12-212>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "pick up" .
+
+<http://ids.clld.org/values/4-464-293-1_ay%C9%94>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ayɔ"@ram .
+
+<http://ids.clld.org/values/20-240-293-1_kuuhe>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kuuhe"@ram .
+
+<http://ids.clld.org/values/16-310-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-310-293-1_-c%CC%B7a-> .
+
+<http://ids.clld.org/values/2-930-293-1_tam%C9%99%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tamə̃"@ram .
+
+<http://ids.clld.org/values/10-480-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-480> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-480-293-1_-te%CC%83> .
+
+<http://ids.clld.org/values/12-920-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-920> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-920-293-1_k%CA%B0i%CC%83> .
+
+<http://ids.clld.org/values/12-420-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-420> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-420-293-1_aw-k%CA%B0%C9%9B> .
+
+<http://ids.clld.org/parameters/12-550>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "large, big" .
+
+<http://ids.clld.org/values/11-310-293-1_l%C9%A8%CC%83t>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "lɨ̃t"@ram .
+
+<http://ids.clld.org/parameters/1-830>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "smoke (noun)" .
+
+<http://ids.clld.org/values/1-213-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-213> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-213-293-1_pye%20yakro> .
+
+<http://ids.clld.org/parameters/9-110>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "do, make" .
+
+<http://ids.clld.org/values/13-10-293-1_p%C9%A8c%CC%B7it>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pɨc̷it"@ram .
+
+<http://ids.clld.org/values/15-370-293-3_h%C9%99>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "hə"@ram .
+
+<http://ids.clld.org/parameters/4-460>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "stomach" .
+
+<http://ids.clld.org/values/1-851-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-851> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-851-293-1_ka-c%CC%B7%C9%99r> .
+
+<http://ids.clld.org/values/9-360-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-360> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-360-293-1_ku%CA%94ho%CC%83> .
+
+<http://ids.clld.org/values/10-472-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-472> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-472-293-1_pi-> .
+
+<http://ids.clld.org/values/8-750-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-750> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-750-293-1_ii-k%CA%B0%C9%99> .
+
+<http://ids.clld.org/values/8-520-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-520> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-520-293-1_po-> .
+
+<http://ids.clld.org/values/4-310-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-310-293-1_pa> .
+
+<http://ids.clld.org/values/12-420-293-1_aw-k%CA%B0%C9%9B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "aw-kʰɛ"@ram .
+
+<http://ids.clld.org/values/5-970-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-970> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-970-293-1_in-kr%C9%9B> .
+
+<http://ids.clld.org/values/4-270-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-270> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-270-293-1_ii-c%CC%B7wa> .
+
+<http://ids.clld.org/parameters/12-140>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "lie down" .
+
+<http://ids.clld.org/parameters/1-420>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tree (cf 08.600)" .
+
+<http://ids.clld.org/parameters/10-470>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "go" .
+
+<http://ids.clld.org/parameters/3-850>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "snake" .
+
+<http://ids.clld.org/parameters/15-850>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hot" .
+
+<http://ids.clld.org/values/16-710-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-710> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-710-293-1_-p%C9%9By> .
+
+<http://ids.clld.org/values/15-510-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-510> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-510-293-1_-ho%CC%83m-pu> .
+
+<http://ids.clld.org/values/16-670-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-670> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-670-293-1_no%CC%83> .
+
+<http://ids.clld.org/parameters/12-110>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "place" .
+
+<http://ids.clld.org/parameters/10-440>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "dance" .
+
+<http://ids.clld.org/values/1-213-293-1_pye%20yakro>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pye yakro"@ram .
+
+<http://ids.clld.org/values/15-510-293-1_-ho%CC%83m-pu>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-hõm-pu"@ram .
+
+<http://ids.clld.org/values/16-310-293-3_ha-%20%28%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ha- (?)"@ram .
+
+<http://ids.clld.org/values/3-920-293-1_w%C9%9Bw%C9%9B->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "wɛwɛ-"@ram .
+
+<http://ids.clld.org/parameters/2-270>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "child" .
+
+<http://ids.clld.org/values/10-350-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-350-293-3_c%CC%B7wa> .
+
+<http://ids.clld.org/values/15-860-293-1_k%CA%B0r%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kʰrɨ"@ram .
+
+<http://ids.clld.org/values/3-817-293-1_ahc%CC%B7un-%20%28a%CA%94c%CC%B7un-%20%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ahc̷un- (aʔc̷un- ?)"@ram .
+
+<http://ids.clld.org/values/8-560-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-560> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-560-293-1_i%CA%94-ho> .
+
+<http://ids.clld.org/values/5-110-293-1_-k%CA%B0re%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-kʰrẽ"@ram .
+
+<http://ids.clld.org/values/5-110-293-7>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-110> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-110-293-7_pa-> .
+
+<http://ids.clld.org/parameters/4-750>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "die, dead" .
+
+<http://ids.clld.org/values/3-970-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-970> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-970-293-1_mi%CC%83i%CC%83%20%28m%C9%A8%CC%83%20%3F%29> .
+
+<http://ids.clld.org/values/2-310-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-310-293-1_i%CC%83i%CC%83-py%C9%9B> .
+
+<http://ids.clld.org/values/4-210-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-210-293-1_ii-t%C9%94> .
+
+<http://ids.clld.org/values/2-270-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-270> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-270-293-1_a%CA%94-k%CA%B0ra-r%C9%9B> .
+
+<http://ids.clld.org/parameters/2-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "man (vs. woman)" .
+
+<http://ids.clld.org/parameters/14-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "swift, fast, quick" .
+
+<http://ids.clld.org/parameters/16-720>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bad" .
+
+<http://ids.clld.org/values/15-840-293-3_%28k%CA%B0ra%20%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "(kʰra ?)"@ram .
+
+<http://ids.clld.org/parameters/15-410>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hear" .
+
+<http://ids.clld.org/values/2-210-293-1_hu%CC%83m>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "hũm"@ram .
+
+<http://ids.clld.org/values/14-210-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/14-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/14-210-293-1_k%C9%A8t-> .
+
+<http://ids.clld.org/parameters/12-50>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "inside, in" .
+
+<http://ids.clld.org/values/15-410-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-410> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-410-293-1_k%CA%B0%C9%99%CC%83-pa> .
+
+<http://ids.clld.org/values/15-640-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-640> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-640-293-1_hakk%CA%B0a> .
+
+<http://ids.clld.org/values/14-440-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/14-440> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/14-440-293-1_ap%C9%9B%CC%83> .
+
+<http://ids.clld.org/values/1-852-293-1_pok>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pok"@ram .
+
+<http://ids.clld.org/values/3-850-293-1_kaa%C5%8B%C9%99>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kaaŋə"@ram .
+
+<http://ids.clld.org/values/12-130-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-130> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-130-293-1_y%C9%99%CC%83%20%28y%C9%A8%CC%83%20%3F%29> .
+
+<http://ids.clld.org/values/10-440-293-1_hakrun%20%28%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "hakrun (?)"@ram .
+
+<http://ids.clld.org/parameters/4-370>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "foot" .
+
+<http://ids.clld.org/values/15-650-293-1_i%CA%94-t%C9%A8k>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "iʔ-tɨk"@ram .
+
+<http://ids.clld.org/parameters/2-910>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "I" .
+
+<http://ids.clld.org/values/4-120-293-1_ii-k%CA%B0%C9%99%20%28%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ii-kʰə (?)"@ram .
+
+<http://ids.clld.org/values/15-840-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-840> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-840-293-3_%28k%CA%B0ra%20%3F%29> .
+
+<http://ids.clld.org/parameters/8-520>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hay" .
+
+<http://ids.clld.org/values/1-410-293-1_lam->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "lam-"@ram .
+
+<http://ids.clld.org/values/12-560-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-560> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-560-293-3_l%C9%9B> .
+
+<http://ids.clld.org/parameters/4-521>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hiccough" .
+
+<http://ids.clld.org/values/3-760-293-1_kuk%CA%B0oy>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kukʰoy"@ram .
+
+<http://ids.clld.org/values/12-140-293-1_n%C9%94%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "nɔ̃"@ram .
+
+<http://ids.clld.org/parameters/4-310>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "arm" .
+
+<http://ids.clld.org/values/20-240-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/20-240> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/20-240-293-1_kuuhe> .
+
+<http://ids.clld.org/parameters/16-310>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "pain" .
+
+<http://ids.clld.org/parameters/10-380>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "blow" .
+
+<http://ids.clld.org/values/15-810-293-1_hu%CC%83u%CC%83-ti%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "hũũ-tĩ"@ram .
+
+<http://ids.clld.org/parameters/3-760>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "monkey" .
+
+<http://ids.clld.org/parameters/13-330>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "alone, only" .
+
+<http://ids.clld.org/values/4-750-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-750> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-750-293-1_t%C9%A8%C9%A8-%20%28t%C9%A8%20%3F%29> .
+
+<http://ids.clld.org/values/1-510-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-510> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-510-293-1_koyk%CA%B0wa> .
+
+<http://ids.clld.org/values/18-120-293-1_-kr%C9%9B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-krɛ"@ram .
+
+<http://ids.clld.org/values/13-140-293-1_tu->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tu-"@ram .
+
+<http://ids.clld.org/values/2-210-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-210-293-1_hu%CC%83m> .
+
+<http://ids.clld.org/values/3-815-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-815> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-815-293-1_pak> .
+
+<http://ids.clld.org/values/7-150-293-1_ka->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ka-"@ram .
+
+<http://ids.clld.org/parameters/10-350>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "swim" .
+
+<http://ids.clld.org/values/12-550-293-1_ti->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ti-"@ram .
+
+<http://ids.clld.org/parameters/1-215>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sand" .
+
+<http://ids.clld.org/values/7-310-293-1_kiz%20%28%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kiz (?)"@ram .
+
+<http://ids.clld.org/values/2-910-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-910> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-910-293-3_wa> .
+
+<http://ids.clld.org/parameters/5-160>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "suck" .
+
+<http://ids.clld.org/values/13-140-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/13-140> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/13-140-293-1_tu-> .
+
+<http://ids.clld.org/values/9-210-293-1_k%CA%B0r%C9%94%CC%83k>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kʰrɔ̃k"@ram .
+
+<http://ids.clld.org/values/10-130-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-130> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-130-293-1_ayr%C9%94%CC%83> .
+
+<http://ids.clld.org/parameters/3-591>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bat" .
+
+<http://ids.clld.org/values/12-150-293-1_c%CC%B7a>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "c̷a"@ram .
+
+<http://ids.clld.org/parameters/5-130>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "drink" .
+
+<http://ids.clld.org/parameters/4-690>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bathe" .
+
+<http://ids.clld.org/parameters/14-150>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "old" .
+
+<http://ids.clld.org/values/2-270-293-1_a%CA%94-k%CA%B0ra-r%C9%9B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "aʔ-kʰra-rɛ"@ram .
+
+<http://ids.clld.org/values/2-510-293-1_k%C9%9Bt>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kɛt"@ram .
+
+<http://ids.clld.org/parameters/3-350>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "pig" .
+
+<http://ids.clld.org/values/10-370-293-1_t%C9%9B%C9%9B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tɛɛ"@ram .
+
+<http://ids.clld.org/values/3-581-293-1_k%C9%9B%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kɛ̃"@ram .
+
+<http://ids.clld.org/parameters/15-350>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sweet" .
+
+<http://ids.clld.org/values/3-811-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-811> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-811-293-1_ii-ko> .
+
+<http://ids.clld.org/values/1-410-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-410> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-410-293-1_lam-> .
+
+<http://ids.clld.org/values/1-640-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-640> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-640-293-1_at%C9%99r-> .
+
+<http://ids.clld.org/values/14-420-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/14-420> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/14-420-293-1_kac%CC%B7wa> .
+
+<http://ids.clld.org/values/4-464-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-464> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-464-293-1_ay%C9%94> .
+
+<http://ids.clld.org/values/3-850-293-3_pat>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pat"@ram .
+
+<http://ids.clld.org/parameters/4-280>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "neck" .
+
+<http://ids.clld.org/values/3-650-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-650> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-650-293-3_kr%C9%99n-> .
+
+<http://ids.clld.org/values/15-850-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-850> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-850-293-1_kakr%C9%94> .
+
+<http://ids.clld.org/values/15-350-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-350-293-1_c%CC%B7o-> .
+
+<http://ids.clld.org/values/14-150-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/14-150> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/14-150-293-1_tu%CC%83m> .
+
+<http://ids.clld.org/values/12-110-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-110> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-110-293-1_-li-> .
+
+<http://ids.clld.org/values/12-610-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-610> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-610-293-1_i%CA%94-p%C9%94> .
+
+<http://ids.clld.org/values/12-570-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-570> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-570-293-1_i-r%C9%A8%C9%A8> .
+
+<http://ids.clld.org/values/4-240-293-1_-yark%CA%B0wa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-yarkʰwa"@ram .
+
+<http://ids.clld.org/parameters/10-610>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "carry (bear)" .
+
+<http://ids.clld.org/parameters/20-240>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bow" .
+
+<http://ids.clld.org/values/5-610-293-3_yi%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "yĩ"@ram .
+
+<http://ids.clld.org/values/2-920-293-1_ka>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ka"@ram .
+
+<http://ids.clld.org/values/1-851-293-1_ka-c%CC%B7%C9%99r>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ka-c̷ər"@ram .
+
+<http://ids.clld.org/values/2-910-293-3_wa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "wa"@ram .
+
+<http://ids.clld.org/parameters/13-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "full" .
+
+<http://ids.clld.org/values/3-581-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-581> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-581-293-1_k%C9%9B%CC%83> .
+
+<http://ids.clld.org/values/1-520-293-3_p%C9%A8t%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pɨtɨ"@ram .
+
+<http://ids.clld.org/values/20-220-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/20-220> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/20-220-293-1_k%CA%B0o> .
+
+<http://ids.clld.org/values/4-330-293-1_hu%CC%83%CA%94k%CA%B0ra>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "hũʔkʰra"@ram .
+
+<http://ids.clld.org/values/5-700-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-700> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-700-293-1_yat%20%28y%C9%9Bt%20%3F%29> .
+
+<http://ids.clld.org/values/5-160-293-1_kaho>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kaho"@ram .
+
+<http://ids.clld.org/values/5-160-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-160> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-160-293-1_kaho> .
+
+<http://ids.clld.org/parameters/14-440>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "morning" .
+
+<http://ids.clld.org/values/4-230-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-230> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-230-293-1_-yi%CC%83yak%CA%B0r%C9%9B> .
+
+<http://ids.clld.org/values/4-180-293-1_ha-pp%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ha-ppɨ"@ram .
+
+<http://ids.clld.org/values/4-460-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-460> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-460-293-1_ii-tu> .
+
+<http://ids.clld.org/values/4-690-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-690> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-690-293-1_c%CC%B7wa> .
+
+<http://ids.clld.org/values/2-920-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-920> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-920-293-1_ka> .
+
+<http://ids.clld.org/values/1-720-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-720> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-720-293-1_k%CA%B0ook> .
+
+<http://ids.clld.org/parameters/15-640>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "white" .
+
+<http://ids.clld.org/values/18-280-293-3_y%C9%99y%C9%99->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "yəyə-"@ram .
+
+<http://ids.clld.org/parameters/3-610>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "dog" .
+
+<http://ids.clld.org/values/8-540-293-1_haare>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "haare"@ram .
+
+<http://ids.clld.org/values/1-215-293-1_pye>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pye"@ram .
+
+<http://ids.clld.org/values/1-840-293-1_pr%C9%94>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "prɔ"@ram .
+
+<http://ids.clld.org/values/17-560-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/17-560> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/17-560-293-1_ke-> .
+
+<http://ids.clld.org/values/2-350-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-350-293-3_c%CC%B7u%CC%83> .
+
+<http://ids.clld.org/values/12-150-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-150> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-150-293-1_c%CC%B7a> .
+
+<http://ids.clld.org/values/10-610-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-610> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-610-293-1_p%C9%99> .
+
+<http://ids.clld.org/values/11-310-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/11-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/11-310-293-1_l%C9%A8%CC%83t> .
+
+<http://ids.clld.org/values/9-360-293-3_ka%CA%94ho%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kaʔhõ"@ram .
+
+<http://ids.clld.org/parameters/8-750>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bark" .
+
+<http://ids.clld.org/parameters/7-520>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "thatch" .
+
+<http://ids.clld.org/parameters/13-10>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "one" .
+
+<http://ids.clld.org/values/14-210-293-1_k%C9%A8t->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kɨt-"@ram .
+
+<http://ids.clld.org/values/1-420-293-1_pi%CC%83i%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pĩĩ"@ram .
+
+<http://ids.clld.org/values/5-791-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-791> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-791-293-1_i%CA%94-tw%C9%A8m> .
+
+<http://ids.clld.org/values/4-521-293-1_h%C9%9Bk>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "hɛk"@ram .
+
+<http://ids.clld.org/values/8-510-293-1_a%CA%94-tuu>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "aʔ-tuu"@ram .
+
+<http://ids.clld.org/values/2-320-293-1_i%CC%83i%CC%83-pro%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ĩĩ-prõ"@ram .
+
+<http://ids.clld.org/values/4-360-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-360> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-360-293-1_ii-k%CA%B0o%CC%83n> .
+
+<http://ids.clld.org/values/16-290-293-1_p%20%28%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "p (?)"@ram .
+
+<http://ids.clld.org/values/12-50-293-1_k%CA%B0am>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kʰam"@ram .
+
+<http://ids.clld.org/parameters/4-160>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bone" .
+
+<http://ids.clld.org/values/15-830-293-1_mr%C9%94%CC%83%20%28%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "mrɔ̃ (?)"@ram .
+
+<http://ids.clld.org/parameters/7-110>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "dwell, live" .
+
+<http://ids.clld.org/values/15-830-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-830> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-830-293-1_mr%C9%94%CC%83%20%28%3F%29> .
+
+<http://ids.clld.org/values/14-130-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/14-130> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/14-130-293-1_-tuwa> .
+
+<http://ids.clld.org/values/10-380-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-380> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-380-293-1_hakkoo> .
+
+<http://ids.clld.org/values/12-550-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-550> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-550-293-1_ti-> .
+
+<http://ids.clld.org/parameters/3-815>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "scorpion" .
+
+<http://ids.clld.org/values/5-110-293-3_k%CA%B0uu>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kʰuu"@ram .
+
+<http://ids.clld.org/values/15-640-293-3_yak%CA%B0aa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "yakʰaa"@ram .
+
+<http://ids.clld.org/parameters/12-920>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "like, similar" .
+
+<http://ids.clld.org/parameters/2-350>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "father" .
+
+<http://ids.clld.org/values/4-200-293-1_ii-k%CA%B0r%C9%99%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ii-kʰrə̃"@ram .
+
+<https://ids.clld.org/download>
+        a                          lime:Lexicon ;
+        dct:bibliographicCitation  "KeyMary Ritchie & ComrieBernard (eds.) 2015.\nThe Intercontinental Dictionary Series.\nLeipzig: Max Planck Institute for Evolutionary Anthropology.\n(Available online at http://ids.clld.orgAccessed on 2018-04-19.)\n" ;
+        dct:creator                "KeyMary Ritchie & ComrieBernard" ;
+        dct:identifier             "http://ids.clld.org/" ;
+        dct:issued                 "2015-05-25" ;
+        dct:license                "http://creativecommons.org/licenses/by/4.0/" ;
+        dct:publisher              "Max Planck Institute for Evolutionary AnthropologyLeipzig" ;
+        dct:source                 "sources.bib" ;
+        dct:title                  "IDS" ;
+        lime:entry                 <http://ids.clld.org/values/8-120-293-1> , <http://ids.clld.org/values/2-320-293-1> , <http://ids.clld.org/values/15-840-293-1> , <http://ids.clld.org/values/4-820-293-1> , <http://ids.clld.org/values/2-930-293-1> , <http://ids.clld.org/values/8-680-293-1> , <http://ids.clld.org/values/13-330-293-3> , <http://ids.clld.org/values/6-380-293-1> , <http://ids.clld.org/values/10-470-293-1> , <http://ids.clld.org/values/2-910-293-1> , <http://ids.clld.org/values/18-280-293-1> , <http://ids.clld.org/values/2-350-293-1> , <http://ids.clld.org/values/16-720-293-1> , <http://ids.clld.org/values/1-852-293-1> , <http://ids.clld.org/values/9-360-293-1> , <http://ids.clld.org/values/12-920-293-1> , <http://ids.clld.org/values/5-970-293-1> , <http://ids.clld.org/values/14-210-293-1> , <http://ids.clld.org/values/4-460-293-1> , <http://ids.clld.org/values/18-120-293-1> , <http://ids.clld.org/values/1-750-293-1> , <http://ids.clld.org/values/14-150-293-1> , <http://ids.clld.org/values/12-150-293-1> , <http://ids.clld.org/values/4-450-293-1> , <http://ids.clld.org/values/5-610-293-1> , <http://ids.clld.org/values/10-130-293-1> , <http://ids.clld.org/values/3-850-293-3> , <http://ids.clld.org/values/12-212-293-1> , <http://ids.clld.org/values/1-440-293-1> , <http://ids.clld.org/values/4-464-293-1> , <http://ids.clld.org/values/12-130-293-1> , <http://ids.clld.org/values/19-250-293-1> , <http://ids.clld.org/values/4-160-293-1> , <http://ids.clld.org/values/2-910-293-3> , <http://ids.clld.org/values/13-210-293-1> , <http://ids.clld.org/values/18-280-293-3> , <http://ids.clld.org/values/4-310-293-1> , <http://ids.clld.org/values/5-110-293-3> , <http://ids.clld.org/values/2-310-293-1> , <http://ids.clld.org/values/5-110-293-1> , <http://ids.clld.org/values/2-270-293-1> , <http://ids.clld.org/values/1-370-293-1> , <http://ids.clld.org/values/8-600-293-1> , <http://ids.clld.org/values/3-650-293-3> , <http://ids.clld.org/values/1-310-293-1> , <http://ids.clld.org/values/7-310-293-1> , <http://ids.clld.org/values/16-290-293-1> , <http://ids.clld.org/values/15-860-293-1> , <http://ids.clld.org/values/10-472-293-1> , <http://ids.clld.org/values/7-150-293-1> , <http://ids.clld.org/values/15-810-293-1> , <http://ids.clld.org/values/1-640-293-1> , <http://ids.clld.org/values/11-310-293-1> , <http://ids.clld.org/values/5-160-293-1> , <http://ids.clld.org/values/9-880-293-1> , <http://ids.clld.org/values/4-360-293-1> , <http://ids.clld.org/values/4-610-293-1> , <http://ids.clld.org/values/3-970-293-1> , <http://ids.clld.org/values/4-740-293-1> , <http://ids.clld.org/values/3-815-293-1> , <http://ids.clld.org/values/16-670-293-1> , <http://ids.clld.org/values/4-270-293-1> , <http://ids.clld.org/values/4-230-293-1> , <http://ids.clld.org/values/1-810-293-1> , <http://ids.clld.org/values/3-350-293-1> , <http://ids.clld.org/values/15-640-293-3> , <http://ids.clld.org/values/12-550-293-1> , <http://ids.clld.org/values/7-120-293-1> , <http://ids.clld.org/values/9-343-293-1> , <http://ids.clld.org/values/1-420-293-1> , <http://ids.clld.org/values/1-430-293-1> , <http://ids.clld.org/values/10-440-293-1> , <http://ids.clld.org/values/4-690-293-1> , <http://ids.clld.org/values/4-580-293-1> , <http://ids.clld.org/values/4-210-293-1> , <http://ids.clld.org/values/3-750-293-3> , <http://ids.clld.org/values/7-520-293-1> , <http://ids.clld.org/values/3-750-293-1> , <http://ids.clld.org/values/14-440-293-1> , <http://ids.clld.org/values/11-210-293-1> , <http://ids.clld.org/values/10-350-293-1> , <http://ids.clld.org/values/5-130-293-1> , <http://ids.clld.org/values/12-50-293-1> , <http://ids.clld.org/values/12-850-293-1> , <http://ids.clld.org/values/4-521-293-1> , <http://ids.clld.org/values/15-830-293-1> , <http://ids.clld.org/values/1-520-293-3> , <http://ids.clld.org/values/13-30-293-1> , <http://ids.clld.org/values/7-110-293-1> , <http://ids.clld.org/values/20-250-293-1> , <http://ids.clld.org/values/3-592-293-1> , <http://ids.clld.org/values/2-920-293-1> , <http://ids.clld.org/values/15-640-293-1> , <http://ids.clld.org/values/2-360-293-1> , <http://ids.clld.org/values/4-120-293-1> , <http://ids.clld.org/values/4-750-293-1> , <http://ids.clld.org/values/8-750-293-1> , <http://ids.clld.org/values/4-370-293-1> , <http://ids.clld.org/values/4-330-293-1> , <http://ids.clld.org/values/15-510-293-1> , <http://ids.clld.org/values/8-540-293-1> , <http://ids.clld.org/values/11-210-293-3> , <http://ids.clld.org/values/4-260-293-1> , <http://ids.clld.org/values/4-200-293-1> , <http://ids.clld.org/values/1-520-293-1> , <http://ids.clld.org/values/3-817-293-1> , <http://ids.clld.org/values/16-310-293-3> , <http://ids.clld.org/values/12-560-293-3> , <http://ids.clld.org/values/8-520-293-1> , <http://ids.clld.org/values/15-840-293-3> , <http://ids.clld.org/values/1-830-293-1> , <http://ids.clld.org/values/10-350-293-3> , <http://ids.clld.org/values/4-209-293-1> , <http://ids.clld.org/values/5-700-293-1> , <http://ids.clld.org/values/3-591-293-1> , <http://ids.clld.org/values/9-210-293-1> , <http://ids.clld.org/values/1-213-293-1> , <http://ids.clld.org/values/13-140-293-1> , <http://ids.clld.org/values/9-110-293-1> , <http://ids.clld.org/values/14-420-293-1> , <http://ids.clld.org/values/17-560-293-1> , <http://ids.clld.org/values/16-710-293-1> , <http://ids.clld.org/values/2-210-293-1> , <http://ids.clld.org/values/13-330-293-1> , <http://ids.clld.org/values/8-560-293-1> , <http://ids.clld.org/values/3-840-293-1> , <http://ids.clld.org/values/12-610-293-1> , <http://ids.clld.org/values/10-370-293-1> , <http://ids.clld.org/values/8-311-293-1> , <http://ids.clld.org/values/3-920-293-1> , <http://ids.clld.org/values/4-463-293-1> , <http://ids.clld.org/values/12-420-293-1> , <http://ids.clld.org/values/9-360-293-3> , <http://ids.clld.org/values/10-480-293-1> , <http://ids.clld.org/values/8-570-293-1> , <http://ids.clld.org/values/3-760-293-1> , <http://ids.clld.org/values/4-240-293-1> , <http://ids.clld.org/values/4-280-293-1> , <http://ids.clld.org/values/5-610-293-3> , <http://ids.clld.org/values/8-510-293-1> , <http://ids.clld.org/values/15-510-293-3> , <http://ids.clld.org/values/16-310-293-1> , <http://ids.clld.org/values/4-856-293-1> , <http://ids.clld.org/values/3-610-293-1> , <http://ids.clld.org/values/4-150-293-1> , <http://ids.clld.org/values/4-350-293-1> , <http://ids.clld.org/values/14-130-293-1> , <http://ids.clld.org/values/15-370-293-1> , <http://ids.clld.org/values/3-811-293-1> , <http://ids.clld.org/values/12-140-293-1> , <http://ids.clld.org/values/5-791-293-1> , <http://ids.clld.org/values/3-813-293-1> , <http://ids.clld.org/values/5-110-293-5> , <http://ids.clld.org/values/10-450-293-1> , <http://ids.clld.org/values/12-570-293-1> , <http://ids.clld.org/values/1-840-293-1> , <http://ids.clld.org/values/15-650-293-1> , <http://ids.clld.org/values/3-650-293-1> , <http://ids.clld.org/values/12-560-293-1> , <http://ids.clld.org/values/2-510-293-1> , <http://ids.clld.org/values/10-610-293-1> , <http://ids.clld.org/values/10-380-293-1> , <http://ids.clld.org/values/1-720-293-1> , <http://ids.clld.org/values/4-392-293-1> , <http://ids.clld.org/values/16-230-293-1> , <http://ids.clld.org/values/1-540-293-1> , <http://ids.clld.org/values/15-370-293-3> , <http://ids.clld.org/values/15-410-293-1> , <http://ids.clld.org/values/15-420-293-1> , <http://ids.clld.org/values/2-450-293-1> , <http://ids.clld.org/values/15-350-293-1> , <http://ids.clld.org/values/1-510-293-1> , <http://ids.clld.org/values/1-410-293-1> , <http://ids.clld.org/values/6-380-293-3> , <http://ids.clld.org/values/1-851-293-1> , <http://ids.clld.org/values/5-840-293-1> , <http://ids.clld.org/values/20-220-293-1> , <http://ids.clld.org/values/10-720-293-1> , <http://ids.clld.org/values/12-740-293-1> , <http://ids.clld.org/values/12-110-293-1> , <http://ids.clld.org/values/13-10-293-1> , <http://ids.clld.org/values/2-350-293-3> , <http://ids.clld.org/values/5-810-293-1> , <http://ids.clld.org/values/15-850-293-1> , <http://ids.clld.org/values/3-850-293-1> , <http://ids.clld.org/values/1-215-293-1> , <http://ids.clld.org/values/9-211-293-1> , <http://ids.clld.org/values/4-140-293-1> , <http://ids.clld.org/values/4-180-293-1> , <http://ids.clld.org/values/5-110-293-7> , <http://ids.clld.org/values/8-920-293-1> , <http://ids.clld.org/values/3-581-293-1> , <http://ids.clld.org/values/13-170-293-1> , <http://ids.clld.org/values/9-770-293-1> , <http://ids.clld.org/values/20-240-293-1> .
+
+<http://ids.clld.org/values/15-420-293-1_k%20mpa%20%28%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "k mpa (?)"@ram .
+
+<http://ids.clld.org/parameters/2-320>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wife" .
+
+<http://ids.clld.org/values/8-920-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-920> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-920-293-1_k%CA%B0w%C9%A8r%C9%A8> .
+
+<http://ids.clld.org/values/12-110-293-1_-li->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-li-"@ram .
+
+<http://ids.clld.org/parameters/12-570>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "long" .
+
+<http://ids.clld.org/values/1-430-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-430> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-430-293-1_pi%CC%83> .
+
+<http://ids.clld.org/values/2-360-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-360> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-360-293-1_-n%C9%99%CC%83%C9%99%CC%83> .
+
+<http://ids.clld.org/values/10-480-293-1_-te%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-tẽ"@ram .
+
+<http://ids.clld.org/parameters/3-592>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "parrot" .
+
+<http://ids.clld.org/values/13-210-293-1_yic%CC%B7u>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "yic̷u"@ram .
+
+<http://ids.clld.org/parameters/11-310>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "seek, look for" .
+
+<http://ids.clld.org/values/15-370-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-370> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-370-293-1_-c%CC%B7%C9%99-> .
+
+<http://ids.clld.org/values/5-610-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-610> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-610-293-3_yi%CC%83> .
+
+<http://ids.clld.org/values/7-120-293-1_ii-k%CA%B0r%C9%9B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ii-kʰrɛ"@ram .
+
+<http://ids.clld.org/values/5-110-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-110> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-110-293-3_k%CA%B0uu> .
+
+<http://ids.clld.org/values/9-343-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-343> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-343-293-1_%C5%8B%C9%9B%CC%83n> .
+
+<http://ids.clld.org/values/13-330-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/13-330> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/13-330-293-1_pit> .
+
+<http://ids.clld.org/values/16-310-293-1_-c%CC%B7a->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-c̷a-"@ram .
+
+<http://ids.clld.org/parameters/4-450>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "liver" .
+
+<http://ids.clld.org/parameters/18-120>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sing" .
+
+<http://ids.clld.org/values/16-310-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-310-293-3_ha-%20%28%3F%29> .
+
+<http://ids.clld.org/parameters/8-600>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tree" .
+
+<http://ids.clld.org/values/4-392-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-392> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-392-293-1_haaraa> .
+
+<http://ids.clld.org/values/13-30-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/13-30> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/13-30-293-1_%C9%A8nkre-> .
+
+<http://ids.clld.org/parameters/1-440>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "stone, rock" .
+
+<http://ids.clld.org/parameters/12-130>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sit" .
+
+<http://ids.clld.org/parameters/1-410>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "woods, forest" .
+
+<http://ids.clld.org/values/6-380-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/6-380> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/6-380-293-1_he-> .
+
+<http://ids.clld.org/values/7-120-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/7-120> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/7-120-293-1_ii-k%CA%B0r%C9%9B> .
+
+<http://ids.clld.org/parameters/3-840>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "worm" .
+
+<http://ids.clld.org/values/5-810-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-810> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-810-293-1_kaac%CC%B7wa> .
+
+<http://ids.clld.org/values/4-610-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-610> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-610-293-1_-%C5%8Bo%CC%83r%20%28%C5%8B%C9%94%CC%83r%20%3F%29> .
+
+<http://ids.clld.org/parameters/15-840>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "dry" .
+
+<http://ids.clld.org/values/11-210-293-1_c%CC%B7i->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "c̷i-"@ram .
+
+<http://ids.clld.org/values/1-830-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-830> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-830-293-1_i%CA%94-k%CA%B0u%CC%83m> .
+
+<http://ids.clld.org/values/10-130-293-1_ayr%C9%94%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ayrɔ̃"@ram .
+
+<http://ids.clld.org/parameters/15-810>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "heavy" .
+
+<http://ids.clld.org/values/9-360-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-360> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-360-293-3_ka%CA%94ho%CC%83> .
+
+<http://ids.clld.org/values/10-472-293-1_pi->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pi-"@ram .
+
+<http://ids.clld.org/values/4-230-293-1_-yi%CC%83yak%CA%B0r%C9%9B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-yĩyakʰrɛ"@ram .
+
+<http://ids.clld.org/values/1-830-293-1_i%CA%94-k%CA%B0u%CC%83m>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "iʔ-kʰũm"@ram .
+
+<http://ids.clld.org/values/18-280-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/18-280> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/18-280-293-1_awk%CA%B0e-> .
+
+<http://ids.clld.org/values/15-810-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-810> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-810-293-1_hu%CC%83u%CC%83-ti%CC%83> .
+
+<http://ids.clld.org/values/10-720-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-720> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-720-293-1_pr%C9%A8%C9%A8> .
+
+<http://ids.clld.org/values/1-440-293-1_k%CA%B0%C9%9Bn>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kʰɛn"@ram .
+
+<http://ids.clld.org/parameters/10-472>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "climb" .
+
+<http://ids.clld.org/parameters/8-920>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tapioca, manioc, cassava" .
+
+<http://ids.clld.org/parameters/5-970>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "egg" .
+
+<http://ids.clld.org/values/15-510-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-510> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-510-293-3_pu-pun> .
+
+<http://ids.clld.org/values/1-720-293-1_k%CA%B0ook>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kʰook"@ram .
+
+<http://ids.clld.org/values/3-592-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-592> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-592-293-1_kr%C9%A8y-ti> .
+
+<http://ids.clld.org/parameters/4-740>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "live, living, life" .
+
+<http://ids.clld.org/values/12-560-293-1_i%CC%83n-krir%C9%9B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ĩn-krirɛ"@ram .
+
+<http://ids.clld.org/values/1-510-293-1_koyk%CA%B0wa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "koykʰwa"@ram .
+
+<http://ids.clld.org/values/3-591-293-1_c%CC%B7%C9%9Bpr%C9%9B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "c̷ɛprɛ"@ram .
+
+<http://ids.clld.org/values/12-130-293-1_y%C9%99%CC%83%20%28y%C9%A8%CC%83%20%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "yə̃ (yɨ̃ ?)"@ram .
+
+<http://ids.clld.org/parameters/16-710>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "good" .
+
+<http://ids.clld.org/values/4-150-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-150> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-150-293-1_ii-kaproo> .
+
+<http://ids.clld.org/values/10-470-293-1_m%C9%94%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "mɔ̃"@ram .
+
+<http://ids.clld.org/parameters/8-570>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "flower" .
+
+<http://ids.clld.org/values/1-370-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-370> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-370-293-1_k%CA%B0wa> .
+
+<http://ids.clld.org/values/7-520-293-1_po>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "po"@ram .
+
+<http://ids.clld.org/parameters/2-930>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "he/she/it" .
+
+<http://ids.clld.org/parameters/12-420>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "left (side)" .
+
+<http://ids.clld.org/parameters/9-770>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mat" .
+
+<http://ids.clld.org/values/9-110-293-1_t%C9%94n>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tɔn"@ram .
+
+<http://ids.clld.org/parameters/8-540>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "root" .
+
+<http://ids.clld.org/parameters/4-360>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "knee" .
+
+<http://ids.clld.org/parameters/7-310>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fireplace" .
+
+<http://ids.clld.org/values/10-720-293-1_pr%C9%A8%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "prɨɨ"@ram .
+
+<http://ids.clld.org/values/4-740-293-1_ti%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tĩ"@ram .
+
+<http://ids.clld.org/parameters/10-720>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "path" .
+
+<http://ids.clld.org/parameters/17-560>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "no, negative" .
+
+<http://ids.clld.org/parameters/8-510>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "grass" .
+
+<http://ids.clld.org/parameters/4-330>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hand" .
+
+<http://ids.clld.org/values/4-463-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-463> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-463-293-1_h%C9%94%CC%83> .
+
+<http://ids.clld.org/values/16-230-293-1_hak%CA%B0r%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "hakʰrɨ"@ram .
+
+<http://ids.clld.org/values/8-520-293-1_po->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "po-"@ram .
+
+<http://ids.clld.org/values/17-560-293-1_ke->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ke-"@ram .
+
+<http://ids.clld.org/values/3-813-293-1_i%CC%83nko>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ĩnko"@ram .
+
+<http://ids.clld.org/values/15-640-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-640> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-640-293-3_yak%CA%B0aa> .
+
+<http://ids.clld.org/values/13-10-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/13-10> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/13-10-293-1_p%C9%A8c%CC%B7it> .
+
+<http://ids.clld.org/parameters/10-370>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fly (vb)" .
+
+<http://ids.clld.org/parameters/3-750>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "deer" .
+
+<http://ids.clld.org/values/12-560-293-3_l%C9%9B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "lɛ"@ram .
+
+<http://ids.clld.org/values/4-280-293-1_ii-put>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ii-put"@ram .
+
+<http://ids.clld.org/parameters/9-360>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wash" .
+
+<http://ids.clld.org/parameters/8-311>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "seed" .
+
+<http://ids.clld.org/parameters/6-380>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "thread" .
+
+<http://ids.clld.org/values/2-510-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-510> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-510-293-1_k%C9%9Bt> .
+
+<http://ids.clld.org/values/4-820-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-820> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-820-293-1_p%C9%9Bk-> .
+
+<http://ids.clld.org/values/1-310-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-310-293-1_ko> .
+
+<http://ids.clld.org/values/1-810-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-810> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-810-293-1_kuh%C9%A8> .
+
+<http://ids.clld.org/values/3-850-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-850> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-850-293-1_kaa%C5%8B%C9%99> .
+
+<http://ids.clld.org/values/3-350-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-350-293-1_k%CA%B0ro> .
+
+<http://ids.clld.org/values/4-280-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-280> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-280-293-1_ii-put> .
+
+<http://ids.clld.org/values/4-260-293-1_-yo%CC%83%CA%94t%C9%94>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-yõʔtɔ"@ram .
+
+<http://ids.clld.org/values/1-540-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-540> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-540-293-1_kac%CC%B7ee-r%C9%9B> .
+
+<http://ids.clld.org/values/1-215-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-215> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-215-293-1_pye> .
+
+<http://ids.clld.org/parameters/12-740>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "crooked" .
+
+<http://ids.clld.org/parameters/3-581>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bird" .
+
+<http://ids.clld.org/values/4-690-293-1_c%CC%B7wa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "c̷wa"@ram .
+
+<http://ids.clld.org/values/16-720-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/16-720> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/16-720-293-1_i%CA%94k%CA%B0%C9%9Bn> .
+
+<http://ids.clld.org/values/12-740-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-740> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-740-293-1_yak%C9%94t> .
+
+<http://ids.clld.org/values/13-210-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/13-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/13-210-293-1_yic%CC%B7u> .
+
+<http://ids.clld.org/parameters/15-370>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bitter" .
+
+<http://ids.clld.org/values/4-450-293-1_ii-pa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ii-pa"@ram .
+
+<http://ids.clld.org/values/15-640-293-1_hakk%CA%B0a>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "hakkʰa"@ram .
+
+<http://ids.clld.org/values/13-30-293-1_%C9%A8nkre->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ɨnkre-"@ram .
+
+<http://ids.clld.org/values/8-750-293-1_ii-k%CA%B0%C9%99>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ii-kʰə"@ram .
+
+<http://ids.clld.org/parameters/1-851>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "burn (vb trans)" .
+
+<http://ids.clld.org/values/3-840-293-1_h%C9%94%C9%94c%CC%B7a%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "hɔɔc̷ã"@ram .
+
+<http://ids.clld.org/values/18-280-293-1_awk%CA%B0e->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "awkʰe-"@ram .
+
+<http://ids.clld.org/parameters/1-640>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "dew" .
+
+<http://ids.clld.org/values/3-592-293-1_kr%C9%A8y-ti>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "krɨy-ti"@ram .
+
+<http://ids.clld.org/values/9-880-293-1_k%CA%B0r%C9%94r>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kʰrɔr"@ram .
+
+<http://ids.clld.org/values/4-856-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-856> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-856-293-1_kuhe> .
+
+<http://ids.clld.org/values/12-610-293-1_i%CA%94-p%C9%94>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "iʔ-pɔ"@ram .
+
+<http://ids.clld.org/values/8-570-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-570> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-570-293-1_ii-r%C9%99%CC%83> .
+
+<http://ids.clld.org/values/9-770-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-770> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-770-293-1_kohpip%20%28ko%CA%94pip%20%3F%29> .
+
+<http://ids.clld.org/parameters/4-209>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "chin" .
+
+<http://ids.clld.org/parameters/4-270>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tooth" .
+
+<http://ids.clld.org/values/2-320-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-320> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-320-293-1_i%CC%83i%CC%83-pro%CC%83> .
+
+<http://ids.clld.org/values/3-750-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-750> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-750-293-1_p%C9%94> .
+
+<http://ids.clld.org/values/3-815-293-1_pak>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pak"@ram .
+
+<http://ids.clld.org/values/10-450-293-1_mo%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "mõ"@ram .
+
+<http://ids.clld.org/values/10-380-293-1_hakkoo>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "hakkoo"@ram .
+
+<http://ids.clld.org/parameters/4-240>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mouth" .
+
+<http://ids.clld.org/values/4-610-293-1_-%C5%8Bo%CC%83r%20%28%C5%8B%C9%94%CC%83r%20%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-ŋõr (ŋɔ̃r ?)"@ram .
+
+<http://ids.clld.org/values/4-209-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-209> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-209-293-1_hama%CC%83> .
+
+<http://ids.clld.org/values/4-310-293-1_pa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pa"@ram .
+
+<http://ids.clld.org/values/15-350-293-1_c%CC%B7o->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "c̷o-"@ram .
+
+<http://ids.clld.org/values/15-420-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-420> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-420-293-1_k%20mpa%20%28%3F%29> .
+
+<http://ids.clld.org/values/15-650-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-650> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-650-293-1_i%CA%94-t%C9%A8k> .
+
+<http://ids.clld.org/parameters/4-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "eye" .
+
+<http://ids.clld.org/values/10-470-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-470> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-470-293-1_m%C9%94%CC%83> .
+
+<http://ids.clld.org/values/11-210-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/11-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/11-210-293-1_c%CC%B7i-> .
+
+<http://ids.clld.org/values/13-330-293-3_kama%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kamã"@ram .
+
+<http://ids.clld.org/values/5-110-293-5_kuk%CA%B0u->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kukʰu-"@ram .
+
+<http://ids.clld.org/values/3-750-293-3_kaar%C9%99>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kaarə"@ram .
+
+<http://ids.clld.org/values/1-640-293-1_at%C9%99r->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "atər-"@ram .
+
+<http://ids.clld.org/parameters/4-463>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hip" .
+
+<http://ids.clld.org/values/9-211-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-211> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-211-293-1_tw%C9%99> .
+
+<http://ids.clld.org/parameters/3-811>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "louse" .
+
+<http://ids.clld.org/values/20-250-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/20-250> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/20-250-293-1_kruw> .
+
+<http://ids.clld.org/values/7-310-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/7-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/7-310-293-1_kiz%20%28%3F%29> .
+
+<http://ids.clld.org/values/8-510-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-510> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-510-293-1_a%CA%94-tuu> .
+
+<http://ids.clld.org/parameters/9-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "strike (hit, beat)" .
+
+<http://ids.clld.org/values/1-520-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-520> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-520-293-1_p%C9%A8t> .
+
+<http://ids.clld.org/values/4-260-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-260> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-260-293-1_-yo%CC%83%CA%94t%C9%94> .
+
+<http://ids.clld.org/values/12-740-293-1_yak%C9%94t>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "yakɔt"@ram .
+
+<http://ids.clld.org/values/1-750-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-750> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-750-293-1_taa%20%28ta%20%3F%29> .
+
+<http://ids.clld.org/values/2-450-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-450> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-450-293-1_t%C9%94%CC%83y-> .
+
+<http://ids.clld.org/values/15-370-293-1_-c%CC%B7%C9%99->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-c̷ə-"@ram .
+
+<http://ids.clld.org/values/4-160-293-1_-hi>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-hi"@ram .
+
+<http://ids.clld.org/parameters/13-30>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "three" .
+
+<http://ids.clld.org/values/3-970-293-1_mi%CC%83i%CC%83%20%28m%C9%A8%CC%83%20%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "mĩĩ (mɨ̃ ?)"@ram .
+
+<http://ids.clld.org/values/10-370-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-370> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-370-293-1_t%C9%9B%C9%9B> .
+
+<http://ids.clld.org/values/14-440-293-1_ap%C9%9B%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "apɛ̃"@ram .
+
+<http://ids.clld.org/values/1-810-293-1_kuh%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kuhɨ"@ram .
+
+<http://ids.clld.org/values/2-350-293-1_-pa%CC%83m>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-pãm"@ram .
+
+<http://ids.clld.org/values/13-170-293-1_k%CA%B0%C9%A8%C9%A8pe->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kʰɨɨpe-"@ram .
+
+<http://ids.clld.org/values/14-420-293-1_kac%CC%B7wa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kac̷wa"@ram .
+
+<http://ids.clld.org/values/3-610-293-1_r%C9%94p>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "rɔp"@ram .
+
+<http://ids.clld.org/parameters/5-700>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "potato" .
+
+<http://ids.clld.org/parameters/1-520>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sun" .
+
+<http://ids.clld.org/values/1-750-293-1_taa%20%28ta%20%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "taa (ta ?)"@ram .
+
+<http://ids.clld.org/values/15-850-293-1_kakr%C9%94>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kakrɔ"@ram .
+
+<http://ids.clld.org/parameters/4-180>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tail" .
+
+<http://ids.clld.org/values/11-210-293-3_%C5%8B%C9%94%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ŋɔ̃"@ram .
+
+<http://ids.clld.org/values/5-110-293-7_pa->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pa-"@ram .
+
+<http://ids.clld.org/parameters/3-920>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "butterfly" .
+
+<http://ids.clld.org/parameters/4-150>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "blood" .
+
+<http://ids.clld.org/values/12-212-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-212> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-212-293-1_p%C9%A8> .
+
+<http://ids.clld.org/values/8-920-293-1_k%CA%B0w%C9%A8r%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kʰwɨrɨ"@ram .
+
+<http://ids.clld.org/values/4-200-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-200> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-200-293-1_ii-k%CA%B0r%C9%99%CC%83> .
+
+<http://ids.clld.org/values/1-420-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-420> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-420-293-1_pi%CC%83i%CC%83> .
+
+<http://ids.clld.org/parameters/4-120>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "skin, hide" .
+
+<http://ids.clld.org/parameters/13-170>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "little (quantity), few" .
+
+<http://ids.clld.org/values/19-250-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/19-250> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/19-250-293-1_k%CA%B0o-> .
+
+<http://ids.clld.org/values/10-450-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-450> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-450-293-1_mo%CC%83> .
+
+<http://ids.clld.org/values/15-860-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-860> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-860-293-1_k%CA%B0r%C9%A8> .
+
+<http://ids.clld.org/parameters/13-140>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "every, all" .
+
+<http://ids.clld.org/values/12-850-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-850> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-850-293-1_k%CA%B0r%C9%9B> .
+
+<http://ids.clld.org/values/13-330-293-1_pit>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pit"@ram .
+
+<http://ids.clld.org/values/16-710-293-1_-p%C9%9By>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-pɛy"@ram .
+
+<http://ids.clld.org/values/3-813-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-813> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-813-293-1_i%CC%83nko> .
+
+<http://ids.clld.org/parameters/2-310>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "husband" .
+
+<http://ids.clld.org/parameters/4-820>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "weak" .
+
+<http://ids.clld.org/parameters/10-130>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "turn around" .
+
+<http://ids.clld.org/parameters/3-817>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "ant" .
+
+<http://ids.clld.org/parameters/12-560>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "small, little" .
+
+<http://ids.clld.org/values/5-970-293-1_in-kr%C9%9B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "in-krɛ"@ram .
+
+<http://ids.clld.org/parameters/15-510>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "see" .
+
+<http://ids.clld.org/parameters/1-840>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "ashes" .
+
+<http://ids.clld.org/values/8-311-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-311> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-311-293-1_i%CA%94-h%C9%A8%C9%A8%20%28h%C9%A8-%20%3F%29> .
+
+<http://ids.clld.org/parameters/8-680>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tobacco" .
+
+<http://ids.clld.org/values/3-591-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-591> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-591-293-1_c%CC%B7%C9%9Bpr%C9%9B> .
+
+<http://ids.clld.org/values/5-610-293-1_hi%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "hĩ"@ram .
+
+<http://ids.clld.org/parameters/9-880>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "paint (noun)" .
+
+<http://ids.clld.org/values/14-130-293-1_-tuwa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-tuwa"@ram .
+
+<http://ids.clld.org/parameters/1-810>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fire" .
+
+<http://ids.clld.org/values/7-520-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/7-520> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/7-520-293-1_po> .
+
+<http://ids.clld.org/values/8-680-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-680> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-680-293-1_parho> .
+
+<http://ids.clld.org/values/4-740-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-740> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-740-293-1_ti%CC%83> .
+
+<http://ids.clld.org/values/4-240-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-240> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-240-293-1_-yark%CA%B0wa> .
+
+<http://ids.clld.org/values/2-930-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-930> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-930-293-1_tam%C9%99%CC%83> .
+
+<http://ids.clld.org/values/3-350-293-1_k%CA%B0ro>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kʰro"@ram .
+
+<http://ids.clld.org/values/16-720-293-1_i%CA%94k%CA%B0%C9%9Bn>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "iʔkʰɛn"@ram .
+
+<http://ids.clld.org/values/10-350-293-3_c%CC%B7wa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "c̷wa"@ram .
+
+<http://ids.clld.org/parameters/9-343>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "squeeze, wring" .
+
+<http://ids.clld.org/parameters/1-852>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "burn (vb intrans)" .
+
+<http://ids.clld.org/values/1-310-293-1_ko>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ko"@ram .
+
+<http://ids.clld.org/values/10-350-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-350-293-1_ree> .
+
+<http://ids.clld.org/parameters/12-150>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "stand" .
+
+<http://ids.clld.org/parameters/5-610>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "meat" .
+
+<http://ids.clld.org/parameters/1-430>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wood" .
+
+<http://ids.clld.org/parameters/10-480>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "come" .
+
+<http://ids.clld.org/parameters/15-860>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "cold" .
+
+<http://ids.clld.org/values/10-350-293-1_ree>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ree"@ram .
+
+<http://ids.clld.org/values/4-209-293-1_hama%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "hamã"@ram .
+
+<http://ids.clld.org/values/5-110-293-5>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-110> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-110-293-5_kuk%CA%B0u-> .
+
+<http://ids.clld.org/values/15-370-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-370> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-370-293-3_h%C9%99> .
+
+<http://ids.clld.org/parameters/10-450>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "walk" .
+
+<http://ids.clld.org/values/13-330-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/13-330> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/13-330-293-3_kama%CC%83> .
+
+<http://ids.clld.org/values/4-150-293-1_ii-kaproo>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ii-kaproo"@ram .
+
+<http://ids.clld.org/parameters/15-830>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wet, damp" .
+
+<http://ids.clld.org/values/12-570-293-1_i-r%C9%A8%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "i-rɨɨ"@ram .
+
+<http://ids.clld.org/parameters/12-850>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hole" .
+
+<http://ids.clld.org/values/7-150-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/7-150> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/7-150-293-1_ka-> .
+
+<http://ids.clld.org/values/4-140-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-140> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-140-293-1_ii-k%CA%B0i%CC%83> .
+
+<http://ids.clld.org/values/8-560-293-1_i%CA%94-ho>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "iʔ-ho"@ram .
+
+<http://ids.clld.org/values/12-850-293-1_k%CA%B0r%C9%9B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kʰrɛ"@ram .
+
+<http://ids.clld.org/parameters/4-464>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "buttocks" .
+
+<http://ids.clld.org/values/2-310-293-1_i%CC%83i%CC%83-py%C9%9B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ĩĩ-pyɛ"@ram .
+
+<http://ids.clld.org/values/6-380-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/6-380> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/6-380-293-3_-c%CC%B7e-%20%28%3F%29> .
+
+<http://ids.clld.org/values/2-450-293-1_t%C9%94%CC%83y->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tɔ̃y-"@ram .
+
+<http://ids.clld.org/values/18-120-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/18-120> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/18-120-293-1_-kr%C9%9B> .
+
+<http://ids.clld.org/values/13-170-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/13-170> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/13-170-293-1_k%CA%B0%C9%A8%C9%A8pe-> .
+
+<http://ids.clld.org/values/15-840-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-840> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-840-293-1_kr%C9%99> .
+
+<http://ids.clld.org/values/4-820-293-1_p%C9%9Bk->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pɛk-"@ram .
+
+<http://ids.clld.org/parameters/4-856>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "boil (noun)" .
+
+<http://ids.clld.org/values/12-560-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-560> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-560-293-1_i%CC%83n-krir%C9%9B> .
+
+<http://ids.clld.org/values/5-791-293-1_i%CA%94-tw%C9%A8m>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "iʔ-twɨm"@ram .
+
+<http://ids.clld.org/parameters/15-420>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "listen" .
+
+<http://ids.clld.org/parameters/1-750>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "rain (noun)" .
+
+<http://ids.clld.org/values/18-280-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/18-280> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/18-280-293-3_y%C9%99y%C9%99-> .
+
+<http://ids.clld.org/parameters/9-211>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "pound with fist" .
+
+<http://ids.clld.org/values/1-852-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-852> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-852-293-1_pok> .
+
+<http://ids.clld.org/values/19-250-293-1_k%CA%B0o->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kʰo-"@ram .
+
+<http://ids.clld.org/parameters/1-720>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wind" .
+
+<http://ids.clld.org/parameters/11-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "give" .
+
+<http://ids.clld.org/parameters/8-560>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "leaf" .
+
+<http://ids.clld.org/values/4-370-293-1_ii-par>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ii-par"@ram .
+
+<http://ids.clld.org/parameters/2-920>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "you (singular)" .
+
+<http://ids.clld.org/parameters/5-791>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "grease, fat" .
+
+<http://ids.clld.org/values/1-440-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-440> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-440-293-1_k%CA%B0%C9%9Bn> .
+
+<http://ids.clld.org/values/20-220-293-1_k%CA%B0o>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kʰo"@ram .
+
+<http://ids.clld.org/parameters/19-250>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "staff, walking stick" .
+
+<http://ids.clld.org/parameters/1-213>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "dust" .
+
+<http://ids.clld.org/values/3-610-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-610> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-610-293-1_r%C9%94p> .
+
+<http://ids.clld.org/parameters/4-350>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "leg" .
+
+<http://ids.clld.org/values/5-130-293-1_-k%CA%B0o%CC%83%20%28k%CA%B0%C9%94%CC%83%20%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-kʰõ (kʰɔ̃ ?)"@ram .
+
+<http://ids.clld.org/values/2-910-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-910> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-910-293-1_pa> .
+
+<http://ids.clld.org/values/8-120-293-1_pur>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pur"@ram .
+
+<http://ids.clld.org/values/4-450-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-450> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-450-293-1_ii-pa> .
+
+<http://ids.clld.org/values/4-180-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-180> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-180-293-1_ha-pp%C9%A8> .
+
+<http://ids.clld.org/values/3-840-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-840> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-840-293-1_h%C9%94%C9%94c%CC%B7a%CC%83> .
+
+<http://ids.clld.org/values/8-680-293-1_parho>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "parho"@ram .
+
+<http://ids.clld.org/parameters/1-370>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "spring, well" .
+
+<http://ids.clld.org/values/4-463-293-1_h%C9%94%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "hɔ̃"@ram .
+
+<http://ids.clld.org/values/12-140-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-140> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-140-293-1_n%C9%94%CC%83> .
+
+<http://ids.clld.org/parameters/4-392>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wing" .
+
+<http://ids.clld.org/values/12-920-293-1_k%CA%B0i%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kʰĩ"@ram .
+
+<http://ids.clld.org/parameters/1-310>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "water" .
+
+<http://ids.clld.org/values/6-380-293-1_he->
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "he-"@ram .
+
+<http://ids.clld.org/values/1-370-293-1_k%CA%B0wa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kʰwa"@ram .
+
+<http://ids.clld.org/parameters/2-510>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "uncle" .
+
+<http://ids.clld.org/values/5-810-293-1_kaac%CC%B7wa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kaac̷wa"@ram .
+
+<http://ids.clld.org/parameters/8-120>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "field (for cultivation)" .
+
+<http://ids.clld.org/values/8-600-293-1_pi%CC%83i%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pĩĩ"@ram .
+
+<http://ids.clld.org/values/3-750-293-1_p%C9%94>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pɔ"@ram .
+
+<http://ids.clld.org/values/12-50-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-50> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-50-293-1_k%CA%B0am> .
+
+<http://ids.clld.org/values/6-380-293-3_-c%CC%B7e-%20%28%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-c̷e- (?)"@ram .
+
+<http://ids.clld.org/values/2-360-293-1_-n%C9%99%CC%83%C9%99%CC%83>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "-nə̃ə̃"@ram .
+
+<http://ids.clld.org/values/4-360-293-1_ii-k%CA%B0o%CC%83n>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ii-kʰõn"@ram .
+
+<http://ids.clld.org/values/9-210-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-210-293-1_k%CA%B0r%C9%94%CC%83k> .
+
+<http://ids.clld.org/values/4-120-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-120> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-120-293-1_ii-k%CA%B0%C9%99%20%28%3F%29> .
+
+<http://ids.clld.org/values/4-580-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-580> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-580-293-1_-ku-c%CC%B7a> .
+
+<http://ids.clld.org/values/8-600-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-600> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-600-293-1_pi%CC%83i%CC%83> .
+
+<http://ids.clld.org/parameters/5-110>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "eat" .
+
+<http://ids.clld.org/values/3-920-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-920> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-920-293-1_w%C9%9Bw%C9%9B-> .
+
+<http://ids.clld.org/values/3-650-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-650> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-650-293-1_t%C9%9Bp> .
+
+<http://ids.clld.org/values/4-350-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-350-293-1_ii-t%C9%9B> .
+
+<http://ids.clld.org/parameters/16-670>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "lie, tell lies" .
+
+<http://ids.clld.org/values/1-840-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-840> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-840-293-1_pr%C9%94> .
+
+<http://ids.clld.org/parameters/14-130>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "new" .
+
+<http://ids.clld.org/values/4-460-293-1_ii-tu>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ii-tu"@ram .
+
+<http://ids.clld.org/parameters/5-840>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "honey" .
+
+<http://ids.clld.org/values/3-850-293-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-850> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-850-293-3_pat> .
+
+<http://ids.clld.org/parameters/4-610>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sleep" .
+
+<http://ids.clld.org/values/5-840-293-1_p%C9%9Bn>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pɛn"@ram .
+
+<http://ids.clld.org/parameters/5-810>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "salt" .
+
+<http://ids.clld.org/values/4-350-293-1_ii-t%C9%9B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ii-tɛ"@ram .
+
+<http://ids.clld.org/values/4-750-293-1_t%C9%A8%C9%A8-%20%28t%C9%A8%20%3F%29>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tɨɨ- (tɨ ?)"@ram .
+
+<http://ids.clld.org/values/14-150-293-1_tu%CC%83m>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tũm"@ram .
+
+<http://ids.clld.org/values/15-410-293-1_k%CA%B0%C9%99%CC%83-pa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kʰə̃-pa"@ram .
+
+<http://ids.clld.org/parameters/16-290>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "kiss" .
+
+<http://ids.clld.org/values/3-817-293-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:cane1242 , lexvo:ram ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-817> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-817-293-1_ahc%CC%B7un-%20%28a%CA%94c%CC%B7un-%20%3F%29> .
+
+<http://ids.clld.org/parameters/4-260>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tongue" .
