@@ -1,0 +1,1321 @@
+@prefix bcp47: <https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:  <http://www.w3.org/ns/lemon/lime#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix lexvo3: <http://lexvo.org/id/iso639-3/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lexvo1: <http://lexvo.org/id/iso639-1/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix terms: <http://cldf.clld.org/v1.0/terms.rdf#> .
+@prefix sil:   <https://iso639-3.sil.org/code/> .
+@prefix lexvo: <http://lexvo.org/id/iso639-3/> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix glottolog: <https://glottolog.org/resource/languoid/id/> .
+
+<http://ids.clld.org/values/2-511-823-1_ta.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ta.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-480-823-1_cw.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "cw.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-100-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-100> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-100-823-1_%C5%8Ba%3Aj.2> .
+
+<http://ids.clld.org/values/2-330-823-2_lj.4%20maku%3A%C5%84.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "lj.4 maku:ń.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-220-823-1_c%C9%A8%3At.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "cɨ:t.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-410-823-1_brw.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "brw.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/1-390>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "waterfall" .
+
+<http://ids.clld.org/values/1-390-823-1_tha%3Ak.3%20da%3Ak.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tha:k.3 da:k.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-220-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-220> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-220-823-1_pukj.3> .
+
+<http://ids.clld.org/parameters/1-540>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "star" .
+
+<http://ids.clld.org/values/1-370-823-1_ru%3Ak.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ru:k.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-511-823-2>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-511> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-511-823-2_ta.1> .
+
+<http://ids.clld.org/values/1-240-823-1_ulu%3A%C5%8B.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ulu:ŋ.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-471-823-1_mo%C9%94.4%20kum%C9%99%CA%8Ck.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "moɔ.4 kuməʌk.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-580-823-1_pa%3Aw.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pa:w.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/1-640>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "dew" .
+
+<http://ids.clld.org/parameters/2-445>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "younger brother" .
+
+<http://ids.clld.org/parameters/1-590>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "rainbow" .
+
+<http://ids.clld.org/values/1-280-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-280> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-280-823-1_k%C9%A8%3Ap.4> .
+
+<http://ids.clld.org/parameters/1-214>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mud" .
+
+<http://ids.clld.org/parameters/1-740>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fog" .
+
+<http://ids.clld.org/values/1-530-823-1_pul%C9%99an.2>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "puləan.2"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-213-823-1_k%C9%99h%C9%94%3Aj.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kəhɔ:j.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-330-823-2>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-330> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-330-823-2_lj.4%20maku%3A%C5%84.3> .
+
+<http://ids.clld.org/values/1-860-823-1_tu%3Ac.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tu:c.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-310-823-1_da%3Ak.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "da:k.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/1-840>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "ashes" .
+
+<http://ids.clld.org/values/2-471-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-471> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-471-823-1_mo%C9%94.4%20kum%C9%99%CA%8Ck.4> .
+
+<http://ids.clld.org/values/1-215-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-215> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-215-823-1_t%C9%99ka%3Ac.3> .
+
+<http://ids.clld.org/parameters/2-261>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "young woman (adolescent)" .
+
+<http://ids.clld.org/values/1-510-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-510> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-510-823-1_pl%C9%99%3Aj.2> .
+
+<http://ids.clld.org/parameters/2-240>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "female" .
+
+<http://ids.clld.org/parameters/1-222>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "cliff, precipice" .
+
+<http://ids.clld.org/values/1-830-823-2_cama%C5%8B.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "camaŋ.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-270-823-1_k%C9%94%3An.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kɔ:n.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-420-823-1_k%C9%94%3An.1%20pukj.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kɔ:n.1 pukj.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/17-560-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/17-560> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/17-560-823-1_lata.3> .
+
+<http://ids.clld.org/parameters/1-890>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "charcoal" .
+
+<http://ids.clld.org/parameters/2-511>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mother's brother" .
+
+<http://ids.clld.org/values/1-362-823-1_da%3Ak.3%20thu%C9%99j.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "da:k.3 thuəj.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-630-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-630> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-630-823-1_p%C9%94%3A%C5%8B.3> .
+
+<http://ids.clld.org/values/1-220-823-2>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-220> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-220-823-2_do%3Al.1> .
+
+<http://ids.clld.org/parameters/2-461>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "old man" .
+
+<http://ids.clld.org/values/2-522-823-2_%CA%94%C9%94.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ʔɔ.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-560-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-560> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-560-823-1_kr%C9%A8%3Am.4> .
+
+<http://ids.clld.org/parameters/2-611>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "father-in-law (of a woman)" .
+
+<http://ids.clld.org/values/2-540-823-1_cw.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "cw.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-455-823-1_ce%C9%9B.%24>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ceɛ.$"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-510-823-1_pl%C9%99%3Aj.2>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "plə:j.2"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/4-170-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-170> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-170-823-1_kr%C9%A8%C5%8B> .
+
+<http://ids.clld.org/parameters/2-540>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "niece" .
+
+<http://ids.clld.org/values/1-360-823-1_ju%3A%C5%8B.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ju:ŋ.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/2-490>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "granddaughter" .
+
+<http://ids.clld.org/values/2-320-823-1_makj.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "makj.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-830-823-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-830> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-830-823-3_patj.1> .
+
+<http://ids.clld.org/parameters/1-280>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "cave" .
+
+<http://ids.clld.org/values/1-210-823-1_b%C9%99%3An.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "bə:n.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/1-430>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wood" .
+
+<http://ids.clld.org/values/2-522-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-522> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-522-823-1_ja.1> .
+
+<http://ids.clld.org/values/2-210-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-210-823-1_puku%3A%C5%84.3> .
+
+<http://ids.clld.org/parameters/1-530>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "moon" .
+
+<http://ids.clld.org/values/2-341-823-1_%C3%9F%C9%A8%CA%8Ct.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ßɨʌt.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-511-823-3_kw.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kw.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-840-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-840> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-840-823-1_tapeh.1> .
+
+<http://ids.clld.org/parameters/1-630>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "shade, shadow" .
+
+<http://ids.clld.org/values/1-410-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-410> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-410-823-1_brw.3> .
+
+<http://ids.clld.org/parameters/2-456>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sibling" .
+
+<http://ids.clld.org/values/1-540-823-1_kumi%3A%C5%8B.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kumi:ŋ.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-360-823-2>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-360> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-360-823-2_c%C9%99r%C9%94%3Ak.3> .
+
+<http://ids.clld.org/values/2-341-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-341> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-341-823-1_%C3%9F%C9%A8%CA%8Ct.4> .
+
+<http://ids.clld.org/parameters/1-580>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "storm" .
+
+<http://ids.clld.org/values/1-270-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-270> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-270-823-1_kup%C9%99%3A%C5%8B.1> .
+
+<http://ids.clld.org/values/2-330-823-3_d%C9%94%3A%C5%8B.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "dɔ:ŋ.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/1-730>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "cloud" .
+
+<http://ids.clld.org/values/1-830-823-1_kah%C9%94%3Aj.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kahɔ:j.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/1-851>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "burn (vb trans)" .
+
+<http://ids.clld.org/parameters/1-830>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "smoke (noun)" .
+
+<http://ids.clld.org/values/2-461-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-461> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-461-823-1_%CA%94o%3A%C5%8B.1%20kum%C9%99%CA%8Ck.4> .
+
+<http://ids.clld.org/values/2-280-823-1_puc%C9%94%3Aj.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pucɔ:j.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/2-251>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "young man (adolescent)" .
+
+<http://ids.clld.org/parameters/2-230>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "male" .
+
+<http://ids.clld.org/parameters/1-212>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "earth=ground, soil" .
+
+<https://ids.clld.org/download>
+        a                          lime:Lexicon ;
+        dct:bibliographicCitation  "KeyMary Ritchie & ComrieBernard (eds.) 2015.\nThe Intercontinental Dictionary Series.\nLeipzig: Max Planck Institute for Evolutionary Anthropology.\n(Available online at http://ids.clld.orgAccessed on 2018-04-19.)\n" ;
+        dct:creator                "KeyMary Ritchie & ComrieBernard" ;
+        dct:identifier             "http://ids.clld.org/" ;
+        dct:issued                 "2015-05-25" ;
+        dct:license                "http://creativecommons.org/licenses/by/4.0/" ;
+        dct:publisher              "Max Planck Institute for Evolutionary AnthropologyLeipzig" ;
+        dct:source                 "sources.bib" ;
+        dct:title                  "IDS" ;
+        lime:entry                 <http://ids.clld.org/values/1-830-823-2> , <http://ids.clld.org/values/2-240-823-1> , <http://ids.clld.org/values/2-521-823-1> , <http://ids.clld.org/values/1-360-823-2> , <http://ids.clld.org/values/1-222-823-1> , <http://ids.clld.org/values/2-330-823-3> , <http://ids.clld.org/values/1-890-823-1> , <http://ids.clld.org/values/1-560-823-1> , <http://ids.clld.org/values/1-390-823-1> , <http://ids.clld.org/values/2-460-823-2> , <http://ids.clld.org/values/2-250-823-1> , <http://ids.clld.org/values/2-445-823-1> , <http://ids.clld.org/values/1-214-823-1> , <http://ids.clld.org/values/2-350-823-1> , <http://ids.clld.org/values/1-280-823-1> , <http://ids.clld.org/values/1-590-823-1> , <http://ids.clld.org/values/2-470-823-2> , <http://ids.clld.org/values/2-512-823-2> , <http://ids.clld.org/values/1-430-823-1> , <http://ids.clld.org/values/2-310-823-1> , <http://ids.clld.org/values/2-230-823-1> , <http://ids.clld.org/values/1-730-823-1> , <http://ids.clld.org/values/2-330-823-1> , <http://ids.clld.org/values/1-640-823-1> , <http://ids.clld.org/values/2-480-823-1> , <http://ids.clld.org/values/1-630-823-1> , <http://ids.clld.org/values/2-220-823-1> , <http://ids.clld.org/values/2-444-823-1> , <http://ids.clld.org/values/2-521-823-2> , <http://ids.clld.org/values/1-212-823-1> , <http://ids.clld.org/values/2-341-823-1> , <http://ids.clld.org/values/2-471-823-1> , <http://ids.clld.org/values/2-511-823-1> , <http://ids.clld.org/values/2-320-823-1> , <http://ids.clld.org/values/1-324-823-1> , <http://ids.clld.org/values/4-170-823-1> , <http://ids.clld.org/values/2-610-823-1> , <http://ids.clld.org/values/1-750-823-1> , <http://ids.clld.org/values/2-456-823-1> , <http://ids.clld.org/values/1-880-823-1> , <http://ids.clld.org/values/1-220-823-2> , <http://ids.clld.org/values/2-611-823-1> , <http://ids.clld.org/values/1-720-823-1> , <http://ids.clld.org/values/2-330-823-2> , <http://ids.clld.org/values/1-310-823-1> , <http://ids.clld.org/values/2-490-823-1> , <http://ids.clld.org/values/2-460-823-1> , <http://ids.clld.org/values/2-280-823-1> , <http://ids.clld.org/values/17-560-823-1> , <http://ids.clld.org/values/2-512-823-1> , <http://ids.clld.org/values/1-530-823-1> , <http://ids.clld.org/values/2-461-823-1> , <http://ids.clld.org/values/2-420-823-1> , <http://ids.clld.org/values/1-860-823-1> , <http://ids.clld.org/values/2-522-823-2> , <http://ids.clld.org/values/2-511-823-3> , <http://ids.clld.org/values/2-470-823-1> , <http://ids.clld.org/values/1-740-823-1> , <http://ids.clld.org/values/2-560-823-1> , <http://ids.clld.org/values/1-213-823-1> , <http://ids.clld.org/values/2-260-823-1> , <http://ids.clld.org/values/1-852-823-1> , <http://ids.clld.org/values/2-455-823-1> , <http://ids.clld.org/values/1-220-823-1> , <http://ids.clld.org/values/1-840-823-1> , <http://ids.clld.org/values/2-261-823-1> , <http://ids.clld.org/values/1-830-823-3> , <http://ids.clld.org/values/1-410-823-1> , <http://ids.clld.org/values/1-851-823-1> , <http://ids.clld.org/values/2-410-823-1> , <http://ids.clld.org/values/1-370-823-1> , <http://ids.clld.org/values/2-270-823-1> , <http://ids.clld.org/values/1-240-823-1> , <http://ids.clld.org/values/2-251-823-1> , <http://ids.clld.org/values/2-621-823-1> , <http://ids.clld.org/values/1-810-823-1> , <http://ids.clld.org/values/1-360-823-1> , <http://ids.clld.org/values/2-540-823-1> , <http://ids.clld.org/values/2-522-823-1> , <http://ids.clld.org/values/1-210-823-1> , <http://ids.clld.org/values/2-620-823-1> , <http://ids.clld.org/values/1-830-823-1> , <http://ids.clld.org/values/1-215-823-1> , <http://ids.clld.org/values/1-520-823-1> , <http://ids.clld.org/values/2-530-823-1> , <http://ids.clld.org/values/2-210-823-1> , <http://ids.clld.org/values/2-454-823-1> , <http://ids.clld.org/values/1-270-823-1> , <http://ids.clld.org/values/1-580-823-1> , <http://ids.clld.org/values/1-550-823-1> , <http://ids.clld.org/values/1-540-823-1> , <http://ids.clld.org/values/2-100-823-1> , <http://ids.clld.org/values/1-362-823-1> , <http://ids.clld.org/values/4-760-823-1> , <http://ids.clld.org/values/2-511-823-2> , <http://ids.clld.org/values/1-510-823-1> .
+
+<http://ids.clld.org/values/1-360-823-2_c%C9%99r%C9%94%3Ak.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "cərɔ:k.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-420-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-420> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-420-823-1_k%C9%94%3An.1%20pukj.3> .
+
+<http://ids.clld.org/values/1-640-823-1_da%3Ak.3%20mw.2>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "da:k.3 mw.2"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-350-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-350-823-1_p%C9%A8.4> .
+
+<http://ids.clld.org/parameters/1-880>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "firewood" .
+
+<http://ids.clld.org/parameters/2-522>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "father's sister" .
+
+<http://ids.clld.org/parameters/2-330>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "marry" .
+
+<http://ids.clld.org/values/2-280-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-280> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-280-823-1_puc%C9%94%3Aj.3> .
+
+<http://ids.clld.org/values/1-750-823-1_k%C9%99m%C9%99a.2>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kəməa.2"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-621-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-621> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-621-823-1_me%C9%9B.4%20maku%3A%C5%84.3> .
+
+<http://ids.clld.org/parameters/2-280>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "infant, baby" .
+
+<http://ids.clld.org/values/2-621-823-1_me%C9%9B.4%20maku%3A%C5%84.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "meɛ.4 maku:ń.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/17-560>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "no, negative" .
+
+<http://ids.clld.org/values/1-550-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-550> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-550-823-1_ala%3Ar.3> .
+
+<http://ids.clld.org/values/1-362-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-362> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-362-823-1_da%3Ak.3%20thu%C9%99j.3> .
+
+<http://ids.clld.org/values/2-540-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-540> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-540-823-1_cw.3> .
+
+<http://ids.clld.org/parameters/1-220>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mountain, hill" .
+
+<http://ids.clld.org/parameters/4-170>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "horn" .
+
+<http://ids.clld.org/values/2-461-823-1_%CA%94o%3A%C5%8B.1%20kum%C9%99%CA%8Ck.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ʔo:ŋ.1 kuməʌk.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-470-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-470> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-470-823-1_za.1> .
+
+<http://ids.clld.org/values/2-521-823-1_na%3Aj.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "na:j.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-214-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-214> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-214-823-1_la%3Ar.4> .
+
+<http://ids.clld.org/parameters/1-362>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "whirlpool" .
+
+<http://ids.clld.org/parameters/2-530>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "nephew" .
+
+<http://ids.clld.org/values/2-512-823-1_pw.2>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pw.2"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-520-823-1_m%C9%99%CA%8Ct.4%20kara%3A%C5%8B.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "məʌt.4 kara:ŋ.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/2-480>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "grandson" .
+
+<http://ids.clld.org/parameters/1-270>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "shore" .
+
+<http://ids.clld.org/values/2-512-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-512> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-512-823-1_pw.2> .
+
+<http://ids.clld.org/values/2-470-823-2_na%3Aj.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "na:j.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-251-823-1_ba%3Aw.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ba:w.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-230-823-1_t%C9%A8k.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tɨk.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/1-370>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "spring, well" .
+
+<http://ids.clld.org/parameters/1-520>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sun" .
+
+<http://ids.clld.org/values/2-560-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-560> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-560-823-1_%CA%94o%3A%C5%8B.1%20pluok.4> .
+
+<http://ids.clld.org/values/2-490-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-490> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-490-823-1_cw.3> .
+
+<http://ids.clld.org/values/2-511-823-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-511> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-511-823-3_kw.4> .
+
+<http://ids.clld.org/values/1-214-823-1_la%3Ar.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "la:r.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-530-823-1_cw.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "cw.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-830-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-830> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-830-823-1_kah%C9%94%3Aj.3> .
+
+<http://ids.clld.org/values/2-350-823-1_p%C9%A8.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pɨ.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-320-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-320> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-320-823-1_makj.3> .
+
+<http://ids.clld.org/values/1-852-823-1_k%C9%A8c%C9%94h.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kɨcɔh.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/1-215>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sand" .
+
+<http://ids.clld.org/values/2-261-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-261> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-261-823-1_puma%3Aj.3> .
+
+<http://ids.clld.org/values/2-250-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-250> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-250-823-1_ba%3Aw.1> .
+
+<http://ids.clld.org/parameters/1-720>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wind" .
+
+<http://ids.clld.org/values/2-410-823-1_k%C9%94%3An.1%20puku%3A%C5%84.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kɔ:n.1 puku:ń.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-330-823-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-330> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-330-823-3_d%C9%94%3A%C5%8B.1> .
+
+<http://ids.clld.org/values/1-222-823-1_kup%C9%99%3A%C5%8B.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kupə:ŋ.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-511-823-2_ta.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ta.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-521-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-521> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-521-823-1_na%3Aj.1> .
+
+<http://ids.clld.org/values/1-220-823-2_do%3Al.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "do:l.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-880-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-880> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-880-823-1_ku%3Ar.1> .
+
+<http://ids.clld.org/parameters/2-454>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "older sister" .
+
+<http://ids.clld.org/parameters/2-220>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "woman" .
+
+<http://ids.clld.org/values/2-470-823-1_za.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "za.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-410-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-410> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-410-823-1_k%C9%94%3An.1%20puku%3A%C5%84.3> .
+
+<http://ids.clld.org/values/1-830-823-3_patj.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "patj.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/2-341>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "divorce" .
+
+<http://ids.clld.org/parameters/2-512>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "father's brother" .
+
+<http://ids.clld.org/parameters/2-320>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wife" .
+
+<http://ids.clld.org/values/2-270-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-270> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-270-823-1_k%C9%94%3An.1> .
+
+<http://ids.clld.org/values/4-170-823-1_kr%C9%A8%C5%8B>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "krɨŋ"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-852-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-852> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-852-823-1_k%C9%A8c%C9%94h.1> .
+
+<http://ids.clld.org/values/2-611-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-611> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-611-823-1_p%C9%A8.4%20maju%3A%C5%84.3> .
+
+<http://ids.clld.org/values/2-210-823-1_puku%3A%C5%84.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "puku:ń.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/2-270>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "child" .
+
+<http://ids.clld.org/values/1-540-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-540> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-540-823-1_kumi%3A%C5%8B.1> .
+
+<http://ids.clld.org/values/2-530-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-530> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-530-823-1_cw.3> .
+
+<http://ids.clld.org/parameters/2-420>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "daughter" .
+
+<http://ids.clld.org/values/1-730-823-1_m%C9%99l.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "məl.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/1-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "earth, land" .
+
+<http://ids.clld.org/values/2-460-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-460> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-460-823-1_pw.1> .
+
+<http://ids.clld.org/values/1-730-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-730> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-730-823-1_m%C9%99l.1> .
+
+<http://ids.clld.org/parameters/1-310>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "water" .
+
+<http://ids.clld.org/parameters/2-470>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "grandmother" .
+
+<http://ids.clld.org/values/1-590-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-590> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-590-823-1_ro%3A%C5%8B.1> .
+
+<http://ids.clld.org/parameters/2-620>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mother-in-law (of a man)" .
+
+<http://ids.clld.org/parameters/1-410>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "woods, forest" .
+
+<http://ids.clld.org/values/2-620-823-1_me%C9%9B.4%20makj.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "meɛ.4 makj.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-522-823-2>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-522> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-522-823-2_%CA%94%C9%94.1> .
+
+<http://ids.clld.org/values/1-324-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-324> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-324-823-1_p%C9%94h.p%C9%94h.1> .
+
+<http://ids.clld.org/values/2-610-823-1_p%C9%A8.4%20makj.%23>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pɨ.4 makj.#"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-620-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-620> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-620-823-1_me%C9%9B.4%20makj.3> .
+
+<http://ids.clld.org/values/2-454-823-1_cj.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "cj.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/1-360>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "river, stream, brook" .
+
+<http://ids.clld.org/parameters/1-510>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sky" .
+
+<http://ids.clld.org/values/1-720-823-1_kaj%C9%94.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kajɔ.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/4-760-823-1_kacit>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kacit"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-480-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-480> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-480-823-1_cw.3> .
+
+<http://ids.clld.org/values/1-880-823-1_ku%3Ar.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ku:r.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-213-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-213> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-213-823-1_k%C9%99h%C9%94%3Aj.3> .
+
+<http://ids.clld.org/values/1-270-823-1_kup%C9%99%3A%C5%8B.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kupə:ŋ.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-456-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-456> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-456-823-1_ce%C9%9B.4%20m%C9%99a%C5%8B.4> .
+
+<http://ids.clld.org/values/1-740-823-1_tulu%3Ak.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tulu:k.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-445-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-445> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-445-823-1_ce%C9%9B.4> .
+
+<http://ids.clld.org/values/1-750-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-750> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-750-823-1_k%C9%99m%C9%99a.2> .
+
+<http://ids.clld.org/values/2-310-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-310-823-1_m%C9%99ku%3A%C5%84.3> .
+
+<http://ids.clld.org/values/1-324-823-1_p%C9%94h.p%C9%94h.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pɔh.pɔh.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/17-560-823-1_lata.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "lata.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-251-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-251> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-251-823-1_ba%3Aw.1> .
+
+<http://ids.clld.org/parameters/1-560>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "thunder" .
+
+<http://ids.clld.org/values/2-240-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-240> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-240-823-1_kj.3> .
+
+<http://ids.clld.org/values/1-810-823-1_ku%3Ar.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ku:r.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-511-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-511> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-511-823-1_ta.1> .
+
+<http://ids.clld.org/values/1-550-823-1_ala%3Ar.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ala:r.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/1-852>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "burn (vb intrans)" .
+
+<http://ids.clld.org/parameters/1-810>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fire" .
+
+<http://ids.clld.org/parameters/4-760>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "kill" .
+
+<http://ids.clld.org/parameters/2-444>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "older brother" .
+
+<http://ids.clld.org/values/1-370-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-370> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-370-823-1_ru%3Ak.4> .
+
+<http://ids.clld.org/parameters/1-213>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "dust" .
+
+<http://ids.clld.org/values/2-611-823-1_p%C9%A8.4%20maju%3A%C5%84.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pɨ.4 maju:ń.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-222-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-222> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-222-823-1_kup%C9%99%3A%C5%8B.1> .
+
+<http://ids.clld.org/parameters/2-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "man (vs. woman)" .
+
+<http://ids.clld.org/values/2-454-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-454> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-454-823-1_cj.4> .
+
+<http://ids.clld.org/values/1-215-823-1_t%C9%99ka%3Ac.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "təka:c.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-560-823-1_%CA%94o%3A%C5%8B.1%20pluok.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ʔo:ŋ.1 pluok.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-460-823-1_pw.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pw.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-330-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-330> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-330-823-1_lj.4%20makj.3> .
+
+<http://ids.clld.org/parameters/1-860>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "light, kindle, ignite" .
+
+<http://ids.clld.org/values/2-260-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-260> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-260-823-1_puma%3Aj.3> .
+
+<http://ids.clld.org/parameters/2-310>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "husband" .
+
+<http://ids.clld.org/values/2-250-823-1_ba%3Aw.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ba:w.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-220-823-1_pukj.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pukj.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-530-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-530> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-530-823-1_pul%C9%99an.2> .
+
+<http://ids.clld.org/values/2-490-823-1_cw.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "cw.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/2-260>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "girl" .
+
+<http://ids.clld.org/values/2-444-823-1_m%C9%99a%C5%8B.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "məaŋ.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/2-410>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "son" .
+
+<http://ids.clld.org/values/1-890-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-890> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-890-823-1_la%C5%8B.ca%C5%8B.1> .
+
+<http://ids.clld.org/values/2-470-823-2>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-470> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-470-823-2_na%3Aj.1> .
+
+<http://ids.clld.org/values/1-390-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-390> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-390-823-1_tha%3Ak.3%20da%3Ak.3> .
+
+<http://ids.clld.org/values/1-212-823-1_b%C9%99%3An.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "bə:n.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-720-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-720> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-720-823-1_kaj%C9%94.3> .
+
+<http://ids.clld.org/values/1-220-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-220> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-220-823-1_c%C9%A8%3At.3> .
+
+<http://ids.clld.org/values/2-100-823-1_%C5%8Ba%3Aj.2>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ŋa:j.2"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/2-460>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "grandfather" .
+
+<http://ids.clld.org/values/1-580-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-580> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-580-823-1_pa%3Aw.4> .
+
+<http://ids.clld.org/values/4-760-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-760> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-760-823-1_kacit> .
+
+<http://ids.clld.org/parameters/2-610>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "father-in-law (of a man)" .
+
+<http://ids.clld.org/values/2-512-823-2>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-512> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-512-823-2_po%C9%94.4> .
+
+<http://ids.clld.org/values/2-610-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-610> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-610-823-1_p%C9%A8.4%20makj.%23> .
+
+<http://ids.clld.org/values/1-851-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-851> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-851-823-1_tu%3Ac.3> .
+
+<http://ids.clld.org/parameters/2-560>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "ancestors" .
+
+<http://ids.clld.org/values/2-240-823-1_kj.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kj.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-310-823-1_m%C9%99ku%3A%C5%84.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "məku:ń.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-830-823-2>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-830> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-830-823-2_cama%C5%8B.1> .
+
+<http://ids.clld.org/values/1-810-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-810> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-810-823-1_ku%3Ar.1> .
+
+<http://ids.clld.org/values/1-890-823-1_la%C5%8B.ca%C5%8B.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "laŋ.caŋ.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-740-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-740> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-740-823-1_tulu%3Ak.3> .
+
+<http://ids.clld.org/values/1-310-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-310-823-1_da%3Ak.3> .
+
+<http://ids.clld.org/values/2-456-823-1_ce%C9%9B.4%20m%C9%99a%C5%8B.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ceɛ.4 məaŋ.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-240-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-240> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-240-823-1_ulu%3A%C5%8B.1> .
+
+<http://ids.clld.org/values/2-230-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-230> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-230-823-1_t%C9%A8k.4> .
+
+<http://ids.clld.org/parameters/1-550>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "lightning" .
+
+<http://ids.clld.org/values/2-512-823-2_po%C9%94.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "poɔ.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-261-823-1_puma%3Aj.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "puma:j.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-521-823-2>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-521> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-521-823-2_m%C9%A8.4> .
+
+<http://ids.clld.org/values/1-860-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-860> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-860-823-1_tu%3Ac.3> .
+
+<http://ids.clld.org/values/1-430-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-430> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-430-823-1_k%C9%99%CA%8Cj.2> .
+
+<http://ids.clld.org/parameters/2-100>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "person, human being" .
+
+<http://ids.clld.org/parameters/2-455>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "younger sister" .
+
+<http://ids.clld.org/values/1-360-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-360> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-360-823-1_ju%3A%C5%8B.4> .
+
+<http://ids.clld.org/values/1-280-823-1_k%C9%A8%3Ap.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kɨ:p.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/1-750>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "rain (noun)" .
+
+<http://ids.clld.org/values/2-460-823-2_ta.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ta.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-455-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-455> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-455-823-1_ce%C9%9B.%24> .
+
+<http://ids.clld.org/values/1-212-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-212> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-212-823-1_b%C9%99%3An.3> .
+
+<http://ids.clld.org/values/2-444-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-444> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-444-823-1_m%C9%99a%C5%8B.4> .
+
+<http://ids.clld.org/values/1-630-823-1_p%C9%94%3A%C5%8B.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pɔ:ŋ.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-522-823-1_ja.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ja.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/1-324>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "foam" .
+
+<http://ids.clld.org/values/1-430-823-1_k%C9%99%CA%8Cj.2>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kəʌj.2"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-445-823-1_ce%C9%9B.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ceɛ.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-330-823-1_lj.4%20makj.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "lj.4 makj.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/2-250>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "boy" .
+
+<http://ids.clld.org/values/1-520-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-520> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-520-823-1_m%C9%99%CA%8Ct.4%20kara%3A%C5%8B.1> .
+
+<http://ids.clld.org/values/2-521-823-2_m%C9%A8.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "mɨ.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-851-823-1_tu%3Ac.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tu:c.3"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/1-840-823-1_tapeh.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tapeh.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/values/2-460-823-2>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-460> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-460-823-2_ta.1> .
+
+<http://ids.clld.org/values/1-560-823-1_kr%C9%A8%3Am.4>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "krɨ:m.4"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/2-350>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "father" .
+
+<http://ids.clld.org/parameters/2-521>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mother's sister" .
+
+<http://ids.clld.org/values/1-640-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-640> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-640-823-1_da%3Ak.3%20mw.2> .
+
+<http://ids.clld.org/parameters/2-471>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "old woman" .
+
+<http://ids.clld.org/values/1-210-823-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:rucc1239 ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-210-823-1_b%C9%99%3An.3> .
+
+<http://ids.clld.org/parameters/2-621>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mother-in-law (of a woman)" .
+
+<http://ids.clld.org/values/1-590-823-1_ro%3A%C5%8B.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ro:ŋ.1"@scb-x-rucc1239 .
+
+<http://ids.clld.org/parameters/1-240>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "valley" .
+
+<http://ids.clld.org/values/2-260-823-1_puma%3Aj.3>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "puma:j.3"@scb-x-rucc1239 .
