@@ -1,0 +1,1401 @@
+@prefix bcp47: <https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:  <http://www.w3.org/ns/lemon/lime#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix lexvo3: <http://lexvo.org/id/iso639-3/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lexvo1: <http://lexvo.org/id/iso639-1/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix terms: <http://cldf.clld.org/v1.0/terms.rdf#> .
+@prefix sil:   <https://iso639-3.sil.org/code/> .
+@prefix lexvo: <http://lexvo.org/id/iso639-3/> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix glottolog: <https://glottolog.org/resource/languoid/id/> .
+
+<http://ids.clld.org/parameters/5-550>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "meal, flour" .
+
+<http://ids.clld.org/values/4-440-280-1_howi%27ti>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "howi'ti"@pcp .
+
+<http://ids.clld.org/values/2-930-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-930> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-930-280-1_%27haa> .
+
+<http://ids.clld.org/values/4-150-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-150> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-150-280-1_%27himi> .
+
+<http://ids.clld.org/values/1-510-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-510> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-510-280-1_na%27ipa> .
+
+<http://ids.clld.org/parameters/4-440>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "heart" .
+
+<http://ids.clld.org/values/2-360-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-360> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-360-280-1_%27kai> .
+
+<http://ids.clld.org/values/3-592-280-1_%27wawa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'wawa"@pcp .
+
+<http://ids.clld.org/values/1-420-280-1_%27hiwi>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'hiwi"@pcp .
+
+<http://ids.clld.org/parameters/1-540>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "star" .
+
+<http://ids.clld.org/values/1-560-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-560> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-560-280-1_%27naina> .
+
+<http://ids.clld.org/values/1-310-280-1_%27h%C9%A8n%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'hɨnɨ"@pcp .
+
+<http://ids.clld.org/values/15-640-280-1_%27hos%CC%8C%CC%A3o>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'hoṣ̌o"@pcp .
+
+<http://ids.clld.org/values/4-310-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-310-280-1_po%27yana> .
+
+<http://ids.clld.org/parameters/9-250>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "ax" .
+
+<http://ids.clld.org/values/4-240-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-240> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-240-280-1_k%C9%A8%27w%C9%A8c%CC%8Ci> .
+
+<http://ids.clld.org/values/15-350-280-1_t%C9%A8%27%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tɨ'ɨ"@pcp .
+
+<http://ids.clld.org/values/15-780-280-1_%27%C9%A8ika>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ɨika"@pcp .
+
+<http://ids.clld.org/values/4-120-280-1_%27wic%CC%8Ci>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'wiči"@pcp .
+
+<http://ids.clld.org/values/4-441-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-441> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-441-280-1_%27tas%CC%8C%CC%A3a> .
+
+<http://ids.clld.org/values/9-190-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-190> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-190-280-1_%27tas%CC%8Cka> .
+
+<http://ids.clld.org/values/1-540-280-1_%27wis%CC%8Ctima>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'wištima"@pcp .
+
+<http://ids.clld.org/values/8-600-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-600> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-600-280-1_%27hiwi> .
+
+<http://ids.clld.org/parameters/5-140>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hunger" .
+
+<http://ids.clld.org/values/2-350-280-3_%27%CA%94%C9%A8pa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ʔɨpa"@pcp .
+
+<http://ids.clld.org/parameters/1-840>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "ashes" .
+
+<http://ids.clld.org/values/4-208-280-1_%27tamo>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'tamo"@pcp .
+
+<http://ids.clld.org/values/2-210-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-210-280-1_%27honi> .
+
+<http://ids.clld.org/values/4-142-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-142> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-142-280-1_%27k%C9%A8ni> .
+
+<http://ids.clld.org/values/2-930-280-1_%27haa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'haa"@pcp .
+
+<http://ids.clld.org/values/1-840-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-840> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-840-280-1_%27mis%CC%8Cpo> .
+
+<http://ids.clld.org/values/15-550-280-1_hi-%27maki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "hi-'maki"@pcp .
+
+<http://ids.clld.org/values/9-360-280-1_%27as%CC%8Ci>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'aši"@pcp .
+
+<http://ids.clld.org/values/6-240-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/6-240> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/6-240-280-1_was%CC%8C%CC%A3%27m%C9%A8na> .
+
+<http://ids.clld.org/parameters/3-592>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "parrot" .
+
+<http://ids.clld.org/values/3-831-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-831> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-831-280-1_%27s%CC%8Cio> .
+
+<http://ids.clld.org/values/3-831-280-1_%27s%CC%8Cio>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'šio"@pcp .
+
+<http://ids.clld.org/values/15-550-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-550> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-550-280-1_hi-%27maki> .
+
+<http://ids.clld.org/parameters/3-550>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "chicken" .
+
+<http://ids.clld.org/values/4-240-280-1_k%C9%A8%27w%C9%A8c%CC%8Ci>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kɨ'wɨči"@pcp .
+
+<http://ids.clld.org/values/4-450-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-450> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-450-280-1_%27taka> .
+
+<http://ids.clld.org/parameters/4-230>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "nose" .
+
+<http://ids.clld.org/parameters/3-650>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fish" .
+
+<http://ids.clld.org/parameters/8-540>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "root" .
+
+<http://ids.clld.org/values/8-120-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-120> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-120-280-1_%27wai> .
+
+<http://ids.clld.org/parameters/15-780>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sharp" .
+
+<http://ids.clld.org/values/9-110-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-110> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-110-280-1_i%27w%C9%A8> .
+
+<http://ids.clld.org/values/1-520-280-1_%27war%CC%8Ci>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'waři"@pcp .
+
+<http://ids.clld.org/values/4-142-280-1_%27k%C9%A8ni>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'kɨni"@pcp .
+
+<http://ids.clld.org/values/8-810-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-810> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-810-280-1_%27koti> .
+
+<http://ids.clld.org/values/3-650-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-650> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-650-280-1_sa%27nino> .
+
+<http://ids.clld.org/parameters/13-20>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "two" .
+
+<http://ids.clld.org/parameters/3-750>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "deer" .
+
+<http://ids.clld.org/parameters/4-330>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hand" .
+
+<http://ids.clld.org/values/4-210-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-210-280-1_%27w%C9%A8r%CC%8Co> .
+
+<http://ids.clld.org/values/3-580-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-580> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-580-280-1_%27na%CA%94a> .
+
+<http://ids.clld.org/values/4-140-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-140> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-140-280-1_%27woo> .
+
+<http://ids.clld.org/values/9-780-280-1_%27sota>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'sota"@pcp .
+
+<http://ids.clld.org/values/2-350-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-350-280-1_%27%C9%A8pa> .
+
+<http://ids.clld.org/values/3-581-280-1_%27isko>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'isko"@pcp .
+
+<http://ids.clld.org/values/3-550-280-1_pati%27ar%CC%8Ci>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pati'aři"@pcp .
+
+<http://ids.clld.org/values/4-330-280-1_m%C9%A8%27k%C9%A8na>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "mɨ'kɨna"@pcp .
+
+<http://ids.clld.org/values/2-280-280-1_%27wak%C9%A8%20%27pistia>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'wakɨ 'pistia"@pcp .
+
+<http://ids.clld.org/values/8-920-280-1_%27ac%CC%B7a>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ac̷a"@pcp .
+
+<http://ids.clld.org/values/2-280-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-280> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-280-280-1_%27wak%C9%A8%20%27pistia> .
+
+<http://ids.clld.org/values/14-410-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/14-410> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/14-410-280-1_%27war%CC%8Ci> .
+
+<http://ids.clld.org/parameters/3-950>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "frog" .
+
+<http://ids.clld.org/values/1-510-280-1_na%27ipa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "na'ipa"@pcp .
+
+<http://ids.clld.org/values/3-596-280-1_%27popo>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'popo"@pcp .
+
+<http://ids.clld.org/parameters/1-530>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "moon" .
+
+<http://ids.clld.org/values/4-230-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-230> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-230-280-1_r%CC%8C%C9%A8%27kina> .
+
+<http://ids.clld.org/parameters/10-831>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "canoe" .
+
+<http://ids.clld.org/values/4-160-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-160> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-160-280-1_%27s%CC%8C%CC%A3ao> .
+
+<http://ids.clld.org/parameters/6-240>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "cotton" .
+
+<http://ids.clld.org/parameters/9-190>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "rope, cord" .
+
+<http://ids.clld.org/values/9-250-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-250> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-250-280-1_%5Bhac%CC%8Ca%5D> .
+
+<http://ids.clld.org/parameters/1-730>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "cloud" .
+
+<http://ids.clld.org/values/4-370-280-1_%27ta%CA%94%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'taʔɨ"@pcp .
+
+<http://ids.clld.org/values/1-750-280-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-750> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-750-280-3_%CA%94o%27i> .
+
+<http://ids.clld.org/values/4-350-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-350-280-1_%27wiko> .
+
+<http://ids.clld.org/values/4-270-280-1_%27s%CC%8C%CC%A3%C9%A8na>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ṣ̌ɨna"@pcp .
+
+<http://ids.clld.org/parameters/1-830>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "smoke (noun)" .
+
+<http://ids.clld.org/values/1-210-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-210> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-210-280-1_%27mai> .
+
+<http://ids.clld.org/values/3-980-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-980> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-980-280-1_%27s%CC%8C%CC%A3aw%C9%A8> .
+
+<http://ids.clld.org/values/8-540-280-1_ta%27pono>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ta'pono"@pcp .
+
+<http://ids.clld.org/values/3-550-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-550> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-550-280-1_pati%27ar%CC%8Ci> .
+
+<http://ids.clld.org/parameters/14-410>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "day" .
+
+<http://ids.clld.org/values/13-20-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/13-20> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/13-20-280-1_ra%27w%C9%A8> .
+
+<http://ids.clld.org/values/1-830-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-830> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-830-280-1_ko%27%CA%94ina> .
+
+<http://ids.clld.org/values/3-650-280-1_sa%27nino>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "sa'nino"@pcp .
+
+<http://ids.clld.org/parameters/7-120>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "house" .
+
+<https://ids.clld.org/download>
+        a                          lime:Lexicon ;
+        dct:bibliographicCitation  "KeyMary Ritchie & ComrieBernard (eds.) 2015.\nThe Intercontinental Dictionary Series.\nLeipzig: Max Planck Institute for Evolutionary Anthropology.\n(Available online at http://ids.clld.orgAccessed on 2018-04-19.)\n" ;
+        dct:creator                "KeyMary Ritchie & ComrieBernard" ;
+        dct:identifier             "http://ids.clld.org/" ;
+        dct:issued                 "2015-05-25" ;
+        dct:license                "http://creativecommons.org/licenses/by/4.0/" ;
+        dct:publisher              "Max Planck Institute for Evolutionary AnthropologyLeipzig" ;
+        dct:source                 "sources.bib" ;
+        dct:title                  "IDS" ;
+        lime:entry                 <http://ids.clld.org/values/12-440-280-1> , <http://ids.clld.org/values/13-20-280-1> , <http://ids.clld.org/values/4-150-280-1> , <http://ids.clld.org/values/14-410-280-1> , <http://ids.clld.org/values/3-831-280-3> , <http://ids.clld.org/values/4-330-280-1> , <http://ids.clld.org/values/4-220-280-1> , <http://ids.clld.org/values/4-120-280-1> , <http://ids.clld.org/values/15-780-280-1> , <http://ids.clld.org/values/4-160-280-1> , <http://ids.clld.org/values/3-832-280-1> , <http://ids.clld.org/values/1-420-280-1> , <http://ids.clld.org/values/12-850-280-1> , <http://ids.clld.org/values/3-550-280-1> , <http://ids.clld.org/values/15-510-280-1> , <http://ids.clld.org/values/3-586-280-1> , <http://ids.clld.org/values/3-823-280-1> , <http://ids.clld.org/values/3-750-280-1> , <http://ids.clld.org/values/5-710-280-1> , <http://ids.clld.org/values/4-140-280-1> , <http://ids.clld.org/values/1-540-280-1> , <http://ids.clld.org/values/9-190-280-1> , <http://ids.clld.org/values/9-780-280-1> , <http://ids.clld.org/values/4-200-280-1> , <http://ids.clld.org/values/2-350-280-3> , <http://ids.clld.org/values/8-570-280-3> , <http://ids.clld.org/values/8-560-280-1> , <http://ids.clld.org/values/15-660-280-1> , <http://ids.clld.org/values/5-550-280-1> , <http://ids.clld.org/values/1-880-280-1> , <http://ids.clld.org/values/4-450-280-1> , <http://ids.clld.org/values/9-220-280-1> , <http://ids.clld.org/values/5-140-280-1> , <http://ids.clld.org/values/1-750-280-1> , <http://ids.clld.org/values/9-270-280-1> , <http://ids.clld.org/values/1-310-280-1> , <http://ids.clld.org/values/15-510-280-3> , <http://ids.clld.org/values/2-280-280-1> , <http://ids.clld.org/values/1-520-280-1> , <http://ids.clld.org/values/3-831-280-1> , <http://ids.clld.org/values/1-840-280-1> , <http://ids.clld.org/values/1-360-280-3> , <http://ids.clld.org/values/9-110-280-1> , <http://ids.clld.org/values/8-470-280-1> , <http://ids.clld.org/values/4-310-280-1> , <http://ids.clld.org/values/8-810-280-1> , <http://ids.clld.org/values/15-550-280-1> , <http://ids.clld.org/values/6-240-280-1> , <http://ids.clld.org/values/5-970-280-1> , <http://ids.clld.org/values/3-650-280-1> , <http://ids.clld.org/values/4-260-280-1> , <http://ids.clld.org/values/3-650-280-3> , <http://ids.clld.org/values/9-250-280-1> , <http://ids.clld.org/values/3-980-280-1> , <http://ids.clld.org/values/8-120-280-1> , <http://ids.clld.org/values/3-580-280-1> , <http://ids.clld.org/values/4-230-280-1> , <http://ids.clld.org/values/1-530-280-1> , <http://ids.clld.org/values/8-600-280-1> , <http://ids.clld.org/values/3-950-280-1> , <http://ids.clld.org/values/2-930-280-1> , <http://ids.clld.org/values/1-560-280-1> , <http://ids.clld.org/values/4-370-280-1> , <http://ids.clld.org/values/3-810-280-1> , <http://ids.clld.org/values/15-810-280-1> , <http://ids.clld.org/values/2-910-280-1> , <http://ids.clld.org/values/7-120-280-1> , <http://ids.clld.org/values/3-596-280-1> , <http://ids.clld.org/values/4-142-280-1> , <http://ids.clld.org/values/2-350-280-1> , <http://ids.clld.org/values/12-560-280-1> , <http://ids.clld.org/values/1-810-280-1> , <http://ids.clld.org/values/15-640-280-1> , <http://ids.clld.org/values/1-750-280-3> , <http://ids.clld.org/values/9-360-280-1> , <http://ids.clld.org/values/2-310-280-1> , <http://ids.clld.org/values/3-581-280-1> , <http://ids.clld.org/values/1-510-280-1> , <http://ids.clld.org/values/10-831-280-1> , <http://ids.clld.org/values/2-360-280-1> , <http://ids.clld.org/values/4-240-280-1> , <http://ids.clld.org/values/2-220-280-1> , <http://ids.clld.org/values/15-350-280-1> , <http://ids.clld.org/values/3-592-280-1> , <http://ids.clld.org/values/4-270-280-1> , <http://ids.clld.org/values/8-540-280-1> , <http://ids.clld.org/values/2-210-280-1> , <http://ids.clld.org/values/1-830-280-1> , <http://ids.clld.org/values/4-350-280-1> , <http://ids.clld.org/values/1-730-280-1> , <http://ids.clld.org/values/2-320-280-1> , <http://ids.clld.org/values/8-570-280-1> , <http://ids.clld.org/values/8-920-280-1> , <http://ids.clld.org/values/4-441-280-1> , <http://ids.clld.org/values/1-210-280-1> , <http://ids.clld.org/values/4-208-280-1> , <http://ids.clld.org/values/4-440-280-1> , <http://ids.clld.org/values/4-210-280-1> , <http://ids.clld.org/values/6-760-280-1> , <http://ids.clld.org/values/1-360-280-1> .
+
+<http://ids.clld.org/values/4-310-280-1_po%27yana>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "po'yana"@pcp .
+
+<http://ids.clld.org/parameters/4-120>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "skin, hide" .
+
+<http://ids.clld.org/values/2-360-280-1_%27kai>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'kai"@pcp .
+
+<http://ids.clld.org/parameters/1-880>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "firewood" .
+
+<http://ids.clld.org/values/4-350-280-1_%27wiko>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'wiko"@pcp .
+
+<http://ids.clld.org/values/4-440-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-440> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-440-280-1_howi%27ti> .
+
+<http://ids.clld.org/parameters/4-220>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "ear" .
+
+<http://ids.clld.org/values/3-832-280-1_%27wii>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'wii"@pcp .
+
+<http://ids.clld.org/parameters/3-832>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mosquito" .
+
+<http://ids.clld.org/parameters/2-280>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "infant, baby" .
+
+<http://ids.clld.org/values/5-710-280-1_%27k%C9%A8o>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'kɨo"@pcp .
+
+<http://ids.clld.org/values/1-750-280-1_o%27i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "o'i"@pcp .
+
+<http://ids.clld.org/values/3-980-280-1_%27s%CC%8C%CC%A3aw%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ṣ̌awɨ"@pcp .
+
+<http://ids.clld.org/values/4-200-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-200> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-200-280-1_%27mapo> .
+
+<http://ids.clld.org/values/2-910-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-910> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-910-280-1_%27%C9%A8a> .
+
+<http://ids.clld.org/values/3-750-280-1_%27c%CC%8Cas%CC%8C%CC%A3o>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'čaṣ̌o"@pcp .
+
+<http://ids.clld.org/parameters/4-270>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tooth" .
+
+<http://ids.clld.org/parameters/4-441>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "lung" .
+
+<http://ids.clld.org/parameters/1-420>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tree (cf 08.600)" .
+
+<http://ids.clld.org/parameters/4-370>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "foot" .
+
+<http://ids.clld.org/values/5-970-280-1_%27wac%CC%8Ci>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'wači"@pcp .
+
+<http://ids.clld.org/values/4-140-280-1_%27woo>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'woo"@pcp .
+
+<http://ids.clld.org/values/2-310-280-1_%27w%C9%A8n%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'wɨnɨ"@pcp .
+
+<http://ids.clld.org/values/3-596-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-596> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-596-280-1_%27popo> .
+
+<http://ids.clld.org/parameters/1-520>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sun" .
+
+<http://ids.clld.org/values/1-540-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-540> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-540-280-1_%27wis%CC%8Ctima> .
+
+<http://ids.clld.org/values/5-710-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-710> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-710-280-1_%27k%C9%A8o> .
+
+<http://ids.clld.org/values/6-240-280-1_was%CC%8C%CC%A3%27m%C9%A8na>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "waṣ̌'mɨna"@pcp .
+
+<http://ids.clld.org/values/13-20-280-1_ra%27w%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ra'wɨ"@pcp .
+
+<http://ids.clld.org/values/1-880-280-1_%27kar%CC%8Co>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'kařo"@pcp .
+
+<http://ids.clld.org/values/1-530-280-1_%27%CA%94os%CC%8C%CC%A3%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ʔoṣ̌ɨ"@pcp .
+
+<http://ids.clld.org/values/4-220-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-220> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-220-280-1_%27pa%CA%94oki> .
+
+<http://ids.clld.org/values/9-190-280-1_%27tas%CC%8Cka>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'taška"@pcp .
+
+<http://ids.clld.org/values/1-210-280-1_%27mai>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'mai"@pcp .
+
+<http://ids.clld.org/values/5-140-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-140> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-140-280-1_pas%CC%8C%CC%A3na%27hai> .
+
+<http://ids.clld.org/values/1-360-280-3_%27pao>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'pao"@pcp .
+
+<http://ids.clld.org/values/8-600-280-1_%27hiwi>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'hiwi"@pcp .
+
+<http://ids.clld.org/parameters/2-930>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "he/she/it" .
+
+<http://ids.clld.org/parameters/8-120>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "field (for cultivation)" .
+
+<http://ids.clld.org/values/3-592-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-592> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-592-280-1_%27wawa> .
+
+<http://ids.clld.org/parameters/15-510>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "see" .
+
+<http://ids.clld.org/values/6-760-280-1_%27kisi>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'kisi"@pcp .
+
+<http://ids.clld.org/values/3-586-280-1_po%27iko>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "po'iko"@pcp .
+
+<http://ids.clld.org/values/2-350-280-1_%27%C9%A8pa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ɨpa"@pcp .
+
+<http://ids.clld.org/values/4-270-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-270> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-270-280-1_%27s%CC%8C%CC%A3%C9%A8na> .
+
+<http://ids.clld.org/values/8-470-280-1_%27s%CC%8C%CC%A3%C9%A8ki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ṣ̌ɨki"@pcp .
+
+<http://ids.clld.org/values/12-850-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-850> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-850-280-1_%27kini> .
+
+<http://ids.clld.org/parameters/2-220>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "woman" .
+
+<http://ids.clld.org/values/8-810-280-1_%27koti>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'koti"@pcp .
+
+<http://ids.clld.org/values/1-360-280-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-360> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-360-280-3_%27pao> .
+
+<http://ids.clld.org/values/1-750-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-750> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-750-280-1_o%27i> .
+
+<http://ids.clld.org/parameters/12-560>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "small, little" .
+
+<http://ids.clld.org/values/5-550-280-1_%27moto>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'moto"@pcp .
+
+<http://ids.clld.org/parameters/2-320>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wife" .
+
+<http://ids.clld.org/parameters/15-660>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "red" .
+
+<http://ids.clld.org/parameters/15-810>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "heavy" .
+
+<http://ids.clld.org/values/8-570-280-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-570> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-570-280-3_r%CC%8Ces%CC%8C%CC%A3%27pana> .
+
+<http://ids.clld.org/values/1-830-280-1_ko%27%CA%94ina>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ko'ʔina"@pcp .
+
+<http://ids.clld.org/parameters/4-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "eye" .
+
+<http://ids.clld.org/values/1-360-280-1_%27%CA%94ani>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ʔani"@pcp .
+
+<http://ids.clld.org/values/10-831-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-831> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-831-280-1_%27noti> .
+
+<http://ids.clld.org/parameters/1-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "earth, land" .
+
+<http://ids.clld.org/parameters/4-160>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bone" .
+
+<http://ids.clld.org/parameters/3-580>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "nest" .
+
+<http://ids.clld.org/parameters/8-470>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "maize, corn" .
+
+<http://ids.clld.org/parameters/4-310>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "arm" .
+
+<http://ids.clld.org/values/5-970-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-970> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-970-280-1_%27wac%CC%8Ci> .
+
+<http://ids.clld.org/values/4-120-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-120> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-120-280-1_%27wic%CC%8Ci> .
+
+<http://ids.clld.org/values/12-440-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-440> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-440-280-1_n%C9%A8%27ama> .
+
+<http://ids.clld.org/values/2-210-280-1_%27honi>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'honi"@pcp .
+
+<http://ids.clld.org/parameters/1-310>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "water" .
+
+<http://ids.clld.org/parameters/9-780>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "netbag" .
+
+<http://ids.clld.org/parameters/4-260>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tongue" .
+
+<http://ids.clld.org/values/15-810-280-1_%27iw%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'iwɨ"@pcp .
+
+<http://ids.clld.org/parameters/8-570>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "flower" .
+
+<http://ids.clld.org/values/3-750-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-750> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-750-280-1_%27c%CC%8Cas%CC%8C%CC%A3o> .
+
+<http://ids.clld.org/values/2-220-280-1_%27yos%CC%8C%CC%A3a>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'yoṣ̌a"@pcp .
+
+<http://ids.clld.org/values/8-570-280-3_r%CC%8Ces%CC%8C%CC%A3%27pana>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "řeṣ̌'pana"@pcp .
+
+<http://ids.clld.org/values/15-810-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-810> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-810-280-1_%27iw%C9%A8> .
+
+<http://ids.clld.org/values/9-270-280-1_ma%27tos%CC%8Cmaki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ma'tošmaki"@pcp .
+
+<http://ids.clld.org/values/15-510-280-3_%27hisna>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'hisna"@pcp .
+
+<http://ids.clld.org/values/12-560-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/12-560> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/12-560-280-1_%27mis%CC%8Cni> .
+
+<http://ids.clld.org/parameters/1-360>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "river, stream, brook" .
+
+<http://ids.clld.org/values/15-660-280-1_%27s%CC%8Cini>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'šini"@pcp .
+
+<http://ids.clld.org/values/3-586-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-586> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-586-280-1_po%27iko> .
+
+<http://ids.clld.org/values/1-530-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-530> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-530-280-1_%27%CA%94os%CC%8C%CC%A3%C9%A8> .
+
+<http://ids.clld.org/parameters/1-510>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sky" .
+
+<http://ids.clld.org/values/12-560-280-1_%27mis%CC%8Cni>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'mišni"@pcp .
+
+<http://ids.clld.org/values/3-580-280-1_%27na%CA%94a>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'naʔa"@pcp .
+
+<http://ids.clld.org/parameters/9-220>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "cut" .
+
+<http://ids.clld.org/parameters/8-920>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tapioca, manioc, cassava" .
+
+<http://ids.clld.org/values/9-110-280-1_i%27w%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "i'wɨ"@pcp .
+
+<http://ids.clld.org/parameters/3-980>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "turtle" .
+
+<http://ids.clld.org/values/1-750-280-3_%CA%94o%27i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ʔo'i"@pcp .
+
+<http://ids.clld.org/parameters/3-596>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "owl" .
+
+<http://ids.clld.org/parameters/1-560>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "thunder" .
+
+<http://ids.clld.org/values/15-510-280-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-510> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-510-280-3_%27hisna> .
+
+<http://ids.clld.org/parameters/15-350>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sweet" .
+
+<http://ids.clld.org/values/3-810-280-1_w%C9%A8%27oso>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "wɨ'oso"@pcp .
+
+<http://ids.clld.org/values/8-120-280-1_%27wai>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'wai"@pcp .
+
+<http://ids.clld.org/values/4-330-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-330> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-330-280-1_m%C9%A8%27k%C9%A8na> .
+
+<http://ids.clld.org/parameters/9-270>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "split" .
+
+<http://ids.clld.org/values/7-120-280-1_%27s%CC%8C%CC%A3owo>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ṣ̌owo"@pcp .
+
+<http://ids.clld.org/values/3-650-280-3_%27wo%C9%A8>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'woɨ"@pcp .
+
+<http://ids.clld.org/values/4-260-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-260> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-260-280-1_%27hana> .
+
+<http://ids.clld.org/parameters/5-970>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "egg" .
+
+<http://ids.clld.org/parameters/1-810>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fire" .
+
+<http://ids.clld.org/values/9-780-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-780> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-780-280-1_%27sota> .
+
+<http://ids.clld.org/values/14-410-280-1_%27war%CC%8Ci>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'waři"@pcp .
+
+<http://ids.clld.org/parameters/2-210>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "man (vs. woman)" .
+
+<http://ids.clld.org/values/1-810-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-810> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-810-280-1_%27c%CC%8Ci%CA%94i> .
+
+<http://ids.clld.org/parameters/15-550>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "show" .
+
+<http://ids.clld.org/parameters/4-142>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "beard" .
+
+<http://ids.clld.org/values/9-220-280-1_%27k%C9%A8%C9%A8sakia>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'kɨɨsakia"@pcp .
+
+<http://ids.clld.org/values/4-150-280-1_%27himi>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'himi"@pcp .
+
+<http://ids.clld.org/values/1-310-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-310-280-1_%27h%C9%A8n%C9%A8> .
+
+<http://ids.clld.org/values/10-831-280-1_%27noti>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'noti"@pcp .
+
+<http://ids.clld.org/parameters/2-310>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "husband" .
+
+<http://ids.clld.org/values/8-570-280-1_%27hoa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'hoa"@pcp .
+
+<http://ids.clld.org/values/4-450-280-1_%27taka>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'taka"@pcp .
+
+<http://ids.clld.org/values/4-210-280-1_%27w%C9%A8r%CC%8Co>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'wɨřo"@pcp .
+
+<http://ids.clld.org/values/4-208-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-208> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-208-280-1_%27tamo> .
+
+<http://ids.clld.org/values/6-760-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/6-760> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/6-760-280-1_%27kisi> .
+
+<http://ids.clld.org/parameters/4-200>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "head" .
+
+<http://ids.clld.org/values/15-640-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-640> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-640-280-1_%27hos%CC%8C%CC%A3o> .
+
+<http://ids.clld.org/parameters/4-150>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "blood" .
+
+<http://ids.clld.org/values/1-360-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-360> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-360-280-1_%27%CA%94ani> .
+
+<http://ids.clld.org/parameters/2-360>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mother" .
+
+<http://ids.clld.org/values/12-850-280-1_%27kini>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'kini"@pcp .
+
+<http://ids.clld.org/values/3-823-280-1_%27wina>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'wina"@pcp .
+
+<http://ids.clld.org/values/3-810-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-810> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-810-280-1_w%C9%A8%27oso> .
+
+<http://ids.clld.org/parameters/12-850>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hole" .
+
+<http://ids.clld.org/parameters/8-560>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "leaf" .
+
+<http://ids.clld.org/values/1-560-280-1_%27naina>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'naina"@pcp .
+
+<http://ids.clld.org/values/8-570-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-570> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-570-280-1_%27hoa> .
+
+<http://ids.clld.org/parameters/4-208>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "cheek" .
+
+<http://ids.clld.org/values/2-320-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-320> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-320-280-1_%CA%94a%27wini> .
+
+<http://ids.clld.org/values/9-250-280-1_%5Bhac%CC%8Ca%5D>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "[hača]"@pcp .
+
+<http://ids.clld.org/values/4-441-280-1_%27tas%CC%8C%CC%A3a>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'taṣ̌a"@pcp .
+
+<http://ids.clld.org/parameters/4-350>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "leg" .
+
+<http://ids.clld.org/parameters/5-710>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fruit" .
+
+<http://ids.clld.org/values/3-823-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-823> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-823-280-1_%27wina> .
+
+<http://ids.clld.org/parameters/9-110>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "do, make" .
+
+<http://ids.clld.org/parameters/8-810>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "palm tree" .
+
+<http://ids.clld.org/values/1-520-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-520> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-520-280-1_%27war%CC%8Ci> .
+
+<http://ids.clld.org/values/15-660-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-660> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-660-280-1_%27s%CC%8Cini> .
+
+<http://ids.clld.org/values/8-560-280-1_%27p%C9%A8%CA%94i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'pɨʔi"@pcp .
+
+<http://ids.clld.org/values/1-880-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-880> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-880-280-1_%27kar%CC%8Co> .
+
+<http://ids.clld.org/parameters/4-450>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "liver" .
+
+<http://ids.clld.org/values/15-510-280-1_his%27pa>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "his'pa"@pcp .
+
+<http://ids.clld.org/values/5-550-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-550> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-550-280-1_%27moto> .
+
+<http://ids.clld.org/values/1-810-280-1_%27c%CC%8Ci%CA%94i>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'čiʔi"@pcp .
+
+<http://ids.clld.org/values/9-220-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-220> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-220-280-1_%27k%C9%A8%C9%A8sakia> .
+
+<http://ids.clld.org/values/4-260-280-1_%27hana>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'hana"@pcp .
+
+<http://ids.clld.org/parameters/3-586>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "vulture" .
+
+<http://ids.clld.org/values/15-780-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-780> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-780-280-1_%27%C9%A8ika> .
+
+<http://ids.clld.org/parameters/2-910>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "I" .
+
+<http://ids.clld.org/values/15-350-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-350-280-1_t%C9%A8%27%C9%A8> .
+
+<http://ids.clld.org/values/8-920-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-920> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-920-280-1_%27ac%CC%B7a> .
+
+<http://ids.clld.org/values/4-220-280-1_%27pa%CA%94oki>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'paʔoki"@pcp .
+
+<http://ids.clld.org/values/3-832-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-832> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-832-280-1_%27wii> .
+
+<http://ids.clld.org/values/12-440-280-1_n%C9%A8%27ama>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "nɨ'ama"@pcp .
+
+<http://ids.clld.org/values/3-950-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-950> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-950-280-1_w%C9%A8s%CC%8C%CC%A3ko> .
+
+<http://ids.clld.org/parameters/9-360>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wash" .
+
+<http://ids.clld.org/parameters/12-440>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "far (adv)" .
+
+<http://ids.clld.org/parameters/1-750>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "rain (noun)" .
+
+<http://ids.clld.org/values/9-270-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-270> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-270-280-1_ma%27tos%CC%8Cmaki> .
+
+<http://ids.clld.org/values/3-831-280-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-831> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-831-280-3_%27c%CC%8Cio> .
+
+<http://ids.clld.org/values/15-510-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/15-510> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/15-510-280-1_his%27pa> .
+
+<http://ids.clld.org/values/4-370-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-370> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-370-280-1_%27ta%CA%94%C9%A8> .
+
+<http://ids.clld.org/values/1-730-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-730> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-730-280-1_%27c%CC%B7%C9%A8mo> .
+
+<http://ids.clld.org/values/7-120-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/7-120> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/7-120-280-1_%27s%CC%8C%CC%A3owo> .
+
+<http://ids.clld.org/values/8-540-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-540> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-540-280-1_ta%27pono> .
+
+<http://ids.clld.org/values/4-200-280-1_%27mapo>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'mapo"@pcp .
+
+<http://ids.clld.org/values/8-470-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-470> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-470-280-1_%27s%CC%8C%CC%A3%C9%A8ki> .
+
+<http://ids.clld.org/values/2-220-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-220> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-220-280-1_%27yos%CC%8C%CC%A3a> .
+
+<http://ids.clld.org/parameters/15-640>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "white" .
+
+<http://ids.clld.org/values/4-230-280-1_r%CC%8C%C9%A8%27kina>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "řɨ'kina"@pcp .
+
+<http://ids.clld.org/values/3-581-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-581> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-581-280-1_%27isko> .
+
+<http://ids.clld.org/parameters/3-823>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "wasp" .
+
+<http://ids.clld.org/values/5-140-280-1_pas%CC%8C%CC%A3na%27hai>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "paṣ̌na'hai"@pcp .
+
+<http://ids.clld.org/values/3-650-280-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-650> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-650-280-3_%27wo%C9%A8> .
+
+<http://ids.clld.org/values/1-420-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/1-420> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/1-420-280-1_%27hiwi> .
+
+<http://ids.clld.org/parameters/3-581>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bird" .
+
+<http://ids.clld.org/parameters/4-140>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hair (head)" .
+
+<http://ids.clld.org/values/9-360-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-360> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-360-280-1_%27as%CC%8Ci> .
+
+<http://ids.clld.org/parameters/2-350>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "father" .
+
+<http://ids.clld.org/values/2-910-280-1_%27%C9%A8a>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ɨa"@pcp .
+
+<http://ids.clld.org/parameters/8-600>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "tree" .
+
+<http://ids.clld.org/values/3-831-280-3_%27c%CC%8Cio>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'čio"@pcp .
+
+<http://ids.clld.org/values/1-840-280-1_%27mis%CC%8Cpo>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'mišpo"@pcp .
+
+<http://ids.clld.org/values/2-350-280-3>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-350> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-350-280-3_%27%CA%94%C9%A8pa> .
+
+<http://ids.clld.org/values/2-320-280-1_%CA%94a%27wini>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "ʔa'wini"@pcp .
+
+<http://ids.clld.org/values/1-730-280-1_%27c%CC%B7%C9%A8mo>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'c̷ɨmo"@pcp .
+
+<http://ids.clld.org/parameters/4-240>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mouth" .
+
+<http://ids.clld.org/parameters/3-831>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "sandfly (midge), gnat" .
+
+<http://ids.clld.org/values/4-160-280-1_%27s%CC%8C%CC%A3ao>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "'ṣ̌ao"@pcp .
+
+<http://ids.clld.org/values/3-950-280-1_w%C9%A8s%CC%8C%CC%A3ko>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "wɨṣ̌ko"@pcp .
+
+<http://ids.clld.org/values/8-560-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-560> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-560-280-1_%27p%C9%A8%CA%94i> .
+
+<http://ids.clld.org/parameters/3-810>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "insect" .
+
+<http://ids.clld.org/values/2-310-280-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:paca1246 , lexvo:pcp ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-310> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-310-280-1_%27w%C9%A8n%C9%A8> .
+
+<http://ids.clld.org/parameters/6-760>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bead" .
