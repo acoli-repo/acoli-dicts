@@ -1,0 +1,40 @@
+CC-BY 3.0
+als
+bul
+fin
+hrv
+isl
+ita
+cat
+eus
+glg
+spa
+swe
+
+CC-BY-SA 3.0
+arb
+lit
+slk
+slv
+
+CC-BY-SA
+ron
+por
+
+CC-BY-SA 4.0
+nld
+
+MIT
+ind
+zsm
+
+WordNet
+qcn
+dan
+eng
+heb
+jpn
+nno
+nob
+pol
+tha

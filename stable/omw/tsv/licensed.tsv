@@ -1,0 +1,40 @@
+./als/als-bg.tsv	CC-BY 3.0
+./als/als-hr.tsv	CC-BY 3.0
+./als/als-is.tsv	CC-BY 3.0
+./als/als-it.tsv	CC-BY 3.0
+./als/als-sv.tsv	CC-BY 3.0
+./bg/bg-als.tsv	CC-BY 3.0
+./bg/bg-hr.tsv	CC-BY 3.0
+./bg/bg-is.tsv	CC-BY 3.0
+./bg/bg-it.tsv	CC-BY 3.0
+./bg/bg-sv.tsv	CC-BY 3.0
+./hr/hr-als.tsv	CC-BY 3.0
+./hr/hr-bg.tsv	CC-BY 3.0
+./hr/hr-is.tsv	CC-BY 3.0
+./hr/hr-it.tsv	CC-BY 3.0
+./hr/hr-sv.tsv	CC-BY 3.0
+./is/is-als.tsv	CC-BY 3.0
+./is/is-bg.tsv	CC-BY 3.0
+./is/is-hr.tsv	CC-BY 3.0
+./is/is-it.tsv	CC-BY 3.0
+./is/is-sv.tsv	CC-BY 3.0
+./it/it-als.tsv	CC-BY 3.0
+./it/it-bg.tsv	CC-BY 3.0
+./it/it-hr.tsv	CC-BY 3.0
+./it/it-is.tsv	CC-BY 3.0
+./it/it-sv.tsv	CC-BY 3.0
+./arb/arb-lt.tsv	CC-BY-SA 3.0
+./arb/arb-sk.tsv	CC-BY-SA 3.0
+./arb/arb-sl.tsv	CC-BY-SA 3.0
+./lt/lt-arb.tsv	CC-BY-SA 3.0
+./zsm/zsm-id.tsv	MIT
+./he/he-ja.tsv	WordNet
+./he/he-pl.tsv	WordNet
+./he/he-qcn.tsv	WordNet
+./ja/ja-he.tsv	WordNet
+./ja/ja-pl.tsv	WordNet
+./pl/pl-he.tsv	WordNet
+./pl/pl-ja.tsv	WordNet
+./qcn/qcn-he.tsv	WordNet
+./qcn/qcn-ja.tsv	WordNet
+./qcn/qcn-pl.tsv	WordNet
