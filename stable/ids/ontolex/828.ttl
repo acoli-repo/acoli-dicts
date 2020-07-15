@@ -1,0 +1,323 @@
+@prefix bcp47: <https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix lime:  <http://www.w3.org/ns/lemon/lime#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix lexvo3: <http://lexvo.org/id/iso639-3/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lexvo1: <http://lexvo.org/id/iso639-1/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix terms: <http://cldf.clld.org/v1.0/terms.rdf#> .
+@prefix sil:   <https://iso639-3.sil.org/code/> .
+@prefix lexvo: <http://lexvo.org/id/iso639-3/> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix glottolog: <https://glottolog.org/resource/languoid/id/> .
+
+<http://ids.clld.org/parameters/6-740>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bracelet" .
+
+<https://ids.clld.org/download>
+        a                          lime:Lexicon ;
+        dct:bibliographicCitation  "KeyMary Ritchie & ComrieBernard (eds.) 2015.\nThe Intercontinental Dictionary Series.\nLeipzig: Max Planck Institute for Evolutionary Anthropology.\n(Available online at http://ids.clld.orgAccessed on 2018-04-19.)\n" ;
+        dct:creator                "KeyMary Ritchie & ComrieBernard" ;
+        dct:identifier             "http://ids.clld.org/" ;
+        dct:issued                 "2015-05-25" ;
+        dct:license                "http://creativecommons.org/licenses/by/4.0/" ;
+        dct:publisher              "Max Planck Institute for Evolutionary AnthropologyLeipzig" ;
+        dct:source                 "sources.bib" ;
+        dct:title                  "IDS" ;
+        lime:entry                 <http://ids.clld.org/values/10-850-828-1> , <http://ids.clld.org/values/9-261-828-1> , <http://ids.clld.org/values/9-220-828-1> , <http://ids.clld.org/values/4-330-828-1> , <http://ids.clld.org/values/3-920-828-1> , <http://ids.clld.org/values/20-620-828-1> , <http://ids.clld.org/values/2-930-828-1> , <http://ids.clld.org/values/9-790-828-1> , <http://ids.clld.org/values/6-740-828-1> , <http://ids.clld.org/values/10-472-828-1> , <http://ids.clld.org/values/4-300-828-1> , <http://ids.clld.org/values/5-230-828-1> , <http://ids.clld.org/values/4-205-828-1> , <http://ids.clld.org/values/4-352-828-1> , <http://ids.clld.org/values/4-250-828-1> , <http://ids.clld.org/values/8-320-828-1> , <http://ids.clld.org/values/9-222-828-1> , <http://ids.clld.org/values/4-780-828-1> , <http://ids.clld.org/values/8-531-828-1> , <http://ids.clld.org/values/3-653-828-1> , <http://ids.clld.org/values/3-652-828-1> .
+
+<http://ids.clld.org/values/3-653-828-1_kp%C9%9Bh.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "kpɛh.1"@thm .
+
+<http://ids.clld.org/values/20-620-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/20-620> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/20-620-828-1_pi%C5%84.1> .
+
+<http://ids.clld.org/parameters/4-780>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "bury (the dead)" .
+
+<http://ids.clld.org/values/4-250-828-1_ap%C9%99%3Al.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "apə:l.1"@thm .
+
+<http://ids.clld.org/values/10-850-828-1_maj.1%20pha%3Aj.2>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "maj.1 pha:j.2"@thm .
+
+<http://ids.clld.org/values/4-205-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-205> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-205-828-1_na.1%20pha%3Ak.1> .
+
+<http://ids.clld.org/parameters/3-653>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fishscale" .
+
+<http://ids.clld.org/parameters/9-220>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "cut" .
+
+<http://ids.clld.org/values/9-220-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-220> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-220-828-1_pih.2> .
+
+<http://ids.clld.org/parameters/9-261>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "broken" .
+
+<http://ids.clld.org/values/9-261-828-1_p%C9%9Bh.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pɛh.1"@thm .
+
+<http://ids.clld.org/parameters/4-352>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "calf of leg" .
+
+<http://ids.clld.org/values/2-930-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/2-930> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/2-930-828-1_pi%3An.1> .
+
+<http://ids.clld.org/values/4-205-828-1_na.1%20pha%3Ak.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "na.1 pha:k.1"@thm .
+
+<http://ids.clld.org/values/9-220-828-1_pih.2>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pih.2"@thm .
+
+<http://ids.clld.org/parameters/3-652>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fin (dorsal)" .
+
+<http://ids.clld.org/parameters/8-531>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "plant (vb)" .
+
+<http://ids.clld.org/values/4-780-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-780> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-780-828-1_pha%C5%8B.1> .
+
+<http://ids.clld.org/values/9-261-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-261> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-261-828-1_p%C9%9Bh.1> .
+
+<http://ids.clld.org/parameters/2-930>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "he/she/it" .
+
+<http://ids.clld.org/values/4-352-828-1_tpaw.1%20ph%C9%A8ak.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tpaw.1 phɨak.1"@thm .
+
+<http://ids.clld.org/values/2-930-828-1_pi%3An.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pi:n.1"@thm .
+
+<http://ids.clld.org/values/8-531-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-531> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-531-828-1_pi%3At.1> .
+
+<http://ids.clld.org/values/5-230-828-1_pi%3A%C5%8B.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pi:ŋ.1"@thm .
+
+<http://ids.clld.org/values/3-920-828-1_pi%3A%C5%8B.1%20p%C9%94%3At.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pi:ŋ.1 pɔ:t.1"@thm .
+
+<http://ids.clld.org/values/20-620-828-1_pi%C5%84.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "piń.1"@thm .
+
+<http://ids.clld.org/values/4-250-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-250> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-250-828-1_ap%C9%99%3Al.1> .
+
+<http://ids.clld.org/parameters/4-330>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "hand" .
+
+<http://ids.clld.org/values/8-320-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/8-320> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/8-320-828-1_m%C9%9B.1%20pin.1> .
+
+<http://ids.clld.org/values/10-472-828-1_pi%3An.1%20%3E%20L>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pi:n.1 > L"@thm .
+
+<http://ids.clld.org/values/8-531-828-1_pi%3At.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pi:t.1"@thm .
+
+<http://ids.clld.org/values/6-740-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/6-740> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/6-740-828-1_ap%C9%9B.2> .
+
+<http://ids.clld.org/values/4-330-828-1_pi%3Al.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pi:l.1"@thm .
+
+<http://ids.clld.org/values/4-330-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-330> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-330-828-1_pi%3Al.1> .
+
+<http://ids.clld.org/parameters/5-230>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "roast, fry" .
+
+<http://ids.clld.org/parameters/4-250>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "lip" .
+
+<http://ids.clld.org/values/3-652-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-652> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-652-828-1_ap%C9%9B%3A%C5%8B.1> .
+
+<http://ids.clld.org/parameters/20-620>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "shoot" .
+
+<http://ids.clld.org/values/6-740-828-1_ap%C9%9B.2>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "apɛ.2"@thm .
+
+<http://ids.clld.org/values/4-352-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-352> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-352-828-1_tpaw.1%20ph%C9%A8ak.1> .
+
+<http://ids.clld.org/values/10-472-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-472> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-472-828-1_pi%3An.1%20%3E%20L> .
+
+<http://ids.clld.org/values/8-320-828-1_m%C9%9B.1%20pin.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "mɛ.1 pin.1"@thm .
+
+<http://ids.clld.org/parameters/9-222>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "chop, hew" .
+
+<http://ids.clld.org/parameters/9-790>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "fan (noun)" .
+
+<http://ids.clld.org/values/9-222-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-222> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-222-828-1_p%C9%9B%3Al.1> .
+
+<http://ids.clld.org/parameters/4-300>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "shoulder" .
+
+<http://ids.clld.org/values/9-790-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/9-790> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/9-790-828-1_tp%C9%9Bl.1> .
+
+<http://ids.clld.org/values/4-300-828-1_api%3A%C5%8B.2>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "api:ŋ.2"@thm .
+
+<http://ids.clld.org/values/4-780-828-1_pha%C5%8B.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "phaŋ.1"@thm .
+
+<http://ids.clld.org/values/9-222-828-1_p%C9%9B%3Al.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "pɛ:l.1"@thm .
+
+<http://ids.clld.org/parameters/3-920>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "butterfly" .
+
+<http://ids.clld.org/parameters/10-472>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "climb" .
+
+<http://ids.clld.org/values/4-300-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/4-300> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/4-300-828-1_api%3A%C5%8B.2> .
+
+<http://ids.clld.org/values/3-920-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-920> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-920-828-1_pi%3A%C5%8B.1%20p%C9%94%3At.1> .
+
+<http://ids.clld.org/values/5-230-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/5-230> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/5-230-828-1_pi%3A%C5%8B.1> .
+
+<http://ids.clld.org/values/3-652-828-1_ap%C9%9B%3A%C5%8B.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "apɛ:ŋ.1"@thm .
+
+<http://ids.clld.org/values/9-790-828-1_tp%C9%9Bl.1>
+        a                   ontolex:Form ;
+        ontolex:writtenRep  "tpɛl.1"@thm .
+
+<http://ids.clld.org/values/3-653-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/3-653> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/3-653-828-1_kp%C9%9Bh.1> .
+
+<http://ids.clld.org/parameters/4-205>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "forehead" .
+
+<http://ids.clld.org/values/10-850-828-1>
+        a                    ontolex:LexicalEntry ;
+        dct:language         glottolog:aheu1239 , lexvo:thm ;
+        ontolex:evokes       <http://ids.clld.org/parameters/10-850> ;
+        ontolex:lexicalForm  <http://ids.clld.org/values/10-850-828-1_maj.1%20pha%3Aj.2> .
+
+<http://ids.clld.org/parameters/8-320>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "mow, reap" .
+
+<http://ids.clld.org/parameters/10-850>
+        a           ontolex:LexicalConcept ;
+        rdfs:label  "oar" .
