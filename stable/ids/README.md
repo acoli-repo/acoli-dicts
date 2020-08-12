@@ -26,7 +26,8 @@ For the IDS languoid anga1295, the Glottocode appears to have been deleted after
 We provide an export as bilingual dictionary using the TIAD-TSV format. For the sake of compactness, we provide one direction per language pair only, using the lexicographic order of language tags to determine the direction. Note that this does not entail any implications about translation direction. In fact, the bidictionaries are undirected.
 
 ## history
-- 2020-07-12 code for TSV export
+- 2020-08-12 add TIAD-TSV data (CC)
+- 2020-07-12 code for TSV export (CC)
 - 2020-07-09 split into individual languages, revised OntoLex conversion, normalize language codes to BCP47 (CC)
 - 2020-07-02 initial OntoLex conversion (CC)
 - 2018 original publication, CSV format (MRK & BK)
@@ -34,3 +35,7 @@ We provide an export as bilingual dictionary using the TIAD-TSV format. For the 
 ## contributors
 - MRK & BK Mary Ritchie Key and Bernard Comrie (editors), for the IDS authors
 - CC Christian Chiarcos
+
+## known issues
+
+- GitHub commit for TIAD TSV files av (Avar) and dar (Dargwa) failed because of time outs. Build locally with the command `$> ./build.sh` 
