@@ -38,4 +38,4 @@ We provide an export as bilingual dictionary using the TIAD-TSV format. For the 
 
 ## known issues
 
-- GitHub commit for TIAD TSV files av (Avar) and dar (Dargwa) failed because of time outs. Build locally with the command `$> ./build.sh` 
+- GitHub commit for TIAD TSV files av (Avar), dar (Dargwa) and con (Cofán) failed because of timeouts. Build locally with the command `$> ./build.sh` 
