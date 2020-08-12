@@ -30,10 +30,10 @@ We provide an export as bilingual dictionary using the TIAD-TSV format. For the 
 - 2020-07-12 code for TSV export (CC)
 - 2020-07-09 split into individual languages, revised OntoLex conversion, normalize language codes to BCP47 (CC)
 - 2020-07-02 initial OntoLex conversion (CC)
-- 2018 original publication, CSV format (MRK & BK)
+- 2018 original publication, CSV format (MRK & BC)
 
 ## contributors
-- MRK & BK Mary Ritchie Key and Bernard Comrie (editors), for the IDS authors
+- MRK & BC Mary Ritchie Key and Bernard Comrie (editors), for the IDS authors
 - CC Christian Chiarcos
 
 ## known issues
