@@ -1,0 +1,12 @@
+Licensed under a Creative Commons Attribution 4.0 International License, see https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.
+
+Attribution:
+
+Intercontinental Dictionary Series;
+edited by Key, Mary Ritchie & Comrie, Bernard, version of 2018 (https://cdstar.shh.mpg.de/bitstreams/EAEA0-5F01-8AAF-CDED-0/ids_dataset.cldf.zip);
+OntoLex and TIAD-TSV editions provided by Christian Chiarcos, Aug 2020 (https://github.com/acoli-repo/acoli-dicts)
+
+In scientific publications referring OntoLex or TIAD-TSV editions, please cite *both* the following publications:
+Key, Mary Ritchie & Comrie, Bernard (eds.), Intercontinental Dictionary Series, version of 2018 (https://cdstar.shh.mpg.de/bitstreams/EAEA0-5F01-8AAF-CDED-0/ids_dataset.cldf.zip)
+Christian Chiarcos, Christian Fäth, Maxim Ionov (2020), The ACoLi Dictionary Graph. Proceedings of The 12th Language Resources and Evaluation Conference (LREC 2020): 3281-3290
+

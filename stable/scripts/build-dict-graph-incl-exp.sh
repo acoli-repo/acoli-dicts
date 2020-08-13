@@ -9,6 +9,9 @@ DBNARY=gray;
 FREEDICT=blue;
 PANLEX=red;
 MUSE=green;
+OMW=midnightblue;
+IDS=orange;
+
 # experimental = dotted
 XDXF=red;
 FREEDICT_DE=midnightblue;
@@ -36,6 +39,12 @@ for file in ../muse/*rdf*/*-*.ttl; do
 	echo $file | \
 	sed -e s/'.*\/'//g -e s/'\..*'// -e s/'\-'/'\t'/g -e s/'$'/'\tcolor='$MUSE/g;
 done;
+for file in `egrep '^[^#].*\s[^\s]' ../omw/tsv/licensed.tsv | cut -f 1`; do
+	echo $file | \
+	sed -e s/'.*\/'//g -e s/'\..*'// -e s/'\-'/'\t'/g -e s/'$'/'\tcolor='$OMW/g;
+done;
+cat ../ids/tsv/langs.tsv | egrep '[0-9][0-9][0-9][0-9][0-9]$' | cut -f 2,3 | \
+	sed s/'$'/'\tcolor='$IDS/g;
 
 # experimental stuff
 for file in ../../experimental/xdxf/*rdf*/*-*; do
@@ -124,6 +133,7 @@ echo 'FreeDict -- X [color='$FREEDICT'];'
 echo 'DBnary -- X [color='$DBNARY'];'
 echo 'PanLex -- X [color='$PANLEX'];'
 echo 'MUSE -- X [color='$MUSE'];'
+echo 'OMW -- X [color='$OMW'];'
 echo 'X -- XDXF [color='$XDXF', style=dotted];'
 echo 'X -- FreeDictDe [color='$FREEDICT_DE', style=dotted];'
 echo 'X -- StarDict [color='$STARDICT', style=dotted];'
@@ -132,17 +142,21 @@ echo 'FreeDict [color=white];'
 echo 'DBnary [color=white];'
 echo 'PanLex [color=white];'
 echo 'MUSE [color=white];'
+echo 'OMW [color=white];'
 echo 'XDXF [color=white];'
 echo 'StarDict [color=white];'
 echo 'FreeDictDe [label="free-dict.de", color=white];'
 
 echo 'OTHER -- PanLex [style=invis];'
+
 echo 'PanLex -- Apertium [style=invis];'
 echo 'Apertium -- FreeDict [style=invis];'
-echo 'PanLex -- DBnary [style=invis];'
+echo 'FreeDict -- FreeDictDe [style=invis];'
+
+echo 'PanLex -- OMW [style=invis];'
+echo 'OMW -- DBnary [style=invis];'
 echo 'DBnary -- MUSE [style=invis];'
 
-echo 'FreeDict -- FreeDictDe [style=invis];'
 echo 'MUSE -- XDXF [style=invis];'
 echo 'FreeDictDe -- StarDict [style=invis];'
 echo 'XDXF -- StarDict [style=invis];'
@@ -184,6 +198,11 @@ perl -pe '
 	s/^(pdt)$/$1 [style=filled,fillcolor='$GERMANIC'];/g;
 	s/^(stq)$/$1 [style=filled,fillcolor='$GERMANIC'];/g;
 	s/^(ydd)$/$1 [style=filled,fillcolor='$GERMANIC'];/g;
+	s/^enm$/enm [style=filled,fillcolor='$GERMANIC'];/g;	# Middle English
+	s/^gmh$/gmh [style=filled,fillcolor='$GERMANIC'];/g;	# Middle High German (ca. 1050-1500)
+	s/^goh$/goh [style=filled,fillcolor='$GERMANIC'];/g;	# Old High German (ca. 750-1050)
+	s/^non$/non [style=filled,fillcolor='$GERMANIC'];/g;	# Old Norse
+
 		# frs	GERMANIC	Eastern Frisian
 		# gsw	GERMANIC	Swiss German
 		# li	GERMANIC	Limburgian
@@ -192,6 +211,8 @@ perl -pe '
 		# ydd	GERMANIC	Eastern Yiddish
 
 	# Germanic-based creoles
+	s/^dcr$/dcr [style=filled,fillcolor='$GERMANIC'];/g;	# Negerhollands
+	s/^jam$/jam [style=filled,fillcolor='$GERMANIC'];/g;	# Jamaican Creole English
 	s/^(rop)$/$1 [style=filled,fillcolor='$GERMANIC'];/g;
 	s/^(tpi)$/$1 [style=filled,fillcolor='$GERMANIC'];/g;
 		# rop	none	Kriol
@@ -260,12 +281,15 @@ perl -pe '
 	s/^scc$/scc [style=filled,fillcolor='$SLAVIC'];/g;  # Serbo-Croatian/Serbian, deprecated
 	s/^scr$/scr [style=filled,fillcolor='$SLAVIC'];/g;  # Serbo-Croatian/Croatian, deprecated
 	s/^bs$/bs [style=filled,fillcolor='$SLAVIC'];/g;	# Bosnian
-	
+	s/^cu$/cu [style=filled,fillcolor='$SLAVIC'];/g;	# Church Slavic
+
 	# Baltic
 	s/^lt$/lt [style=filled,fillcolor='$BALTIC'];/g;
 	s/^ltg$/ltg [style=filled,fillcolor='$BALTIC'];/g;
 	s/^lv$/lv [style=filled,fillcolor='$BALTIC'];/g;
 	s/^lvs$/lvs [style=filled,fillcolor='$BALTIC'];/g;
+	s/^prg$/prg [style=filled,fillcolor='$BALTIC'];/g;	# Prussian
+
 		# lvs	BALTIC	Standard Latvian
 	
 	# Celtic
@@ -277,6 +301,7 @@ perl -pe '
 	s/^(kw)$/$1 [style=filled,fillcolor='$CELTIC'];/g;
 	s/^(cnx)$/$1 [style=filled,fillcolor='$CELTIC'];/g;
 	s/^(oco)$/$1 [style=filled,fillcolor='$CELTIC'];/g;
+	s/^sga$/sga [style=filled,fillcolor='$CELTIC'];/g;	# Old Irish (to 900)
 		# cnx	CELTIC	Middle Cornish
 		# oco	CELTIC	Old Cornish
 
@@ -290,6 +315,9 @@ perl -pe '
 	s/^(ckb)$/$1 [style=filled,fillcolor='$IRANIAN'];/g;
 	s/^(kmr)$/$1 [style=filled,fillcolor='$IRANIAN'];/g;
 	s/^(pes)$/$1 [style=filled,fillcolor='$IRANIAN'];/g;
+	s/^ae$/ae [style=filled,fillcolor='$IRANIAN'];/g;	# Avestan
+	s/^jdt$/jdt [style=filled,fillcolor='$IRANIAN'];/g;	# Judeo-Tat
+	s/^os$/os [style=filled,fillcolor='$IRANIAN'];/g;	# Ossetian
 		# ckb	IRANIAN	Central Kurdish
 		# kmr	IRANIAN	Northern Kurdish
 		# pes	IRANIAN	Western Persian
@@ -306,6 +334,9 @@ perl -pe '
 	s/^(pa)$/$1 [style=filled,fillcolor='$INDIAN'];/g;
 	s/^(sd)$/$1 [style=filled,fillcolor='$INDIAN'];/g;
 	s/^(thq)$/$1 [style=filled,fillcolor='$INDIAN'];/g;
+	s/^bfz$/bfz [style=filled,fillcolor='$INDIAN'];/g;	# Mahasu Pahari
+	s/^pnb$/pnb [style=filled,fillcolor='$INDIAN'];/g;	# Western Panjabi
+	s/^rmy$/rmy [style=filled,fillcolor='$INDIAN'];/g;	# Vlax Romani
 		# ks	INDIAN	Kashmiri
 		# ory	INDIAN	Odia
 		# pa	INDIAN	Eastern Punjabi
@@ -317,7 +348,11 @@ perl -pe '
 	# s/^eo$/eo [style=filled,fillcolor='$OTHER_IE'];/g; # invented languages are other
 	s/^grc$/grc [style=filled,fillcolor='$OTHER_IE'];/g;
 	s/^hy$/hy [style=filled,fillcolor='$OTHER_IE'];/g;
-	s/^sq$/sq [style=filled,fillcolor='$OTHER_IE'];/g;
+	s/^sq$/sq [style=filled,fillcolor='$OTHER_IE'];/g;		# Albanian
+	s/^als$/als [style=filled,fillcolor='$OTHER_IE'];/g;	# Tosk Albanian
+	s/^hit$/hit [style=filled,fillcolor='$OTHER_IE'];/g;	# Hittite
+	s/^txb$/txb [style=filled,fillcolor='$OTHER_IE'];/g;	# Tokharian B
+	s/^xto$/xto [style=filled,fillcolor='$OTHER_IE'];/g;	# Tokharian A
 
 	##########################
 	# non-IE: various colors #
@@ -330,6 +365,7 @@ perl -pe '
 	s/^(mt)$/$1 [style=filled,fillcolor='$SEMITIC'];/g;
 	s/^(arb)$/$1 [style=filled,fillcolor='$SEMITIC'];/g;
 	s/^(taq)$/$1 [style=filled,fillcolor='$SEMITIC'];/g;
+	s/^oar$/oar [style=filled,fillcolor='$SEMITIC'];/g;	# Old Aramaic (up to 700 BCE)
 		# arb	SEMITIC	Standard Arabic
 		# taq	SEMITIC	Tamasheq proper
 
@@ -349,6 +385,8 @@ perl -pe '
 	s/^(khk)$/$1 [style=filled,fillcolor='$ALTAIC'];/g;
 	s/^(uzn)$/$1 [style=filled,fillcolor='$ALTAIC'];/g;
 	s/^(xal)$/$1 [style=filled,fillcolor='$ALTAIC'];/g;
+	s/^kum$/kum [style=filled,fillcolor='$ALTAIC'];/g;	# Kumyk
+	s/^nog$/nog [style=filled,fillcolor='$ALTAIC'];/g;	# Nogai
 		# azj	ALTAIC	North Azerbaijani
 		# khk	ALTAIC	Halh Mongolian
 		# uzn	ALTAIC	Northern Uzbek
@@ -376,6 +414,83 @@ perl -pe '
 	s/^(qvi)$/$1 [style=filled,fillcolor='$AMERICA'];/g;
 	s/^(shh)$/$1 [style=filled,fillcolor='$AMERICA'];/g;
 	s/^(yua)$/$1 [style=filled,fillcolor='$AMERICA'];/g;
+	s/^agr$/agr [style=filled,fillcolor='$AMERICA'];/g;	# Aguaruna
+	s/^alc$/alc [style=filled,fillcolor='$AMERICA'];/g;	# Qawasqar
+	s/^arn$/arn [style=filled,fillcolor='$AMERICA'];/g;	# Mapudungun
+	s/^aro$/aro [style=filled,fillcolor='$AMERICA'];/g;	# Araona
+	s/^auc$/auc [style=filled,fillcolor='$AMERICA'];/g;	# Waorani
+	s/^ayo$/ayo [style=filled,fillcolor='$AMERICA'];/g;	# Ayoreo
+	s/^azz$/azz [style=filled,fillcolor='$AMERICA'];/g;	# Highland Puebla Nahuatl
+	s/^blc$/blc [style=filled,fillcolor='$AMERICA'];/g;	# Bella Coola
+	s/^cag$/cag [style=filled,fillcolor='$AMERICA'];/g;	# Nivaclé
+	s/^cao$/cao [style=filled,fillcolor='$AMERICA'];/g;	# Chácobo
+	s/^cap$/cap [style=filled,fillcolor='$AMERICA'];/g;	# Chipaya
+	s/^cas$/cas [style=filled,fillcolor='$AMERICA'];/g;	# Tsimané
+	s/^cav$/cav [style=filled,fillcolor='$AMERICA'];/g;	# Cavineña
+	s/^cbi$/cbi [style=filled,fillcolor='$AMERICA'];/g;	# Chachi
+	s/^cbr$/cbr [style=filled,fillcolor='$AMERICA'];/g;	# Cashibo-Cacataibo
+	s/^chb$/chb [style=filled,fillcolor='$AMERICA'];/g;	# Chibcha
+	s/^cof$/cof [style=filled,fillcolor='$AMERICA'];/g;	# Colorado
+	s/^con$/con [style=filled,fillcolor='$AMERICA'];/g;	# Cofán
+	s/^crt$/crt [style=filled,fillcolor='$AMERICA'];/g;	# Iyojwaja Chorote
+	s/^ctz$/ctz [style=filled,fillcolor='$AMERICA'];/g;	# Zacatepec Chatino
+	s/^cuj$/cuj [style=filled,fillcolor='$AMERICA'];/g;	# Mashco Piro
+	s/^cyb$/cyb [style=filled,fillcolor='$AMERICA'];/g;	# Cayubaba
+	s/^emp$/emp [style=filled,fillcolor='$AMERICA'];/g;	# Northern Emberá
+	s/^ese$/ese [style=filled,fillcolor='$AMERICA'];/g;	# Ese Ejja
+	s/^guc$/guc [style=filled,fillcolor='$AMERICA'];/g;	# Wayuu
+	s/^gug$/gug [style=filled,fillcolor='$AMERICA'];/g;	# Paraguayan Guaraní
+	s/^gui$/gui [style=filled,fillcolor='$AMERICA'];/g;	# Eastern Bolivian Guaraní
+	s/^guq$/guq [style=filled,fillcolor='$AMERICA'];/g;	# Aché
+	s/^hdn$/hdn [style=filled,fillcolor='$AMERICA'];/g;	# Northern Haida
+	s/^ign$/ign [style=filled,fillcolor='$AMERICA'];/g;	# Ignaciano
+	s/^ito$/ito [style=filled,fillcolor='$AMERICA'];/g;	# Itonama
+	s/^kgp$/kgp [style=filled,fillcolor='$AMERICA'];/g;	# Kaingang
+	s/^knt$/knt [style=filled,fillcolor='$AMERICA'];/g;	# Panoan Katukína
+	s/^kpj$/kpj [style=filled,fillcolor='$AMERICA'];/g;	# Karajá
+	s/^kuz$/kuz [style=filled,fillcolor='$AMERICA'];/g;	# Kunza
+	s/^kyh$/kyh [style=filled,fillcolor='$AMERICA'];/g;	# Karok
+	s/^mbc$/mbc [style=filled,fillcolor='$AMERICA'];/g;	# Macushi
+	s/^mca$/mca [style=filled,fillcolor='$AMERICA'];/g;	# Maca
+	s/^moc$/moc [style=filled,fillcolor='$AMERICA'];/g;	# Mocoví
+	s/^myu$/myu [style=filled,fillcolor='$AMERICA'];/g;	# Mundurukú
+	s/^mzh$/mzh [style=filled,fillcolor='$AMERICA'];/g;	# Wichí Lhamtés Güisnay
+	s/^mzp$/mzp [style=filled,fillcolor='$AMERICA'];/g;	# Movima
+	s/^nuk$/nuk [style=filled,fillcolor='$AMERICA'];/g;	# Nuu-chah-nulth
+	s/^ona$/ona [style=filled,fillcolor='$AMERICA'];/g;	# Ona
+	s/^oym$/oym [style=filled,fillcolor='$AMERICA'];/g;	# Wayampi
+	s/^pbb$/pbb [style=filled,fillcolor='$AMERICA'];/g;	# Páez
+	s/^pbh$/pbh [style=filled,fillcolor='$AMERICA'];/g;	# Eñapa Woromaipu
+	s/^plg$/plg [style=filled,fillcolor='$AMERICA'];/g;	# Pilagá
+	s/^pue$/pue [style=filled,fillcolor='$AMERICA'];/g;	# Puelche
+	s/^pui$/pui [style=filled,fillcolor='$AMERICA'];/g;	# Puinave
+	s/^sap$/sap [style=filled,fillcolor='$AMERICA'];/g;	# Sanapaná 
+	s/^sei$/sei [style=filled,fillcolor='$AMERICA'];/g;	# Seri
+	s/^shb$/shb [style=filled,fillcolor='$AMERICA'];/g;	# Ninam
+	s/^shp$/shp [style=filled,fillcolor='$AMERICA'];/g;	# Shipibo-Conibo
+	s/^sja$/sja [style=filled,fillcolor='$AMERICA'];/g;	# Epena
+	s/^snn$/snn [style=filled,fillcolor='$AMERICA'];/g;	# Siona
+	s/^srq$/srq [style=filled,fillcolor='$AMERICA'];/g;	# Sirionó
+	s/^teh$/teh [style=filled,fillcolor='$AMERICA'];/g;	# Tehuelche
+	s/^tli$/tli [style=filled,fillcolor='$AMERICA'];/g;	# Tlingit
+	s/^tna$/tna [style=filled,fillcolor='$AMERICA'];/g;	# Tacana
+	s/^tob$/tob [style=filled,fillcolor='$AMERICA'];/g;	# Toba
+	s/^tpy$/tpy [style=filled,fillcolor='$AMERICA'];/g;	# Trumai
+	s/^trn$/trn [style=filled,fillcolor='$AMERICA'];/g;	# Trinitario
+	s/^tsi$/tsi [style=filled,fillcolor='$AMERICA'];/g;	# Tsimshian
+	s/^tue$/tue [style=filled,fillcolor='$AMERICA'];/g;	# Tuyuca
+	s/^wap$/wap [style=filled,fillcolor='$AMERICA'];/g;	# Wapishana
+	s/^wau$/wau [style=filled,fillcolor='$AMERICA'];/g;	# Waurá
+	s/^waw$/waw [style=filled,fillcolor='$AMERICA'];/g;	# Waiwai
+	s/^wca$/wca [style=filled,fillcolor='$AMERICA'];/g;	# Yanomámi
+	s/^yaa$/yaa [style=filled,fillcolor='$AMERICA'];/g;	# Yaminahua
+	s/^yad$/yad [style=filled,fillcolor='$AMERICA'];/g;	# Yagua
+	s/^yae$/yae [style=filled,fillcolor='$AMERICA'];/g;	# Pumé
+	s/^yag$/yag [style=filled,fillcolor='$AMERICA'];/g;	# Yámana
+	s/^yau$/yau [style=filled,fillcolor='$AMERICA'];/g;	# Yuwana
+	s/^yvt$/yvt [style=filled,fillcolor='$AMERICA'];/g;	# Yavitero
+	s/^zun$/zun [style=filled,fillcolor='$AMERICA'];/g;	# Zuni
+
 		# ayr	AMERICA	Central Aymara
 		# boa	AMERICA	Bora
 		# chy	AMERICA	Cheyenne
@@ -397,12 +512,38 @@ perl -pe '
 		# yua	AMERICA	Yucatec Maya
 	
 	# CAUCASIAN
-	# SW CAUC
 	s/^ka$/ka [style=filled,fillcolor='$CAUCASIAN'];/g;
-	# NW CAUC
 	s/^abq$/abq [style=filled,fillcolor='$CAUCASIAN'];/g;
-	# NE CAUC
-	s/^udi$/udi [style=filled,fillcolor='$CAUCASIAN'];/g;
+	s/^udi$/udi [style=filled,fillcolor='$CAUCASIAN'];/g;	
+	s/^agx$/agx [style=filled,fillcolor='$CAUCASIAN'];/g;	# Aghul
+	s/^akv$/akv [style=filled,fillcolor='$CAUCASIAN'];/g;	# Akhvakh
+	s/^ani$/ani [style=filled,fillcolor='$CAUCASIAN'];/g;	# Andi
+	s/^aqc$/aqc [style=filled,fillcolor='$CAUCASIAN'];/g;	# Archi
+	s/^av$/av [style=filled,fillcolor='$CAUCASIAN'];/g;	# Avaric
+	s/^bbl$/bbl [style=filled,fillcolor='$CAUCASIAN'];/g;	# Bats
+	s/^bdk$/bdk [style=filled,fillcolor='$CAUCASIAN'];/g;	# Budukh
+	s/^bph$/bph [style=filled,fillcolor='$CAUCASIAN'];/g;	# Botlikh
+	s/^ce$/ce [style=filled,fillcolor='$CAUCASIAN'];/g;	# Chechen
+	s/^cji$/cji [style=filled,fillcolor='$CAUCASIAN'];/g;	# Chamalal
+	s/^dar$/dar [style=filled,fillcolor='$CAUCASIAN'];/g;	# Dargwa
+	s/^ddo$/ddo [style=filled,fillcolor='$CAUCASIAN'];/g;	# Dido
+	s/^gdo$/gdo [style=filled,fillcolor='$CAUCASIAN'];/g;	# Ghodoberi
+	s/^gin$/gin [style=filled,fillcolor='$CAUCASIAN'];/g;	# Hinukh
+	s/^huz$/huz [style=filled,fillcolor='$CAUCASIAN'];/g;	# Hunzib
+	s/^inh$/inh [style=filled,fillcolor='$CAUCASIAN'];/g;	# Ingush
+	s/^kap$/kap [style=filled,fillcolor='$CAUCASIAN'];/g;	# Bezhta
+	s/^khv$/khv [style=filled,fillcolor='$CAUCASIAN'];/g;	# Khvarshi
+	s/^kjj$/kjj [style=filled,fillcolor='$CAUCASIAN'];/g;	# Khinalugh
+	s/^kpt$/kpt [style=filled,fillcolor='$CAUCASIAN'];/g;	# Karata
+	s/^kry$/kry [style=filled,fillcolor='$CAUCASIAN'];/g;	# Kryts
+	s/^kva$/kva [style=filled,fillcolor='$CAUCASIAN'];/g;	# Bagvalal
+	s/^lbe$/lbe [style=filled,fillcolor='$CAUCASIAN'];/g;	# Lak
+	s/^lez$/lez [style=filled,fillcolor='$CAUCASIAN'];/g;	# Lezghian
+	s/^rut$/rut [style=filled,fillcolor='$CAUCASIAN'];/g;	# Rutul
+	s/^tab$/tab [style=filled,fillcolor='$CAUCASIAN'];/g;	# Tabassaran
+	s/^tin$/tin [style=filled,fillcolor='$CAUCASIAN'];/g;	# Tindi
+	s/^tkr$/tkr [style=filled,fillcolor='$CAUCASIAN'];/g;	# Tsakhur
+
 
 	# DRAVIDIAN
 	s/^ml$/ml [style=filled,fillcolor='$DRAVIDIAN'];/g;
@@ -424,6 +565,13 @@ perl -pe '
 	s/^(myv)$/$1 [style=filled,fillcolor='$URALIC'];/g;
 	s/^(sma)$/$1 [style=filled,fillcolor='$URALIC'];/g;
 	s/^(smj)$/$1 [style=filled,fillcolor='$URALIC'];/g;
+	s/^kca$/kca [style=filled,fillcolor='$URALIC'];/g;	# Khanty
+	s/^kpv$/kpv [style=filled,fillcolor='$URALIC'];/g;	# Komi-Zyrian
+	s/^mns$/mns [style=filled,fillcolor='$URALIC'];/g;	# Mansi
+	s/^sel$/sel [style=filled,fillcolor='$URALIC'];/g;	# Selkup
+	s/^udm$/udm [style=filled,fillcolor='$URALIC'];/g;	# Udmurt
+	s/^yrk$/yrk [style=filled,fillcolor='$URALIC'];/g;	# Nenets
+
 		# ekk	URALIC	Standard Estonian
 		# fkv	URALIC	Kven Finnish
 		# mdf	URALIC	Moksha
@@ -457,6 +605,48 @@ perl -pe '
 	s/^(txg)$/$1 [style=filled,fillcolor='$EAST_ASIA'];/g;
 	s/^(xug)$/$1 [style=filled,fillcolor='$EAST_ASIA'];/g;
 	s/^(zyg)$/$1 [style=filled,fillcolor='$EAST_ASIA'];/g;
+	s/^bgk$/bgk [style=filled,fillcolor='$EAST_ASIA'];/g;	# Bit
+	s/^blr$/blr [style=filled,fillcolor='$EAST_ASIA'];/g;	# Blang
+	s/^cbn$/cbn [style=filled,fillcolor='$EAST_ASIA'];/g;	# Nyahkur
+	s/^cdy$/cdy [style=filled,fillcolor='$EAST_ASIA'];/g;	# Chadong
+	s/^cog$/cog [style=filled,fillcolor='$EAST_ASIA'];/g;	# Chong
+	s/^giq$/giq [style=filled,fillcolor='$EAST_ASIA'];/g;	# Green Gelao
+	s/^gqu$/gqu [style=filled,fillcolor='$EAST_ASIA'];/g;	# Qau
+	s/^huj$/huj [style=filled,fillcolor='$EAST_ASIA'];/g;	# Northern Guiyang Hmong
+	s/^huo$/huo [style=filled,fillcolor='$EAST_ASIA'];/g;	# Hu
+	s/^khb$/khb [style=filled,fillcolor='$EAST_ASIA'];/g;	# Lü
+	s/^kkh$/kkh [style=filled,fillcolor='$EAST_ASIA'];/g;	# Khün
+	s/^kmc$/kmc [style=filled,fillcolor='$EAST_ASIA'];/g;	# Southern Dong
+	s/^kxm$/kxm [style=filled,fillcolor='$EAST_ASIA'];/g;	# Northern Khmer
+	s/^lbc$/lbc [style=filled,fillcolor='$EAST_ASIA'];/g;	# Lakkia
+	s/^lic$/lic [style=filled,fillcolor='$EAST_ASIA'];/g;	# Hlai
+	s/^mlm$/mlm [style=filled,fillcolor='$EAST_ASIA'];/g;	# Mulam
+	s/^mmd$/mmd [style=filled,fillcolor='$EAST_ASIA'];/g;	# Maonan
+	s/^mml$/mml [style=filled,fillcolor='$EAST_ASIA'];/g;	# Man Met
+	s/^mra$/mra [style=filled,fillcolor='$EAST_ASIA'];/g;	# Mlabri
+	s/^ne$/ne [style=filled,fillcolor='$EAST_ASIA'];/g;	# Nepali
+	s/^nod$/nod [style=filled,fillcolor='$EAST_ASIA'];/g;	# Northern Thai
+	s/^nut$/nut [style=filled,fillcolor='$EAST_ASIA'];/g;	# Nung (Viet Nam)
+	s/^pcb$/pcb [style=filled,fillcolor='$EAST_ASIA'];/g;	# Pear
+	s/^ply$/ply [style=filled,fillcolor='$EAST_ASIA'];/g;	# Bolyu
+	s/^pnx$/pnx [style=filled,fillcolor='$EAST_ASIA'];/g;	# Phong-Kniang
+	s/^pry$/pry [style=filled,fillcolor='$EAST_ASIA'];/g;	# Prai
+	s/^rbb$/rbb [style=filled,fillcolor='$EAST_ASIA'];/g;	# Rumai Palaung
+	s/^shn$/shn [style=filled,fillcolor='$EAST_ASIA'];/g;	# Shan
+	s/^sou$/sou [style=filled,fillcolor='$EAST_ASIA'];/g;	# Southern Thai
+	s/^swi$/swi [style=filled,fillcolor='$EAST_ASIA'];/g;	# Sui
+	s/^sxm$/sxm [style=filled,fillcolor='$EAST_ASIA'];/g;	# Samre
+	s/^syo$/syo [style=filled,fillcolor='$EAST_ASIA'];/g;	# Suoy
+	s/^tdd$/tdd [style=filled,fillcolor='$EAST_ASIA'];/g;	# Tai Nüa
+	s/^thm$/thm [style=filled,fillcolor='$EAST_ASIA'];/g;	# Aheu
+	s/^tyh$/tyh [style=filled,fillcolor='$EAST_ASIA'];/g;	# Odu
+	s/^wbm$/wbm [style=filled,fillcolor='$EAST_ASIA'];/g;	# Wa
+	s/^yln$/yln [style=filled,fillcolor='$EAST_ASIA'];/g;	# Langnian Buyang
+	s/^yzg$/yzg [style=filled,fillcolor='$EAST_ASIA'];/g;	# Ema Buyang
+	s/^zgn$/zgn [style=filled,fillcolor='$EAST_ASIA'];/g;	# Guibian Zhuang
+	s/^zng$/zng [style=filled,fillcolor='$EAST_ASIA'];/g;	# Mang
+	s/^zzj$/zzj [style=filled,fillcolor='$EAST_ASIA'];/g;	# Zuojiang Zhuang
+
 			# cng	EAST_ASIA	Northern Qiang
 			# dz	EAST_ASIA	Dzongkha
 			# hak	EAST_ASIA	Hakka Chinese
@@ -487,6 +677,12 @@ perl -pe '
 	s/^(plt)$/$1 [style=filled,fillcolor='$PACIFIC'];/g;
 	s/^(tet)$/$1 [style=filled,fillcolor='$PACIFIC'];/g;
 	s/^(zsm)$/$1 [style=filled,fillcolor='$PACIFIC'];/g;
+	s/^haw$/haw [style=filled,fillcolor='$PACIFIC'];/g;	# Hawaiian
+	s/^mqm$/mqm [style=filled,fillcolor='$PACIFIC'];/g;	# South Marquesan
+	s/^pmt$/pmt [style=filled,fillcolor='$PACIFIC'];/g;	# Tuamotuan
+	s/^rap$/rap [style=filled,fillcolor='$PACIFIC'];/g;	# Rapanui
+	s/^rtm$/rtm [style=filled,fillcolor='$PACIFIC'];/g;	# Rotuman
+	s/^to$/to [style=filled,fillcolor='$PACIFIC'];/g;	# Tonga (Tonga Islands)
 		# bmu	PACIFIC	Somba-Siawari
 		# dhg	PACIFIC	Dhangu-Djangu
 		# ksr	PACIFIC	Borong
@@ -529,6 +725,9 @@ perl -pe '
 	s/^(nzz)$/$1 [style=filled,fillcolor='$SUBSAHARIC'];/g;
 	s/^(sn)$/$1 [style=filled,fillcolor='$SUBSAHARIC'];/g;
 	s/^(yo)$/$1 [style=filled,fillcolor='$SUBSAHARIC'];/g;
+	s/^ghl$/ghl [style=filled,fillcolor='$SUBSAHARIC'];/g;	# Ghulfan
+	s/^ha$/ha [style=filled,fillcolor='$SUBSAHARIC'];/g;	# Hausa
+	s/^plj$/plj [style=filled,fillcolor='$SUBSAHARIC'];/g;	# Polci
 			# bm	SUBSAHARIC	Bambara
 			# bnt	SUBSAHARIC	Bantu Languages
 			# bxk	SUBSAHARIC	Bukusu
@@ -563,6 +762,8 @@ perl -pe '
 		# ie	none	Interlingue
 		# jbo	none	Lojban
 		# lfn	none	Lingua Franca Nova
+		# elx	none	Elamite
+
 	
 ' | grep color >> ../../dicts.dot;
 
