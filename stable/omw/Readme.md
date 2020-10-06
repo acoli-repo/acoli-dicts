@@ -10,6 +10,10 @@ Note that we assume that the synset identifiers in OMW are those of Princeton Wo
 
 All OMW data is open source, but provided under different licenses, see individual WordNets.
 
+## Acknowledgments
+
+OntoLex-Lemon conversion and generation of TIAD-TSV files have been conducted in the context of the H2020 Research and Innovation Action "Pret-a-LLOD" (2019-2021).
+
 ## Known issues
 
 - Failures in OntoLex generation for about 32% of OMW WordNets (11/34: dan, eng, eus, fas, fin, glg, spa, nno, nob, por, tha). This may be due to variations in the TSV formats (they are not fully consistent) that have not been anticipated by the converter.
