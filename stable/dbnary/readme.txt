@@ -21,6 +21,9 @@ build.log
 
 Note that DBnary data is automatically extracted from a community-maintained resource. In comparison to many other dictionaries, its data is less reliable because (a) the original data is created and maintained by a community of amateurs, not lexicographers, and (b) the extraction is done automatically, and extraction errors do occur. These have not been corrected in this edition.
 
+Acknowledgements:
+The conversion to TIAD-TSV bidictionaries has been conducted in the context of the Horizon 2020 Research and Innovation Action "Pret-a-LLOD" (2019-2021)
+
 history:
 2019-02-16 TIAD export (CC)
 
