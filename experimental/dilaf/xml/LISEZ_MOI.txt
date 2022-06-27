@@ -1,0 +1,6 @@
+Pour afficher le dictionnaire 
+  Double-cliquer sur votre navigateur 
+  Ouvrir le fichier dilaf_dje_fra_v1.2.xml (Ctrl-O)
+
+L'affichage a été élaboré et testé avec le navigateur Firefox.
+

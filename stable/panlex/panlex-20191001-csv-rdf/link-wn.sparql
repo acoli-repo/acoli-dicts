@@ -1,0 +1,9 @@
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+CONSTRUCT {
+	?entry ontolex:canonicalForm ?uri.
+} WHERE {
+	?entry ontolex:canonicalForm/ontolex:writtenRep ?rep.
+	BIND(lang(?rep) as ?lang)
+	BIND(encode_for_Uri(str(?rep)) as ?str)
+	BIND(iri(concat("http://purl.org/acoli/dicts/panlex/langs/en.ttl#",?str)) as ?uri)
+}
