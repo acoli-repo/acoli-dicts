@@ -1,7 +1,6 @@
 # ACoLi Dicts
-Ontolex-lemon dictionaries provided by the Applied Computational Linguistics (ACoLi) lab at Goethe Universität Frankfurt am Main, Germany, and the associated research group Linked Open Dictionaries (LiODi, 2015-2020)
 
-The project "Linked Open Dictionaries" (LiODi, 2015-2020) is a BMBF-funded research group run by the Applied Computational Linguistics (ACoLi) lab in collaboration with the Institute for Empirical Linguistics at Goethe University Frankfurt. It aims at creating Linked Open Data representations of dictionaries and the development of an infrastructure and methodologies for their practical application in language contact studies, mostly in Eurasia and the Caucasus area. See http://acoli.informatik.uni-frankfurt.de/liodi for details. As a technical basis, we employ lemon/ontolex (https://www.w3.org/2016/05/ontolex/) for data modelling, OLiA (http://purl.org/olia) for representing grammatical information, lexvo (http://lexvo.org) for ISO 639 language identifiers and glottolog (http://glottolog.org) for identifiers of non-ISO-639 language varieties.
+Ontolex-lemon dictionaries maintained by the Chair for Applied Computational Linguistics (ACoLi) at the University of Augsburg, Germany. While this is being continuously extended, the original development took place 2015-2022 at the Applied Computational Linguistics lab of Goethe University Frankfurt, Germany, in the context of the BMBF-funded research group Linked Open Dictionaries (LiODi, 2015-2022) and in collaboration with the Institute for Empirical Linguistics at Goethe University Frankfurt. The LiODi project aimed at creating Linked Open Data representations of dictionaries and the development of an infrastructure and methodologies for their practical application in language contact studies, mostly in Eurasia and the Caucasus area. As a technical basis, we employ OntoLex-Lemon (https://www.w3.org/2016/05/ontolex/) for data modelling, OLiA (http://purl.org/olia) for representing grammatical information, lexvo (http://lexvo.org) for ISO 639 language identifiers and GlottoLog (http://glottolog.org) for identifiers of non-ISO-639 language varieties.
 
 At the moment, we provide OntoLex-lemon and TIAD-TSV editions of open source dictionaries for more than 400 language varieties and more than 2500 language pairs (stable and experimental), with more than 3000 lexical data sets in total, see statistics below. Note that we exclude most smaller data sets (with less than 10,000 translation pairs) in these counts.
 Additional data has been converted, but is still awaiting copyright clearance.
@@ -32,8 +31,9 @@ Additional data has been converted, but is still awaiting copyright clearance.
 
 ## acknowledgements, licensing and references
 
-The ACoLi Dictionary Graph has been created and continues to be developed at the Applied Computational Linguistics Lab at Goethe Universität Frankfurt, Germany since 2014 in the context of numerous research projects, including
-- Independent Research Group ["Linked Open Dictionaries" (LiODi)](https://acoli-repo.github.io/liodi/), funded in the eHumanities programme of  the German Federal Ministry of Education and Science (BMBF, 2015-2020)
+The ACoLi Dictionary Graph is maintained and continues to be developed at the Chair of Applied Computational Linguistics at the University of Augsburg, Germany.
+Prior to 2023, the ACoLi Dictionary Graph has been created at the Applied Computational Linguistics Lab at Goethe Universität Frankfurt, Germany since 2014 in the context of numerous research projects, including
+- the Independent Research Group ["Linked Open Dictionaries" (LiODi)](https://acoli-repo.github.io/liodi/), funded in the eHumanities programme of  the German Federal Ministry of Education and Science (BMBF, 2015-2020)
 - Horion 2020 Research and Innovation Action [Pret-a-LLOD. Ready-to-use Multilingual Linked Language Data for Knowledge Services across Sectors](https://www.pret-a-llod.eu), funded by the European Research Council (ERC, 2019-2021)
 
 To refer to the dataset as a whole in scientific publications, please refer to Chiarcos et al. (2020):
